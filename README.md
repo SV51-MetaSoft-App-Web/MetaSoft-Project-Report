@@ -21,7 +21,7 @@
 
 
 * **Janover Gonzalo Saldaña Vela    U20201B510**
-* **Integrante 2                    xxxxxxxxxx**
+* **Oscar Javier Armas Sánchez      U20211G192**
 * **Integrante 3                    xxxxxxxxxx**
 * **Integrante 4                    xxxxxxxxxx**
 * **Integrante 5                    xxxxxxxxxx**
