@@ -121,8 +121,10 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
 </body>
 
 ### 2.3.3. User Journey Mapping.
-
-
+**Ruben Flores**
+![ UJMRF](../assets/img/chapter-II/UJMRF.png)
+**Camila Ramos**
+![UJRMCR](../assets/img/chapter-II/UJRMCR.png)
 ### 2.3.4. Empathy Mapping.
 
 
