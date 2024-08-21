@@ -27,8 +27,9 @@
 La identificación y comprensión profunda de las necesidades de los usuarios es crucial para el éxito de ElixirControl, una plataforma diseñada para la gestión del proceso productivo en la industria del vino y pisco. Mediante un enfoque meticuloso de *needfinding*, se recolecta y analiza información clave sobre las operaciones y desafíos específicos que enfrentan tanto los productores de vino como los distribuidores de pisco. Este enfoque permite descubrir puntos críticos y oportunidades significativas que informan el desarrollo y diseño de la solución. Al explorar a fondo los comportamientos, preferencias y dificultades de estos usuarios, ElixirControl se orienta a crear una herramienta que no solo optimiza la eficiencia, sino que también proporciona una experiencia de usuario adaptada y sencilla. Los perfiles de usuario (*user personas*) que guían este desarrollo están basados en los perfiles detallados de productores y distribuidores, asegurando que la plataforma satisfaga de manera precisa sus necesidades específicas y maximice su efectividad en el sector.
 
 ### 2.3.1. User Personas.
-![UPRF](../assets/img/chapter-II/imagen2.png)
+![UPRF](../assets/img/chapter-II/RF.png)
 
+![UPCR](../assets/img/chapter-II/imagen3.png)
 
 ### 2.3.2. User Task Matrix.
 
