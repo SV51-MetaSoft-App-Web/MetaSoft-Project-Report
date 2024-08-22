@@ -204,12 +204,19 @@ A diferencia de las ramas principales, estas ramas secundarias tienen una vida �
             refers to JIRA-1337
             BREAKING CHANGES: ticket enpoints no longer supports list all entites.
 
-Como se mencionó previamente, la gestión de nuestro código fuente se llevará a cabo mediante GitHub. El IDE utilizado en este caso, WebStorm, debe estar vinculado directamente al repositorio creado por nuestra empresa MIRAI. De esta manera, cada commit realizado por un miembro del equipo se subirá automáticamente y se cargará en el GitHub de la organización. Las instrucciones para completar con éxito este proceso de emparejamiento se detallan a continuación:
+Como se mencionó previamente, la gestión de nuestro código fuente se llevará a cabo mediante
+GitHub. El IDE utilizado en este caso, WebStorm, debe estar vinculado directamente al 
+repositorio creado por nuestra empresa MetaSoft. De esta manera, cada commit realizado por 
+un miembro del equipo se subirá automáticamente y se cargará en el GitHub de la organización. Las instrucciones para completar con éxito este proceso de emparejamiento se detallan a continuación:
 
 * **Activar el controlador de versiones del IDE**
-Dado que utilizaremos GitHub para gestionar nuestro código, la opción que debe estar habilitada o seleccionada es aquella que indique que el sistema de control se realizará mediante Git. Para hacer esto, siga los siguientes pasos:
+Dado que utilizaremos GitHub para gestionar nuestro código, la opción que debe estar 
+habilitada o seleccionada es aquella que indique que el sistema de control se realizará
+mediante Git. Para hacer esto, siga los siguientes pasos:
+
   1. Diríjase a la pestaña "VCS" en WebStorm.
   2. Luego, seleccione la opción "Enable Version Control Integration".
+
 
 ![activar-el-controlador-de-versiones-1.png](/assets/img/chapter-V/sprint-1/activar-el-controlador-de-versiones-1.png)
 
@@ -223,6 +230,7 @@ Ahora se debe seleccionar el sistema de control a través de Git y, por último 
   3. En la configuración, busque la sección de version control.
   4. Agregue su cuenta de GitHub para obtener acceso a los repositorios.
 
+
 ![aregar-una-cuenta-de-GitHub-1.png](/assets/img/chapter-V/sprint-1/aregar-una-cuenta-de-GitHub-1.png)
 
 ![aregar-una-cuenta-de-GitHub-2.png](/assets/img/chapter-V/sprint-1/aregar-una-cuenta-de-GitHub-2.png)
@@ -232,12 +240,15 @@ Ahora se debe seleccionar el sistema de control a través de Git y, por último 
   2. Después de haberlo añadido, todos los cambios se guardarán en el repositorio especificado en esa plataforma, siempre y cuando des la orden correspondiente.
   3. Para configurar tu nombre de usuario de Git, primero selecciona la opción 'commit' que se encuentra dentro de la pestaña 'Git'.
 
+
 ![configurar-el-nombre-de-usuario-de-Git-1.png](/assets/img/chapter-V/sprint-1/configurar-el-nombre-de-usuario-de-Git-1.png)
 
 
 * **Guardar el progreso en GitHub:** Con todo configurado en WebStorm, ahora puedes subir tu código a GitHub sin problemas. Simplemente dirígete a la opción 'GitHub' que se encuentra en la pestaña 'Git' y comparte el proyecto.
 
+
 ![guardar-el-progreso-en-GitHub-1.png](/assets/img/chapter-V/sprint-1/guardar-el-progreso-en-GitHub-1.png)
+
 
 ![guardar-el-progreso-en-GitHub-2.png](/assets/img/chapter-V/sprint-1/guardar-el-progreso-en-GitHub-2.png)
 
@@ -247,6 +258,7 @@ Ahora se debe seleccionar el sistema de control a través de Git y, por último 
   3. Dirigite al apartado de 'DangerZone'
   4. Luego da click en 'transfer'
   5. Finalmente elegimos el nuevo lugar para guardar el repositorio.
+
 
 ![configurar-la-propiedad-del-repositorio-en-GitHub-1.png](/assets/img/chapter-V/sprint-1/configurar-la-propiedad-del-repositorio-en-GitHub-1.png)
 
