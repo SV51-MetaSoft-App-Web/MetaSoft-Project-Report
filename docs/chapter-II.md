@@ -126,11 +126,14 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
 
 ### 2.3.4. Empathy Mapping.
 **Ruben Flores**
-![alt text](../assets/img/chapter-II/EMRF.png)
+![EMRF](../assets/img/chapter-II/EMRF.png)
 **Camila Ramos**
-![alt text](../assets/img/chapter-II/EMCR.png)
+![EMCR](../assets/img/chapter-II/EMCR.png)
 
 ### 2.3.5. As-is Scenario Mapping.
-
+**Ruben Flores**
+![SCRF](<../assets/img/chapter-II/Scenario Mapping RF.jpg>)
+**Camila Ramos**
+![SCCR](<../assets/img/chapter-II/Scenario Mapping CR.jpg>)
 
 ## 2.4. Ubiquitous Language.
