@@ -3,9 +3,188 @@
 
 ## 2.1. Competidores.
 
+En este punto el equipo realizará investigaciones sobre nuestros potenciales competidores en el mercado.
 
 ### 2.1.1. Análisis competitivo.
 
+En este apartado el equipo realizará un analisis competitivo de nuestras 3 principales competidores identificados para posteriormente identificar y plantear estrategias que habrá que poner en marcha con respecto a nuestros competidrores.
+
+<table>  
+    <thead>
+        <tr>
+            <th colspan="6">Competitive Analysis Landscape</th>
+        </tr>
+        <tr>
+            <th colspan="2">Competitive Analysis Landscape</th>
+            <td colspan="5" style="text-align: justify"> Se realiza con el objetivo de reconocer y comprender mejor las fortalezas, debilidades y estrategias de nuestros principales competidores y a partir de ello identificar oportunidades y amenazas en el mercado, para desarrollar estrategias para obtener una ventaja competitiva.</td>
+        </tr>
+    </thead>
+    <tbody style="text-align: center">
+        <tr>
+            <th colspan="2"></th>
+            <th><img src="" width="100" alt="Logo"></th>
+            <th><img src="" width="100" alt="Logo"></th>
+            <th><img src="" width="100" alt="Logo"></th>
+            <th><img src="" width="100" alt="Logo"></th>
+        </tr>
+        <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
+        <tr>
+            <th rowspan="2"> <strong> Perfil </strong> </th>
+            <td> Overview</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>Ventaja competitiva ¿Que valor ofrece a los clientes?</td>
+            <td>Contenido</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+        </tr>
+        <!-- ------------------------------------------------------- -->
+        <!-- ----Este apartado pertenece al PERFIL DE MARKETING---- -->
+        <tr>
+            <th rowspan="2"> <strong> Perfil de Marketing </strong> </th>
+            <td> Mercado objetivo</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+        </tr>
+        <tr>
+            <td>Estrategias de Marketing</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+        </tr>
+        <!-- ------------------------------------------------------- -->
+        <!-- ----Este apartado pertenece al PERFIL DEL PRODUCTO----- -->
+        <tr>
+            <th rowspan="3"> <strong> Perfil del producto </strong> </th>
+            <td> Producto & servicios</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+        </tr>
+        <tr>
+            <td>precio y costos</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+        </tr>
+        <tr>
+            <td>Canales de distribución (Web y/o movil)</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td> 
+        </tr>
+        <!-- ------------------------------------------------------ -->
+        <!-- ----Este apartado pertenece al ANÁLISIS SWOT --------- -->
+        <tr>
+            <th rowspan="4"> <strong> Análisis SWOT </strong> </th>
+            <td>Fortalezas</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td> 
+        </tr>
+        <tr>
+            <td>Debilidades</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td> 
+        </tr>
+        <tr>
+            <td>Oportunidades</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td> 
+        </tr>
+        <tr>
+            <td>Amenazas</td>
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td>  
+            <td>Contenido</td> 
+        </tr>
+         <tr>
+            <td colspan="6"></td>
+        </tr>
+        <!-- ---------------------------------------------------- -->   
+    </tbody>
+</table>
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+Luego de haber realizado el análisis de nuestra solución con respecto a soluciones ya existentes, nuestero equipo procederá a planteaer estrategias y tácnicas que debemos poner en marcha para sobresalir de las otras soluciones.
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="3"> Matriz CAME para el desarrollo de estrategias en base al análisis FODA </th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <th rowspan="2"> Análisis FODA cruzado</th>
+            <th> Oportunidades </th>
+            <th> Amenazas </th>
+        </tr>
+        <tr>
+            <td> Contenido </td>
+            <td> Contenido </td>
+        </tr>
+        <!-------------------------------------------->
+        <!--------------Separación Fila--------------->
+        <tr>
+            <th>Fortalezas</th>
+            <th>Estrategia (FO) E. Ofensivas</th>
+            <th>Estrategia (FA) E. Defensivas</th>
+        </tr>
+        <!-------------------------------------------->
+        <!--------------Separación Fila--------------->
+        <tr>
+            <td>
+                Contenido 1 
+            </td>
+            <td>
+                Contenido 2
+            </td>
+            <td>
+                Contenido 3
+            </td>
+        </tr>
+        <!-------------------------------------------->
+        <!--------------Separación Fila--------------->
+        <tr>
+            <th>Debilidad (D)</th>
+            <th>Estrategia(DO) de Reorientación</th>
+            <th>Estrategia(DA) de Superviciencia</th>
+        </tr>
+        <!-------------------------------------------->
+        <!--------------Separación Fila--------------->
+        <tr>
+            <td>
+                Contenido 1 
+            </td>
+            <td>
+                Contenido 2
+            </td>
+            <td>
+                Contenido 3
+            </td>
+        </tr>
+    </body>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
