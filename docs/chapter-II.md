@@ -123,8 +123,12 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
 ![ UJMRF](../assets/img/chapter-II/UJMRF.png)
 **Camila Ramos**
 ![UJRCR](../assets/img/chapter-II/UJRCR.png)
-### 2.3.4. Empathy Mapping.
 
+### 2.3.4. Empathy Mapping.
+**Ruben Flores**
+![alt text](../assets/img/chapter-II/EMRF.png)
+**Camila Ramos**
+![alt text](../assets/img/chapter-II/EMCR.png)
 
 ### 2.3.5. As-is Scenario Mapping.
 
