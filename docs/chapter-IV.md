@@ -131,12 +131,53 @@
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+- **Title Tags:**
+  - **Landing Page:** "Gestión del Viñedo - Optimiza tu Producción y Control"
+  - **Web Application:** "Panel de Control - Gestión Integral del Viñedo"
+
+- **Meta Description:**
+  - **Landing Page:** "Optimiza la producción y gestión de tu viñedo con nuestra aplicación web, diseñada para simplificar la administración y mejorar la eficiencia operativa."
+  - **Web Application:** "Accede a todas las herramientas necesarias para la gestión integral de tu viñedo, desde la planificación agrícola hasta la monitorización en tiempo real."
+
+- **Keywords:**
+  - **Landing Page:** "gestión de viñedo, administración de viñedo, software agrícola, producción de vino, optimización agrícola"
+  - **Web Application:** "panel de control viñedo, herramientas de gestión viñedo, software de viñedo, administración de cosechas, planificación agrícola"
+
+- **Meta Author:**
+  - **Landing Page y Web Application:** "Equipo de Desarrollo de Aplicaciones para la Gestión de Viñedos"
+
+- **Meta Charset:**
+  - `"UTF-8"`
+
+- **Meta Viewport:**
+  - `"width=device-width, initial-scale=1.0"`
 
 ### 4.2.4. Searching Systems.
 
+- **Barra de Búsqueda:**
+  - La barra de búsqueda estará ubicada de manera prominente en el header, accesible desde cualquier página.
+  - Se implementará un sistema de búsqueda predictiva que sugiere resultados mientras el usuario escribe, mejorando la velocidad y precisión de las búsquedas.
+
+- **Filtros y Facetas:**
+  - Los usuarios podrán refinar sus resultados de búsqueda mediante filtros y facetas, permitiendo una búsqueda más dirigida y efectiva.
+  
+- **Historial de Búsqueda:**
+  - Se incluirá una función de historial de búsqueda para que los usuarios puedan acceder rápidamente a búsquedas anteriores.
+
+- **Resultados Relevantes:**
+  - Los resultados de búsqueda se ordenarán por relevancia, basados en la frecuencia de uso y la importancia del contenido.
 
 ### 4.2.5. Navigation Systems.
 
+- **Navegación Global:**
+  - Un menú principal ubicado en el header proporcionará acceso a las secciones clave de la aplicación.
+  - El menú estará siempre visible en dispositivos de escritorio.
+
+- **Navegación Contextual:**
+  - Menús y enlaces contextuales dentro de cada sección permitirán al usuario profundizar en tareas específicas sin perder la orientación dentro de la aplicación.
+  
+- **Navegación Secundaria:**
+  - En la barra lateral se presentarán opciones de navegación adicionales, como accesos directos a herramientas y recursos utilizados frecuentemente.
 
 ## 4.3. Landing Page UI Design.
 
