@@ -16,7 +16,6 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
 
 ### 1.1.1. Descripción de la Startup
 
-
 ### 1.1.2. Perfiles de integrantes del equipo
 
 
@@ -36,6 +35,7 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+
 
 
 #### 1.2.2.4. Lean UX Canvas.
