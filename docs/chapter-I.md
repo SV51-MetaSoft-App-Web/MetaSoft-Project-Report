@@ -40,5 +40,8 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
 
 #### 1.2.2.4. Lean UX Canvas.
 
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-I/Lean UX Canvas.png"> </p>
+
+<p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 ## 1.3. Segmentos objetivo.
