@@ -2,6 +2,11 @@
 
 
 ## 3.1. To-Be Scenario Mapping.
+**Rubén Flores**
+![RF](../assets/img/chapter-III/RF.jpg)
+
+**Camila Ramos**
+![CR](../assets/img/chapter-III/CR.jpg)
 
 
 ## 3.2. User Stories.
