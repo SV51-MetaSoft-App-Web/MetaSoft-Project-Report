@@ -22,98 +22,104 @@ En este apartado el equipo realizará un analisis competitivo de nuestras 3 prin
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="" width="100" alt="Logo"></th>
-            <th><img src="" width="100" alt="Logo"></th>
-            <th><img src="" width="100" alt="Logo"></th>
-            <th><img src="" width="100" alt="Logo"></th>
+            <th><img src="assets/img/chapter-II/Logo_ExilirControl.png" width="100" alt="Logo_Elixir"></th>
+            <th><img src="assets/img/chapter-II/Logo_Vinotec.png" width="100" alt="Logo_Vinotec"></th>
+            <th><img src="assets/img/chapter-II/Logo_WineManager.png" width="100" alt=Logo_WineManager"></th>
+            <th><img src="assets/img/chapter-II/Logo_Vintrace.png" width="100" alt="Logo_Vintrace"></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
         <tr>
             <th rowspan="2"> <strong> Perfil </strong> </th>
             <td> Overview</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>ElixirControl es una solución integral diseñada específicamente para la gestión del proceso productivo de vinos y pisco. Ofrece herramientas avanzadas para la administración del ciclo de 
+            producción y distribución, optimizando la gestión de inventario, seguimiento de pedidos, administración de la cartera de clientes y el proceso de vinificación. Su enfoque está en mejorar la 
+            eficiencia operativa y la toma de decisiones informadas. </td>
+            <td>Vinotec es un software de gestión integral para bodegas y productores de vino. Se enfoca en optimizar el proceso productivo y la gestión de ventas, ofreciendo herramientas para el seguimiento de la 
+            producción y la administración de la cartera de clientes.</td>
+            <td>WineManager proporciona soluciones específicas para la industria vitivinícola. Incluye funcionalidades como gestión de inventarios, seguimiento de pedidos y análisis de ventas. Su enfoque está en la 
+            integración de datos para facilitar la toma de decisiones estratégicas.</td>
+            <td>VinTrace se especializa en la gestión de viñedos y la trazabilidad de la producción de vinos. Ofrece herramientas para la planificación agrícola, registro de actividades y documentación de la 
+            cosecha, enfocándose en el control de calidad y el cumplimiento de normativas en el sector vitivinícola.</td>
         </tr>
         <tr>
             <td>Ventaja competitiva ¿Que valor ofrece a los clientes?</td>
-            <td>Contenido</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
+            <td>Ofrece una solución integral que abarca desde la gestión de inventario hasta el seguimiento de pedidos y la administración de la cartera de clientes, adaptándose a las necesidades específicas de 
+            productores y distribuidores de vinos y pisco.</td>
+            <td>Proporciona un enfoque centrado en la optimización del proceso productivo y la gestión de ventas, pero carece de funcionalidades específicas para la producción de pisco.</td>  
+            <td>Su fortaleza radica en la integración de datos, lo que permite a las empresas tomar decisiones informadas basadas en análisis detallados.</td>  
+            <td>Se especializa en pisco, pero su enfoque limitado podría no satisfacer las necesidades de los productores de vino.</td>  
         </tr>
         <!-- ------------------------------------------------------- -->
         <!-- ----Este apartado pertenece al PERFIL DE MARKETING---- -->
         <tr>
             <th rowspan="2"> <strong> Perfil de Marketing </strong> </th>
             <td> Mercado objetivo</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
+            <td>Productores y distribuidores de vinos y pisco que buscan una gestión eficiente y adaptada a sus procesos productivos.</td>  
+            <td>Bodegas y productores de vino que requieren optimización en la gestión de ventas y producción.</td>  
+            <td>Empresas vitivinícolas que necesitan soluciones integradas para la toma de decisiones.</td>  
+            <td>Productores de vino que buscan herramientas específicas para la gestión de viñedos y la trazabilidad de la producción.</td>
         </tr>
         <tr>
             <td>Estrategias de Marketing</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
+            <td>Se posiciona como una solución integral y flexible para la gestión de la producción de vinos y pisco, destacando su adaptabilidad y facilidad de uso.</td>  
+            <td>Se enfoca en la optimización de procesos y la gestión de ventas a través de su plataforma.</td>  
+            <td>Utiliza marketing de contenido y análisis de datos para posicionarse como líder en soluciones integradas.</td>  
+            <td>Se centra en la especialización en la gestión de viñedos, destacando su conocimiento del sector y su capacidad para asegurar la calidad del producto.</td>  
         </tr>
         <!-- ------------------------------------------------------- -->
         <!-- ----Este apartado pertenece al PERFIL DEL PRODUCTO----- -->
         <tr>
             <th rowspan="3"> <strong> Perfil del producto </strong> </th>
             <td> Producto & servicios</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
+            <td>Incluye control de inventario, gestión de clientes, seguimiento de pedidos y herramientas para la vinificación y gestión del viñedo.</td>  
+            <td>Ofrece herramientas para la gestión de ventas y producción, pero con menos enfoque en la vinificación.</td>  
+            <td>Proporciona soluciones integradas, pero puede carecer de funcionalidades específicas para la producción de pisco.</td>  
+            <td>Se especializa en la gestión de viñedos, ofreciendo herramientas para la planificación agrícola y el control de calidad.</td>  
         </tr>
         <tr>
             <td>precio y costos</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
+            <td>Ofrece tres planes de pago (Básico, Intermedio, Avanzado) que se adaptan a diferentes tamaños de productores y distribuidores.</td>  
+            <td>Utiliza un modelo de suscripción con precios variables según las funcionalidades requeridas.</td>  
+            <td>Ofrece precios basados en la cantidad de usuarios y funcionalidades, con un enfoque en la personalización.</td>  
+            <td>Modelo de suscripción con precios fijos, pero limitado a las funcionalidades específicas de gestión de viñedos.</td>  
         </tr>
         <tr>
             <td>Canales de distribución (Web y/o movil)</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td> 
+            <td>Disponible en web y dispositivos móviles, facilitando el acceso a los usuarios.</td>  
+            <td>Principalmente en web, con algunas funcionalidades móviles.</td>  
+            <td>Ofrece una plataforma web robusta, pero con limitaciones en dispositivos móviles.</td>  
+            <td>Enfocado en web, con un diseño amigable para el usuario.</td> 
         </tr>
         <!-- ------------------------------------------------------ -->
         <!-- ----Este apartado pertenece al ANÁLISIS SWOT --------- -->
         <tr>
             <th rowspan="4"> <strong> Análisis SWOT </strong> </th>
             <td>Fortalezas</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td> 
+            <td>Solución integral y adaptativa, interfaz amigable, y enfoque en la eficiencia operativa.</td>  
+            <td>Optimización de procesos y experiencia en el sector.</td>  
+            <td>Integración de datos para la toma de decisiones.</td>  
+            <td>Especialización en la gestión de viñedos y trazabilidad.</td> 
         </tr>
         <tr>
             <td>Debilidades</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td> 
+            <td>Necesidad de establecer confianza en un mercado competitivo y la dependencia de la tecnología.</td>  
+            <td>Limitaciones en la personalización para productores de pisco.</td>  
+            <td>Puede ser percibido como demasiado técnico para algunos usuarios.</td>  
+            <td>Enfoque limitado que puede no atraer a los productores de vino.</td> 
         </tr>
         <tr>
             <td>Oportunidades</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td> 
+            <td>Creciente demanda de soluciones tecnológicas en la producción de vinos y pisco, y posibilidad de expansión a mercados internacionales.</td>  
+            <td>Aumento en la producción de vino y necesidad de optimización en el sector.</td>  
+            <td>Oportunidad de diversificación en servicios ofrecidos.</td>  
+            <td>Crecimiento en la popularidad de la gestión de viñedos y control de calidad.</td> 
         </tr>
         <tr>
             <td>Amenazas</td>
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td>  
-            <td>Contenido</td> 
+            <td>Competencia de nuevas plataformas y cambios en regulaciones del sector.</td>  
+            <td>Aumento de competidores con tecnologías avanzadas.</td>  
+            <td>Innovaciones rápidas en el sector que pueden dejar atrás a los competidores.</td>  
+            <td>Cambios en preferencias del consumidor y aumento de la competencia en la gestión de viñedos.</td> 
         </tr>
          <tr>
             <td colspan="6"></td>
@@ -140,8 +146,18 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
             <th> Amenazas </th>
         </tr>
         <tr>
-            <td> Contenido </td>
-            <td> Contenido </td>
+            <td> 1. Mayor demanda de servicios de gestión para la producción de vinos y pisco: El mercado está en auge, lo que representa una gran oportunidad para ElixirControl.<br>
+            2. Capacidad de expandirse a otras ciudades y países: El software puede expandirse a nuevos mercados, ampliando su alcance y base de clientes.<br>
+            3. Mejora continua de la tecnología y la experiencia del usuario: ElixirControl puede mejorar continuamente su tecnología y la experiencia del usuario para brindar servicios más atractivos y 
+            competitivos.<br>
+            4. Alianzas estratégicas con empresas del sector: Se pueden establecer alianzas con bodegas y distribuidores para ofrecer servicios más completos y competitivos.<br>
+            5. Posicionar ElixirControl como la mejor opción para la gestión de vinos y pisco: Desarrollar una estrategia de marketing para posicionarse como la mejor opción en el mercado.<br>
+            6. Colaborar con instituciones educativas: Asociarse con universidades o centros de formación en enología para ofrecer capacitaciones y certificaciones. </td>
+            <td>  1. Aparición de nuevas plataformas con tecnologías avanzadas: El mercado es altamente competitivo, y pueden surgir nuevas soluciones que ofrezcan mejores funcionalidades.<br>
+            2. Cambios en regulaciones del sector: La industria vitivinícola puede enfrentar cambios normativos que afecten la operación del software.<br>
+            3. Problemas de seguridad cibernética: La plataforma puede ser vulnerable a ataques que comprometan la información de los usuarios.<br>
+            4. Competencia de precios: Otras plataformas pueden ofrecer precios más bajos, lo que podría atraer a clientes potenciales.<br>
+            5. Dificultades en la integración con otros sistemas: La falta de compatibilidad con herramientas existentes puede ser un obstáculo para los usuarios. </td>
         </tr>
         <!-------------------------------------------->
         <!--------------Separación Fila--------------->
@@ -154,13 +170,27 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
         <!--------------Separación Fila--------------->
         <tr>
             <td>
-                Contenido 1 
+                 1. Conexión directa entre empresa y cliente: Permite una comunicación fluida y transparente, generando confianza y mejorando la experiencia del cliente.<br>
+                 2. Brinda transparencia y control sobre el avance del proceso: Los clientes pueden seguir en tiempo real el progreso de su producción, lo que reduce la incertidumbre y aumenta la satisfacción.<br>
+                 3. Enfoque en un solo rubro: Permite a ElixirControl especializarse en el sector vitivinícola, ofreciendo un servicio más preciso y eficiente.<br>
+                 4. Reduce el tiempo y esfuerzo del cliente: La plataforma automatiza tareas y simplifica el proceso, liberando tiempo y recursos para el cliente. 
             </td>
             <td>
-                Contenido 2
+                1. Aprovechar la creciente demanda de soluciones tecnológicas en la producción de vinos y pisco: Implementar campañas de marketing que destaquen la facilidad de uso y eficiencia de ElixirControl 
+                para atraer nuevos clientes.<br>
+                2. Expandirse a nuevos mercados: Realizar estudios de mercado en países con tradición vitivinícola para adaptar la oferta a sus necesidades.<br>
+                3. Mejora continua de la tecnología y la experiencia del usuario: Invertir en I+D para mantener la plataforma actualizada con las últimas tendencias tecnológicas y mejorar la experiencia del usuario <br>
+                4. Establecer alianzas estratégicas con empresas del sector: Colaborar con bodegas y distribuidores para ofrecer paquetes de servicios que integren la gestión de producción y distribución.<br>
+                5. Posicionar ElixirControl como la mejor opción para la gestión de vinos y pisco: Desarrollar una campaña de branding que resalte las características únicas del software y su valor añadido.<br>
+                6. Colaborar con instituciones educativas: Asociarse con universidades o centros de formación en enología para ofrecer capacitaciones y certificaciones que respalden el uso de ElixirControl. 
             </td>
             <td>
-                Contenido 3
+                1. Mantener la innovación constante en la plataforma: Para no quedar rezagados frente a la competencia y ofrecer funcionalidades de vanguardia que atraigan a los clientes.<br>
+                2. Implementar medidas de seguridad robustas: Para proteger la información de los usuarios y mitigar el riesgo de ataques cibernéticos que puedan comprometer la confianza en el software.<br>
+                3. Monitorear continuamente el entorno legal: Ajustar la plataforma para cumplir con nuevas normativas y regulaciones que puedan surgir en la industria vitivinícola.<br>
+                4. Ofrecer precios competitivos: Realizar un análisis de precios del mercado y ajustar las tarifas para ser atractivos sin sacrificar la calidad del servicio.<br>
+                5. Desarrollar APIs para facilitar la integración: Con otras herramientas y plataformas utilizadas por los clientes, reduciendo las barreras de adopción.<br>
+                6, Implementar programas de innovación: Para fomentar la creatividad y el desarrollo de nuevas ideas que permitan a ElixirControl mantenerse a la vanguardia.
             </td>
         </tr>
         <!-------------------------------------------->
@@ -173,20 +203,38 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
         <!-------------------------------------------->
         <!--------------Separación Fila--------------->
         <tr>
-            <td>
-                Contenido 1 
+                <td>
+                1. Clientes que desconfían de contratar servicios sin conocer la empresa: Implementar un programa de testimonios y casos de éxito que muestre la eficacia de ElixirControl.<br>
+                2. Control de calidad del servicio: Establecer un sistema de evaluación de la satisfacción del cliente y realizar mejoras continuas basadas en su retroalimentación.<br>
+                3. Falta de visibilidad de la marca: Desarrollar una estrategia de marketing digital que incluya SEO, SEM y marketing en redes sociales para aumentar el reconocimiento de la marca.<br>
+                4. Dependencia de la tecnología: Capacitar al equipo en el uso de nuevas tecnologías y tendencias del sector para mejorar la oferta del servicio.  
             </td>
             <td>
-                Contenido 2
+                 1. Generar confianza en nuevos clientes: Implementar un programa de testimonios y casos de éxito que muestre la eficacia de ElixirControl, destacando historias de clientes satisfechos y resultados 
+                 exitosos.<br>
+                 2. Control de calidad del servicio: Establecer un sistema de evaluación de la satisfacción del cliente y realizar mejoras continuas basadas en su retroalimentación, asegurando que los estándares de 
+                 calidad se mantengan altos.<br>
+                 3. Aumentar la visibilidad de la marca: Desarrollar una estrategia de marketing digital que incluya SEO, SEM y marketing en redes sociales para aumentar el reconocimiento de la marca y atraer a más 
+                 clientes potenciales.<br>
+                 4. Capacitación del equipo: Invertir en la formación continua del equipo para asegurar que estén al tanto de las últimas tendencias y tecnologías del sector, mejorando así la calidad del servicio 
+                 ofrecido.
             </td>
             <td>
-                Contenido 3
+                1. Diversificar los servicios ofrecidos: Ampliar las funcionalidades de ElixirControl para cubrir más aspectos del proceso productivo y de distribución, aumentando así su atractivo frente a la 
+                competencia y reduciendo riesgos.<br>
+                2. Desarrollar planes de contingencia: Preparar estrategias para responder rápidamente a la aparición de nuevas plataformas y cambios en el mercado, como regulaciones o amenazas de seguridad.<br>
+                3. Mantener una comunicación constante con los usuarios: Establecer canales de comunicación efectivos para recibir retroalimentación de los clientes y mantener su confianza en momentos de 
+                incertidumbre.<br>
+                4. Capacitar al equipo: Invertir en la formación continua del equipo para asegurar que estén al tanto de las últimas tendencias y tecnologías del sector, mejorando así la calidad del servicio 
+                ofrecido.<br>
+                5. Diversificar proveedores y planes de contingencia: Negociar contratos favorables con proveedores y tener planes de respaldo para asegurar la estabilidad tecnológica y la calidad del servicio ante 
+                posibles cambios.<br>
+                6. Establecer un sistema de gestión de quejas y comentarios: Implementar procesos para recibir, analizar y responder a la retroalimentación de los clientes, mejorando continuamente el servicio y 
+                obteniendo reseñas positivas.
             </td>
         </tr>
     </body>
 </table>
-
-### 2.1.2. Estrategias y tácticas frente a competidores.
 
 
 ## 2.2. Entrevistas.
