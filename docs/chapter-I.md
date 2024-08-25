@@ -107,6 +107,90 @@ Buscamos generar ingresos a través de un modelo de suscripción basado en difer
 
 ### 1.2.1 Antecedentes y problemática
 
+### Antecedentes
+
+El estado actual de **la gestión del proceso productivo en la industria vitivinícola y de pisco** se ha centrado principalmente en **soluciones fragmentadas y sistemas manuales que no ofrecen una integración completa entre la vinificación, el control de inventarios y la administración de pedidos**.
+
+Lo que los productos/servicios existentes no logran abordar es **una plataforma integral que centralice todas estas funciones en un único sistema, permitiendo una coordinación efectiva y una visibilidad en tiempo real de todos los aspectos del proceso productivo y de distribución**.
+
+Nuestro producto/servicio abordará esta brecha mediante **el desarrollo e implementación de ElixirControl, un software integral que unifica la gestión del proceso productivo, el control de inventarios y el seguimiento de pedidos en una sola plataforma. La solución estará diseñada para adaptarse a diferentes tamaños de operación y necesidades específicas de los usuarios, ofreciendo herramientas avanzadas y una interfaz intuitiva**.
+
+Nuestro enfoque inicial será **el mercado de productores y distribuidores de vinos y pisco en América Latina, donde la necesidad de una solución centralizada y eficiente es particularmente evidente**.
+
+Sabremos que tenemos éxito cuando veamos **una mejora significativa en la eficiencia operativa de nuestros clientes, una reducción en el desperdicio de recursos, y un aumento en la satisfacción del cliente, evidenciado por la adopción generalizada de la plataforma y el cumplimiento de nuestras metas de suscripción y retención de clientes en el primer año de lanzamiento**.
+
+### Problemáticas
+
+
+#### Técnica de las 5 ‘W’s y 2 ‘H’s
+
+#### What?
+
+- **¿Cuál es el problema?**
+
+  La gestión ineficiente del proceso productivo de vinos y pisco lleva a problemas en la calidad del producto, desajustes en el inventario, y dificultades en la administración de clientes y pedidos.
+
+- **¿Cuál es la relación con la persona en cuestión?**
+ 
+  El problema afecta a productores, distribuidores y clientes finales.
+
+#### When?
+
+- **¿Cuándo sucede el problema?**
+ 
+  El problema se manifiesta durante todo el ciclo de producción y distribución, desde la fermentación y embotellado hasta el seguimiento de pedidos y la comunicación con distribuidores.
+
+- **¿Cuándo utiliza el cliente el producto?**
+
+  El cliente utiliza el producto en diferentes etapas del proceso productivo y en la gestión de pedidos.
+
+#### Where?
+
+- **¿Dónde está el cliente cuando usa el producto?**
+
+  El cliente usa el producto en la planta de producción, en los almacenes, y en las oficinas de administración de clientes y pedidos.
+
+- **¿A dónde se dirige?**
+
+  Se dirige a mejorar la coordinación y eficiencia en sus operaciones.
+
+- **¿Dónde surge el problema?**
+
+  El problema surge en varias áreas: vinificación, gestión del inventario, administración de clientes y seguimiento de pedidos.
+
+
+#### Who?
+
+- **¿Quiénes están involucrados?**
+ 
+  Los productores de vino y pisco, los distribuidores, y los clientes finales.
+
+#### Why?
+
+- **¿Cuál es la causa del problema?**
+
+  La falta de un sistema centralizado y eficiente para coordinar el proceso productivo y gestionar el inventario, así como la comunicación ineficiente con los distribuidores y la administración desorganizada de la cartera de clientes.
+
+#### How?
+
+- **¿En qué condiciones los clientes usan nuestros productos?**
+ 
+  Los clientes usan el producto en entornos de producción, almacenamiento y ventas.
+
+- **¿Cómo prefieren los clientes acceder a nuestro producto?**
+
+  Prefieren un sistema intuitivo y centralizado que facilite la administración de sus operaciones.
+
+- **¿Qué llevó al cliente a llegar a esta situación?**
+ 
+  La falta de integración y coordinación en los sistemas actuales.
+
+#### How much?
+
+- **¿Cuántos problemas se dan en un día? ¿En una semana? ¿En un mes? ¿Cuánto dinero están implicando?**
+
+  La magnitud del problema puede variar, pero puede implicar pérdidas significativas en calidad del producto, exceso o escasez de inventario, y oportunidades de venta perdidas.
+
 
 ### 1.2.2 Lean UX Process.
 
