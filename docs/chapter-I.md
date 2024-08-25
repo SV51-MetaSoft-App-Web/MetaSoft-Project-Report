@@ -194,8 +194,36 @@ Sabremos que tenemos éxito cuando veamos **una mejora significativa en la efici
 
 ### 1.2.2 Lean UX Process.
 
+En esta sección, iniciamos el proceso de Lean UX, que nos permitirá definir y refinar la visión del modelo de negocio que será soportado por nuestro producto de software. La metodología Lean UX nos ayuda a enfocar el diseño de nuestra solución en torno a la resolución de problemas y la creación de valor real para nuestros usuarios.
+
 
 #### 1.2.2.1. Lean UX Problem Statements.
+
+A continuación, utilizamos la plantilla de Business Opportunity Statements (Gothelf, 2022) para enfocar nuestro equipo en la creación de una solución que responda eficazmente a las necesidades de los clientes, sin limitaciones que puedan afectar la creatividad y agilidad del desarrollo.
+
+- La plantilla de Business Opportunity Statement:
+
+El estado actual de **[domain]** se ha centrado principalmente en **[segments, pain points, etc.]**
+
+Lo que los productos/servicios existentes no logran abordar es **[this gap]**.
+
+Nuestro producto/servicio abordará esta brecha mediante **[vision / strategy]**.
+
+Nuestro enfoque inicial será **[this segment]**.
+
+Sabremos que tenemos éxito cuando veamos **[these behaviors in our target audience]**.
+
+- ReStyle Lean UX Problem Statements:
+
+El estado actual de **la gestión del proceso productivo en la industria vitivinícola y de pisco** se ha centrado principalmente en **soluciones fragmentadas y sistemas manuales que no ofrecen una integración completa entre la vinificación, el control de inventarios y la administración de pedidos**.
+
+Lo que los productos/servicios existentes no logran abordar es **una plataforma integral que centralice todas estas funciones en un único sistema, permitiendo una coordinación efectiva y una visibilidad en tiempo real de todos los aspectos del proceso productivo y de distribución**.
+
+Nuestro producto/servicio abordará esta brecha mediante **el desarrollo e implementación de ElixirControl, un software integral que unifica la gestión del proceso productivo, el control de inventarios y el seguimiento de pedidos en una sola plataforma. La solución estará diseñada para adaptarse a diferentes tamaños de operación y necesidades específicas de los usuarios, ofreciendo herramientas avanzadas y una interfaz intuitiva**.
+
+Nuestro enfoque inicial será **el mercado de productores y distribuidores de vinos y pisco en América Latina, donde la necesidad de una solución centralizada y eficiente es particularmente evidente**.
+
+Sabremos que tenemos éxito cuando veamos **una mejora significativa en la eficiencia operativa de nuestros clientes, una reducción en el desperdicio de recursos, y un aumento en la satisfacción del cliente, evidenciado por la adopción generalizada de la plataforma y el cumplimiento de nuestras metas de suscripción y retención de clientes en el primer año de lanzamiento**.
 
 
 #### 1.2.2.2. Lean UX Assumptions.
