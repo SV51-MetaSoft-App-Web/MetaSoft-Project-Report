@@ -23,7 +23,7 @@
 * **Janover Gonzalo Saldaña Vela    U20201B510**
 * **Oscar Javier Armas Sánchez      U20211G192**
 * **Jhordi Luis Carranza Pérez      U20191E835**
-* **Integrante 4                    xxxxxxxxxx**
+* **Luis Alfonso Villegas Jipa      U201717523**
 * **Integrante 5                    xxxxxxxxxx**
 
 
