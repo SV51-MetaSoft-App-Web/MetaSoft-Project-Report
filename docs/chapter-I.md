@@ -19,7 +19,90 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
 ### 1.1.2. Perfiles de integrantes del equipo
 
 
+
+<table style="text-align:center">
+    <thead>
+        <tr>
+            <th>Integrantes</th>
+            <th>Descripción</th>
+            <th>Conocimientos</th>
+        </tr>
+    </thead>
+    <body >
+        <tr>
+            <!-- DATOS del integrante 1-->
+            <td > 
+            <img src="" height="120" alt="">
+            <br> 
+            </td>
+            <!-- DESCRIPCIÓN del integrante 1-->
+            <td ></td>
+            <!-- CONOCIMIENTOS del integrante 1-->
+            <td></td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 2-->
+            <td>
+            <img src="" height="120" alt="">
+            <br>
+            </td>
+            <!-- DESCRIPCIÓN del integrante 2-->
+            <td></td>
+            <!-- CONOCIMIENTOS del integrante 2-->
+            <td></td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 3-->
+            <td> 
+            <img src="" height="120" alt="">
+            <br>
+            </td>
+            <!-- DESCRIPCIÓN del integrante 3-->
+            <td> </td>
+            <!-- CONOCIMIENTOS del integrante 3-->
+            <td></td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 4-->
+            <td> 
+            <img src="" height="120" alt="">
+            <br> 
+            </td>
+            <!-- DESCRIPCIÓN del integrante 4-->
+            <td> </td>
+            <!-- CONOCIMIENTOS del integrante 4-->
+            <td> </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 5-->
+            <td> 
+            <img src="" height="120" alt="">
+            <br> 
+            </td>
+            <!-- DESCRIPCIÓN del integrante 5-->
+            <td> </td>
+            <!-- CONOCIMIENTOS del integrante 5-->
+            <td> </td>
+        </tr>
+    </body>
+</table>
+
 ## 1.2. Solution Profile
+
+
+En esta sección se detallan los segmentos de descripición de nuestra solución de software, sus características de valor y las estrategias de monetización.
+
+**Product Name:**
+
+ElixirControl Optamos por este nombre por su capacidad para transmitir la idea de un producto poderoso y transformador que aporta un control eficaz y moderno sobre los procesos. La combinación de estos términos sugiere tanto innovación como confiabilidad, aspectos clave que el software busca proporcionar a sus usuarios.
+
+**Product Description:**
+
+Nuestra solución tecnológica, ElixirControl, está diseñada para optimizar el proceso productivo y de distribución en la industria vitivinícola y de pisco. El software proporciona una plataforma integral que abarca desde la gestión de la vinificación, control de inventarios y administración de clientes hasta el seguimiento de pedidos y la comunicación con distribuidores. Con características avanzadas como reportes en tiempo real, análisis de datos, y una interfaz intuitiva, ElixirControl permite a productores y distribuidores mejorar la eficiencia operativa, reducir el desperdicio y maximizar la rentabilidad. La solución está construida para adaptarse a diferentes tamaños de operación y puede integrarse con sistemas existentes para una transición sin problemas.
+
+**Monetización:**
+
+Buscamos generar ingresos a través de un modelo de suscripción basado en diferentes niveles de servicio. Ofrecemos opciones de suscripción mensual y anual, con planes escalonados que se adaptan a las necesidades y el tamaño de las operaciones de nuestros clientes. Además, consideramos la posibilidad de agregar módulos adicionales y servicios personalizados como opciones de pago por uso, lo que permite a los clientes ampliar su funcionalidad según sus necesidades específicas. Este modelo asegura ingresos recurrentes y fomenta una relación continua con nuestros clientes, ofreciendo soporte y actualizaciones continuas del software.
 
 
 ### 1.2.1 Antecedentes y problemática
