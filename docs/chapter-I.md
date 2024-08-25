@@ -229,6 +229,50 @@ Sabremos que tenemos éxito cuando veamos **una mejora significativa en la efici
 #### 1.2.2.2. Lean UX Assumptions.
 
 
+- **Users:**
+
+    - **Productores de vino:** Personas o empresas que necesitan gestionar sus viñedos, procesos de producción y distribución de vino.
+    - **Distribuidores de vino:** Empresas que buscan gestionar la distribución y venta de vinos, y necesitan herramientas para seguimiento y control de inventarios.
+
+- **User Outcomes:**
+
+    - **Segmento productor:**
+        - Tener acceso a una plataforma que permita monitorear y gestionar el cultivo de uvas, el proceso de vinificación y el almacenamiento del vino.
+        - Obtener informes detallados sobre la calidad del vino, el rendimiento de las cosechas y las condiciones de almacenamiento.
+        - Facilitar la comunicación con distribuidores y otros socios comerciales.
+
+    - **Segmento distribuidor:**
+        - Acceder a una plataforma que simplifique la gestión del inventario de vinos y permita realizar seguimientos de las entregas.
+        - Buscar y filtrar vinos según diferentes criterios (tipo, región, precio) para tomar decisiones informadas sobre compras y ventas.
+        - Comunicarse con productores para coordinar pedidos y recibir actualizaciones sobre la disponibilidad de productos.
+
+- **Suposiciones de negocio:**
+
+    - Creemos que existe una creciente demanda por soluciones tecnológicas en la industria del vino, especialmente para la gestión y optimización de procesos tanto para productores como distribuidores.
+    - Observamos que muchos productores y distribuidores aún utilizan métodos tradicionales para la gestión, lo que representa una oportunidad para modernizar y optimizar estos procesos con una plataforma digital.
+    - Somos conscientes de la competencia en el sector de soluciones tecnológicas para la industria del vino. Sin embargo, estamos seguros de que nuestra plataforma destacará por su capacidad de integración con procesos existentes y la personalización según las necesidades del cliente.
+
+- **Suposiciones de usuario:**
+
+    - **¿Quién utiliza nuestra plataforma?**
+      Nuestra plataforma es utilizada por productores de vino que buscan herramientas para gestionar su producción y distribución, así como por distribuidores que necesitan un sistema eficiente para manejar inventarios y pedidos.
+
+    - **¿Cómo se integra nuestro producto en la rutina laboral o cotidiana?**
+      Nuestra plataforma se integra en la rutina laboral al proporcionar una solución centralizada para la gestión de viñedos, la producción y la distribución de vino. Facilita el acceso a datos en tiempo real y mejora la toma de decisiones tanto para productores como para distribuidores.
+
+    - **¿Cuáles son los desafíos que aborda nuestro producto?**
+      Nuestro servicio aborda desafíos como la falta de visibilidad en tiempo real sobre la calidad del vino y el estado de los inventarios, la complejidad en la coordinación entre productores y distribuidores, y la necesidad de un sistema integrado para la gestión de la producción y distribución.
+
+    - **¿Cuál es la imagen que deseamos proyectar con nuestro producto?**
+      Deseamos proyectar una imagen de innovación, eficiencia y fiabilidad. Queremos que ElexirControl sea visto como una solución tecnológica avanzada que optimiza la gestión y operación en la industria del vino.
+
+    - **¿Cuál es el propósito fundamental de nuestra aplicación?**
+      El propósito fundamental de nuestra aplicación es proporcionar una solución integral para la gestión de viñedos, producción y distribución de vino, facilitando la optimización de procesos y la toma de decisiones informadas.
+
+    - **¿Qué funcionalidades destacan en nuestra aplicación?**
+      Las funcionalidades destacadas de nuestra aplicación incluyen la gestión de viñedos y procesos de vinificación, seguimiento del estado del vino y control de inventarios, generación de informes detallados y análisis de datos, y herramientas de comunicación y coordinación entre productores y distribuidores.
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
 
