@@ -276,6 +276,48 @@ Sabremos que tenemos éxito cuando veamos **una mejora significativa en la efici
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
 
+Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX: **[Creemos que]**, **[Esto logrará]** y **[Sabremos que]**
+
+- **Hipótesis 1:**
+
+  **Creemos que** si integramos herramientas avanzadas para el monitoreo en tiempo real de viñedos y procesos de vinificación en nuestra plataforma, entonces **esto logrará** aumentar la eficiencia en la gestión de la producción de vino y mejorar la calidad del producto final.
+
+  **Sabremos que** estamos en lo cierto.
+
+  **Cuando** observemos una mejora del 20% en la calidad del vino reportada por los productores y una reducción del 15% en los problemas relacionados con la gestión de viñedos dentro de los primeros seis meses de implementación de estas herramientas.
+
+- **Hipótesis 2:**
+
+  **Creemos que** si facilitamos un sistema de gestión de inventarios y pedidos para distribuidores dentro de nuestra plataforma, entonces **esto logrará** optimizar la logística y reducir los tiempos de respuesta en el proceso de distribución.
+
+  **Sabremos que** estamos en lo cierto.
+
+  **Cuando** veamos una reducción del 25% en los tiempos de entrega y una mejora del 30% en la precisión de los inventarios reportados por los distribuidores durante los primeros seis meses de uso de la plataforma.
+
+- **Hipótesis 3:**
+
+  **Creemos que** si ofrecemos una interfaz intuitiva y accesible para productores y distribuidores, entonces **esto logrará** aumentar la adopción de la plataforma y reducir la curva de aprendizaje para nuevos usuarios.
+
+  **Sabremos que** estamos en lo cierto.
+
+  **Cuando** observemos una disminución del 20% en el número de consultas de soporte relacionadas con la usabilidad de la plataforma y un aumento del 15% en el número de usuarios activos dentro del primer trimestre de lanzamiento.
+
+- **Hipótesis 4:**
+
+  **Creemos que** si implementamos un sistema de retroalimentación y evaluaciones de la calidad del vino y del servicio de distribución dentro de nuestra plataforma, entonces **esto logrará** aumentar la confianza en la plataforma y mejorar la calidad del servicio ofrecido.
+
+  **Sabremos que** estamos en lo cierto.
+
+  **Cuando** veamos un incremento del 30% en las calificaciones positivas y un aumento del 25% en la satisfacción general de los usuarios, reflejado en encuestas y reseñas, dentro del primer año de operación.
+
+- **Hipótesis 5:**
+
+  **Creemos que** si ofrecemos opciones de suscripción premium para productores y distribuidores, entonces **esto logrará** generar ingresos recurrentes para ElexirControl y permitirnos invertir en mejoras continuas para la plataforma.
+
+  **Sabremos que** estamos en lo cierto.
+
+  **Cuando** al menos el 30% de los productores y distribuidores se suscriban a los planes premium dentro del primer año de lanzamiento y observemos un incremento del 25% en el presupuesto destinado a mejoras de la plataforma.
+
 
 #### 1.2.2.4. Lean UX Canvas.
 
@@ -284,3 +326,7 @@ Sabremos que tenemos éxito cuando veamos **una mejora significativa en la efici
 <p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 ## 1.3. Segmentos objetivo.
+
+
+
+
