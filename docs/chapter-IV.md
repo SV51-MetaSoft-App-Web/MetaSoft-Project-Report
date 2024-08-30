@@ -211,11 +211,16 @@
 
 ## 4.6.1. Software Architecture Context Diagram.
 
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94695-SystemContext-001.png"> </p>
+
+<p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
 
+
 ### 4.6.3. Software Architecture Components Diagrams.
+
 
 
 ## 4.7. Software Object-Oriented Design.
