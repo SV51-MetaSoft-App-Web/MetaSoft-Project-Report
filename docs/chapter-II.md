@@ -22,10 +22,10 @@ En este apartado el equipo realizará un analisis competitivo de nuestras 3 prin
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="assets/img/chapter-II/Logo_ExilirControl.png" width="100" alt="Logo_Elixir"></th>
-            <th><img src="assets/img/chapter-II/Logo_Vinotec.png" width="100" alt="Logo_Vinotec"></th>
-            <th><img src="assets/img/chapter-II/Logo_WineManager.png" width="100" alt=Logo_WineManager"></th>
-            <th><img src="assets/img/chapter-II/Logo_Vintrace.png" width="100" alt="Logo_Vintrace"></th>
+            <th> <img width="100" alt="Logo_ExilirControl" src="../assets/img/chapter-II/Logo_ExilirControl.png"> </th>
+            <th><img src="../assets/img/chapter-II/Logo_Vinotec.png" width="100" alt="Logo_Vinotec"></th>
+            <th><img src="../assets/img/chapter-II/Logo_WineManager.png" width="100" alt="Logo_WineManager"></th>
+            <th><img src="../assets/img/chapter-II/Logo_Vintrace.png" width="100" alt="Logo_Vintrace"></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
         <tr>
