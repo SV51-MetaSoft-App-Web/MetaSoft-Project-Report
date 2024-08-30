@@ -231,17 +231,216 @@
 
 ## 4.7. Software Object-Oriented Design.
 
+En esta seccion se demostrará el diagrama de clases junto con la aplicación de varios patrones de diseño para mejorar tanto la estructura como la eficiencia del sistema.
 
 ### 4.7.1. Class Diagrams.
+
+<p align = "center"> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/Class Diagram UML - ElixirControl.png"> </p>
 
 
 ### 4.7.2. Class Dictionary.
 
+A continuación se presenta el código en formato markdown con las clases, atributos y métodos correspondientes:
 
+### Usuario
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| nombre              | string   |
+| apellido            | string   |
+| contraseña          | string   |
+| dni                 | string   |
+| teléfono            | string   |
+| email               | string   |
+| estado              | char     |
+| rol                 | string   |
+| tipoSuscripcion     | string   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| iniciarSesion(username, password) | Verifica las credenciales del usuario. Devuelve true si la autenticación es exitosa. |
+| registrar()         | Registra un nuevo usuario con la información proporcionada. |
+| actualizarPerfil()  | Actualiza la información del perfil del usuario. |
+| cambiarContraseña(oldPassword, newPassword) | Cambia la contraseña del usuario si la contraseña antigua es correcta. |
+
+---
+
+### Suscripcion
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| usuarioID           | int      |
+| tipo                | string   |
+| fechaInicio         | datetime |
+| fechaFin            | datetime |
+| costo               | decimal  |
+| caracteristicas     | string   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| seleccionarPlan()   | Permite al usuario seleccionar un plan de suscripción. |
+| actualizarSuscripcion() | Actualiza la información de la suscripción del usuario. |
+| cancelarSuscripcion() | Cancela la suscripción activa del usuario. |
+
+---
+
+### FuncionalidadGratuita
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| accederBasico()     | Permite el acceso a funcionalidades básicas. |
+| verReportes()       | Permite al usuario ver reportes básicos. |
+
+---
+
+### FuncionalidadBasica
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| accederBasico()     | Permite el acceso a funcionalidades básicas. |
+| verReportes()       | Permite al usuario ver reportes básicos. |
+| gestionarInventario() | Permite gestionar el inventario de productos. |
+
+---
+
+### FuncionalidadPremium
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| accederBasico()     | Permite el acceso a funcionalidades básicas. |
+| verReportes()       | Permite al usuario ver reportes básicos. |
+| gestionarInventario() | Permite gestionar el inventario de productos. |
+| analizarAvanzado()  | Permite realizar análisis avanzados sobre los datos. |
+
+---
+
+### Producto
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| nombre              | string   |
+| descripción         | string   |
+| precio              | decimal  |
+| tipo                | string   |
+| categoriaID         | int      |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| crearProducto()     | Agrega un nuevo producto al sistema con la información proporcionada. |
+| editarProducto()    | Actualiza la información de un producto existente. |
+| eliminarProducto()  | Elimina un producto del sistema utilizando su ID. |
+| verDetallesProducto() | Devuelve los detalles de un producto específico. |
+
+---
+
+### Categoria
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| nombre              | string   |
+| descripcion         | string   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| agregarCategoria()   | Agrega una nueva categoría al sistema. |
+| actualizarCategoria() | Actualiza la información de una categoría existente. |
+| eliminarCategoria()   | Elimina una categoría del sistema utilizando su ID. |
+| verDetallesCategoria() | Devuelve los detalles de una categoría específica. |
+
+---
+
+### Proveedor
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| nombre              | string   |
+| contacto            | string   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| agregarProveedor()   | Agrega un nuevo proveedor al sistema con la información proporcionada. |
+| actualizarProveedor() | Actualiza la información de un proveedor existente. |
+| eliminarProveedor()   | Elimina un proveedor del sistema utilizando su ID. |
+| verDetallesProveedor() | Devuelve los detalles de un proveedor específico. |
+
+---
+
+### Venta
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| productoID          | int      |
+| usuarioID           | int      |
+| fecha               | datetime |
+| total               | decimal  |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| registrarVenta()     | Registra una nueva venta en el sistema. |
+| obtenerDetallesVenta() | Devuelve los detalles de una venta específica. |
+
+---
+
+### Inventario
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| productoID          | int      |
+| cantidad            | int      |
+| fechaEntrada        | datetime |
+| ubicación           | string   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| agregarInventario(productoID, cantidad, fechaEntrada, ubicación) | Agrega un nuevo registro de inventario. |
+| actualizarInventario(inventarioID, cantidad) | Actualiza la cantidad disponible de un producto en el inventario. |
+| eliminarInventario(inventarioID) | Elimina un registro de inventario utilizando su ID. |
+| obtenerDetallesInventario(productoID) | Devuelve la información del inventario para un producto específico. |
+
+---
+
+### ProcesoProductivo
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| productoID          | int      |
+| fechaInicio         | datetime |
+| fechaFin            | datetime |
+| estado              | string   |
+| temperatura         | decimal  |
+| humedad             | decimal  |
+| observaciones       | string   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| iniciarProceso(productoID) | Inicia un nuevo proceso productivo para un producto específico. |
+| finalizarProceso(procesoID) | Finaliza un proceso productivo y registra la fecha de finalización. |
+| obtenerEstadoProceso(procesoID) | Obtiene el estado actual de un proceso productivo específico. |
+| registrarObservaciones(procesoID, observaciones) | Registra observaciones sobre el proceso productivo. |
+
+---
+
+### InformeCalidad
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | int      |
+| procesoID           | int      |
+| fechaInforme        | datetime |
+| calidad             | string   |
+| observaciones       | string   |
+| resultadoPruebas    | string   |
+| usuarioID           | int      |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| generarInforme(procesoID) | Genera un nuevo informe de calidad asociado a un proceso productivo. |
+| actualizarInforme(informeID, calidad, observaciones) | Actualiza un informe de calidad existente. |
+| eliminarInforme(informeID) | Elimina un informe de calidad utilizando su ID. |
+| obtenerDetallesInforme(informeID) | Devuelve los detalles de un informe de calidad específico. |
+
+---
 ## 4.8. Database Design.
 
-
 ### 4.8.1. Database Diagram
+
+<p align = "center"> <img width="800" alt="Databe Diagram" src="../assets/img/chapter-IV/Database Diagram - ElixirControl.png"> </p>
 
 
 
