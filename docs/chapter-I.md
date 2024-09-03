@@ -128,68 +128,68 @@ Sabremos que tenemos éxito cuando veamos **una mejora significativa en la efici
 
 - **¿Cuál es el problema?**
 
-  La gestión ineficiente del proceso productivo de vinos y pisco lleva a problemas en la calidad del producto, desajustes en el inventario, y dificultades en la administración de clientes y pedidos.
+El problema central radica en la gestión fragmentada e ineficiente de los procesos productivos y logísticos en la industria vitivinícola y de pisco. Los métodos tradicionales, que a menudo son manuales y poco integrados, generan múltiples desafíos, como inconsistencias en la calidad del producto, desajustes en los inventarios, dificultades en la administración de la cartera de clientes, y falta de visibilidad en tiempo real sobre las operaciones. Estos problemas no solo afectan la productividad y la eficiencia operativa, sino que también impactan negativamente en la capacidad de respuesta ante la demanda del mercado, limitando el potencial de crecimiento y la competitividad de los productores y distribuidores.
 
 - **¿Cuál es la relación con la persona en cuestión?**
  
-  El problema afecta a productores, distribuidores y clientes finales.
+Este problema afecta directamente a los productores, quienes necesitan optimizar sus procesos productivos para garantizar la calidad y consistencia de sus vinos y piscos, así como a los distribuidores, que dependen de una logística eficiente para gestionar inventarios, cumplir con los pedidos a tiempo, y mantener una comunicación fluida con los productores. En última instancia, los clientes finales también se ven perjudicados, ya que la falta de eficiencia en la cadena de producción y distribución puede llevar a una menor disponibilidad de productos de calidad en el mercado.
 
 #### When?
 
 - **¿Cuándo sucede el problema?**
  
-  El problema se manifiesta durante todo el ciclo de producción y distribución, desde la fermentación y embotellado hasta el seguimiento de pedidos y la comunicación con distribuidores.
+El problema se manifiesta en diferentes etapas del ciclo de producción y distribución. Desde la fermentación y embotellado en la fase de producción, hasta la gestión de inventarios y la entrega final en la fase de distribución, cada etapa es susceptible a errores y retrasos si no se cuenta con un sistema eficiente y centralizado. Estos problemas pueden surgir en cualquier momento, especialmente en periodos de alta demanda o durante la transición entre distintas etapas del proceso.
 
 - **¿Cuándo utiliza el cliente el producto?**
 
-  El cliente utiliza el producto en diferentes etapas del proceso productivo y en la gestión de pedidos.
+Los clientes, tanto productores como distribuidores, utilizan el producto en distintos momentos críticos de sus operaciones diarias. Durante la producción, el software se emplea para gestionar y monitorear el proceso de vinificación, control de calidad y almacenamiento. En la fase de distribución, se utiliza para coordinar la logística, gestionar inventarios, y realizar el seguimiento de pedidos en tiempo real.
 
 #### Where?
 
 - **¿Dónde está el cliente cuando usa el producto?**
 
-  El cliente usa el producto en la planta de producción, en los almacenes, y en las oficinas de administración de clientes y pedidos.
+Los clientes utilizan el producto en diversos entornos relacionados con la producción y distribución de vino y pisco. Los productores lo emplean en sus bodegas, viñedos y almacenes para gestionar y monitorear cada fase del proceso productivo. Los distribuidores, por su parte, lo utilizan en sus centros de distribución y oficinas administrativas para coordinar la logística, gestionar inventarios y mantener la comunicación con los productores.
 
 - **¿A dónde se dirige?**
 
-  Se dirige a mejorar la coordinación y eficiencia en sus operaciones.
+El cliente se dirige hacia la optimización de sus operaciones, buscando mejorar la eficiencia, reducir el desperdicio y maximizar la rentabilidad. Con ElixirControl, los productores y distribuidores buscan centralizar la gestión de sus procesos, logrando una mayor visibilidad y control sobre cada aspecto de su negocio.
 
 - **¿Dónde surge el problema?**
 
-  El problema surge en varias áreas: vinificación, gestión del inventario, administración de clientes y seguimiento de pedidos.
-
+El problema surge en varios puntos clave de la cadena de valor. En la fase de producción, los desafíos incluyen la coordinación entre los diferentes procesos (fermentación, embotellado, almacenamiento) y el control de calidad. En la distribución, los problemas se centran en la gestión de inventarios, la logística de entregas, y la comunicación con los clientes y productores. La falta de integración entre estos procesos exacerba los problemas, creando ineficiencias y errores que impactan en toda la operación.
 
 #### Who?
 
 - **¿Quiénes están involucrados?**
  
-  Los productores de vino y pisco, los distribuidores, y los clientes finales.
+Los principales involucrados son los productores de vino y pisco, que necesitan gestionar sus procesos productivos de manera eficiente; los distribuidores, que se encargan de llevar los productos al mercado; y los clientes finales, quienes dependen de la calidad y disponibilidad del producto. También se incluyen otros actores como proveedores de insumos, transportistas y minoristas, quienes interactúan con los productores y distribuidores y cuyas operaciones también pueden verse afectadas por la ineficiencia en la gestión de la cadena de suministro.
 
 #### Why?
 
 - **¿Cuál es la causa del problema?**
 
-  La falta de un sistema centralizado y eficiente para coordinar el proceso productivo y gestionar el inventario, así como la comunicación ineficiente con los distribuidores y la administración desorganizada de la cartera de clientes.
+La causa principal del problema es la falta de un sistema centralizado y eficiente para coordinar y gestionar los diversos aspectos del proceso productivo y de distribución. La dependencia de sistemas manuales o soluciones tecnológicas desintegradas provoca errores humanos, falta de coordinación entre diferentes etapas del proceso, y una baja visibilidad en tiempo real de la operación. Además, la comunicación ineficiente entre productores y distribuidores contribuye a la desorganización en la administración de la cartera de clientes y a problemas en la satisfacción de la demanda.
 
 #### How?
 
 - **¿En qué condiciones los clientes usan nuestros productos?**
  
-  Los clientes usan el producto en entornos de producción, almacenamiento y ventas.
+Los clientes usan el producto en condiciones donde se requiere un alto grado de coordinación y eficiencia. En la producción, el producto se utiliza en entornos que demandan un control riguroso sobre la calidad y el tiempo, como bodegas y viñedos. En la distribución, se utiliza en contextos donde la precisión en la gestión de inventarios y la rapidez en el cumplimiento de pedidos son críticos, como almacenes y centros de distribución.
 
 - **¿Cómo prefieren los clientes acceder a nuestro producto?**
 
-  Prefieren un sistema intuitivo y centralizado que facilite la administración de sus operaciones.
+Los clientes prefieren acceder a un sistema intuitivo, accesible desde múltiples dispositivos, que ofrezca una solución centralizada para todas sus necesidades operativas. Valoran la capacidad de integrar el software con sus sistemas existentes, la facilidad de uso, y la disponibilidad de soporte técnico para asegurar una transición sin problemas y un uso eficiente del producto.
 
 - **¿Qué llevó al cliente a llegar a esta situación?**
  
-  La falta de integración y coordinación en los sistemas actuales.
+La situación actual de los clientes se debe a la falta de soluciones tecnológicas que respondan a la complejidad y las necesidades específicas de la industria del vino y pisco. La evolución de la industria ha llevado a un aumento en la demanda de productos de calidad, lo que a su vez ha puesto presión sobre los productores y distribuidores para mejorar sus operaciones. Sin embargo, muchos de ellos aún dependen de métodos tradicionales que no están equipados para manejar la escala y la complejidad del mercado actual, lo que crea una necesidad urgente de modernización.
 
 #### How much?
 
 - **¿Cuántos problemas se dan en un día? ¿En una semana? ¿En un mes? ¿Cuánto dinero están implicando?**
 
-  La magnitud del problema puede variar, pero puede implicar pérdidas significativas en calidad del producto, exceso o escasez de inventario, y oportunidades de venta perdidas.
+La frecuencia y el impacto de los problemas pueden variar según la escala de las operaciones y la época del año. Sin embargo, se estima que los problemas relacionados con la gestión ineficiente pueden ocurrir a diario, generando pérdidas significativas en calidad del producto, exceso o escasez de inventario, y oportunidades de venta perdidas. En términos financieros, estos problemas pueden resultar en pérdidas de miles de dólares mensuales para los productores y distribuidores, afectando gravemente su rentabilidad y capacidad para competir en el mercado.
+
 
 
 ### 1.2.2 Lean UX Process.
