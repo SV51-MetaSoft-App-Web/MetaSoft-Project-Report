@@ -327,6 +327,11 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 ## 1.3. Segmentos objetivo.
 
+El primer segmento objetivo son los **productores de vino**, especialmente aquellos que operan de manera artesanal o sin una organización formal establecida. Este grupo suele enfrentar desafíos en la gestión eficiente de su producción, control de inventarios y manejo logístico. *ElixirControl* está diseñado para ofrecerles una solución que simplifique y optimice estos procesos, permitiéndoles centrarse en la calidad de su producto mientras automatizan y mejoran sus operaciones diarias.
+
+El segundo segmento objetivo son los **distribuidores de vino**, quienes se encargan de llevar los productos de los productores a los puntos de venta o directamente al consumidor final. Estos distribuidores pueden beneficiarse de *ElixirControl* al contar con un sistema que les permita un mejor seguimiento de pedidos, gestión de inventarios y control de la logística, facilitando la coordinación con los productores y mejorando la eficiencia de sus operaciones.
+
+
 
 
 
