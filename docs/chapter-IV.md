@@ -188,24 +188,155 @@
 
 ## 4.3. Landing Page UI Design.
 
+El landing page juega un papel esencial en atraer la atención de los visitantes y guiarlos hacia acciones concretas, como inscribirse, adquirir un producto o informarse sobre un servicio. En este apartado, se tratará el diseño de la interfaz de usuario del landing page, enfocándose en los elementos clave que optimizan la experiencia del usuario, creando una página interactiva y fácil de usar.
 
 ### 4.3.1. Landing Page Wireframe.
 
+El wireframe de la página de aterrizaje es una representación visual básica que muestra la estructura y el diseño fundamental de la página. Actúa como un esquema inicial para guiar el desarrollo del diseño final, asegurando una disposición clara de los elementos principales.
+
+Este wireframe incluirá las siguientes secciones:
+
+**Encabezado:** Incluirá el logotipo de la empresa junto con un eslogan o mensaje breve para captar la atención de los usuarios desde el primer momento. También puede incorporar un menú de navegación que permita un acceso fácil a las diferentes secciones de la página.
+
+**Inicio:** Esta sección brindará una breve descripción del producto o servicio principal, acompañada de un llamado a la acción destacado. Puede incluir imágenes o videos que refuercen el valor de lo que se ofrece.
+
+**Servicios:** Aquí se describirán los servicios proporcionados, con una breve explicación de cada uno. Se pueden agregar iconos o elementos gráficos para hacer más comprensible y visual la oferta de servicios.
+
+**Acerca de:** Esta área explicará la historia de la empresa, su misión y valores, proporcionando información que genere confianza en los visitantes y les ayude a entender la visión del proyecto.
+
+**Precios:** En esta sección se mostrarán los diferentes planes y tarifas disponibles, destacando las características de cada opción para ayudar a los usuarios a tomar decisiones más informadas.
+
+**Testimonios:** Incluirá reseñas o comentarios de clientes satisfechos, mostrando experiencias positivas. Incluir fotos o nombres puede agregar un toque personal y aumentar la credibilidad.
+
+**Contacto:** Proporcionará un formulario de contacto simple, con campos para el nombre, correo electrónico y mensaje. También puede ofrecer información adicional, como enlaces a redes sociales o un número de teléfono.
+
+**Equipo:** En esta sección se presentará al equipo detrás del proyecto, con fotos, nombres y descripciones breves de sus roles, para humanizar la marca y generar una mayor conexión con los usuarios.
+
+**Footer:** El pie de página contendrá enlaces esenciales como "Términos y Condiciones", "Contacto de la Empresa" y una sección titulada "Más", donde se podrán incluir enlaces adicionales a recursos relevantes o páginas secundarias. Este footer proporcionará un acceso rápido a información clave sin sobrecargar la interfaz, ofreciendo un final limpio y funcional para la página de destino.
+
+Este wireframe será el punto de partida para la creación del diseño visual y facilitará una experiencia de usuario cohesiva y efectiva.
 
 ### 4.3.2. Landing Page Mock-up.
+En esta sección, se presenta el Landing Page de nuestra aplicación web.
 
+**Hero de la Aplicación:** Con una imagen de fondo que resalta soluciones tecnológicas para la industria del vino y pisco, el hero incluye un botón de "¡Comienza ahora!", un título impactante y una breve descripción que presenta ElexirControl. Además, facilita la navegación por el informe con una barra que enlaza a las secciones clave, guiando al usuario de manera intuitiva a través de nuestras propuestas y soluciones innovadoras.
+![alt text](../assets/img/chapter-IV/hero.jpeg)
+Version inglés:
+![alt text](../assets/img/chapter-IV/hero-en.jpeg)
+Version Mobile:
+![alt text](../assets/img/chapter-IV/26.png)
+**Servicios de la Aplicación:** En esta sección se detallarán de forma clara y organizada los servicios que se ofrecen, utilizando un diseño que facilite la comprensión rápida de la información. Cada servicio estará acompañado de una breve descripción que inviten a los usuarios a explorar más detalles o ponerse en contacto.
+![alt text](../assets/img/chapter-IV/Servicios.jpeg)
+Version inglés:
+![alt text](../assets/img/chapter-IV/servicios-en.jpeg)
+Version Mobile:
+![alt text](../assets/img/chapter-IV/27.png)
 
+**Acerca de la aplicación:** En esta sección dedicada a nuestra aplicación, ofrecemos una descripción de su propuesta de valor, destacando cómo la plataforma facilita la gestión del proceso productivo de vinos y pisco. La aplicación está diseñada para mejorar la eficiencia operativa y proporcionar herramientas clave que optimicen el rendimiento tanto de productores como de distribuidores. Además, incluimos una imagen de la interfaz de la aplicación y dos botones de acción visibles para descargar desde Google Play y la App Store, permitiendo a los usuarios acceder fácilmente desde cualquier dispositivo móvil.
+![alt text](<../assets/img/chapter-IV/Acerca de.jpeg>)
+Version inglés:
+![alt text](../assets/img/chapter-IV/About-en.jpeg)
+Version Mobile:
+![alt text](../assets/img/chapter-IV/28.png)
+
+**Nuestros planes:** En esta sección, presentamos las diferentes opciones de suscripción que ofrece nuestra aplicación, diseñadas para adaptarse a las necesidades de nuestros usuarios. Cada plan incluye un conjunto de características que permiten una experiencia personalizada y eficiente en la gestión del proceso productivo de vinos y pisco. Los usuarios pueden seleccionar el plan que mejor se ajuste a sus requerimientos, asegurando que siempre cuenten con las herramientas necesarias para optimizar su trabajo.
+![alt text](../assets/img/chapter-IV/planes.jpeg)
+Version inglés:
+![alt text](../assets/img/chapter-IV/planes-en.jpeg)
+Version Mobile:
+![alt text](../assets/img/chapter-IV/29.png)
+![alt text](../assets/img/chapter-IV/30.png)
+![alt text](../assets/img/chapter-IV/31.png)
+
+**Testimonios de la Aplicación:** En esta sección, presentamos experiencias reales de nuestros clientes satisfechos. Cada testimonio incluye una imagen del cliente y una breve descripción que resalta cómo ElexirControl optimizó sus procesos productivos y de distribución, superando sus expectativas. Estos testimonios sirven como evidencia concreta de la calidad y el impacto positivo de nuestras soluciones, reforzando la confianza y credibilidad entre nuestros futuros clientes y demostrando nuestro compromiso con la excelencia y la innovación.
+![alt text](<../assets/img/chapter-IV/que dicen.jpeg>)
+Version inglés:
+![alt text](../assets/img/chapter-IV/Testimonios-en.jpeg)
+Version Mobile:
+![alt text](../assets/img/chapter-IV/32.png)
+![alt text](../assets/img/chapter-IV/33.png)
+**Contáctanos:** En esta sección, ofrecemos varias formas de ponerte en contacto con nuestro equipo para resolver cualquier duda o consulta que puedas tener. Estamos aquí para ayudarte y asegurar que tu experiencia con ElixirControl sea lo más fluida y satisfactoria posible.
+![alt text](../assets/img/chapter-IV/Contactanos.jpeg)
+Version inglés:
+![alt text](../assets/img/chapter-IV/contact-en.jpeg)
+Version Mobile:
+![alt text](../assets/img/chapter-IV/34.png)
+**Sobre el Equipo:** En esta sección, te invitamos a descubrir a las personas que hacen posible ElexirControl. Presentamos un video que ofrece una visión cercana y genuina de nuestro equipo, resaltando nuestras habilidades, experiencia y dedicación a la innovación tecnológica en la industria del vino. A través de este video, compartimos nuestra historia, valores y visión, revelando el espíritu y la esencia de nuestra empresa.
+![alt text](../assets/img/chapter-IV/Team.jpeg)
+Version inglés:
+![alt text](../assets/img/chapter-IV/sobre-en.jpeg)
+Version Mobile:
+![alt text](../assets/img/chapter-IV/35.png)
+**Footer de la aplicación:** En nuestro Footer, te ofrecemos un acceso para que puedan contactar con nosotros: nuestras redes sociales y otras formas de contacto. Nuestro logo distintivo se muestra de forma clara, esto junto a enlaces para que nos sigan en Twitter, Facebook e Instagram. También tendremos una sección para poder estar al tanto de las novedades que tenemos para ustedes.
+![alt text](../assets/img/chapter-IV/footer.jpeg)
+Version inglés:
+![alt text](../assets/img/chapter-IV/footer-en.jpeg)
+Version Mobile:
+![alt text](../assets/img/chapter-IV/36.png)
 ## 4.4. Web Applications UX/UI Design.
 
-
 ### 4.4.1. Web Applications Wireframes.
+En esta sección se muestran los wireframes realizados para nuestro Web Application.
+
+Login - Elixir Control
+![text](../assets/img/chapter-IV/1.png) 
+Login -Distribuidor - Elixir Control
+![text](../assets/img/chapter-IV/2.png) 
+Historial Pedido - Elixir Control
+![text](../assets/img/chapter-IV/4.png) 
+Realizar pedidos - Elixir Control
+![text](../assets/img/chapter-IV/3.png) 
+Inicio de sesión- Productor Elixir Control
+![text](../assets/img/chapter-IV/5.png) 
+Registrar - Productor  - Elixir Control
+![text](../assets/img/chapter-IV/6.png) 
+Login - Elixir Control
+![text](../assets/img/chapter-IV/7.png) 
+Inventario - Elixir Control
+![text](../assets/img/chapter-IV/8.png) 
+Agregar - Editar - Clientes - Elixir Control
+![text](../assets/img/chapter-IV/9.png) 
+Detalle Clientes - Elixir Control
+![text](../assets/img/chapter-IV/10.png) 
+Mis Clientes - Elixir Control
+![text](../assets/img/chapter-IV/11.png) 
+Detalle del Pedido - Elixir Control
+![text](../assets/img/chapter-IV/12.png) 
+Mis Pedidos - Elixir Control
+![text](../assets/img/chapter-IV/13.png)
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 
 ### 4.4.2. Web Applications Mock-ups.
+En esta sección se muestran los mock-ups realizados para nuestro Web Application.
 
+Login - Elixir Control
+![alt text](../assets/img/chapter-IV/14.png)
+Login -Distribuidor - Elixir Control 
+![alt text](../assets/img/chapter-IV/15.png)
+Historial Pedido - Elixir Control 
+![alt text](../assets/img/chapter-IV/16.png) 
+Realizar pedidos - Elixir Control
+![alt text](../assets/img/chapter-IV/17.png) 
+Inicio de sesión- Productor Elixir Control
+![alt text](../assets/img/chapter-IV/18.png) 
+Registrar - Productor  - Elixir Control
+![alt text](../assets/img/chapter-IV/19.png) 
+Inventario - Elixir Control
+![alt text](../assets/img/chapter-IV/20.png) 
+Mis Clientes - Elixir Control
+![alt text](../assets/img/chapter-IV/21.png) 
+Agregar - Editar - Clientes - Elixir Control
+![alt text](../assets/img/chapter-IV/22.png) 
+Detalle Clientes - Elixir Control
+![alt text](../assets/img/chapter-IV/23.png) 
+Mis Pedidos - Elixir Control
+![alt text](../assets/img/chapter-IV/24.png)
+Detalle del Pedido - Elixir Control 
+![alt text](../assets/img/chapter-IV/25.png) 
+<!-- falta mockup version mobile-->
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
