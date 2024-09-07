@@ -6,34 +6,41 @@
 
 **1) Branding**
 
-- **Logo y Marca:** El logo se mostrará en una parte de la pantalla de manera clara y visualmente agradable.
+- **Logo y Marca:** El logo se mostrará en la parte superior izquierda de la pantalla de manera clara y visualmente agradable, tal como se ve en las pantallas del login.
 - **Paleta de Colores:** 
-  - **Primario:** Verde olivo (#556B2F) - Representa la naturaleza y el crecimiento del viñedo.
-  - **Secundario:** Dorado (#D4AF37) - Evoca la calidad y la tradición del vino.
-  - **Neutrales:** Blanco (#FFFFFF), Gris claro (#F5F5F5), Gris oscuro (#333333) - Para fondos y textos.
-- **Accento:** Burdeos (#800020) - Se usarán botones y elementos interactivos.
+  - **Primarios:**
+    - **Vino Tinto (#8B0000):** Dominante en el diseño, utilizado en los encabezados, bordes principales y títulos principales.
+    - **Verde Oliva (#556B2F):** Utilizado para botones de acción (Principal, secundaria y de navegación), tales como "Agregar cliente", "Guardar", "Ver pedidos", etc.
+    - **Beige Suave (#F5F5DC):** Color principal de fondo, brindando una apariencia clara y minimalista.
+    - **Marrón bodega (#5D4037):** Color utilizado en el pie de página o footer, también en bordes de botones.
+    - **Dorado Metálico (#DAA520):** Se utiliza para destacar elementos importantes o de acento, como botones de acción.
+  - **Secundarios:**
+    - **Rojo (#FF6347):** Color de advertencia o para resaltar elementos interactivos.
+    - **Gris Pizarra (#708090):** Se utiliza para áreas de fondo secundarias o inactivas.
+    - **Oro Antiguo (#CFAE75):** Para detalles elegantes y áreas de énfasis.
+  - **Neutrales:** Blanco (#FFFFFF) para fondo y Gris medio (#333333) para textos.
 
 **2) Typography**
 - **Fuente Principal:** 
   - **Nombre:** Lora (Serif) - Se utilizará para encabezados y textos de cuerpo. Da la sensación de elegancia y tradición, adecuada para el tema del viñedo.
   - **Tamaños:** 
-    - H1: 36px
-    - H2: 30px
-    - H3: 24px
-    - Texto de cuerpo: 16px
-    - Subtítulos y textos menores: 14px
+    - H1: 80px
+    - H2: 50px
+    - H3: 35px
+    - Texto de cuerpo: 25px
+    - Subtítulos y textos menores: 16px
 - **Fuente Secundaria:** 
   - **Nombre:** Open Sans (Sans-Serif) - Se utilizará para textos secundarios, botones, y etiquetas.
 
 **3) Colors**
 - **Backgrounds:**
   - Principal: Blanco (#FFFFFF) para la mayoría de las páginas.
-  - Secundario: Gris claro (#F5F5F5) para secciones diferenciadas.
+  - Secundario: Beige Suave (#F5F5DC) para secciones diferenciadas.
 - **Textos:**
-  - Primario: Gris oscuro (#333333) para el contenido principal.
-  - Secundario: Gris medio (#666666) para subtítulos y textos complementarios.
+  - Primario: Vino Tinto (#8B0000) para el contenido principal.
+  - Secundario: Negro (#000000) para subtítulos y textos complementarios.
 - **Elementos Interactivos:**
-  - Botones: Verde olivo (#556B2F) con texto en blanco (#FFFFFF).
+  - Botones: Oro Antiguo (#CFAE75) con texto en Marrón Bodega (#5D4037).
   - Hover: Burdeos (#800020) para resaltar interacciones.
 
 **4) Spacing**
