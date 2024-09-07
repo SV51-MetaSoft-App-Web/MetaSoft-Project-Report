@@ -239,9 +239,143 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
 
 ## 2.2. Entrevistas.
 
+En este punto el equipo realizará entrevistas a nuestros segmentos objetivos previamente
+identificados con el fin de poder conocer y empatizar con las necesidades de estos.
+
 
 ### 2.2.1. Diseño de entrevistas.
 
+### Preguntas para Productores de Vinos y Piscos Artesanales
+
+**1. Introducción (30 segundos)**
+
+   Saludo y Presentación 
+
+   Breve introducción tuya y del propósito de la entrevista. 
+
+   Asegurar confidencialidad y explicar el tiempo estimado.
+
+**2. Aspectos Demográficos (1 minuto)**
+   
+_**Datos Básicos**_
+
+* ¿Cuál es tu nombre y cuál es el nombre de tu empresa?
+
+* ¿Cuál es tu rol específico en la producción de vinos/piscos? 
+
+**_Ubicación_**
+
+* ¿Dónde está ubicada tu empresa o tu lugar de producción? 
+
+_**Experiencia**_
+
+* ¿Cuánto tiempo llevas en la industria de la producción de vinos/piscos?
+
+**3. Información General sobre el Negocio (1 minuto)**
+
+**_Tipo de Producto_**
+
+* ¿Qué tipo de vinos/piscos produces?
+
+**_Proceso de Producción_**
+
+* ¿Cuál es la etapa más desafiante de tu proceso de producción?
+
+**4. Desafíos y Necesidades (1 minuto)**
+   
+**_Desafíos_**
+
+* ¿Cuál es el mayor desafío que enfrentas en la producción?
+
+**_Necesidades_**
+
+* ¿Qué tipo de apoyo o recursos te gustaría tener para superar esos desafíos?
+
+**5. Uso de Tecnología (1 minuto)**
+
+**_Tecnología Actual_**
+
+* ¿Qué herramientas o tecnologías utilizas actualmente en tu producción?
+
+_**Interés en Nuevas Herramientas**_
+
+* ¿Estarías interesado en nuevas herramientas que te ayuden a gestionar tu producción? ¿Qué características te gustaría que tuvieran?
+
+**6. Cierre (30 segundos)**
+   
+_**Agradecimientos**_
+
+_**Agradecer al entrevistado por su tiempo**_
+
+**_Información de Contacto_**
+
+_**Preguntar si están dispuestos a ser contactados para más detalles o futuras pruebas.**_
+
+### Preguntas para Distribuidores de Vinos
+
+**1. Introducción (30 segundos)**
+
+_**Saludo y Presentación**_
+
+**_Breve presentación tuya y del propósito de la entrevista._**
+
+**_Explicar cómo se utilizará la información y asegurar confidencialidad._**
+
+**2. Aspectos Demográficos (1 minuto)**
+
+_**Datos Básicos**_
+
+* ¿Cuál es tu nombre y el nombre de tu empresa?
+
+* ¿Cuál es tu rol en la empresa?
+
+_**Ubicación**_
+
+* ¿Dónde está ubicada tu empresa o tu tienda?
+
+**_Experiencia_**
+
+* ¿Cuánto tiempo llevas en el negocio de la distribución de vinos?
+
+**3. Información General sobre el Negocio (1 minuto)**
+
+**_Tipo de Vinos_**
+
+* ¿Qué tipo de vinos compras y vendes (por ejemplo, nacionales, importados, artesanales)?
+
+**_Proceso de Adquisición_**
+
+* ¿Cómo decides qué vinos comprar y vender?
+
+**4. Desafíos y Necesidades (1 minuto)**
+
+**_Desafíos_**
+
+* ¿Cuál es el mayor desafío que enfrentas en la compra y venta de vinos?
+
+**_Necesidades_**
+
+* ¿Qué tipo de apoyo o recursos te gustaría tener para mejorar tu negocio de distribución?
+
+**5. Uso de Tecnología (1 minuto)**
+
+**_Tecnología Actual_**
+
+* ¿Qué herramientas o tecnologías utilizas para gestionar la compra y venta de vinos?
+
+**_Interés en Nuevas Herramientas_**
+
+* ¿Estás interesado en nuevas tecnologías o herramientas que podrían mejorar la gestión de tu negocio? ¿Qué características buscarías?
+
+**6. Cierre (30 segundos)**
+
+**_Agradecimientos_**
+
+_**Agradecer al entrevistado por su tiempo y participación.**_
+
+**_Información de Contacto_**
+
+**_Preguntar si están dispuestos a participar en futuras investigaciones o pruebas de producto.**_
 
 ### 2.2.2. Registro de entrevistas.
 
