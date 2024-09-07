@@ -375,10 +375,293 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
 
 **_Información de Contacto_**
 
-**_Preguntar si están dispuestos a participar en futuras investigaciones o pruebas de producto.**_
+**_Preguntar si están dispuestos a participar en futuras investigaciones o pruebas de producto._**
 
 ### 2.2.2. Registro de entrevistas.
 
+
+### Segmento objetivo 1: Productores de Vinos y Piscos Artesanales
+
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Nombre del entrevistado</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>ingresa edad</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>ingresa Distrito</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                </td>
+                <td>
+                <strong>
+                    Resumen:</strong><br>
+                    Escribe el resumen de la entrevista
+                </td>
+            </tr>
+            <tr>
+                <td>Tiempo que empieza</td>
+                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+            </tr>
+            <tr>
+                <td>Tiempo de la entrevista</td>
+                <td> Ejemplo -> 4:41min </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td> Ingresa URL </td>
+            </tr>
+        </tbody>
+</table>
+
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Nombre del entrevistado</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>ingresa edad</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>ingresa Distrito</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                </td>
+                <td>
+                <strong>
+                    Resumen:</strong><br>
+                    Escribe el resumen de la entrevista
+                </td>
+            </tr>
+            <tr>
+                <td>Tiempo que empieza</td>
+                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+            </tr>
+            <tr>
+                <td>Tiempo de la entrevista</td>
+                <td> Ejemplo -> 4:41min </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td> Ingresa URL </td>
+            </tr>
+        </tbody>
+</table>
+
+
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th>Nombre del entrevistado</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>ingresa edad</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>ingresa Distrito</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                </td>
+                <td>
+                <strong>
+                    Resumen:</strong><br>
+                    Escribe el resumen de la entrevista
+                </td>
+            </tr>
+            <tr>
+                <td>Tiempo que empieza</td>
+                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+            </tr>
+            <tr>
+                <td>Tiempo de la entrevista</td>
+                <td> Ejemplo -> 4:41min </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td> Ingresa URL </td>
+            </tr>
+        </tbody>
+</table>
+
+
+### Segmento objetivo 2: Distribuidores de Vinos
+
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Nombre del entrevistado</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>ingresa edad</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>ingresa Distrito</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                </td>
+                <td>
+                <strong>
+                    Resumen:</strong><br>
+                    Escribe el resumen de la entrevista
+                </td>
+            </tr>
+            <tr>
+                <td>Tiempo que empieza</td>
+                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+            </tr>
+            <tr>
+                <td>Tiempo de la entrevista</td>
+                <td> Ejemplo -> 4:41min </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td> Ingresa URL </td>
+            </tr>
+        </tbody>
+</table>
+
+
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Nombre del entrevistado</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>ingresa edad</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>ingresa Distrito</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                </td>
+                <td>
+                <strong>
+                    Resumen:</strong><br>
+                    Escribe el resumen de la entrevista
+                </td>
+            </tr>
+            <tr>
+                <td>Tiempo que empieza</td>
+                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+            </tr>
+            <tr>
+                <td>Tiempo de la entrevista</td>
+                <td> Ejemplo -> 4:41min </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td> Ingresa URL </td>
+            </tr>
+        </tbody>
+</table>
+
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th>Nombre del entrevistado</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>ingresa edad</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>ingresa Distrito</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                </td>
+                <td>
+                <strong>
+                    Resumen:</strong><br>
+                    Escribe el resumen de la entrevista
+                </td>
+            </tr>
+            <tr>
+                <td>Tiempo que empieza</td>
+                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+            </tr>
+            <tr>
+                <td>Tiempo de la entrevista</td>
+                <td> Ejemplo -> 4:41min </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td> Ingresa URL </td>
+            </tr>
+        </tbody>
+</table>
 
 ### 2.2.3. Análisis de entrevistas.
 
