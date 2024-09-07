@@ -217,62 +217,74 @@ Este wireframe incluirá las siguientes secciones:
 Este wireframe será el punto de partida para la creación del diseño visual y facilitará una experiencia de usuario cohesiva y efectiva.
 
 ### 4.3.2. Landing Page Mock-up.
-En esta sección, se presenta el Landing Page de nuestra aplicación web.
 
-**Hero de la Aplicación:** Con una imagen de fondo que resalta soluciones tecnológicas para la industria del vino y pisco, el hero incluye un botón de "¡Comienza ahora!", un título impactante y una breve descripción que presenta ElexirControl. Además, facilita la navegación por el informe con una barra que enlaza a las secciones clave, guiando al usuario de manera intuitiva a través de nuestras propuestas y soluciones innovadoras.
-![alt text](../assets/img/chapter-IV/hero.jpeg)
-Version inglés:
-![alt text](../assets/img/chapter-IV/hero-en.jpeg)
-Version Mobile:
-![alt text](../assets/img/chapter-IV/26.png)
-**Servicios de la Aplicación:** En esta sección se detallarán de forma clara y organizada los servicios que se ofrecen, utilizando un diseño que facilite la comprensión rápida de la información. Cada servicio estará acompañado de una breve descripción que inviten a los usuarios a explorar más detalles o ponerse en contacto.
-![alt text](../assets/img/chapter-IV/Servicios.jpeg)
-Version inglés:
-![alt text](../assets/img/chapter-IV/servicios-en.jpeg)
-Version Mobile:
-![alt text](../assets/img/chapter-IV/27.png)
+**Landing Page Mock-up de nuestra Web Application**
 
-**Acerca de la aplicación:** En esta sección dedicada a nuestra aplicación, ofrecemos una descripción de su propuesta de valor, destacando cómo la plataforma facilita la gestión del proceso productivo de vinos y pisco. La aplicación está diseñada para mejorar la eficiencia operativa y proporcionar herramientas clave que optimicen el rendimiento tanto de productores como de distribuidores. Además, incluimos una imagen de la interfaz de la aplicación y dos botones de acción visibles para descargar desde Google Play y la App Store, permitiendo a los usuarios acceder fácilmente desde cualquier dispositivo móvil.
-![alt text](<../assets/img/chapter-IV/Acerca de.jpeg>)
-Version inglés:
-![alt text](../assets/img/chapter-IV/About-en.jpeg)
-Version Mobile:
-![alt text](../assets/img/chapter-IV/28.png)
+**Hero de la aplicación** El hero de nuestra plataforma de vinos artesanales presenta una imagen de 
+fondo que resalta una botella de vino cuidadosamente seleccionada, junto a un botón de llamado a 
+la acción "¡Empiezza ahora!" que invita a los usuarios a explorar. Con un título atractivo 
+y una breve descripción, el hero captura la esencia de nuestra propuesta, mientras que una barra 
+de navegación permite acceder fácilmente a las diferentes secciones de la app, ofreciendo una experiencia
+inmersiva y fluida.
 
-**Nuestros planes:** En esta sección, presentamos las diferentes opciones de suscripción que ofrece nuestra aplicación, diseñadas para adaptarse a las necesidades de nuestros usuarios. Cada plan incluye un conjunto de características que permiten una experiencia personalizada y eficiente en la gestión del proceso productivo de vinos y pisco. Los usuarios pueden seleccionar el plan que mejor se ajuste a sus requerimientos, asegurando que siempre cuenten con las herramientas necesarias para optimizar su trabajo.
-![alt text](../assets/img/chapter-IV/planes.jpeg)
-Version inglés:
-![alt text](../assets/img/chapter-IV/planes-en.jpeg)
-Version Mobile:
-![alt text](../assets/img/chapter-IV/29.png)
-![alt text](../assets/img/chapter-IV/30.png)
-![alt text](../assets/img/chapter-IV/31.png)
+![section hero](../assets/img/chapter-IV/hero-english.png)
 
-**Testimonios de la Aplicación:** En esta sección, presentamos experiencias reales de nuestros clientes satisfechos. Cada testimonio incluye una imagen del cliente y una breve descripción que resalta cómo ElexirControl optimizó sus procesos productivos y de distribución, superando sus expectativas. Estos testimonios sirven como evidencia concreta de la calidad y el impacto positivo de nuestras soluciones, reforzando la confianza y credibilidad entre nuestros futuros clientes y demostrando nuestro compromiso con la excelencia y la innovación.
-![alt text](<../assets/img/chapter-IV/que dicen.jpeg>)
-Version inglés:
-![alt text](../assets/img/chapter-IV/Testimonios-en.jpeg)
-Version Mobile:
-![alt text](../assets/img/chapter-IV/32.png)
-![alt text](../assets/img/chapter-IV/33.png)
-**Contáctanos:** En esta sección, ofrecemos varias formas de ponerte en contacto con nuestro equipo para resolver cualquier duda o consulta que puedas tener. Estamos aquí para ayudarte y asegurar que tu experiencia con ElixirControl sea lo más fluida y satisfactoria posible.
-![alt text](../assets/img/chapter-IV/Contactanos.jpeg)
-Version inglés:
-![alt text](../assets/img/chapter-IV/contact-en.jpeg)
-Version Mobile:
-![alt text](../assets/img/chapter-IV/34.png)
-**Sobre el Equipo:** En esta sección, te invitamos a descubrir a las personas que hacen posible ElexirControl. Presentamos un video que ofrece una visión cercana y genuina de nuestro equipo, resaltando nuestras habilidades, experiencia y dedicación a la innovación tecnológica en la industria del vino. A través de este video, compartimos nuestra historia, valores y visión, revelando el espíritu y la esencia de nuestra empresa.
-![alt text](../assets/img/chapter-IV/Team.jpeg)
-Version inglés:
-![alt text](../assets/img/chapter-IV/sobre-en.jpeg)
-Version Mobile:
-![alt text](../assets/img/chapter-IV/35.png)
-**Footer de la aplicación:** En nuestro Footer, te ofrecemos un acceso para que puedan contactar con nosotros: nuestras redes sociales y otras formas de contacto. Nuestro logo distintivo se muestra de forma clara, esto junto a enlaces para que nos sigan en Twitter, Facebook e Instagram. También tendremos una sección para poder estar al tanto de las novedades que tenemos para ustedes.
-![alt text](../assets/img/chapter-IV/footer.jpeg)
-Version inglés:
-![alt text](../assets/img/chapter-IV/footer-en.jpeg)
-Version Mobile:
-![alt text](../assets/img/chapter-IV/36.png)
+
+
+**Services - Elixir Control**
+
+En esta sección de la landing page te mostramos los principales servicios de nuestra web app, diseñada para productores de vinos artesanales:
+
+![services-landing-page.png](../assets/img/chapter-IV/services-landing-page.png)
+
+
+
+**About the App - Elixir Control**
+
+En esta sección te presentamos lo que hace única a nuestra aplicación dedicada a la gestión de la producción de vinos artesanales. Nuestra plataforma ha sido diseñada pensando en las necesidades de pequeños productores, ofreciendo herramientas intuitivas y eficientes para mejorar la organización y el control de todo el proceso.
+
+![services-landing-page.png](../assets/img/chapter-IV/about-the-app-landing-page.png)
+
+
+
+**Our Plans - Elixir Control**
+
+En esta sección te mostramos los diferentes planes que ofrecemos, diseñados para adaptarse a las necesidades de todo tipo de productores de vinos artesanales, desde pequeños viñedos hasta operaciones más grandes:
+
+![plans-landing-page.png](../assets/img/chapter-IV/plans-landing-page.png)
+
+
+
+**Testimonials - Elixir Control**
+
+En esta sección compartimos las experiencias de nuestros usuarios, productores de vinos artesanales, que han transformado la gestión de sus negocios gracias a nuestra app:
+
+![testimonials-landing-page.png](../assets/img/chapter-IV/testimonials-landing-page.png)
+
+
+
+**Contact Us - Elixir Control**
+
+En esta sección te ofrecemos la posibilidad de ponerte en contacto con nosotros para obtener más información sobre nuestra app o resolver cualquier duda que tengas:
+
+![contact-us-landing-page.png](../assets/img/chapter-IV/contact-us-landing-page.png)
+
+
+
+**About the Team - Elixir Control**
+
+En esta sección te presentamos al equipo detrás de la app, un grupo de profesionales apasionados por el mundo del vino y la tecnología:
+
+![about-the-team-landing-page.png](../assets/img/chapter-IV/about-the-team-landing-page.png)
+
+
+
+**Footer - Elixir Control**
+
+En el footer de nuestra landing page encontrarás enlaces útiles y recursos adicionales para que puedas explorar más sobre nuestra app y los servicios que ofrecemos:
+
+![footer-landing-page.png](../assets/img/chapter-IV/footer-landing-page.png)
+
 ## 4.4. Web Applications UX/UI Design.
 
 ### 4.4.1. Web Applications Wireframes.
