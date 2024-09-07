@@ -813,7 +813,10 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
 
 
 ## 3.3. Impact Mapping.
-
+**Ruben flores**
+![rfiM](../assets/img/chapter-III/RFIM.png)
+**Camila Ramos**
+![CRIM](<../assets/img/chapter-III/CR  IM.png>)
 
 ## 3.4. Product Backlog.
 
