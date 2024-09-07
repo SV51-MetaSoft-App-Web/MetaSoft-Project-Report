@@ -254,8 +254,8 @@ Luego de haber realizado el análisis de nuestra solución con respecto a soluci
 La identificación y comprensión profunda de las necesidades de los usuarios es crucial para el éxito de ElixirControl, una plataforma diseñada para la gestión del proceso productivo en la industria del vino y pisco. Mediante un enfoque meticuloso de *needfinding*, se recolecta y analiza información clave sobre las operaciones y desafíos específicos que enfrentan tanto los productores de vino como los distribuidores de pisco. Este enfoque permite descubrir puntos críticos y oportunidades significativas que informan el desarrollo y diseño de la solución. Al explorar a fondo los comportamientos, preferencias y dificultades de estos usuarios, ElixirControl se orienta a crear una herramienta que no solo optimiza la eficiencia, sino que también proporciona una experiencia de usuario adaptada y sencilla. Los perfiles de usuario (*user personas*) que guían este desarrollo están basados en los perfiles detallados de productores y distribuidores, asegurando que la plataforma satisfaga de manera precisa sus necesidades específicas y maximice su efectividad en el sector.
 
 ### 2.3.1. User Personas.
-![UPRF](../assets/img/chapter-II/UPRF.png)
-![UPCR](../assets/img/chapter-II/UPCR.png)
+![UPRF](<../assets/img/chapter-II/Ruben Flores_UP.png>)
+![UPCR](<../assets/img/chapter-II/Camila Ramos_UP.png>)
 ### 2.3.2. User Task Matrix.
 
 <body>
@@ -273,21 +273,21 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
             <th>Importancia</th>
         </tr>
         <tr>
-            <td>Actualiza inventario para mantener niveles adecuados de materiales y productos.	</td>
+            <td>Agregar o editar información de clientes.</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Media</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Supervisa la vinificación para garantizar la calidad del vino.</td>
+            <td>SSupervisar y gestionar pedidos recibidos.</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Baja</td>
             <td>Media</td>
         </tr>
         <tr>
-            <td>Sigue los pedidos para asegurar entregas puntuales.</td>
+            <td>Ver el detalle del pedido	</td>
             <td>Media</td>
             <td>Alta</td>
             <td>Alta</td>
@@ -301,62 +301,54 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
             <td>Alta</td>  
         </tr>
         <tr>
-            <td>Planifica la producción según la demanda y recursos.</td>
+            <td>Gestionar el historial de ventas y pedidos.</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Media</td>
             <td>Media</td>  
         </tr>
         <tr>
-            <td>Analiza costos para optimizar y rentabilizar.</td>
+            <td>Generar reportes de inventario y ventas.</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Media</td>
             <td>Alta</td>  
         </tr>
         <tr>
-            <td>Explora nuevas oportunidades de mercado.</td>
+            <td>Realizar pedidos a productores.</td>
             <td>Media</td>
             <td>Media</td>
             <td>Alta</td>
             <td>Alta</td>  
         </tr>
         <tr>
-            <td>Evalúa nuevas tecnologías para mejorar la eficiencia.</td>
+            <td>Asegurar la calidad de los productos enviados.</td>
             <td>Baja</td>
             <td>Media</td>
             <td>Baja</td>
             <td>Media</td>  
         </tr>
         <tr>
-            <td>Asegura la satisfacción del cliente con productos y servicios.</td>
+            <td>Buscar nuevos clientes para expandir el negocio.</td>
             <td>Media</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Alta</td>  
-        </tr>
-        <tr>
-            <td>Verifica que los productos cumplan con los estándares de calidad.</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Baja</td>
-            <td>Media</td>  
         </tr>
     </table>
 </body>
 
 ### 2.3.3. User Journey Mapping.
 **Ruben Flores**
-![ UJMRF](../assets/img/chapter-II/UJMRF.png)
+![RFJM](<../assets/img/chapter-II/Ruben Flores-UJM.png>)
 **Camila Ramos**
-![UJRCR](../assets/img/chapter-II/UJRCR.png)
+![CRUJ](<../assets/img/chapter-II/Camila Ramos_UJM.png>)
 
 ### 2.3.4. Empathy Mapping.
 **Ruben Flores**
-![EMRF](../assets/img/chapter-II/EMRF.png)
+![RFEM](../assets/img/chapter-II/RF_EM.png)
 **Camila Ramos**
-![EMCR](../assets/img/chapter-II/EMCR.png)
-
+![CMEM](../assets/img/chapter-II/Camila-EM.png)
 ### 2.3.5. As-is Scenario Mapping.
 **Ruben Flores**
 ![SCRF](<../assets/img/chapter-II/Scenario Mapping RF.jpg>)
@@ -368,6 +360,8 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
 El **Ubiquitous Language** es esencial en el desarrollo de software para garantizar una comunicación clara entre todos los miembros del equipo y los stakeholders. Este glosario de términos específicos del dominio asegura que todos estén alineados y evita malentendidos, facilitando una colaboración efectiva y el cumplimiento de las necesidades del negocio.
 
 Glosario:
+
+### Ubiquitous Language - ElixirControl
 
 - **Inventory Management (Gestión de Inventario):** Supervisión y control de niveles de inventario para asegurar disponibilidad oportuna de productos y materiales, incluyendo recepción, almacenamiento y despacho.
 
