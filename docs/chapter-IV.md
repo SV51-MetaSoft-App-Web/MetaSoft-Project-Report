@@ -196,23 +196,61 @@ El wireframe de la página de aterrizaje es una representación visual básica q
 
 Este wireframe incluirá las siguientes secciones:
 
-**Encabezado:** Incluirá el logotipo de la empresa junto con un eslogan o mensaje breve para captar la atención de los usuarios desde el primer momento. También puede incorporar un menú de navegación que permita un acceso fácil a las diferentes secciones de la página.
 
-**Inicio:** Esta sección brindará una breve descripción del producto o servicio principal, acompañada de un llamado a la acción destacado. Puede incluir imágenes o videos que refuercen el valor de lo que se ofrece.
+**Nav y Hero:** 
 
-**Servicios:** Aquí se describirán los servicios proporcionados, con una breve explicación de cada uno. Se pueden agregar iconos o elementos gráficos para hacer más comprensible y visual la oferta de servicios.
+Incluirá el logotipo de la empresa junto con un eslogan o mensaje breve para captar la atención de los usuarios desde el primer momento. También puede incorporar un menú de navegación que permita un acceso fácil a las diferentes secciones de la página.
 
-**Acerca de:** Esta área explicará la historia de la empresa, su misión y valores, proporcionando información que genere confianza en los visitantes y les ayude a entender la visión del proyecto.
+Esta sección brindará una breve descripción del producto o servicio principal, acompañada de un llamado a la acción destacado. Puede incluir imágenes o videos que refuercen el valor de lo que se ofrece.
 
-**Precios:** En esta sección se mostrarán los diferentes planes y tarifas disponibles, destacando las características de cada opción para ayudar a los usuarios a tomar decisiones más informadas.
+![nav-hero-wireframe-landing-page.png](../assets/img/chapter-IV/nav-hero-wireframe-landing-page.png)
 
-**Testimonios:** Incluirá reseñas o comentarios de clientes satisfechos, mostrando experiencias positivas. Incluir fotos o nombres puede agregar un toque personal y aumentar la credibilidad.
 
-**Contacto:** Proporcionará un formulario de contacto simple, con campos para el nombre, correo electrónico y mensaje. También puede ofrecer información adicional, como enlaces a redes sociales o un número de teléfono.
 
-**Equipo:** En esta sección se presentará al equipo detrás del proyecto, con fotos, nombres y descripciones breves de sus roles, para humanizar la marca y generar una mayor conexión con los usuarios.
+**Servicios:** 
 
-**Footer:** El pie de página contendrá enlaces esenciales como "Términos y Condiciones", "Contacto de la Empresa" y una sección titulada "Más", donde se podrán incluir enlaces adicionales a recursos relevantes o páginas secundarias. Este footer proporcionará un acceso rápido a información clave sin sobrecargar la interfaz, ofreciendo un final limpio y funcional para la página de destino.
+Aquí se describirán los servicios proporcionados, con una breve explicación de cada uno. Se pueden agregar iconos o elementos gráficos para hacer más comprensible y visual la oferta de servicios.
+
+![services-wireframe-landing-page.png](../assets/img/chapter-IV/services-wireframe-landing-page.png)
+
+
+
+**Acerca de la aplicación:** 
+
+En esta sección te presentamos lo que hace única a nuestra aplicación dedicada a la gestión de la producción de vinos artesanales. Nuestra plataforma ha sido diseñada pensando en las necesidades de pequeños productores, ofreciendo herramientas intuitivas y eficientes para mejorar la organización y el control de todo el proceso.
+
+![about-the-app-wireframe-landing-page.png](../assets/img/chapter-IV/about-the-app-wireframe-landing-page.png)
+
+**Precios:** 
+
+En esta sección se mostrarán los diferentes planes y tarifas disponibles, destacando las características de cada opción para ayudar a los usuarios a tomar decisiones más informadas.
+
+![plans-wireframe-landing-page.png](../assets/img/chapter-IV/plans-wireframe-landing-page.png)
+
+**Testimonios:** 
+
+Incluirá reseñas o comentarios de clientes satisfechos, mostrando experiencias positivas. Incluir fotos o nombres puede agregar un toque personal y aumentar la credibilidad.
+
+![testimonials-wireframe-landing-page.png](../assets/img/chapter-IV/testimonials-wireframe-landing-page.png)
+
+**Contacto:** 
+
+Proporcionará un formulario de contacto simple, con campos para el nombre, correo electrónico y mensaje. También puede ofrecer información adicional, como enlaces a redes sociales o un número de teléfono.
+
+![contact-us-wireframe-landing-page.png](../assets/img/chapter-IV/contact-us-wireframe-landing-page.png)
+
+**Sobre el Equipo:** 
+
+En esta sección se presentará al equipo detrás del proyecto, con fotos, nombres y descripciones breves de sus roles, para humanizar la marca y generar una mayor conexión con los usuarios.
+
+![about-the-team-wireframe-landing-page.png](../assets/img/chapter-IV/about-the-team-wireframe-landing-page.png)
+
+**Footer:**
+
+El pie de página contendrá enlaces esenciales como "Términos y Condiciones", "Contacto de la Empresa" y una sección titulada "Más", donde se podrán incluir enlaces adicionales a recursos relevantes o páginas secundarias. Este footer proporcionará un acceso rápido a información clave sin sobrecargar la interfaz, ofreciendo un final limpio y funcional para la página de destino.
+
+![footer-wireframe-landing-page.png](../assets/img/chapter-IV/footer-wireframe-landing-page.png)
+
 
 Este wireframe será el punto de partida para la creación del diseño visual y facilitará una experiencia de usuario cohesiva y efectiva.
 
@@ -287,35 +325,79 @@ En el footer de nuestra landing page encontrarás enlaces útiles y recursos adi
 
 ## 4.4. Web Applications UX/UI Design.
 
+El objetivo de esta sección Web Applications UX/UI Design es detallar el enfoque y las estrategias utilizadas en el diseño de la experiencia y la interfaz de usuario para la aplicación web. Se busca explicar cómo las decisiones tomadas en términos de diseño visual y funcionalidad contribuyen a mejorar la usabilidad, accesibilidad y satisfacción del usuario final. Además, se pretende mostrar cómo estos elementos de diseño ayudan a cumplir los objetivos comerciales del proyecto, asegurando una interacción fluida y eficiente para los usuarios en diferentes dispositivos.
+
 ### 4.4.1. Web Applications Wireframes.
+
 En esta sección se muestran los wireframes realizados para nuestro Web Application.
 
-Login - Elixir Control
+**Login - Elixir Control**
+
+En este apartado se deberá mostrar opciones de inicio de sesión, las dos formas de inicio de sesión son como distribuidor y como productor.
+
 ![text](../assets/img/chapter-IV/1.png) 
-Login -Distribuidor - Elixir Control
+
+**Login - Distribuidor - Elixir Control** 
+
+En el caso del login de distribuidor, se deberá mostrar un formulario de inicio de sesión con los campos negocio al que se encuentra asociado y código de usuario.
+
 ![text](../assets/img/chapter-IV/2.png) 
-Historial Pedido - Elixir Control
-![text](../assets/img/chapter-IV/4.png) 
-Realizar pedidos - Elixir Control
-![text](../assets/img/chapter-IV/3.png) 
-Inicio de sesión- Productor Elixir Control
-![text](../assets/img/chapter-IV/5.png) 
-Registrar - Productor  - Elixir Control
-![text](../assets/img/chapter-IV/6.png) 
-Login - Elixir Control
-![text](../assets/img/chapter-IV/7.png) 
-Inventario - Elixir Control
+
+**Inicio de sesión - Productor Elixir Control**
+
+En el caso del login de productor de vinos y piscos artesanales, se deberá mostrar un formulario de inicio de sesión con los campos email y contraseña.
+
+![text](../assets/img/chapter-IV/5.png)
+
+**Registrar - Productor  - Elixir Control**
+
+En esta sección se deberá mostrar un formulario para registrar nuevos productores de vinos y piscos artesanales, con campos para ingresar información personal, de contacto y de la empresa.
+
+![text](../assets/img/chapter-IV/6.png)
+
+**Historial Pedido - Elixir Control**
+
+Este apartado deberá mostrar el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
+
+![text](../assets/img/chapter-IV/3.png)
+
+**Realizar pedidos - Elixir Control**
+
+En esta sección se deberá mostrar un formulario para realizar pedidos de productos, con la opción de seleccionar el producto, cantidad y fecha de entrega, forma de transporte, medio de pago, etc.
+
+![text](../assets/img/chapter-IV/4.png)
+
+
+**Inventario - Elixir Control**
+
+En este apartado el productor podrá visualizar el inventario de productos disponibles, con la opción de agregar, editar o eliminar productos, así como ver detalles de cada producto.
+
 ![text](../assets/img/chapter-IV/8.png) 
-Agregar - Editar - Clientes - Elixir Control
+
+**Mis Clientes - Elixir Control**
+
+En esta sección se deberá mostrar una lista de clientes asociados al productor, con la opción de ver detalles de cada cliente, editar la información y eliminar clientes.
+
+![text](../assets/img/chapter-IV/11.png)
+
+**Agregar - Editar - Clientes - Elixir Control**
+
+En esta sección se deberá mostrar un formulario para agregar o editar clientes, con campos para ingresar información personal, de contacto y de la empresa.
+
 ![text](../assets/img/chapter-IV/9.png) 
-Detalle Clientes - Elixir Control
-![text](../assets/img/chapter-IV/10.png) 
-Mis Clientes - Elixir Control
-![text](../assets/img/chapter-IV/11.png) 
-Detalle del Pedido - Elixir Control
+
+**Detalle Clientes - Elixir Control**
+
+En este apartado se deberá mostrar los detalles de un cliente específico, con la opción de editar la información, ver historial de pedidos y eliminar el cliente.
+
+![text](../assets/img/chapter-IV/10.png)
+
+**Detalle del Pedido - Elixir Control**
+
+En esta sección se deberá mostrar los detalles de un pedido específico, con la opción de actualizar el estado del pedido, ver información del cliente y productos solicitados.
+
 ![text](../assets/img/chapter-IV/12.png) 
-Mis Pedidos - Elixir Control
-![text](../assets/img/chapter-IV/13.png)
+
 <!-- falta wireframe version mobile-->
 
 
@@ -323,44 +405,101 @@ Mis Pedidos - Elixir Control
 
 
 ### 4.4.2. Web Applications Mock-ups.
+
 En esta sección se muestran los mock-ups realizados para nuestro Web Application.
 
-Login - Elixir Control
+**Login - Elixir Control**
+
+En esta sección se muestra el diseño del login de la aplicación web, con opciones para iniciar sesión como distribuidor o productor de vinos y piscos artesanales.
+
 ![alt text](../assets/img/chapter-IV/14.png)
-Login -Distribuidor - Elixir Control 
+
+**Login -Distribuidor - Elixir Control** 
+
+En el caso del login de distribuidor, se muestra un formulario de inicio de sesión con los campos negocio al que se encuentra asociado y código de usuario.
+
 ![alt text](../assets/img/chapter-IV/15.png)
-Historial Pedido - Elixir Control 
+
+**Historial Pedido - Elixir Control** 
+
+En esta sección se muestra el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
+
 ![alt text](../assets/img/chapter-IV/16.png) 
-Realizar pedidos - Elixir Control
+
+**Realizar pedidos - Elixir Control**
+
+Aquí se muestra el formulario para realizar pedidos de productos, con la opción de seleccionar el producto, cantidad y fecha de entrega, forma de transporte, medio de pago, etc.
+
 ![alt text](../assets/img/chapter-IV/17.png) 
-Inicio de sesión- Productor Elixir Control
+
+**Inicio de sesión- Productor Elixir Control**
+
+En el caso del login de productor de vinos y piscos artesanales, se muestra un formulario de inicio de sesión con los campos email y contraseña.
+
 ![alt text](../assets/img/chapter-IV/18.png) 
-Registrar - Productor  - Elixir Control
+
+**Registrar - Productor  - Elixir Control**
+
+En esta sección se muestra un formulario para registrar nuevos productores de vinos y piscos artesanales, con campos para ingresar información personal, de contacto y de la empresa.
+
 ![alt text](../assets/img/chapter-IV/19.png) 
-Inventario - Elixir Control
+
+**Inventario - Elixir Control**
+
+Aquí el productor puede visualizar el inventario de insumos disponibles para el proceso productivo, con la opción de agregar, editar o eliminar productos, así como ver detalles de cada producto.
+
 ![alt text](../assets/img/chapter-IV/20.png) 
-Mis Clientes - Elixir Control
+
+**Mis Clientes - Elixir Control**
+
+En esta sección se muestra una lista de clientes asociados al productor, con la opción de ver detalles de cada cliente, editar la información y eliminar clientes.
+
 ![alt text](../assets/img/chapter-IV/21.png) 
-Agregar - Editar - Clientes - Elixir Control
+
+**Agregar - Editar - Clientes - Elixir Control**
+
+En esta sección se muestra un formulario para agregar o editar clientes, con campos para ingresar información personal, de contacto y de la empresa.
+
 ![alt text](../assets/img/chapter-IV/22.png) 
+
 Detalle Clientes - Elixir Control
+
+En este apartado se muestra los detalles de un cliente específico, con la opción de editar la información, ver historial de pedidos y eliminar el cliente.
+
 ![alt text](../assets/img/chapter-IV/23.png) 
+
 Mis Pedidos - Elixir Control
+
+En esta sección se muestra el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
+
 ![alt text](../assets/img/chapter-IV/24.png)
-Detalle del Pedido - Elixir Control 
+
+Detalle del Pedido - Elixir Control
+
+En esta sección se muestra los detalles de un pedido específico, con la opción de actualizar el estado del pedido, ver información del cliente y productos solicitados.
+
 ![alt text](../assets/img/chapter-IV/25.png) 
+
 <!-- falta mockup version mobile-->
+
+### Mock-ups Version Mobile
+
 En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.
 
 <p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Login - Elixir Control (2).png" width="250"></img> </p>
-<p align = "center"> <img src="../
-assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Login -Distribuidor - Elixir Control.png" width="250"></img> </p>
+
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Login -Distribuidor - Elixir Control.png" width="250"></img> </p>
+
 <p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Historial Pedido - Elixir Control.png" width="250"></img> </p>
 
 <p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Historial Pedido - Elixir Control (1).png" width="250"></img> </p>
+
 <p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Historial Pedido - Elixir Control (2).png" width="250"></img> </p>
+
 <p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Realizar pedidos - Elixir Control.png" width="250"></img> </p>
+
 <p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Realizar pedidos - Elixir Control (1).png" width="250"></img> </p>
+
 <p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Inicio de sesión- Productor Elixir Control.png" width="250"></img> </p>
 
 <p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Registrar - Productor  - Elixir Control.png" width="250"></img> </p>
@@ -499,7 +638,7 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 
 ---
 
-### Categoria
+### Tipo de producto
 | Atributos           | Tipos    |
 |---------------------|----------|
 | id                  | int      |
@@ -515,7 +654,7 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 
 ---
 
-### Proveedor
+### Distribuidor
 | Atributos           | Tipos    |
 |---------------------|----------|
 | id                  | int      |
@@ -573,8 +712,6 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 | fechaInicio         | datetime |
 | fechaFin            | datetime |
 | estado              | string   |
-| temperatura         | decimal  |
-| humedad             | decimal  |
 | observaciones       | string   |
 
 | Métodos             | Descripción                            |
@@ -583,26 +720,6 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 | finalizarProceso(procesoID) | Finaliza un proceso productivo y registra la fecha de finalización. |
 | obtenerEstadoProceso(procesoID) | Obtiene el estado actual de un proceso productivo específico. |
 | registrarObservaciones(procesoID, observaciones) | Registra observaciones sobre el proceso productivo. |
-
----
-
-### InformeCalidad
-| Atributos           | Tipos    |
-|---------------------|----------|
-| id                  | int      |
-| procesoID           | int      |
-| fechaInforme        | datetime |
-| calidad             | string   |
-| observaciones       | string   |
-| resultadoPruebas    | string   |
-| usuarioID           | int      |
-
-| Métodos             | Descripción                            |
-|---------------------|----------------------------------------|
-| generarInforme(procesoID) | Genera un nuevo informe de calidad asociado a un proceso productivo. |
-| actualizarInforme(informeID, calidad, observaciones) | Actualiza un informe de calidad existente. |
-| eliminarInforme(informeID) | Elimina un informe de calidad utilizando su ID. |
-| obtenerDetallesInforme(informeID) | Devuelve los detalles de un informe de calidad específico. |
 
 ---
 ## 4.8. Database Design.
