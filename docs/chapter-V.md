@@ -1239,6 +1239,16 @@ En el pie de página (Footer), se incluyen enlaces a las redes sociales de Elixi
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+En esta entrega, nuestra meta principal fue la implementación de la Landing Page. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de commits realizadas por cada integrante del equipo durante el desarrollo de la landing page.
+
+![tb1-pulse.png](../assets/img/chapter-V/sprint-1/tb1-pulse.png)
+
+Los siguientes gráficos ofrecen una representación visual de las clonaciones registradas en nuestro repositorio, junto con la fecha en que cada una de estas acciones se llevó a cabo. Además, se presenta información sobre la cantidad de visitantes que ha tenido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![tb1-traffic.png](../assets/img/chapter-V/sprint-1/tb1-traffic.png)
+
 
 ## 6. Conclusiones, Bibliografía y Anexos.
 
