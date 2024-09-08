@@ -555,7 +555,7 @@ En esta seccion se demostrará el diagrama de clases junto con la aplicación de
 
 ### 4.7.1. Class Diagrams.
 
-<p align = "center"> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/Class Diagram UML - ElixirControl.png"> </p>
+<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/Class%20Diagram%20UML%20-%20ElixirControl.png"> </p>
 
 
 ### 4.7.2. Class Dictionary.
@@ -877,7 +877,7 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 
 ### 4.8.1. Database Diagram
 
-<p align = "center"> <img width="800" alt="Databe Diagram" src="../assets/img/chapter-IV/Database Diagram - ElixirControl.png"> </p>
+<p> <img width="800" alt="Database Diagram" src="../assets/img/chapter-IV/Class_Diagram_Elixir.png"> </p>
 
 
 
