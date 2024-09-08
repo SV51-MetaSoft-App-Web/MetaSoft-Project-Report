@@ -90,7 +90,7 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 5-->
             <td> 
-            <img src="assets/img/chapter-I/oscar_armas.jpg" height="120" alt="">
+            <img src="../assets/img/chapter-I/oscar_armas.jpg" height="120" alt="">
               Oscar Javier Armas Sánchez - U20211G192
             <br> 
             </td>
