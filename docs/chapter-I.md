@@ -48,7 +48,7 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
             <td>
-              Estudio la carrera de Ingenieria de Software en la UPC. Soy una persona creativa que le gusta aprender nuevos horizontes, me esfuerzo cada dia para poder lograr mis objetivos
+              Estudio la carrera de Ingenieria de Software en la UPC. Soy una persona creativa que le gusta aprender nuevos horizontes, me esfuerzo cada dia para poder lograr mis objetivos.
             </td>
             <!-- CONOCIMIENTOS del integrante 2-->
             <td>
@@ -58,13 +58,19 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 3-->
             <td> 
-            <img src="" height="120" alt="">
+            <img src="assets/img/chapter-I/juan paul.PNG" height="120" alt="Juan Paul">
+            Juan Paul Llamccaya Arone -
+            U20193571
             <br>
             </td>
             <!-- DESCRIPCIÓN del integrante 3-->
-            <td> </td>
+            <td> 
+              Estudio la carrera de Ingenieria de Software en la UPC. Soy una persona que le gusta siempre aprender nuevos conocimientos que me pueden llevar a convertirme en un gran profesional, asi poder cada dia cumplir mis metas.
+            </td>
             <!-- CONOCIMIENTOS del integrante 3-->
-            <td></td>
+            <td>
+              Tengo experiencia en programación en C++ (CLI), en programación orientada a objetos (POO), y en desarrollo web utilizando HTML, JavaScript y CSS. Además, poseo conocimientos en diseño de UX, en el uso de Packet Tracer, SQL y Python.
+            </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 4-->
