@@ -513,6 +513,14 @@ En esta sección se muestran los mock-ups realizados para nuestro Web Applicatio
 
 ## 4.5. Web Applications Prototyping.
 
+El prototipado de aplicaciones web es esencial porque permite visualizar y probar el diseño y la funcionalidad de una aplicación antes de su desarrollo completo. Este proceso es clave para detectar posibles problemas de usabilidad y asegurar que el producto final cumpla con las expectativas de los usuarios y clientes.
+
+![prototype-elixir-control-v1.png](../assets/img/chapter-IV/v1-prototype-elixir-control.png)
+
+Enlace del video: 
+[Prototype ElixirControl - MetaSoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EQ3ShXzJBlJAllrQ9SJ3yY8Bacs6SF9dXo-7o_dXhgiZYw?e=6Lgnwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Enlace figma: https://www.figma.com/proto/Y3N76wEYD84NW2D4C51ezz/MetaSoft-App-Web-SV51?node-id=352-2190&node-type=CANVAS&t=qUWLH78JsfTLa3Pl-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=352%3A2190
 
 ## 4.6. Domain-Driven Software Architecture.
 
