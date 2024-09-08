@@ -516,24 +516,28 @@ En esta sección se muestran los mock-ups realizados para nuestro Web Applicatio
 
 ## 4.6. Domain-Driven Software Architecture.
 
+Se trata de un enfoque en el diseño de software que pone énfasis en la comprensión y diseño profundo del área de aplicación. Su objetivo es desarrollar software que satisfaga las necesidades del negocio de manera precisa.
 
 ## 4.6.1. Software Architecture Context Diagram.
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94695-SystemContext-001.png"> </p>
+El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software ElixirControl, los usuarios y sistemas externos.
+
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-SystemContext-001 (2).png"> </p>
 
 <p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 ### 4.6.2. Software Architecture Container Diagrams.
+El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones y fuentes de datos en el sistema ElixirControl. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94695-Container-001 (1).png"> </p>
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-Container-001 (1).png"> </p>
 
 <p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 
 ### 4.6.3. Software Architecture Components Diagrams.
+Los diagramas de componentes proporcionan una perspectiva sobre las interrelaciones de los elementos principales del sistema de software, describiendo cómo se implementan los módulos respectivos en el programa.
 
-
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94695-Component-001 (1).png"> </p>
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-Component-001 (1).png"> </p>
 
 <p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
