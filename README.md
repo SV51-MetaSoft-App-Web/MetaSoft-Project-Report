@@ -319,8 +319,8 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
                 agregando las secciones consecuentes que se requeria. Dando asi, la culminacion de esta primera entrega.
             <!--Siguiente-->
             <br> <br>
-            <strong>Estudiante 3: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Jhordi Luis Carranza Pérez: </strong> 
+            <br> El desarrollo de esta primera parte del trabajo marcó un lazo importante entre los integrantes del equipo, la expresión de ideas claras y comunicación acertiva nos ayudó a poder desarrollar el proyecto de la mejor manera posible. 
             <!--Siguiente-->
             <br> <br>
             <strong>Estudiante 4: </strong> 
@@ -372,8 +372,8 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <br> Durante la elaboracion del Landing Page, he apoyando con el desarrollo de la App web y Mobile Wireframes. Ya que, mantuve una comunicacion acertiva y planificando una solucion ágil en nuestros objetivos colaborativos. 
             <!--Siguiente-->
             <br> <br>
-            <strong>Estudiante 3: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Jhordi Luis Carranza Pérez: </strong> 
+            <br> Durante la elbaoración previa al diseño del entorno general de la plataforma, se analizó de manera concreta el estilo general que esta llevaría: colores primarios y secundarios, tamañios de fuente, ubicación de iconos y botones, fonts y demás consideraciones. En conjunto con el equipo de trabajo se logró desarrollarlo de manera efectiva gracias a la comunicación constante y la ayuda mutua.
             <!--Siguiente-->
             <br> <br>
             <strong>Estudiante 4: </strong> 
