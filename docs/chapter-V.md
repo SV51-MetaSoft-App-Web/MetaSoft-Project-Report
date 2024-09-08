@@ -874,192 +874,240 @@ gestionamos las tareas en Jira Software.
         </tr>
         <!--FILA 3-->
         <tr>
+            <td rowspan="4" >US-001</td>
+            <td rowspan="4" >Hipervínculos en el encabezado</td>
+            <td>T001</td>
+            <td>Definir enlaces del encabezado	</td>
+            <td>Identificar y organizar los enlaces del encabezado.	</td>
+            <td>1</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Done</td>
         </tr>
         <!--FILA 4-->
         <tr>
+            <td>T002</td>
+            <td>Implementar hipervínculos</td>
+            <td>Añadir hipervínculos en HTML</td>
+            <td>1</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Done</td>
         </tr>
         <!--FILA 5-->
         <tr>
+            <td>T003</td>
+            <td>Estilizar con CSS	</td>
+            <td>Aplicar estilos básicos a los enlaces del encabezado</td>
+            <td>2</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Done</td>
         </tr>
         <!--FILA 6-->
         <tr>
+            <td>T004</td>
+            <td>Pruebas de funcionamiento	</td>
+            <td>Asegurarse de que los hipervínculos funcionen correctamente.	</td>
+            <td>1</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Done</td>
         </tr>
         <!--FILA 7-->
         <tr>
+            <td rowspan="3"> US-002	</td>
+            <td rowspan="3">Información sobre beneficios o servicios de la app</td>
+            <td> T005 </td>
+            <td>Recopilar información de beneficios</td>
+            <td>Obtener y redactar la información sobre los beneficios de la aplicación.</td>
+            <td>2</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Done</td>
         </tr>
         <!--FILA 8-->
         <tr>
+            <td>T006</td>
+            <td>Implementar en el sitio	</td>
+            <td>Incluir la información de beneficios en la página correspondiente.	</td>
+            <td>2</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Done</td>
         </tr>
         <!--FILA 9-->
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>T007</td>
+            <td>Pruebas de visualización	</td>
+            <td>Asegurarse de que la información esté visible y bien organizada.	</td>
+            <td>1</td>
+            <td></td> 
+            <td>Done</td>
         </tr>
+        <!--FILA 10-->
+        <tr>
+            <td rowspan="3"> US-003	</td>
+            <td rowspan="3">Mostrar los planes disponibles</td>
+            <td> T008 </td>
+            <td>Definir estructura de precios</td>
+            <td>Establecer la estructura de precios a seguir en la sección.</td>
+            <td>4</td>
+            <td></td>
+            <td>Done</td>
+        </tr>
+        <!--FILA 11-->  
+        <tr>
+            <td>T009</td>
+            <td>Implementar la funcionalidad de los planes	</td>
+            <td>Crear la estructura de precios en HTML.</td>
+            <td>2</td>
+            <td></td>
+            <td>Done</td>
+        </tr> 
+        <!--FILA 12-->  
+        <tr>
+            <td>T010</td>
+            <td>Estilizar con CSS	</td>
+            <td>Aplicar estilos a la estructura de precios.</td>
+            <td>2</td>
+            <td></td>
+            <td>Done</td>
+        </tr>
+        <!--FILA 13-->
+        <tr>
+            <td rowspan="5"> US-004	</td>
+            <td rowspan="5">Información util en el footer </td>
+            <td> T011 </td>
+            <td>Recopilar opiniones</td>
+            <td>Obtener y redactar opiniones de usuarios.</td>
+            <td>2</td>
+            <td></td>
+            <td>Done</td>
+        </tr> 
+        <!--FILA 14-->
+        <tr>
+            <td>T012</td>
+            <td>Recopilar información útil	</td>
+            <td>Organizar y decidir qué información incluir en el footer.	</td>
+            <td>1</td>
+            <td></td>
+            <td>Done</td>
+        </tr>
+        <!--FILA 15-->  
+        <tr>
+            <td>T013</td>
+            <td>Implementar contenido en el footer</td>
+            <td>Añadir la información útil al footer.	</td>
+            <td>1</td>
+            <td></td>
+            <td>Done</td>
+        </tr>
+        <!--FILA 16-->
+        <tr>
+            <td>T014</td>
+            <td>Estilizar footer</td>
+            <td> Dar estilo y formato al footer utilizando CSS.</td>
+            <td>1</td>
+            <td></td>
+            <td>Done</td>   
+        </tr>
+        <!--FILA 17-->  
+        <tr>
+            <td> T015 </td>
+            <td>Pruebas de visualización</td>
+            <td>Verificar que la información sea clara y legible.	</td>
+            <td>1</td>
+            <td></td>
+            <td>Done</td> 
+        </tr>
+        <tr>
+            <td rowspan="4"> US-005	</td>
+            <td rowspan="4">Información sobre el producto	</td>
+            <td> T016 </td>
+            <td>Definir contenido sobre el producto	</td>
+            <td>Recopilar y escribir la información relevante sobre el producto.	</td>
+            <td>2</td>
+            <td></td>
+            <td>Done</td>
+        </tr> 
+        <!--FILA 14-->
+        <tr>
+            <td>T017</td>
+            <td>Implementar el contenido en el sitio	</td>
+            <td>Incluir la información en la página adecuada.</td>
+            <td>2</td>
+            <td></td>
+            <td>Done</td>
+        </tr>
+        <!--FILA 15-->  
+        <tr>
+            <td>T018</td>
+            <td>Estilizar y ajustar visualización	</td>
+            <td>Ajustar el diseño y la visualización del contenido.	</td>
+            <td>2</td>
+            <td></td>
+            <td>Done</td>
+        </tr>
+        <!--FILA 16-->
+        <tr>
+            <td>T019</td>
+            <td>Pruebas de visualización</td>
+            <td> Comprobar que la información sea visible y bien organizada.</td>
+            <td>1</td>
+            <td></td>
+            <td>Done</td>   
+        </tr>
+        <!--FILA 17-->  
+        <tr>
+            <td rowspan="4"> US-018	</td>
+            <td rowspan="4">Implementar opción de cambio de idioma	</td>
+            <td> T020 </td>
+            <td>Añadir la funcionalidad para cambiar el idioma de la aplicación en Angular.	</td>
+            <td>5</td>
+            <td></td>
+            <td>Done</td> 
+        </tr>
+        <tr>
+            <td> T021 </td>
+            <td>Definir textos traducidos</td>
+            <td>Proveer textos traducidos en los diferentes idiomas soportados.</td>
+            <td>4</td>
+            <td></td>
+            <td>Done</td> 
+        </tr>
+        <tr>
+            <td> T022 </td>
+            <td>Pruebas de funcionalidad de idiomas</td>
+            <td>Verificar que el cambio de idioma funcione correctamente en toda la aplicación.	</td>
+            <td>3</td>
+            <td></td>
+            <td>Done</td>
+        </tr> 
+        <tr>
+            <td rowspan="4"> US-018	</td>
+            <td rowspan="4">Implementar opción de cambio de idioma	</td>
+            <td> T026 </td>
+            <td>Implementar diseño responsive utilizando CSS</td>
+            <td>5</td>
+            <td></td>
+            <td>Done</td> 
+        </tr>
+        <tr>
+            <td> T027 </td>
+            <td>Pruebas de visualización en diferentes dispositivos</td>
+            <td>Probar el diseño en varios dispositivos (móvil, tablet, desktop).	</td>
+            <td>4</td>
+            <td></td>
+            <td>Done</td> 
+        </tr>
+        <tr>
+            <td> T028 </td>
+            <td>Ajustes finales de responsividad</td>
+            <td>Realizar ajustes finales para asegurar una experiencia responsive óptima.		</td>
+            <td>2</td>
+            <td></td>
+            <td>Done</td>
+        </tr> 
     </tbody>
 </table>
 
 ##### 5.2.1.3. Development Evidence for Sprint Review.
 
-<table>
-    <thead>
-        <tr>
-            <th>Repository</th>
-            <th>Branch</th>
-            <th>Commit Id</th>
-            <th>Commit Message</th>
-            <th>Commit Message Body</th>
-            <th>Commited on (Date)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!--FILA 1 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 2 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 3 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 4 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 5 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 6 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 7 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 8 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 9 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 10 -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-
-##### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 
 <table>
     <thead>
@@ -1075,91 +1123,123 @@ gestionamos las tareas en Jira Software.
     <tbody>
         <!--FILA 1 -->
         <tr>
-            <td rowspan="10">https://github.com/SV51-MetaSoft-App-Web/ElixirControl-Landing-Page</td>
-            <td>feature/</td>
+            <td rowspan="14">https://github.com/SV51-MetaSoft-App-Web/ElixirControl-Landing-Page</td>
+            <td>main</td>
+            <td>ca7aff9e22b71a4a96e8d823c0e61c347240df9c</td>
+            <td>Initial commit</td>
             <td></td>
-            <td></td>
-            <td></td>
+            <td>13/08/2024</td>
         </tr>
         <!--FILA 2 -->
         <tr>
-            <td>feature/</td>
+            <td>develop</td>
+            <td>23d5ab43ce3f6f11fe2a2fd4f9b81111ca927cd3</td>
+            <td>feat: Added the base structure of the project.</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>21/08/2024</td>
         </tr>
         <!--FILA 3 -->
         <tr>
-            <td>feature/</td>
+            <td>feature/nav</td>
+            <td>c6a3d0698ef363310ca9a3c96d9d1ae658118f5b</td>
+            <td>feat: Added header and navigation section.</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>5/09/2024</td>
         </tr>
         <!--FILA 4 -->
         <tr>
-            <td>feature/</td>
+            <td>feature/hero</td>
+            <td>456e8089d0e5e7805a2819885be2972e3d221aef</td>
+            <td>feat(hero): Added hero section.</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>5/09/2024</td>
         </tr>
         <!--FILA 5 -->
         <tr>
-            <td>feature/</td>
+            <td>feature/services</td>
+            <td>c3e661b693063ca547c171ba3db89fd194255fc1</td>
+            <td>feat(services): Added services section</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>5/09/2024</td>
         </tr>
         <!--FILA 6 -->
         <tr>
-            <td>feature/</td>
+            <td>feature/services</td>
+            <td>1462bee8ba47ca2f878468b262302d7586e0633e</td>
+            <td>feat(services): Updated the styles of the services section.</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>5/09/2024</td>
         </tr>
         <!--FILA 7 -->
         <tr>
-            <td>feature/</td>
+            <td>feature/testimonials</td>
+            <td>79ef0471340e7e312c05d0e1c854cd7f0e562b19</td>
+            <td>feat(testimonials): Added Testimonials section.</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>06/09/2024</td>
         </tr>
         <!--FILA 8 -->
         <tr>
-            <td>feature/</td>
+            <td>feature/plans</td>
+            <td>d706c364023e2d4addf47df3aa8cf0e8dcf937ed</td>
+            <td>feat(plans): Added structure of plans in Spanish</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>7/09/2024</td>
         </tr>
         <!--FILA 9 -->
         <tr>
-            <td>feature/</td>
+            <td>feature/plans</td>
+            <td>2d7b2b5497c5ad9d77740d17b66fcca4fd529842</td>
+            <td>feat(plans): Added structure of plans in English</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>7/09/2024</td>
         </tr>
         <!--FILA 10 -->
         <tr>
-            <td>feature/</td>
+            <td>feature/plans</td>
+            <td>98620905ab1a4b86b797b55133f26e0ecc69dd28</td>
+            <td>feat(plans): Added styles for the plans section.</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>7/09/2024</td>
         </tr>
+        <!--FILA 11 -->
+        <tr>
+            <td>feature/about-the-team</td>
+            <td>775e984a0b45a388f19cfcea2a4cbf42e82f29ba</td> 
+            <td>feat(about-the-team): Added content and styles to the About Team section</td> 
+            <td></td>
+            <td>7/09/2024</td>   
+        </tr> 
+        <tr>
+            <td>feature/about-the-team</td>
+            <td>9b3fe2fe56a55c7ecd7e88eea28a0e5c83d7ee29</td> 
+            <td>feat(about-the-team): Added content and styles to the About Team section</td> 
+            <td></td>
+            <td>7/09/2024</td>   
+        </tr> 
+        <tr>
+            <td>feature/footer</td>
+            <td>636f5902fdec78f18206aa842c9ed10eb591ac05</td> 
+            <td>feat(footer): Added content and styles to the footer section.</td> 
+            <td></td>
+            <td>7/09/2024</td>   
+        </tr> 
+        <tr>
+            <td>feature/about-the-app</td>
+            <td>f5ddbc9174940b126b2dbfb87c58a8ded713beb7</td> 
+            <td>feat(about-the-app): Added content and styles in about the app section.</td> 
+            <td></td>
+            <td>7/09/2024</td>   
+        </tr> 
     </tbody>
 </table>
 
+
+##### 5.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Para este primer sprint no se realizaron testing.
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review.
-
-
-##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Después de completar el Sprint 1, logramos implementar todas las secciones de nuestra Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo que captura la atención del usuario hacia sus diferentes componentes. También agregamos métodos de navegación en la página, como botones ubicados al principio, que te permiten moverte fácilmente de una sección a otra. A continuación, te mostraremos los avances a través de imágenes del resultado obtenido.
 
@@ -1167,7 +1247,6 @@ Es importante destacar que el objetivo principal de la Landing Page es convertir
 
 A continuación, te presentamos capturas de pantalla del desarrollo de la Landing Page:
 
-##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 **Encabezado y botones de desplazamiento:**
 
@@ -1177,7 +1256,7 @@ Imagen 01: Encabezado y botones de desplazamiento
 
 ![header-landing-page.png](../assets/img/chapter-V/sprint-1/header-landing-page.png)
 
-**Sección Hero:** 
+**Sección Hero:**
 
 Se presenta la sección "Hero", que incluye una breve descripción y una frase representativa de ElixirControl. Además, permite iniciar el uso del servicio web y proporciona una imagen relacionada con el mismo.
 
@@ -1237,6 +1316,34 @@ En el pie de página (Footer), se incluyen enlaces a las redes sociales de Elixi
 
 ![footer-landing-page.png](../assets/img/chapter-V/sprint-1/footer-landing-page.png)
 
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En el primer Sprint el equipo de desarrollo de MetaSoft ha diseñado, programado y puesto en funcionamiento el sitio web (Landing Page) Para presentar la aplicación Web propuesta denominada "ElixirControl". En este sitio web (Landing Page), se lográ visualizar varias secciones que ilustran en que consiste "ElixirControl", cada integrante del equipo de desarrollo de Metasoft estuvo a cargo de una sección en especifico.
+
+<table>
+  <thead>
+    <tr>
+      <th>End Point</th>
+      <th> Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/</td>
+        <td>Mostrar la Landing Page Desplegada</td>
+    </tr>
+  </tbody>
+</table>
+
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Para la implementación de nuestro sitio web, optamos por utilizar GitHub Pages. En este proceso, creamos un repositorio en GitHub donde gestionamos el control de versiones. En la sección de Configuración, publicamos el proyecto almacenado en la rama "realease-V1.0" que previamente se encontrba en la rama release-1.0.
+
+[Landing Page ElexirControl](https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/) - https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/
+
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 En esta entrega, nuestra meta principal fue la implementación de la Landing Page. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm, HTML, CSS y JavaScript. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo MetaSoft:
@@ -1274,30 +1381,44 @@ Los siguientes gráficos ofrecen una representación visual de las clonaciones r
             <th>Sección</th>
             <th>Características del video</th>
             <th>Sobre el contenido</th>
-            <th>ntegración y entrega</th>
+            <th>Integración y entrega</th>
         </tr>
     </thead>
     <tbody>
         <!--FILA 1-->
         <tr>
             <td>Needfinding Interviews</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>
+              Cantidad de videos: 1
+              Nomenclatura: upc-pre-202402-si730-sv51-metasoft-needfinding-sprint-1
+              Formato: .mp4
+            </td>
+            <td>Consolida todas las entrevistas realizadas	</td>
+            <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EZw-9tmmOSJPsIy_Qcor0FkBBYUZFt8o47YcZmrvLmA8Fg?e=Pyj62I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D </td>
         </tr>
         <!--FILA 1-->
         <tr>
             <td>Exposición</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>
+              Cantidad de videos: 1
+              Nomenclatura: upc-pre-202402-si730-sv51-metasoft-expo-tb1
+              Formato: .mp4
+            </td>
+            <td>Consolida las exposiciones de la TB1	</td>
+            <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/ERTxpx1uyvJKmY3QL8mRb6sB8lFh8XQB4o_F_MernOdpGQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7R6pjN </td>
         </tr>
         <!--FILA 2-->
         <tr>
             <td>Prototypes Navigation / Product Navigation</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>
+              Cantidad de videos: 1
+              Nomenclatura: upc-pre-202402-si730-sv51-metasoft-prototype-navigation-sprint-1
+              Formato: .mp4
+            </td>
+            <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.	</td>
+            <td>
+              Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EQ3ShXzJBlJAllrQ9SJ3yY8Bacs6SF9dXo-7o_dXhgiZYw?e=e6Hn8s&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+            </td>
         </tr>
         <!--FILA 3-->
         <tr>
