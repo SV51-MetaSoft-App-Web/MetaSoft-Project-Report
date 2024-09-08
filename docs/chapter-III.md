@@ -595,6 +595,113 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </td>
     <td>EPIC-006</td>
 </tr>
+ <tr>
+        <td>TS001</td>
+        <td>Obtener Datos de Usuarios</td>
+        <td>
+            Como desarrollador backend en ElixirControl, quiero obtener la información de los usuarios productores y distribuidores a través de una API para permitir al equipo de frontend utilizar los datos del usuario en la interfaz.
+        </td>
+        <td>
+            <strong>Escenario 01: Obtener Datos de Usuarios Exitosamente</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Usuarios, cuando envío una solicitud GET para la obtención de datos del usuario, entonces el servidor responde con un código de estado 200 OK y recibo la información de los usuarios en un response de formato JSON que contiene al menos un usuario con los siguientes campos:<br>
+            - Id: {ID del usuario}<br>
+            - Email: {Email del usuario}<br>
+            - Password: {Contraseña del usuario}<br>
+            - Type: {Segmento objetivo del usuario}<br>
+            - First name: {Nombre del usuario}<br>
+            - Paternal Surname: {Apellido paterno del usuario}<br>
+            - Maternal Surname: {Apellido materno del usuario}<br><br>
+            <strong>Escenario 02: Obtener Datos del Usuario con Parámetro Erróneo</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Usuarios, cuando envío una solicitud GET para la obtención de datos del usuario con un parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
+        </td>
+     <td></td>
+    </tr>
+    <tr>
+        <td>TS002</td>
+        <td>Obtener Datos de Proyectos</td>
+        <td>
+            Como desarrollador backend en ElixirControl, quiero obtener los datos de los Proyectos a través de una API para permitir al equipo de frontend utilizar los datos del proyecto y mostrarlos a los usuarios.
+        </td>
+        <td>
+            <strong>Escenario 01: Obtener Datos de los Proyectos</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Proyectos, cuando envío una solicitud GET para la obtención de datos del proyecto, entonces el servidor responde con un código de estado 200 OK y recibo la información de los Proyectos actuales en un response de formato JSON que contiene los siguientes campos:<br>
+            - ID: {ID del proyecto}<br>
+            - Business Id: {Id de empresa que realiza el proyecto}<br>
+            - Contractor Id: {Id del contratista que solicitó el proyecto}<br>
+            - Start Date: {Fecha de inicio del proyecto}<br>
+            - Finish Date: {Fecha de fin del proyecto}<br>
+            - Name: {Nombre del proyecto}<br>
+            - Description: {Descripción del proyecto}<br><br>
+            <strong>Escenario 02: Obtener Datos del Proyecto Exitosamente por ID</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Proyectos por ID, cuando envío una solicitud GET para la obtención de datos del proyecto por su ID, entonces el servidor responde con un código de estado 200 OK y recibo la información del proyecto actual en un response de formato JSON.<br><br>
+            <strong>Escenario 03: Obtener Datos del Proyecto con Parámetro de ID Erróneo</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Proyectos por ID, cuando envío una solicitud GET para la obtención de datos del proyecto con un parámetro de ID erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TS003</td>
+        <td>Obtener Datos de Inventario</td>
+        <td>
+            Como desarrollador backend en ElixirControl, quiero obtener la información del Inventario de los productores a través de una API para permitir al equipo de frontend utilizar los datos del mismo.
+        </td>
+        <td>
+            <strong>Escenario 01: Obtener Datos de Inventario Exitosamente</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Inventario, cuando envío una solicitud GET para la obtención de datos de Inventario, entonces el servidor responde con un código de estado 200 OK y recibo la información del Inventario en un response de formato JSON que contiene al menos un registro con los siguientes campos:<br>
+            - ID: {ID del Registro de Inventario}<br>
+            - Product Id: {Id del producto}<br>
+            - Producer Id: {Id del productor}<br>
+            - Quantity: {Cantidad en inventario}<br>
+            - Unit: {Unidad de medida}<br>
+            - Expiration Date: {Fecha de caducidad}<br>
+            - Batch: {Lote del producto}<br>
+            - Last Updated: {Última actualización}<br><br>
+            <strong>Escenario 02: Obtener Datos de Inventario Exitosamente por ID</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Inventario por ID, cuando envío una solicitud GET para la obtención de datos del Inventario por su ID, entonces el servidor responde con un código de estado 200 OK y recibo la información del Registro de Inventario actual en un response de formato JSON.<br><br>
+            <strong>Escenario 03: Obtener Datos de Inventario por ID con Parámetro Erróneo</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Inventario por ID, cuando envío una solicitud GET para la obtención de datos del Inventario con un ID de parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en la solicitud indicando que el ID de parámetro es incorrecto o no existe.
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TS004</td>
+        <td>Obtener Datos de Suscripciones de Usuarios</td>
+        <td>
+            Como desarrollador backend en ElixirControl, quiero obtener la información de las suscripciones de los usuarios (gratis, básico y premium) a través de una API para permitir al equipo de frontend utilizar los datos de suscripción en la interfaz.
+        </td>
+        <td>
+            <strong>Escenario 01: Obtener Datos de Suscripciones Exitosamente</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Suscripciones, cuando envío una solicitud GET para la obtención de datos de las suscripciones, entonces el servidor responde con un código de estado 200 OK y recibo la información de las suscripciones en un response de formato JSON que contiene al menos una suscripción con los siguientes campos:<br>
+            - ID: {ID de la suscripción}<br>
+            - UserID: {ID del usuario}<br>
+            - Type: {Tipo de suscripción (gratis, básico, premium)}<br>
+            - Start Date: {Fecha de inicio}<br>
+            - End Date: {Fecha de fin}<br>
+            - Cost: {Costo de la suscripción}<br>
+            - Features: {Características de la suscripción}<br><br>
+            <strong>Escenario 02: Obtener Datos de Suscripciones con Parámetro Erróneo</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Suscripciones, cuando envío una solicitud GET para la obtención de datos de las suscripciones con un parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TS005</td>
+        <td>Obtener Historial de Pedidos</td>
+        <td>
+            Como desarrollador backend en ElixirControl, quiero obtener el historial de pedidos realizados por los productores a través de una API para permitir al equipo de frontend utilizar los datos de los pedidos en la interfaz.
+        </td>
+        <td>
+            <strong>Escenario 01: Obtener Historial de Pedidos Exitosamente</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Historial de Pedidos, cuando envío una solicitud GET para la obtención de datos del historial de pedidos, entonces el servidor responde con un código de estado 200 OK y recibo la información del historial de pedidos en un response de formato JSON que contiene al menos un pedido con los siguientes campos:<br>
+            - ID: {ID del historial}<br>
+            - Order ID: {ID del pedido}<br>
+            - Registration Date: {Fecha de registro}<br>
+            - Status: {Estado del pedido (pendiente, completado, cancelado)}<br><br>
+            <strong>Escenario 02: Obtener Historial de Pedidos con Parámetro Erróneo</strong><br>
+            Dado que tengo autorización en el uso de la API y al endpoint de Historial de Pedidos, cuando envío una solicitud GET para la obtención de datos del historial de pedidos con un parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
+        </td>
+        <td></td>
+    </tr>
     </tbody>
 </table>
 
