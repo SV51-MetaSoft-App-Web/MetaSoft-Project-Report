@@ -19,12 +19,11 @@
 ## Relación de integrantes:
 
 
-
 * **Janover Gonzalo Saldaña Vela    U20201B510**
 * **Oscar Javier Armas Sánchez      U20211G192**
 * **Jhordi Luis Carranza Pérez      U20191E835**
 * **Luis Alfonso Villegas Jipa      U201717523**
-* **Integrante 5                    xxxxxxxxxx**
+* **Juan Paul Llamccaya Arone       U201923571**
 
 
 <center>
@@ -51,50 +50,106 @@
     <tbody>
         <!-- Fila 1-->
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1.0</td>
+            <td>17/08/2024</td>
+            <td>Gonzalo Saldana</td>
+            <td>Se creo la ramificación del repositorio y adicionó los documentos en su versión inicial previa a la investigacón</td>
         </tr>
          <!-- Fila 2-->
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1.1</td>
+            <td>22/08/2024</td>
+            <td>Oscar Armas</td>
+            <td>Se comenzó la redacción del capítulo 1 "Introducción"</td>
         </tr>
          <!-- Fila 3-->
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1.2</td>
+            <td>25/08/2024</td>
+            <td>Gonzalo Saldana</td>
+            <td>Se comenzó la redacción del capítulo 2 "Requirements Elicitation & Analysis"</td>
         </tr>
          <!-- Fila 4-->
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1.3</td>
+            <td>26/08/2024</td>
+            <td>Juan Llamccaya</td>
+            <td>Continuación de la redacción del capítulo 2 "Requirements Elicitation & Analysis"</td>
         </tr>
          <!-- Fila 5-->
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1.4</td>
+            <td>28/08/2024</td>
+            <td>Gonzalo Saldaña, Jhordi  Carranza, Oscar Armas, Luis Villegas</td>
+            <td>Se comenzó la redacción del capítulo 3 "Requirements Specification" , redacción de historias de usuario</td>
         </tr>
          <!-- Fila 6-->
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1.5</td>
+            <td>30/08/2024</td>
+            <td>Gonzalo Saldaña</td>
+            <td>Se comenzó la redacción del capítulo 4 "Product Design"</td>
         </tr>
          <!-- Fila 7-->
         <tr>
-            <td></td>
-            <td></td>
+            <td>1.6</td>
+            <td>31/08/2024</td>
+            <td>Jhordi  Carranza, Juan Llamccaya </td>
+            <td>Continuación de la redacción del capítulo 4 "Product Design"</td>
+        </tr>
+        <!-- Fila 8-->
+        <tr>
+            <td>1.7</td>
+            <td>02/09/2024</td>
+            <td>Gonzalo Saldaña, Oscar Armas, Luis Villegas </td>
+            <td>Se comenzó la elaboración de wireframes y mockups de la aplicación del capítulo 4 "Product Design"</td>
+        </tr>
+        <!-- Fila 9-->  
+        <tr>
+            <td>1.8</td>
+            <td>04/09/2024</td>
+            <td>Juan Llamccaya</td>
+            <td>Se comenzó la elaboración de wireflows del capítulo 4 "Product Design"</td>
+        </tr>
+        <!-- Fila 10--> 
+        <tr>
+            <td>1.9</td>
+            <td>05/09/2024</td>
+            <td>Gonzalo Saldaña, Jhordi  Carranza, Oscar Armas, Luis Villegas</td>
+            <td>Se comenzó la elaboración de la landing page, documentación</td>   
+        </tr>
+        <!-- Fila 11-->
+        <tr>
+            <td>1.10</td>
+            <td>06/09/2024</td>
+            <td>Oscar Armas</td>
+            <td>Se comenzó la redacción del capítulo 5 "Product Implementation, Validation & Deployment"</td>
+        </tr>
+        <!-- Fila 12-->
+        <tr>
+            <td>1.11</td>
+            <td>06/09/2024</td>
+            <td>Luis Villegas</td>
+            <td>Continuación de la redacción del capítulo 5 "Product Implementation, Validation & Deployment"</td>
+        </tr>
+        <!-- Fila 13--> 
+        <tr>
+            <td>1.12</td>
+            <td>07/09/2024</td>
+            <td>Jhordi  Carranza</td>
+            <td>Continuación de la redacción del 5 "Product Implementation, Validation & Deployment"</td>
+        </tr>
+        <!-- Fila 14-->
+        <tr>
+            <td>1.13</td>
+            <td>08/09/2024</td>
+            <td>Gonzalo Saldaña, Jhordi  Carranza, Oscar Armas, Luis Villegas</td>
+            <td>Finalización de items del Capítulo 5 del documento</td>
+        </tr>
+        <!-- Fila 15-->
+        <tr>
+            <td>2.0</td>
+            <td>01/09/2024</td>
             <td></td>
             <td></td>
         </tr>
@@ -102,6 +157,31 @@
 </table>
 
 ## Project Report Collaboration Insights
+
+**URL del repositorio para el reporte del proyecto:** https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report
+
+Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
+
+* Janover Gonzalo Saldaña Vela (JanoverSaldana)
+* Jhordi Luis Carranza Pérez (JhordiCar)
+* Oscar Javier Armas Sánchez (Racso24k)
+* Luis Alfonso Villegas Jipa (LuisVJ97)
+* Juan Paul Llamccaya Arone (JuanPaulLla)
+
+Se dividieron las siguientes ramas para la colaboración en el proyecto:
+
+* main
+* capitulo-I
+* capitulo-II
+* capitulo-III
+* capitulo-IV
+* capitulo-V
+* develop
+* release-v1.0
+
+### Entregable TB1
+
+A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
 
 
 
@@ -145,43 +225,42 @@
 
 # [Capítulo III: Requirements Specification]()
 
-## 3.1. [To-Be Scenario Mapping.]()
-## 3.2. [User Stories.]()
-## 3.3. [Impact Mapping.]()
-## 3.4. [Product Backlog.]()
+## [3.1. To-Be Scenario Mapping.]()
+## [3.2. User Stories.]()
+## [3.3. Impact Mapping.]()
+## [3.4. Product Backlog.]()
 
 
 
 # [Capítulo IV: Product Design]()
 
-## [4.1. Style Guidelines.]()
+##  [4.1. Style Guidelines.]()
 ### [4.1.1. General Style Guidelines.]()
 ### [4.1.2. Web Style Guidelines.]()
-## 4.2. [Information Architecture.]()
-### 4.2.1. [Organization Systems.]()
-### 4.2.2. [Labeling Systems.]()
-### 4.2.3. [SEO Tags and Meta Tags]()
-### 4.2.4. [Searching Systems.]()
-### 4.2.5. [Navigation Systems.]()
-## 4.3. [Landing Page UI Design.]()
-### 4.3.1. [Landing Page Wireframe.]()
-### 4.3.2. [Landing Page Mock-up.]()
-## 4.4. [Web Applications UX/UI Design.]()
-### 4.4.1. [Web Applications Wireframes.]()
-### 4.4.2. [Web Applications Wireflow Diagrams.]()
-### 4.4.2. [Web Applications Mock-ups.]()
-### 4.4.3. [Web Applications User Flow Diagrams.]()
-## 4.5. [Web Applications Prototyping.]()
-## 4.6. [Domain-Driven Software Architecture.]()
-## 4.6.1. [Software Architecture Context Diagram.]()
-### 4.6.2. [Software Architecture Container Diagrams.]()
-### 4.6.3. [Software Architecture Components Diagrams.]()
-## 4.7. [Software Object-Oriented Design.]()
-### 4.7.1. [Class Diagrams.]()
-### 4.7.2. [Class Dictionary.]()
-## 4.8. [Database Design.]()
-### 4.8.1. [Database Diagram]()
-
+##  [4.2. Information Architecture.]()
+### [ 4.2.1. Organization Systems.]()
+### [ 4.2.2. Labeling Systems.]()
+### [ 4.2.3. SEO Tags and Meta Tags]()
+### [ 4.2.4. Searching Systems.]()
+### [ 4.2.5. Navigation Systems.]()
+##  [4.3. Landing Page UI Design.]()
+### [ 4.3.1. Landing Page Wireframe.]()
+### [ 4.3.2. Landing Page Mock-up.]()
+##  [4.4. Web Applications UX/UI Design.]()
+### [ 4.4.1. Web Applications Wireframes.]()
+### [ 4.4.2. Web Applications Wireflow Diagrams.]()
+### [ 4.4.2. Web Applications Mock-ups.]()
+### [ 4.4.3. Web Applications User Flow Diagrams.]()
+##  [4.5. Web Applications Prototyping.]()
+##  [4.6. Domain-Driven Software Architecture.]()
+##  [4.6.1. Software Architecture Context Diagram.]()
+### [ 4.6.2. Software Architecture Container Diagrams.]()
+### [ 4.6.3. Software Architecture Components Diagrams.]()
+##  [4.7. Software Object-Oriented Design.]()
+### [ 4.7.1. Class Diagrams.]()
+### [ 4.7.2. Class Dictionary.]()
+##  [4.8. Database Design.]()
+### [ 4.8.1. Database Diagram]()
 
 
 # [Capítulo V: Product Implementation, Validation & Deployment]()
