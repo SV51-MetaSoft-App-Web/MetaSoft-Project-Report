@@ -314,8 +314,9 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <br> Durante el desarrollo de esta primera entrega trabajar en equipo de manera conjunta fue un factor crucial para nuestra determinación en acabar con los entregables a tiempo y cumpliendo con los requisitos que nos pide el usuario final.
             <!--Siguiente-->
             <br> <br>
-            <strong>Estudiante 2: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Luis Alfonso Villegas Jipa: </strong> 
+            <br> En la elaboracion de la primera entrega he realizado el analisis de comptenecia, los users stories sobre la funcionalidad de la applicacion, el product backlog y los diagramas de clase, comunicandome con mis compañeros para ir mejorando y
+                agregando las secciones consecuentes que se requeria. Dando asi, la culminacion de esta primera entrega.
             <!--Siguiente-->
             <br> <br>
             <strong>Estudiante 3: </strong> 
@@ -363,11 +364,12 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <p style="text-align: center;" ><strong >Presentable del TB1</strong></p>
             <br>
             <strong>Janover Gonzalo Saldaña Vela </strong> 
-            <br> Durante el proceso de la primera entrega del TF, nuestro equipo se mantuvo en comunicación constante y establecimos tareas para cada integrante con el fin de que podamos cumplir con el objetivo en común de acabar de manera satisfactoria el primer sprint (Landing Page).
+            <br> Durante el proceso de la primera entrega del TF, nuestro equipo se mantuvo en comunicación constante y establecimos tareas para cada integrante con el fin de que podamos cumplir con el objetivo en común de acabar de manera satisfactoria el primer
+                sprint (Landing Page).
             <!--Siguiente-->
             <br> <br>
-            <strong>Estudiante 2: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Luis Alfonso Villegas Jipa: </strong> 
+            <br> Durante la elaboracion del Landing Page, he apoyando con el desarrollo de la App web y Mobile Wireframes. Ya que, mantuve una comunicacion acertiva y planificando una solucion ágil en nuestros objetivos colaborativos. 
             <!--Siguiente-->
             <br> <br>
             <strong>Estudiante 3: </strong> 
