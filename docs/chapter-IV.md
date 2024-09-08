@@ -402,8 +402,9 @@ En esta sección se deberá mostrar los detalles de un pedido específico, con l
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+Los Wireflows se emplean principalmente en el diseño de la experiencia de usuario (UX) y son especialmente útiles para aplicaciones que incluyen flujos de trabajo e interacciones complejas.
 
-
+![alt text](<../assets/img/MetaSoft-App-Web-SV51 (1).png>)
 ### 4.4.2. Web Applications Mock-ups.
 
 En esta sección se muestran los mock-ups realizados para nuestro Web Application.
