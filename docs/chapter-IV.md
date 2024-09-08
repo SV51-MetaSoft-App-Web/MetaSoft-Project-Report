@@ -316,6 +316,7 @@ Detalle del Pedido - Elixir Control
 ![text](../assets/img/chapter-IV/12.png) 
 Mis Pedidos - Elixir Control
 ![text](../assets/img/chapter-IV/13.png)
+<!-- falta wireframe version mobile-->
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
@@ -349,6 +350,24 @@ Mis Pedidos - Elixir Control
 Detalle del Pedido - Elixir Control 
 ![alt text](../assets/img/chapter-IV/25.png) 
 <!-- falta mockup version mobile-->
+En esta sección se muestran los mock-ups realizados para nuestro Web Application version Mobile.
+
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Login - Elixir Control (2).png" width="250"></img> </p>
+<p align = "center"> <img src="../
+assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Login -Distribuidor - Elixir Control.png" width="250"></img> </p>
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Historial Pedido - Elixir Control.png" width="250"></img> </p>
+
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Historial Pedido - Elixir Control (1).png" width="250"></img> </p>
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Historial Pedido - Elixir Control (2).png" width="250"></img> </p>
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Realizar pedidos - Elixir Control.png" width="250"></img> </p>
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Realizar pedidos - Elixir Control (1).png" width="250"></img> </p>
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Inicio de sesión- Productor Elixir Control.png" width="250"></img> </p>
+
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Registrar - Productor  - Elixir Control.png" width="250"></img> </p>
+
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Inventario - Elixir Control.png" width="250"></img> </p>
+
+<p align = "center"> <img src="../assets/img/chapter-IV/iPhone 14 & 15 Pro Max - Inventario - Elixir Control (1).png" width="250"></img> </p>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
