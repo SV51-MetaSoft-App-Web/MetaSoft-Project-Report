@@ -58,7 +58,7 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 3-->
             <td> 
-            <img src="assets/img/chapter-I/juan paul.PNG" height="120" alt="Juan Paul">
+            <img src="assets/img/chapter-I/juan-paul.PNG" height="120" alt="Juan Paul">
             Juan Paul Llamccaya Arone -
             U20193571
             <br>
