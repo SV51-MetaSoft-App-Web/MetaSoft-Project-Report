@@ -42,13 +42,18 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 2-->
             <td>
-            <img src="" height="120" alt="">
+            <img src="/assets/img/chapter-I/Luis-Villegas.png" height="120" alt="Luis-Villegas">
+              Luis Alfonso Villegas Jipa - U201717523
             <br>
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
-            <td></td>
+            <td>
+              Estudio la carrera de Ingenieria de Software en la UPC. Soy una persona creativa que le gusta aprender nuevos horizontes, me esfuerzo cada dia para poder lograr mis objetivos
+            </td>
             <!-- CONOCIMIENTOS del integrante 2-->
-            <td></td>
+            <td>
+              Tengo conocimientos de programacion en C++, Python, HTML y JS. Asimismo tengo conocimientos en SQl (Visual Management) y NoSQL (MongoDB)
+            </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 3-->
