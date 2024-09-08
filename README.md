@@ -185,7 +185,12 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 
 **Gráficos de colaboración de los integrantes del equipo**
 
-![tb1-Network-graph.png](assets/img/develop/tb1-Network-graph.png)
+![tb1-Network-graph.png](./assets/img/develop/tb1-Network-graph.png)
+
+![tb1-pulse](./assets/img/develop/tb1-pulse.png)
+
+
+![tb1-clone](./assets/img/develop/tb1-clone.png)
 
 ## Contenido 
 
