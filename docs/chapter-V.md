@@ -777,7 +777,11 @@ Landing Page Deployed:
 
 ### 5.2.1. Sprint n
 
-En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implementación del diseño de nuestra Landing Page utilizando WebStorm como entorno de desarrollo. Esto implica que al concluir el Sprint, todas las secciones, ya sea Home, Services, Pricing, Testimonials o About Us, deben estar completadas. A continuación, adjuntamos imágenes que ilustran cómo gestionamos las tareas en  Jira Software.
+En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implementación del 
+diseño de nuestra Landing Page utilizando WebStorm como entorno de desarrollo. Esto implica
+que al concluir el Sprint, todas las secciones, ya sea Home, Services, Pricing, Testimonials
+o About Us, deben estar completadas. A continuación, adjuntamos imágenes que ilustran cómo 
+gestionamos las tareas en Jira Software.
 
 #### 5.2.1.1. Sprint Planning 1.
 
@@ -795,27 +799,27 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         <!--FILA 1-->
         <tr>
             <td>Date</td>
-            <td></td>
+            <td>21-08-2024</td>
         </tr>
         <!--FILA 2-->
         <tr>
             <td>Time</td>
-            <td></td>
+            <td> 10:00 p.m </td>
         </tr>
         <!--FILA 3-->
         <tr>
             <td>Location</td>
-            <td></td>
+            <td>Discord</td>
         </tr>
          <!--FILA 4-->
         <tr>
             <td>Prepared By</td>
-            <td></td>
+            <td>Janover Saldaña</td>
         </tr>
          <!--FILA 5-->
         <tr>
             <td>Attendees (to planning meeting)</td>
-            <td></td>
+            <td>Jhordi Carranza - Oscar Armas - Luis Villegas - Juan Llamccaya </td>
         </tr>
         <!--FILA 6-->
         <tr>
@@ -824,17 +828,17 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         <!--FILA 7-->
         <tr>
             <td>Sprint 1 Goal</td>
-            <td></td>
+            <td> Implementar la landing page incluyendo las distintas secciones acordadas y el requisito de cambio de idioma para la aplicación de ElixirControl </td>
         </tr>
         <!--FILA 8-->
         <tr>
             <td>Sprint 1 Velocity</td>
-            <td></td>
+            <td> 20 </td>
         </tr>
         <!--FILA 9-->
         <tr>
             <td>Sum of Story Points</td>
-            <td></td>
+            <td> 20 </td>
         </tr>
     </tbody>
 </table>
@@ -1060,7 +1064,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
 <table>
     <thead>
         <tr>
-            <th>Repository</th>
+            <th rowspan="" >Repository</th>
             <th>Branch</th>
             <th>Commit Id</th>
             <th>Commit Message</th>
@@ -1071,17 +1075,15 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
     <tbody>
         <!--FILA 1 -->
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td rowspan="10">https://github.com/SV51-MetaSoft-App-Web/ElixirControl-Landing-Page</td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <!--FILA 2 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1089,8 +1091,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         </tr>
         <!--FILA 3 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1098,8 +1099,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         </tr>
         <!--FILA 4 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1107,8 +1107,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         </tr>
         <!--FILA 5 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1116,8 +1115,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         </tr>
         <!--FILA 6 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1125,8 +1123,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         </tr>
         <!--FILA 7 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1134,8 +1131,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         </tr>
         <!--FILA 8 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1143,8 +1139,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         </tr>
         <!--FILA 9 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1152,8 +1147,7 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
         </tr>
         <!--FILA 10 -->
         <tr>
-            <td></td>
-            <td></td>
+            <td>feature/</td>
             <td></td>
             <td></td>
             <td></td>
@@ -1167,9 +1161,81 @@ En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implemen
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
+Después de completar el Sprint 1, logramos implementar todas las secciones de nuestra Landing Page para garantizar una visualización perfecta. Además, le dimos un formato atractivo que captura la atención del usuario hacia sus diferentes componentes. También agregamos métodos de navegación en la página, como botones ubicados al principio, que te permiten moverte fácilmente de una sección a otra. A continuación, te mostraremos los avances a través de imágenes del resultado obtenido.
+
+Es importante destacar que el objetivo principal de la Landing Page es convertir a los visitantes en futuros clientes o usuarios habituales de nuestro servicio. Para lograrlo, utilizamos llamados a la acción (Call To Action) que los guían hacia la aplicación web.
+
+A continuación, te presentamos capturas de pantalla del desarrollo de la Landing Page:
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
+**Encabezado y botones de desplazamiento:**
+
+En la parte superior, se encuentra el encabezado (Header) que incluye botones de inicio (Home), beneficios (benefits), Pricing (Pricing), sobre la aplicación (about), testimonios de usuarios (testimonials), un formulario para que nos contacten (Contact), un apartado para saber sobre el equipo (About us) y un botón para cambiar el idioma entre inglés y español. Estos elementos permiten a los visitantes desplazarse fácilmente a la sección que deseen visualizar.
+
+Imagen 01: Encabezado y botones de desplazamiento
+
+![header-landing-page.png](../assets/img/chapter-V/sprint-1/header-landing-page.png)
+
+**Sección Hero:** 
+
+Se presenta la sección "Hero", que incluye una breve descripción y una frase representativa de ElixirControl. Además, permite iniciar el uso del servicio web y proporciona una imagen relacionada con el mismo.
+
+Imagen 02: Sección Hero
+
+![hero-landing-page.png](../assets/img/chapter-V/sprint-1/hero-landing-page.png)
+
+
+**Sección Services:**
+
+Se presenta la sección de servicio que ofrecemos para nuestros segmentos objetivos. En esta sección, se describen los beneficios y características de ElixirControl, lo que permite a los visitantes conocer más sobre el servicio.
+
+Imagen 03: Sección Services
+![services-landing-page.png](../assets/img/chapter-V/sprint-1/services-landing-page.png)
+
+
+**Sección Pricing:**
+
+En la sección de precios, se detallan los planes y precios de ElixirControl. Esta información es esencial para que los visitantes conozcan las opciones disponibles y puedan elegir la que mejor se adapte a sus necesidades.
+
+Imagen 04: Sección Pricing
+![plans-landing-page.png](../assets/img/chapter-V/sprint-1/plans-landing-page.png)
+
+
+**Sección About the App:**
+
+En esta sección, se presenta información detallada sobre la aplicación ElixirControl, sus características y funcionalidades. Esto permite a los visitantes conocer más sobre la aplicación y cómo puede ayudarles en su día a día.
+
+Imagen 05: Sección About the App
+
+![about-the-app-landing-page.png](../assets/img/chapter-V/sprint-1/about-the-app-landing-page.png)
+
+
+**Sección Testimonials:**
+
+En la sección de testimonios, se presentan opiniones y comentarios de usuarios reales que han utilizado ElixirControl. Esto ayuda a generar confianza en los visitantes y a mostrarles la experiencia positiva de otros usuarios.
+
+Imagen 06: Sección Testimonials
+
+![testimonials-landing-page.png](../assets/img/chapter-V/sprint-1/testimonials-landing-page.png)
+
+**Sección About the Team:**
+
+En la sección "About the Team", se presenta información sobre el equipo de desarrollo de ElixirControl. Esto permite a los visitantes conocer a las personas detrás del servicio y generar confianza en la calidad y profesionalismo del equipo.
+
+![about-the-team-landing-page.png](../assets/img/chapter-V/sprint-1/about-the-team-landing-page.png)
+
+**Sección Contact:**
+
+En la sección de contacto, se presenta un formulario que permite a los visitantes enviar consultas, comentarios o solicitudes de información sobre ElixirControl. Esto facilita la comunicación con los usuarios y permite responder a sus necesidades de manera eficiente.
+
+![contact-landing-page.png](../assets/img/chapter-V/sprint-1/contact-landing-page.png)
+
+**Footer:**
+
+En el pie de página (Footer), se incluyen enlaces a las redes sociales de ElixirControl, información de contacto y un botón para volver al inicio de la página. Esto permite a los visitantes acceder a más información y mantenerse conectados con el servicio.
+
+![footer-landing-page.png](../assets/img/chapter-V/sprint-1/footer-landing-page.png)
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint.
 
