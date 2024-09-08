@@ -573,7 +573,6 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 | teléfono            | string   |
 | email               | string   |
 | estado              | char     |
-| rol                 | string   |
 | tipoSuscripcion     | string   |
 
 | Métodos             | Descripción                            |
@@ -585,153 +584,293 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 
 ---
 
-### Suscripcion
+### Cliente
 | Atributos           | Tipos    |
 |---------------------|----------|
 | id                  | int      |
-| usuarioID           | int      |
-| tipo                | string   |
-| fechaInicio         | datetime |
-| fechaFin            | datetime |
-| costo               | decimal  |
-| caracteristicas     | string   |
+| nombre              | string   |
+| apellido            | string   |
+| dni                 | string   |
+| email               | string   |
 
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| seleccionarPlan()   | Permite al usuario seleccionar un plan de suscripción. |
-| actualizarSuscripcion() | Actualiza la información de la suscripción del usuario. |
-| cancelarSuscripcion() | Cancela la suscripción activa del usuario. |
+| crearCliente()      | Crea un nuevo cliente con la información proporcionada. |
+| actualizarCliente() | Actualiza la información de un cliente existente.       |
+| eliminarCliente()   | Elimina un cliente del sistema.                         |
+| obtenerCliente()    | Recupera los datos de un cliente específico.           |
+| buscarCliente(criterio) | Busca clientes que coincidan con el criterio especificado. |
+| listarClientes()    | Devuelve una lista de todos los clientes registrados.   |
 
 ---
 
-### FuncionalidadGratuita
+### AgregarListaCliente
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| clienteID           | int (FK)        |
+| productorID         | int (FK)        |
+| datosCliente        | string          |
+| nombreNegocio       | string          |
+| dirección           | string          |
+| teléfono            | string          |
+| país                | string          |
+| ciudad              | string          |
+| ruc                 | string          |
+
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| accederBasico()     | Permite el acceso a funcionalidades básicas. |
-| verReportes()       | Permite al usuario ver reportes básicos. |
+| crearCliente()      | Crea un nuevo cliente en la lista con la información proporcionada. |
+| actualizarCliente() | Actualiza la información de un cliente existente en la lista.       |
+| eliminarCliente()   | Elimina un cliente de la lista.                                         |
+| obtenerCliente()    | Recupera los datos de un cliente específico en la lista.             |
+| listarClientesPorProductor() | Devuelve una lista de todos los clientes asociados a un productor específico. |
 
 ---
 
-### FuncionalidadBasica
+### Pedido
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| agregarClienteID    | int (FK)        |
+| productoID          | int (FK)        |
+| fecha               | datetime        |
+| total               | decimal         |
+| usuarioID           | int (FK)        |
+
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| accederBasico()     | Permite el acceso a funcionalidades básicas. |
-| verReportes()       | Permite al usuario ver reportes básicos. |
-| gestionarInventario() | Permite gestionar el inventario de productos. |
+| crearPedido()       | Crea un nuevo pedido con la información proporcionada. |
+| actualizarPedido()  | Actualiza un pedido existente con nuevos detalles.     |
+| cancelarPedido()    | Cancela un pedido activo.                              |
+| obtenerHistorial()  | Recupera el historial de pedidos de un usuario.        |
+| calcularTotal()     | Calcula el total de un pedido basado en productos y cantidades. |
+| listarPedidosPorUsuario() | Devuelve una lista de pedidos de un usuario específico. |
 
 ---
 
-### FuncionalidadPremium
+### HistorialPedido
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| pedidoID            | int (FK)        |
+| fechaRegistro       | datetime        |
+| estado              | char            |
+
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| accederBasico()     | Permite el acceso a funcionalidades básicas. |
-| verReportes()       | Permite al usuario ver reportes básicos. |
-| gestionarInventario() | Permite gestionar el inventario de productos. |
-| analizarAvanzado()  | Permite realizar análisis avanzados sobre los datos. |
+| agregarRegistro()   | Agrega un registro al historial de un pedido. |
+| obtenerRegistro()   | Recupera un registro específico del historial. |
+| eliminarRegistro()  | Elimina un registro del historial.     |
+| listarRegistrosPorPedido() | Devuelve registros de un pedido específico. |
+| actualizarEstado()  | Actualiza el estado de un registro en el historial. |
 
 ---
 
 ### Producto
-| Atributos           | Tipos    |
-|---------------------|----------|
-| id                  | int      |
-| nombre              | string   |
-| descripción         | string   |
-| precio              | decimal  |
-| tipo                | string   |
-| categoriaID         | int      |
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| usuarioID           | int (FK)        |
+| nombre              | string          |
+| precio              | decimal         |
+| tipo                | string          |
+| tipoProductoID      | int (FK)        |
 
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| crearProducto()     | Agrega un nuevo producto al sistema con la información proporcionada. |
-| editarProducto()    | Actualiza la información de un producto existente. |
-| eliminarProducto()  | Elimina un producto del sistema utilizando su ID. |
-| verDetallesProducto() | Devuelve los detalles de un producto específico. |
+| crearProducto()     | Crea un nuevo producto con información proporcionada. |
+| actualizarProducto()| Actualiza un producto existente con nuevos detalles. |
+| eliminarProducto()  | Elimina un producto del sistema.       |
+| buscarProducto()    | Busca productos que coincidan con el criterio. |
 
 ---
 
-### Tipo de producto
-| Atributos           | Tipos    |
-|---------------------|----------|
-| id                  | int      |
-| nombre              | string   |
-| descripcion         | string   |
+### TipoProducto
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| nombre              | string          |
+| descripción         | string          |
 
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| agregarCategoria()   | Agrega una nueva categoría al sistema. |
-| actualizarCategoria() | Actualiza la información de una categoría existente. |
-| eliminarCategoria()   | Elimina una categoría del sistema utilizando su ID. |
-| verDetallesCategoria() | Devuelve los detalles de una categoría específica. |
+| crearTipoProducto() | Crea un nuevo tipo de producto.        |
+| actualizarTipoProducto() | Actualiza un tipo de producto existente. |
+| eliminarTipoProducto() | Elimina un tipo de producto.        |
+| obtenerTipoProducto()| Recupera datos de un tipo de producto específico. |
+| listarTiposProductos() | Devuelve una lista de todos los tipos de productos. |
 
 ---
 
-### Distribuidor
-| Atributos           | Tipos    |
-|---------------------|----------|
-| id                  | int      |
-| nombre              | string   |
-| contacto            | string   |
+### Proveedor
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| nombre              | string          |
+| contacto            | string          |
 
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| agregarProveedor()   | Agrega un nuevo proveedor al sistema con la información proporcionada. |
-| actualizarProveedor() | Actualiza la información de un proveedor existente. |
-| eliminarProveedor()   | Elimina un proveedor del sistema utilizando su ID. |
-| verDetallesProveedor() | Devuelve los detalles de un proveedor específico. |
-
----
-
-### Venta
-| Atributos           | Tipos    |
-|---------------------|----------|
-| id                  | int      |
-| productoID          | int      |
-| usuarioID           | int      |
-| fecha               | datetime |
-| total               | decimal  |
-
-| Métodos             | Descripción                            |
-|---------------------|----------------------------------------|
-| registrarVenta()     | Registra una nueva venta en el sistema. |
-| obtenerDetallesVenta() | Devuelve los detalles de una venta específica. |
+| crearProveedor()    | Crea un nuevo proveedor con información proporcionada. |
+| actualizarProveedor()| Actualiza un proveedor existente.     |
+| eliminarProveedor() | Elimina un proveedor del sistema.      |
+| obtenerProveedor()  | Recupera datos de un proveedor específico. |
+| listarProveedores() | Devuelve una lista de todos los proveedores. |
 
 ---
 
 ### Inventario
-| Atributos           | Tipos    |
-|---------------------|----------|
-| id                  | int      |
-| productoID          | int      |
-| cantidad            | int      |
-| fechaEntrada        | datetime |
-| ubicación           | string   |
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| productoID          | int (FK)        |
+| tipo                | int             |
+| proveedor           | int (FK)        |
+| unidad              | string          |
+| cantidad            | int             |
+| últimaActualización | datetime        |
 
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| agregarInventario(productoID, cantidad, fechaEntrada, ubicación) | Agrega un nuevo registro de inventario. |
-| actualizarInventario(inventarioID, cantidad) | Actualiza la cantidad disponible de un producto en el inventario. |
-| eliminarInventario(inventarioID) | Elimina un registro de inventario utilizando su ID. |
-| obtenerDetallesInventario(productoID) | Devuelve la información del inventario para un producto específico. |
+| agregarInventario() | Agrega un registro al inventario.      |
+| actualizarInventario()| Actualiza un registro del inventario. |
+| eliminarInventario()| Elimina un registro del inventario.    |
+| consultarInventario()| Consulta la cantidad de un producto en el inventario. |
 
 ---
 
-### ProcesoProductivo
-| Atributos           | Tipos    |
-|---------------------|----------|
-| id                  | int      |
-| productoID          | int      |
-| fechaInicio         | datetime |
-| fechaFin            | datetime |
-| estado              | string   |
-| observaciones       | string   |
+### Soporte
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| usuarioID           | int (FK)        |
+| nombre              | string          |
+| problema            | string          |
+| estado              | char            |
+| respuesta           | string          |
+| fechaSolicitud      | datetime        |
+| fechaRespuesta      | datetime        |
 
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
-| iniciarProceso(productoID) | Inicia un nuevo proceso productivo para un producto específico. |
-| finalizarProceso(procesoID) | Finaliza un proceso productivo y registra la fecha de finalización. |
-| obtenerEstadoProceso(procesoID) | Obtiene el estado actual de un proceso productivo específico. |
-| registrarObservaciones(procesoID, observaciones) | Registra observaciones sobre el proceso productivo. |
+| crearSolicitud()    | Crea una nueva solicitud de soporte.   |
+| actualizarSolicitud()| Actualiza una solicitud de soporte existente. |
+| cerrarSolicitud()   | Cierra una solicitud de soporte.      |
+| listarSolicitudes() | Devuelve una lista de solicitudes de un usuario. |
+
+---
+
+### Suscripcion
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| usuarioID           | int (FK)        |
+| tipo                | string          |
+| fechaInicio         | datetime        |
+| fechaFin            | datetime        |
+| costo               | decimal         |
+| caracteristicas     | string          |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| seleccionarPlan()   | Permite seleccionar un plan de suscripción. |
+| actualizarSuscripcion()| Actualiza la suscripción del usuario. |
+| cancelarSuscripcion()| Cancela la suscripción activa.        |
+
+---
+
+### FuncionalidadGratuita
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| accesoBásico        | tinyint         |
+| verReportes         | tinyint         |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| habilitar()         | Activa las funcionalidades gratuitas.  |
+| deshabilitar()      | Desactiva las funcionalidades gratuitas. |
+
+---
+
+### FuncionalidadBásica
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| accesoBásico        | int             |
+| verReportes         | int             |
+| gestionarInventario | int             |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| habilitar()         | Activa las funcionalidades básicas.    |
+| deshabilitar()      | Desactiva las funcionalidades básicas. |
+
+---
+
+### FuncionalidadPremium
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| accesoBásico        | int             |
+| verReportes         | int             |
+| gestionarInventario | int             |
+| analizarAvanzado    | int             |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| habilitar()         | Activa las funcionalidades premium.    |
+| deshabilitar()      | Desactiva las funcionalidades premium. |
+
+---
+
+### ProcesoVinificación
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| productoID          | int (FK)        |
+| productorID         | int (FK)        |
+| fechaInicio         | datetime        |
+| fechaFin            | datetime        |
+| estado              | string          |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| iniciarProceso()    | Inicia un nuevo proceso de vinificación. |
+| finalizarProceso()  | Finaliza un proceso de vinificación existente. |
+| actualizarEstado()  | Actualiza el estado de un proceso de vinificación. |
+| obtenerProceso()    | Recupera los detalles de un proceso específico. |
+
+---
+
+### Distribuidor
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| usuarioID           | int (FK)        |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| crearDistribuidor() | Crea un nuevo distribuidor.            |
+| actualizarDistribuidor()| Actualiza un distribuidor existente. |
+| eliminarDistribuidor()| Elimina un distribuidor del sistema. |
+| obtenerDistribuidor()| Recupera datos de un distribuidor específico. |
+
+---
+
+### Productor
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | int             |
+| usuarioID           | int (FK)        |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| crearProductor()    | Crea un nuevo productor.               |
+| actualizarProductor()| Actualiza un productor existente.     |
+| eliminarProductor() | Elimina un productor del sistema.      |
+| obtenerProductor()  | Recupera datos de un productor específico. |
 
 ---
 ## 4.8. Database Design.
