@@ -387,43 +387,43 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
         <thead>
             <tr>
                 <th>Entrevistado 1</th>
-                <th>Nombre del entrevistado</th>
+                <th>Joaquín Enrique Carranza Tesén</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre</th>
+                <th>Oscar Javier Armas Sánchez</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Edad</td>
-                <td>ingresa edad</td>
+                <td>Edad </td>
+                <td>25 años</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>ingresa Distrito</td>
+                <td>Chorrilos</td>
             </tr>
             <tr>
                 <td>
-                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                    <img src="/assets/img/chapter-II/Captura de pantalla 2024-09-08 035557.png" alt="Foto de entrevista">
                 </td>
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Escribe el resumen de la entrevista
+                    Dado que el presente entrevistado nos comento que se dedicaba al campo de la vitivinícultura, siendo asistente de una Bodega en Lunahúana, el cual el se dedicaba al area de inventario, para lo cual utilizaba el Excel como ayuda para registrar datos de su almacen, asi como tambien un cuaderno de apuntes el cual lo usaba para datos que no les parecia reelevante. Ademas nos menciono que estaria interesado en nuestra propuesta de un programa que le ayudara a poeder almacenar sus datos y tambien que pudiera llevar un control de las mismas.
                 </td>
             </tr>
             <tr>
                 <td>Tiempo que empieza</td>
-                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+                <td>0:00 minutos</td>
             </tr>
             <tr>
                 <td>Tiempo de la entrevista</td>
-                <td> Ejemplo -> 4:41min </td>
+                <td> 5:30 minuntos  </td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td> Ingresa URL </td>
+                <td> https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/Ee84qx8cO_RLuiQAY5NyaSEBlDSvwnXt1bqG67H7Ie0IlA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fe2JMf </td>
             </tr>
         </tbody>
 </table>
@@ -433,43 +433,43 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
         <thead>
             <tr>
                 <th>Entrevistado 2</th>
-                <th>Nombre del entrevistado</th>
+                <th>Mirian Sánchez</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre</th>
+                <th>Oscar Javier Armas Sánchez</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td>ingresa edad</td>
+                <td>58 años</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>ingresa Distrito</td>
+                <td>Pacaran</td>
             </tr>
             <tr>
                 <td>
-                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                    <img src="/assets/img/chapter-II/Captura de pantalla 2024-09-08 041320.png" alt="Foto de entrevista">
                 </td>
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Escribe el resumen de la entrevista
+                    La presente intrevistada menciona que era la dueña de un viñedo, el cua ella acordaba con sus ayudantes lo que tenian que hacer para pioder mantener a cuidado si viñedo, ademas menciono que que utilizaba el programa excel para sus cuentas asi como un cuaderno de sus gastos y sus posibles ventas. Nos aclaro que ella lleva en nombre de su familia casi 6 años el viñedo que les heredo sus padres el cual tenia una gran tiempo de produccion de vinos el cual era mas de 50 años de trayectoria, y queria seguir manteniendolo en trayectoria.  
                 </td>
             </tr>
             <tr>
                 <td>Tiempo que empieza</td>
-                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+                <td> 0:05 minutos</td>
             </tr>
             <tr>
                 <td>Tiempo de la entrevista</td>
-                <td> Ejemplo -> 4:41min </td>
+                <td> 8:13 minutos </td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td> Ingresa URL </td>
+                <td>    https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EUJRH1TnmRZIq13cyEp07RsB6ixOH6U_eU9az7MytczEXw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XO639h</td>
             </tr>
         </tbody>
 </table>
@@ -480,43 +480,43 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
         <thead>
             <tr>
                 <th>Entrevistado 3</th>
-                <th>Nombre del entrevistado</th>
+                <th>Fabricio Candela</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre</th>
+                <th>Oscar Javier Armas Sánchez</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td>ingresa edad</td>
+                <td>26</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>ingresa Distrito</td>
+                <td>San Juan de Miraflores</td>
             </tr>
             <tr>
                 <td>
-                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                    <img src="/assets/img/chapter-II/Captura de pantalla 2024-09-08 064251.png">
                 </td>
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Escribe el resumen de la entrevista
+                    Durante la entrevista, el entrevistado nos informó que trabaja en el ámbito de la vitivinicultura como asistente en una bodega ubicada en Lunahuaná. Su principal responsabilidad está en el área de inventario, donde emplea Excel para registrar los datos de su almacén. Además, utiliza un cuaderno de apuntes para llevar información que considera de menor relevancia. Nos mencionó que estaría interesado en nuestra propuesta de un sistema que le permitiera almacenar y gestionar sus datos de manera más eficiente, con una funcionalidad que le facilite el control sobre el inventario.
                 </td>
             </tr>
             <tr>
                 <td>Tiempo que empieza</td>
-                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+                <td> 0:04 minutos</td>
             </tr>
             <tr>
                 <td>Tiempo de la entrevista</td>
-                <td> Ejemplo -> 4:41min </td>
+                <td> 4:21 minutos </td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td> Ingresa URL </td>
+                <td> https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EfZVpAdvdvxGjOuLCSm8PuIBtXUHGDLTcAcdAZowxFqyJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZV6NhE </td>
             </tr>
         </tbody>
 </table>
@@ -529,43 +529,43 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
         <thead>
             <tr>
                 <th>Entrevistado 1</th>
-                <th>Nombre del entrevistado</th>
+                <th>Jazzy Adolfo Benites Morales </th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th>Nombre</th>
+                <th>Oscar Javier Armas Sánchez</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td>ingresa edad</td>
+                <td>25</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td>ingresa Distrito</td>
+                <td>San Juan de Miraflores</td>
             </tr>
             <tr>
                 <td>
-                    <img src="/assets/img/chapter-II/" alt="Foto de entrevista">
+                    <img src="/assets/img/chapter-II/Captura de pantalla 2024-09-08 063854.png" alt="Foto de entrevista">
                 </td>
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Escribe el resumen de la entrevista
+                    En la entrevista, el entrevistado nos comentó que se desempeña como distribuidor de vinos y piscos. Su labor principal consiste en gestionar la distribución de estos productos a diferentes puntos de venta y clientes. Para ello, utiliza herramientas como programas para llevar un control de los pedidos y la distribución de su inventario. Sin embargo, mencionó que le gustaría contar con un sistema más automatizado que le permitiera gestionar de manera más eficiente sus productos, realizar un seguimiento de las entregas, y mejorar la planificación de sus rutas de distribución.
                 </td>
             </tr>
             <tr>
                 <td>Tiempo que empieza</td>
-                <td> Ingresa el tiempo de inicio de tú entrevista</td>
+                <td> 0:03 minutos</td>
             </tr>
             <tr>
                 <td>Tiempo de la entrevista</td>
-                <td> Ejemplo -> 4:41min </td>
+                <td> 3:55 minutos </td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td> Ingresa URL </td>
+                <td> https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EdzpSOgNqA9GiF7jhrRvbO4B7CLsnh2LjmDFwGgBt8Rddg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qbcCz5 </td>
             </tr>
         </tbody>
 </table>
