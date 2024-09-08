@@ -618,24 +618,23 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </tr>
     <tr>
         <td>TS002</td>
-        <td>Obtener Datos de Proyectos</td>
-        <td>
-            Como desarrollador backend en ElixirControl, quiero obtener los datos de los Proyectos a través de una API para permitir al equipo de frontend utilizar los datos del proyecto y mostrarlos a los usuarios.
-        </td>
-        <td>
-            <strong>Escenario 01: Obtener Datos de los Proyectos</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Proyectos, cuando envío una solicitud GET para la obtención de datos del proyecto, entonces el servidor responde con un código de estado 200 OK y recibo la información de los Proyectos actuales en un response de formato JSON que contiene los siguientes campos:<br>
-            - ID: {ID del proyecto}<br>
-            - Business Id: {Id de empresa que realiza el proyecto}<br>
-            - Contractor Id: {Id del contratista que solicitó el proyecto}<br>
-            - Start Date: {Fecha de inicio del proyecto}<br>
-            - Finish Date: {Fecha de fin del proyecto}<br>
-            - Name: {Nombre del proyecto}<br>
-            - Description: {Descripción del proyecto}<br><br>
-            <strong>Escenario 02: Obtener Datos del Proyecto Exitosamente por ID</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Proyectos por ID, cuando envío una solicitud GET para la obtención de datos del proyecto por su ID, entonces el servidor responde con un código de estado 200 OK y recibo la información del proyecto actual en un response de formato JSON.<br><br>
-            <strong>Escenario 03: Obtener Datos del Proyecto con Parámetro de ID Erróneo</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Proyectos por ID, cuando envío una solicitud GET para la obtención de datos del proyecto con un parámetro de ID erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en el response indicando que el parámetro de ID es incorrecto o no existe.
+    <td>Obtener Datos de Vinificación</td>
+    <td>
+        Como desarrollador backend en ElixirControl, quiero obtener los datos del proceso de vinificación a través de una API para permitir al equipo de frontend utilizar los datos del proceso en la interfaz.
+    </td>
+    <td>
+        <strong>Escenario 01: Obtener Datos de Vinificación Exitosamente</strong><br>
+        Dado que tengo autorización en el uso de la API y al endpoint de Vinificación, cuando envío una solicitud GET para la obtención de datos del proceso de vinificación, entonces el servidor responde con un código de estado 200 OK y recibo la información del proceso de vinificación en un response de formato JSON que contiene los siguientes campos:<br>
+        - ID: {ID del proceso de vinificación}<br>
+        - Product ID: {ID del producto}<br>
+        - Producer ID: {ID del productor}<br>
+        - Start Date: {Fecha de inicio}<br>
+        - End Date: {Fecha de fin}<br>
+        - Status: {Estado del proceso (en curso, completado, cancelado)}<br><br>
+        <strong>Escenario 02: Obtener Datos de Vinificación Exitosamente por ID</strong><br>
+        Dado que tengo autorización en el uso de la API y al endpoint de Vinificación por ID, cuando envío una solicitud GET para la obtención de datos del proceso de vinificación por su ID, entonces el servidor responde con un código de estado 200 OK y recibo la información del proceso de vinificación actual en un response de formato JSON.<br><br>
+        <strong>Escenario 03: Obtener Datos de Vinificación por ID con Parámetro Erróneo</strong><br>
+        Dado que tengo autorización en el uso de la API y al endpoint de Vinificación por ID, cuando envío una solicitud GET para la obtención de datos del proceso de vinificación con un ID de parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en la solicitud indicando que el ID de parámetro es incorrecto o no existe.
         </td>
         <td></td>
     </tr>
