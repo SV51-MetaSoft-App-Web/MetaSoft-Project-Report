@@ -90,13 +90,19 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 5-->
             <td> 
-            <img src="" height="120" alt="">
+            <img src="assets/img/chapter-I/oscar_armas.jpg" height="120" alt="">
+              Oscar Javier Armas Sánchez - U20211G192
             <br> 
             </td>
             <!-- DESCRIPCIÓN del integrante 5-->
-            <td> </td>
+            <td>
+              Soy estudiante de la carrera de ingeniería de software en la UPC. Tengo pasión por la lectura , y me gusta experimentar diferentes campos. Trato siempre de poder mejorar y aprender cada día.
+            </td>
             <!-- CONOCIMIENTOS del integrante 5-->
-            <td> </td>
+            <td> 
+               Cuento con conocimientos en lenguajes de programación como C++, Python, programación web utilizando HTML y CSS, conocimientos en SQL ; así mismo también poseo conocimientos generales en diversas materias como matemáticas y fisica
+               .
+            </td>
         </tr>
     </body>
 </table>
