@@ -12,7 +12,7 @@
 # "Informe de Trabajo Final"
 ## Docente: Angel Augusto Velasquez Nuñez
 ## Startup: MetaSoft
-## Producto: Aún por definir
+## Producto: ElixirControl
 
 </center> 
 
@@ -305,8 +305,8 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <td>
             <p style="text-align: center;" ><strong >Presentable del TB1</strong></p>
             <br>
-            <strong>Estudiante 1: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Janover Gonzalo Saldaña Vela: </strong> 
+            <br> Durante el desarrollo de esta primera entrega trabajar en equipo de manera conjunta fue un factor crucial para nuestra determinación en acabar con los entregables a tiempo y cumpliendo con los requisitos que nos pide el usuario final.
             <!--Siguiente-->
             <br> <br>
             <strong>Estudiante 2: </strong> 
@@ -357,8 +357,8 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <td>
             <p style="text-align: center;" ><strong >Presentable del TB1</strong></p>
             <br>
-            <strong>Estudiante 1: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Janover Gonzalo Saldaña Vela </strong> 
+            <br> Durante el proceso de la primera entrega del TF, nuestro equipo se mantuvo en comunicación constante y establecimos tareas para cada integrante con el fin de que podamos cumplir con el objetivo en común de acabar de manera satisfactoria el primer sprint (Landing Page).
             <!--Siguiente-->
             <br> <br>
             <strong>Estudiante 2: </strong> 
