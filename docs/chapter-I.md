@@ -13,11 +13,9 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
 - *Visión:*
   Ser reconocidos como líderes en innovación tecnológica dentro del sector vitivinícola y de pisco, estableciendo estándares de excelencia en la gestión de procesos productivos y contribuyendo al crecimiento sostenible de la industria.
 
-
 ### 1.1.1. Descripción de la Startup
 
 ### 1.1.2. Perfiles de integrantes del equipo
-
 
 
 <table style="text-align:center">
@@ -32,13 +30,14 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 1-->
             <td > 
-            <img src="" height="120" alt="">
+            <img src="/assets/img/chapter-I/janover-saldana.png" height="120" alt="">
+            Janover Gonzalo Saldaña Vela - U20201B510
             <br> 
             </td>
-            <!-- DESCRIPCIÓN del integrante 1-->
-            <td ></td>
+            <!--DESCRIPCIÓN del integrante 1-->
+            <td>Estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Elegí la carrera por mi interés en crear nuevas tecnologías que sirvan de apoyo dentro de las empresas, gobiernos, la educación y el entretenimiento. Tengo como intereses viajar y conocer nuevos lugares, realizar deportes de aventura y extremos.</td>
             <!-- CONOCIMIENTOS del integrante 1-->
-            <td></td>
+            <td>Nivel Intermedio en C++, Base de datos no relacionales. Nivel Básico en HTML, CSS, JavaScript, Python, C# y tengo concimientos de metodologías ágiles, poseo habilidades de liderazgo de equipo que pueden ser de gran utilidad en el equipo de trabajo.</td>
         </tr>
         <tr>
             <!-- DATOS del integrante 2-->
