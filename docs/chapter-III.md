@@ -731,7 +731,7 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     <td>5</td>
 </tr>
 <tr>
-    <td>22</td>
+    <td>17</td>
     <td>US-022</td>
     <td>Implementación de Funcionalidad de Búsqueda</td>
     <td>Como usuario, quiero poder realizar búsquedas en la aplicación para encontrar rápidamente la información que necesito.</td>
