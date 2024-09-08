@@ -446,19 +446,18 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
 <!-- User Story 22 -->
 <tr>
     <td>US-022</td>
-    <td>Integración de Validadores en Formularios de la App Web</td>
+    <td>Implementación de Funcionalidad de Búsqueda</td>
     <td>
-        Como usuario, quiero que los formularios de la aplicación web tengan validadores para asegurar que los datos ingresados sean correctos.
+        Como usuario, quiero poder realizar búsquedas en la aplicación para encontrar rápidamente la información que necesito.
     </td>
     <td>
-        <strong>Escenario 01: Validación de Datos Incorrectos.</strong> <br>
-        Dado que el usuario completa un formulario, cuando envía el formulario con datos incorrectos, entonces el sistema muestra mensajes de error específicos.<br>
-        <strong>Escenario 02: Validación de Datos Correctos.</strong> <br>
-        Dado que el usuario completa un formulario correctamente, cuando envía el formulario, entonces el sistema procesa la información y muestra un mensaje de éxito.
+        <strong>Escenario 01: Búsqueda por Palabra Clave.</strong> <br>
+        Dado que el usuario está en la página de búsqueda, cuando ingresa una palabra clave en el campo de búsqueda y hace clic en "Buscar", entonces el sistema debe mostrar una lista de resultados que contengan la palabra clave en el título o descripción.<br>
+        <strong>Escenario 02: Búsqueda Sin Resultados.</strong> <br>
+        Dado que el usuario ha ingresado una palabra clave en el campo de búsqueda, cuando no hay resultados que coincidan con la búsqueda, entonces el sistema debe mostrar un mensaje que indique "No se encontraron resultados para tu búsqueda. Por favor, intenta con otra palabra clave."
     </td>
     <td>EPIC-006</td>
 </tr>
-
 <!-- User Story 23 -->
 <tr>
     <td>US-023</td>
@@ -732,10 +731,10 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     <td>5</td>
 </tr>
 <tr>
-    <td>17</td>
+    <td>22</td>
     <td>US-022</td>
-    <td>Integración de Validadores en Formularios de la App Web</td>
-    <td>Como usuario, quiero que los formularios de la aplicación web tengan validadores para asegurar que los datos ingresados sean correctos.</td>
+    <td>Implementación de Funcionalidad de Búsqueda</td>
+    <td>Como usuario, quiero poder realizar búsquedas en la aplicación para encontrar rápidamente la información que necesito.</td>
     <td>5</td>
 </tr>
 <tr>
