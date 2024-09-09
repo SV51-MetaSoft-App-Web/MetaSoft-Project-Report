@@ -327,8 +327,8 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <br> En la creacion de esta primera parte de la primera entrega, me centré en la coordinación del equipo para asegurar que todos los integrantes trabajen de manera alineada. Tomé el rol de cumplir, promoviendo la puntualidad y asegurando que las tareas se cumplieran equitativamente entre los miembros. 
             <!--Siguiente-->
             <br> <br>
-            <strong>Estudiante 5: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Juan Paul Llamccaya Arone</strong> 
+            <br> Durante esta primera entrega, me enfoqué principalmente en la Requirements Specification. Me aseguré de que todo los documentos del capitulo esten bien documentados y alineados con las necesidades del usuario. Colaboré estrechamente con el equipo para clarificar cualquier duda en cuanto a los Requirements Specification, lo que facilitó una mejor comprensión del proyecto y permitió que el desarrollo se realizara conforme a las expectativas del usuario.
             <!--Siguiente-->
             <br> <br>
             <p style="text-align: center;" ><strong >Presentable del TB2</strong></p>
@@ -380,8 +380,8 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <br> En esta primera entrega, me concentré en realizar mis tareas asignadas con eficiencia y puntualidad. Colaboré con el equipo para asegurar que mi trabajo contribuyera a alcanzar los objetivos del proyecto, manteniendo siempre una comunicación fluida para resolver dudas y facilitar la integración del trabajo conjunto.
             <!--Siguiente-->
             <br> <br>
-            <strong>Estudiante 5: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Juan Paul Llamccaya Arone</strong> 
+            <br> En esta primera entrega, trabajé en el User Journey Mapping para entender el recorrido del usuario y en el Empathy Mapping para captar sus necesidades. También realicé el As-is Scenario Mapping para analizar el estado actual del sistema y establecí el Ubiquitous Language para alinear al equipo. Finalmente, desarrollé el To-Be Scenario Mapping y el Impact Mapping para visualizar mejoras y conectar los objetivos del proyecto con los resultados esperados. Mantuvimos una comunicación constante para cumplir los objetivos en conjunto.
             <!--Siguiente-->
             <br> <br>
             <p style="text-align: center;" ><strong >Presentable del TB2</strong></p>
