@@ -323,8 +323,8 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <br> El desarrollo de esta primera parte del trabajo marcó un lazo importante entre los integrantes del equipo, la expresión de ideas claras y comunicación acertiva nos ayudó a poder desarrollar el proyecto de la mejor manera posible. 
             <!--Siguiente-->
             <br> <br>
-            <strong>Estudiante 4: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Oscar Javier Armas Sánchez </strong> 
+            <br> En la creacion de esta primera parte de la primera entrega, me centré en la coordinación del equipo para asegurar que todos los integrantes trabajen de manera alineada. Tomé el rol de cumplir, promoviendo la puntualidad y asegurando que las tareas se cumplieran equitativamente entre los miembros. 
             <!--Siguiente-->
             <br> <br>
             <strong>Estudiante 5: </strong> 
@@ -376,8 +376,8 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <br> Durante la elbaoración previa al diseño del entorno general de la plataforma, se analizó de manera concreta el estilo general que esta llevaría: colores primarios y secundarios, tamañios de fuente, ubicación de iconos y botones, fonts y demás consideraciones. En conjunto con el equipo de trabajo se logró desarrollarlo de manera efectiva gracias a la comunicación constante y la ayuda mutua.
             <!--Siguiente-->
             <br> <br>
-            <strong>Estudiante 4: </strong> 
-            <br> Descripción de acciones realizadas
+            <strong>Oscar Javier Armas Sánchez </strong> 
+            <br> En esta primera entrega, me concentré en realizar mis tareas asignadas con eficiencia y puntualidad. Colaboré con el equipo para asegurar que mi trabajo contribuyera a alcanzar los objetivos del proyecto, manteniendo siempre una comunicación fluida para resolver dudas y facilitar la integración del trabajo conjunto.
             <!--Siguiente-->
             <br> <br>
             <strong>Estudiante 5: </strong> 
