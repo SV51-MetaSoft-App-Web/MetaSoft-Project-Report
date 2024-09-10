@@ -405,12 +405,12 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
             </tr>
             <tr>
                 <td>
-                    <img src="/assets/img/chapter-II/Captura de pantalla 2024-09-08 035557.png" alt="Foto de entrevista">
+                    <img src="../assets/img/chapter-II/Captura de pantalla 2024-09-08 035557.png" alt="Foto de entrevista">
                 </td>
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Dado que el presente entrevistado nos comento que se dedicaba al campo de la vitivinícultura, siendo asistente de una Bodega en Lunahúana, el cual el se dedicaba al area de inventario, para lo cual utilizaba el Excel como ayuda para registrar datos de su almacen, asi como tambien un cuaderno de apuntes el cual lo usaba para datos que no les parecia reelevante. Ademas nos menciono que estaria interesado en nuestra propuesta de un programa que le ayudara a poeder almacenar sus datos y tambien que pudiera llevar un control de las mismas.
+                    Dado que el presente entrevistado nos comento que se dedicaba al campo de la vitivinícultura, siendo el asistente de una Bodega en Lunahúana, el cual el se dedicaba al area de inventario, para lo cual utilizaba el Excel como ayuda para registrar datos de su almacen, asi como tambien un cuaderno de apuntes el cual lo usaba para datos que no les parecia reelevante. Ademas nos menciono que estaria interesado en nuestra propuesta de un programa que le ayudara a poeder almacenar sus datos y tambien que pudiera llevar un control de las mismas.
                 </td>
             </tr>
             <tr>
@@ -451,7 +451,7 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
             </tr>
             <tr>
                 <td>
-                    <img src="/assets/img/chapter-II/Captura de pantalla 2024-09-08 041320.png" alt="Foto de entrevista">
+                    <img src="../assets/img/chapter-II/Captura de pantalla 2024-09-08 041320.png" alt="Foto de entrevista">
                 </td>
                 <td>
                 <strong>
@@ -498,7 +498,7 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
             </tr>
             <tr>
                 <td>
-                    <img src="/assets/img/chapter-II/Captura de pantalla 2024-09-08 064251.png">
+                    <img src="../assets/img/chapter-II/Captura de pantalla 2024-09-08 064251.png">
                 </td>
                 <td>
                 <strong>
@@ -547,7 +547,7 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
             </tr>
             <tr>
                 <td>
-                    <img src="/assets/img/chapter-II/Captura de pantalla 2024-09-08 063854.png" alt="Foto de entrevista">
+                    <img src="../assets/img/chapter-II/Captura de pantalla 2024-09-08 063854.png" alt="Foto de entrevista">
                 </td>
                 <td>
                 <strong>
