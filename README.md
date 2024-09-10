@@ -338,7 +338,7 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
                 <p style="text-align: center;" >
                     <strong >Conclusión General TB1</strong>
                     <br>
-                    Descripción de conclusión TB1
+                    En este entregable se logró crear un entorno colaborativo e inclusivo, donde todos los miembros del equipo participaron activamente. Las metas fueron claramente definidas al principio del proyecto, la asignación de tareas se planificaron de manera estratégica según las habilidades de los integrantes del equipo y se hizo un seguimiento constante del progreso. Gracias a la comunicación efectiva y la flexibilidad, se alcanzaron los objetivos de manera eficiente y exitosa. 
                 </p>
                  <!--Siguiente-->
                 <br> <br>
@@ -391,7 +391,7 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
                 <p style="text-align: center;" >
                     <strong >Conclusión General TB1</strong>
                     <br>
-                    Descripción de conclusión TB1
+                    Se creó un entorno colaborativo e inclusivo, en el que cada miembro del equipo tuvo la oportunidad de aportar sus ideas y habilidades. Las metas se establecieron de forma clara y alineadas con las capacidades del equipo, las tareas se planificaron estratégicamente y se realizó un seguimiento constante del avance. Como resultado, los objetivos se cumplieron de manera efectiva, fomentando una dinámica de trabajo productiva y armónica.
                 </p>
                  <!--Siguiente-->
                 <br> <br>
