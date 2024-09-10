@@ -150,7 +150,7 @@ A continuación, se describe la gestión del código fuente, también conocida p
 
 GitFlow es un modelo alternativo para la creación de ramas en Git que se ha convertido en una herramienta esencial para muchos desarrolladores en los últimos años. Este flujo de trabajo de control de versiones, desarrollado y popularizado por Vicent Driessen, desempeña un papel crucial en la gestión de las versiones de un código, facilitando la creación ordenada de nuevas características (Features) y correcciones de problemas urgentes (Hotfixes).
 
-![GitFlow.png](/assets/img/chapter-V/sprint-1/Gitflow.png)
+![GitFlow.png](/assets/img/chapter-V/sprint-1/GitFlow.png)
 
 Como se mencionó previamente, GitFlow opera con ramas o "branches". A continuación, se detallan las ramas que se utilizarán en el flujo de trabajo de nuestro proyecto.
 
@@ -765,11 +765,11 @@ Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes p
 
 ### 5.2.1. Sprint 1
 
-En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implementación del diseño de nuestra Landing Page utilizando WebStorm como entorno de desarrollo. Esto implica que al concluir el Sprint, todas las secciones, ya sea Home, Services, Pricing, Testimonials o About Us, deben estar completadas. A continuación, adjuntamos imágenes que ilustran cómo gestionamos las tareas en Pivotal Tracker.
+En la fase inicial de nuestro proyecto, nos propusimos llevar a cabo la implementación del diseño de nuestra Landing Page utilizando WebStorm como entorno de desarrollo. Esto implica que al concluir el Sprint, todas las secciones, ya sea Home, Services, Pricing, Testimonials o About Us, deben estar completadas. A continuación, adjuntamos imágenes que ilustran cómo gestionamos las tareas en Jira Software.
 
 Repositorio: [https://github.com/SV51-MetaSoft-App-Web/ElixirControl-Landing-Page](https://github.com/SV51-MetaSoft-App-Web/ElixirControl-Landing-Page)
 
-Landing Page Deployed: 
+Landing Page Deployed: https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/
 
 
 ## 5.2. Landing Page, Services & Applications Implementation.
@@ -833,12 +833,12 @@ gestionamos las tareas en Jira Software.
         <!--FILA 8-->
         <tr>
             <td>Sprint 1 Velocity</td>
-            <td> 20 </td>
+            <td> 36 </td>
         </tr>
         <!--FILA 9-->
         <tr>
             <td>Sum of Story Points</td>
-            <td> 20 </td>
+            <td> 43 </td>
         </tr>
     </tbody>
 </table>
@@ -1054,10 +1054,11 @@ gestionamos las tareas en Jira Software.
         </tr>
         <!--FILA 17-->  
         <tr>
-            <td rowspan="4"> US-018	</td>
-            <td rowspan="4">Implementar opción de cambio de idioma	</td>
+            <td rowspan="3"> US-018	</td>
+            <td rowspan="3">Implementar opción de cambio de idioma	</td>
             <td> T020 </td>
-            <td>Añadir la funcionalidad para cambiar el idioma de la aplicación en Angular.	</td>
+            <td>Funcionalidad para cambiar idioma</td></td>
+            <td>Añadir la funcionalidad para cambiar el idioma de la aplicación en Angular.</td>
             <td>5</td>
             <td></td>
             <td>Done</td> 
@@ -1077,32 +1078,7 @@ gestionamos las tareas en Jira Software.
             <td>3</td>
             <td></td>
             <td>Done</td>
-        </tr> 
-        <tr>
-            <td rowspan="4"> US-018	</td>
-            <td rowspan="4">Implementar opción de cambio de idioma	</td>
-            <td> T026 </td>
-            <td>Implementar diseño responsive utilizando CSS</td>
-            <td>5</td>
-            <td></td>
-            <td>Done</td> 
         </tr>
-        <tr>
-            <td> T027 </td>
-            <td>Pruebas de visualización en diferentes dispositivos</td>
-            <td>Probar el diseño en varios dispositivos (móvil, tablet, desktop).	</td>
-            <td>4</td>
-            <td></td>
-            <td>Done</td> 
-        </tr>
-        <tr>
-            <td> T028 </td>
-            <td>Ajustes finales de responsividad</td>
-            <td>Realizar ajustes finales para asegurar una experiencia responsive óptima.		</td>
-            <td>2</td>
-            <td></td>
-            <td>Done</td>
-        </tr> 
     </tbody>
 </table>
 
