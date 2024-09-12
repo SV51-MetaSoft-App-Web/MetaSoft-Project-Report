@@ -347,10 +347,29 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 ## 1.3. Segmentos objetivo.
 
-El primer segmento objetivo son los **productores de vino**, especialmente aquellos que operan de manera artesanal o sin una organización formal establecida. Este grupo suele enfrentar desafíos en la gestión eficiente de su producción, control de inventarios y manejo logístico. *ElixirControl* está diseñado para ofrecerles una solución que simplifique y optimice estos procesos, permitiéndoles centrarse en la calidad de su producto mientras automatizan y mejoran sus operaciones diarias.
+Nuestro proyecto MetaSoft está dirigido a dos segmentos principales: productores de vinos y distribuidores de vinos en Lima, Perú. Estos segmentos son clave en el sector vitivinícola y están compuestos por personas naturales y jurídicas mayores de edad, dedicadas a la producción y comercialización de vinos a nivel local, regional y, en algunos casos, nacional.
 
-El segundo segmento objetivo son los **distribuidores de vino**, quienes se encargan de llevar los productos de los productores a los puntos de venta o directamente al consumidor final. Estos distribuidores pueden beneficiarse de *ElixirControl* al contar con un sistema que les permita un mejor seguimiento de pedidos, gestión de inventarios y control de la logística, facilitando la coordinación con los productores y mejorando la eficiencia de sus operaciones.
+**Productores de Vinos en Lima**
+Este segmento incluye una variedad de productores que abarcan desde pequeños viñedos familiares hasta bodegas comerciales más grandes. Las características de los productores de vinos en Lima son:
 
+Microempresas y Pequeñas Empresas: Productores locales que se enfocan en ediciones limitadas y vinos artesanales. Estas empresas suelen tener menos de 10 empleados y producen en menor volumen, destinando su vino principalmente al mercado local.
+Medianas Empresas: Bodegas con capacidad de producción mayor, que además de atender el mercado local, buscan expandirse a nivel nacional, llegando a otros mercados dentro del país.
+Grandes Empresas: Productores con un mayor volumen de producción, que suelen estar involucrados en exportaciones y tener operaciones más complejas, desde la producción hasta la distribución a nivel internacional.
+Según el Ministerio de Agricultura y Riego de Perú, el sector vitivinícola en el país ha experimentado un crecimiento sostenido, especialmente en regiones cercanas a Lima, donde nuevos productores están emergiendo y participando activamente en la producción de vinos artesanales y comerciales.
+
+**Distribuidores de Vinos en Lima**
+Los distribuidores de vinos en Lima desempeñan un papel fundamental en la comercialización tanto de vinos nacionales como importados. Este segmento abarca desde distribuidores locales hasta grandes empresas nacionales e internacionales, cuya función es conectar a los productores con los consumidores.
+
+Distribuidores Locales: Operan en la región de Lima y sus alrededores, vendiendo principalmente en tiendas especializadas y restaurantes.
+Distribuidores Nacionales: Empresas que tienen redes de distribución en diferentes partes del país, facilitando la llegada de vinos nacionales e internacionales a los consumidores.
+Distribuidores Internacionales: Empresas encargadas de la importación y distribución de vinos de todo el mundo, que se enfocan en proveer a tiendas especializadas, hoteles y restaurantes de alta gama.
+Según la Asociación de Exportadores del Perú (ADEX), la importación y exportación de vinos ha crecido significativamente en los últimos años, con una tendencia al alza en el consumo de vinos importados y un interés creciente en los vinos peruanos a nivel internacional.
+
+**Datos Estadísticos Claves**
+Según el Instituto Nacional de Estadística e Informática (INEI), la producción de vinos en Perú ha mostrado una tasa de crecimiento del 4.5% anual, especialmente en las regiones vitivinícolas emergentes del país.
+El número de productores de vinos artesanales ha crecido en un 15% entre 2018 y 2022, impulsado por la demanda local y las nuevas políticas de apoyo al sector agrícola y productivo.
+El 60% de los distribuidores en Lima están invirtiendo en la optimización de sus procesos logísticos y comerciales mediante soluciones tecnológicas, con un enfoque en mejorar la eficiencia y la trazabilidad de los productos.
+Estos segmentos representan una oportunidad clave para MetaSoft, al ofrecer soluciones integradas para la gestión y optimización de los procesos productivos y logísticos en el sector vitivinícola.
 
 
 
