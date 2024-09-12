@@ -671,10 +671,14 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
 La identificación y comprensión profunda de las necesidades de los usuarios es crucial para el éxito de ElixirControl, una plataforma diseñada para la gestión del proceso productivo en la industria del vino y pisco. Mediante un enfoque meticuloso de *needfinding*, se recolecta y analiza información clave sobre las operaciones y desafíos específicos que enfrentan tanto los productores de vino como los distribuidores de pisco. Este enfoque permite descubrir puntos críticos y oportunidades significativas que informan el desarrollo y diseño de la solución. Al explorar a fondo los comportamientos, preferencias y dificultades de estos usuarios, ElixirControl se orienta a crear una herramienta que no solo optimiza la eficiencia, sino que también proporciona una experiencia de usuario adaptada y sencilla. Los perfiles de usuario (*user personas*) que guían este desarrollo están basados en los perfiles detallados de productores y distribuidores, asegurando que la plataforma satisfaga de manera precisa sus necesidades específicas y maximice su efectividad en el sector.
 
 ### 2.3.1. User Personas.
-![UPRF](<../assets/img/chapter-II/Ruben Flores_UP.png>)
+En esta sección se incluye la elaboración de las fichas de User Persona. La sección
+inicia con una introducción explicando la relación entre los artefactos a presentar y
+las principales características que se están tomando en cuenta del análisis de
+entrevistas y de la competencia. 
+![UPRF](../assets/img/chapter-II/RubenEP.png)
 ![UPCR](<../assets/img/chapter-II/Camila Ramos_UP.png>)
 ### 2.3.2. User Task Matrix.
-
+En este User Task Matrix, se analizan dos segmentos clave: Ruben Flores, productor de vinos artesanales, y Camila Ramos, distribuidora de vinos. Ruben se enfoca en la gestión del proceso de producción y control de calidad, mientras que Camila gestiona la distribución, el inventario y las relaciones con los productores. Estos segmentos fueron seleccionados por su importancia en la cadena de producción y distribución de vinos, permitiendo identificar sus tareas y necesidades esenciales.
 <body>
     <h2>User Task Matrix</h2>
     <table>
@@ -690,42 +694,42 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
             <th>Importancia</th>
         </tr>
         <tr>
-            <td>Agregar o editar información de clientes.</td>
+            <td>Asegurar la calidad de los productos enviados/recibidos</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Media</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>SSupervisar y gestionar pedidos recibidos.</td>
+            <td>Optimizar los costos operativos.</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Baja</td>
             <td>Media</td>
         </tr>
         <tr>
-            <td>Ver el detalle del pedido	</td>
+            <td>Mejorar la satisfacción del cliente</td>
             <td>Media</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Mantiene y expande la cartera de clientes.</td>
+            <td>Ampliar la presencia en nuevos mercados</td>
             <td>Media</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Alta</td>  
         </tr>
         <tr>
-            <td>Gestionar el historial de ventas y pedidos.</td>
+            <td>Fortalecer las relaciones con proveedores.</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Media</td>
             <td>Media</td>  
         </tr>
         <tr>
-            <td>Generar reportes de inventario y ventas.</td>
+            <td>Planificar la producción y logística</td>
             <td>Alta</td>
             <td>Alta</td>
             <td>Media</td>
@@ -739,7 +743,7 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
             <td>Alta</td>  
         </tr>
         <tr>
-            <td>Asegurar la calidad de los productos enviados.</td>
+            <td>Realizar análisis de mercado.</td>
             <td>Baja</td>
             <td>Media</td>
             <td>Baja</td>
@@ -754,6 +758,34 @@ La identificación y comprensión profunda de las necesidades de los usuarios es
         </tr>
     </table>
 </body>
+
+**Explicación de las tareas destacadas:**
+
+Las tareas destacadas en el User Task Matrix son fundamentales para el éxito y la eficiencia en la producción y distribución de vinos y piscos. A continuación, se presentan las tareas clave que deben ser priorizadas por Ruben Flores y Camila Ramos para alcanzar sus objetivos.
+
+**Asegurar la calidad de los productos enviados/recibidos**
+
+**Ruben Flores:** Alta frecuencia e importancia. Ruben garantiza que el vino producido cumpla con los estándares de calidad para satisfacer a los clientes y mantener la reputación de su marca.
+
+**Camila Ramos:** Media frecuencia y alta importancia. Camila revisa la calidad de los productos antes de su distribución para asegurar que cumplan con las expectativas del mercado.
+
+**Mejorar la satisfacción del cliente**
+
+**Ruben Flores:** Media frecuencia y alta importancia. Ruben trabaja en mejorar la experiencia del cliente, lo que es crucial para la fidelización y el crecimiento del negocio.
+
+**Camila Ramos:** Alta frecuencia e importancia. Camila se enfoca en asegurar que sus clientes estén satisfechos, un factor clave para mantener la lealtad y el éxito del negocio.
+
+**Ampliar la presencia en nuevos mercados**
+
+**Ruben Flores:** Media frecuencia y alta importancia. Ruben explora nuevas oportunidades para expandir su mercado y aumentar su alcance comercial.
+
+**Camila Ramos:** Alta frecuencia e importancia. Camila busca constantemente nuevos mercados para mejorar la distribución y aumentar las ventas.
+
+**Optimizar los costos operativos**
+
+**Ruben Flores:** Alta frecuencia e importancia. Ruben busca eficiencias en sus operaciones para reducir costos y mejorar la rentabilidad de la producción.
+
+**Camila Ramos:** Baja frecuencia y media importancia. Aunque importante, la optimización de costos operativos no es una prioridad diaria en comparación con la gestión de inventarios y la satisfacción del cliente.
 
 ### 2.3.3. User Journey Mapping.
 **Ruben Flores**
