@@ -665,6 +665,20 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
 
 ### 2.2.3. Análisis de entrevistas.
 
+#### Análisis del segmento: Productores de Vinos y Piscos Artesanales
+
+Después de realizar las entrevistas, se identificaron las siguientes conclusiones para este segmento:
+
+El **100%** de los entrevistados utiliza herramientas básicas como **Excel** y **cuadernos** para gestionar el inventario y las finanzas de sus bodegas. Además, el **66.7%** de los entrevistados indicaron que estarían interesados en una solución tecnológica que les ayude a automatizar y optimizar la gestión de sus inventarios y datos.
+
+Respecto a la solución propuesta, el **100%** de los entrevistados manifestó su interés en un sistema que les ayude a gestionar de forma más eficiente sus inventarios y datos.
+
+#### Análisis del segmento: Distribuidores de Vinos
+
+Se realizó una evaluación a partir de las entrevistas en este segmento. Se determinaron las siguientes estadísticas:
+
+El **100%** de los entrevistados utiliza herramientas tecnológicas para llevar el control de los pedidos y la distribución de su inventario. Además, el **100%** de los entrevistados mostró interés en una solución más automatizada que les permita mejorar la planificación de sus rutas de distribución y seguimiento de entregas.
+
 
 ## 2.3. Needfinding.
 
