@@ -1357,6 +1357,58 @@ Los siguientes gráficos ofrecen una representación visual de las clonaciones r
 ![tb1-traffic.png](../assets/img/chapter-V/sprint-1/tb1-traffic.png)
 
 
+
+#### 5.2.2. Sprint 2
+En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funcionalidad de gestión de pedidos dentro de nuestra aplicación ElixirControl, utilizando Vite y Vue en WebStorm como herramientas de desarrollo. Al finalizar este Sprint, se espera que todas las funcionalidades relacionadas, incluyendo la creación, edición y visualización de pedidos, estén completamente operativas. A continuación, se incluyen imágenes que muestran cómo gestionamos las tareas en nuestro tablero de Jira Software, reflejando el progreso y la asignación de responsabilidades del equipo.
+
+##### 5.2.2.1. Sprint Planning 2
+
+##### 5.2.2.2. Sprint Backlog 2
+| User Story | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+|------------|-------|----|-------|-------------|--------------------|-------------|--------|
+| US-006 | Registro de Entrada de Insumos | T001 | Registro de entrada de insumos | Implementar el formulario para registrar insumos en el inventario. | 5 | | To-do |
+| | | T002 | Generación de código de barras | Añadir funcionalidad para generar códigos de barras al registrar insumos. | 1 | | To-do |
+| US-007 | Registro de Salida de Productos Terminados | T003 | Registro de salida de productos terminados | Implementar el escaneo de códigos de barras para registrar salidas. | 1 | | To-do |
+| | | T004 | Reporte de despachos | Crear funcionalidad para generar reportes de productos despachados. | 3 | | To-do |
+| US-008 | Visualizar Datos de Solicitud | T005 | Visualizar datos de solicitud | Desarrollar la interfaz para mostrar datos de solicitud de insumos. | 3 | | To-do |
+| US-009 | Registro de Datos de Clientes | T006 | Registro de datos de clientes | Crear formulario para registrar datos de clientes. | 4 | | To-do |
+| US-010 | Registro de Pedidos de Clientes | T007 | Registro de pedidos de clientes | Implementar formulario para registrar pedidos de clientes. | 4 | | To-do |
+| US-012 | Visualización de Productos Disponibles | T008 | Visualización de productos disponibles | Desarrollar la sección para mostrar productos disponibles para distribuidores. | 3 | | To-do |
+| US-014 | Visualizar Historial de Pedidos | T009 | Visualización del historial de pedidos | Crear interfaz para que los distribuidores vean su historial de pedidos. | 2 | | To-do |
+| US-022 | Implementación de Funcionalidad de Búsqueda | T010 | Implementar funcionalidad de búsqueda | Desarrollar la barra de búsqueda para que los usuarios encuentren información. | 3 | | To-do |
+| US-019 | Integración de validadores en formularios de la app web | T011 | Integrar validadores en formularios | Implementar validadores en todos los formularios. | 4 | | To-do |
+| | | T012 | Probar validadores | Verificar que los validadores funcionan correctamente. | 4 | | To-do |
+| US-030 | Diseño responsive de la interfaz | T013 | Hacer la interfaz responsive | Asegurar que la interfaz se adapte a dispositivos móviles. | 1 | | To-do |
+| | | T014 | Pruebas de usabilidad | Realizar pruebas en diferentes dispositivos. | 4 | | To-do |
+
+##### 5.2.2.3. Development Evidence for Sprint Review
+
+##### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+En este Sprint, nos hemos enfocado en el desarrollo y la implementación de la interfaz de gestión de pedidos, un componente esencial para mejorar la experiencia del usuario en nuestra aplicación. A través de un diseño intuitivo y funcional, buscamos facilitar la creación, edición y visualización de pedidos, permitiendo a los usuarios gestionar sus transacciones de manera eficiente y efectiva. Durante este período, hemos trabajado en varias vistas clave que contribuyen a esta funcionalidad. A continuación, se presentan las capturas de pantalla que ilustran las diferentes etapas del proceso de gestión de pedidos, destacando las características y mejoras implementadas. A continuación, te presentamos capturas de pantalla del desarrollo del front-end: 
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante este Sprint, se ha llevado a cabo la documentación de los endpoints necesarios para la gestión de pedidos, utilizando OpenAPI como herramienta de referencia. Este proceso es fundamental para asegurar que todos los miembros del equipo, así como los desarrolladores futuros, tengan acceso a información clara y detallada sobre cómo interactuar con la API. La tabla a continuación detalla los endpoints documentados, proporcionando una visión clara de las acciones disponibles, los métodos HTTP asociados, y ejemplos de respuestas esperadas. Esta documentación no solo facilita el trabajo del equipo de desarrollo, sino que también mejora la comunicación entre los diferentes actores del proyecto.
+
+| Endpoint | Acción | Verbo HTTP | Descripción | Ejemplo de Response |
+|----------|--------|------------|-------------|---------------------|
+| /api/pedidos | Crear Pedido | POST | Crea un nuevo pedido | { "id": 1, "status": "creado" } |
+| /api/pedidos/{id} | Editar Pedido | PUT | Actualiza un pedido existente | { "id": 1, "status": "actualizado" } |
+| /api/pedidos | Listar Pedidos | GET | Retorna la lista de pedidos | [{ "id": 1, "status": "creado" }, { "id": 2, "status": "enviado" }] |
+
+La correcta implementación de estos endpoints en la aplicación, desarrollada con Vite y Vue en WebStorm, garantiza que los usuarios puedan gestionar sus pedidos de manera eficiente. Este enfoque no solo optimiza el flujo de trabajo, sino que también asegura que la experiencia del usuario sea fluida y satisfactoria. Además, la estandarización de la documentación mediante OpenAPI promueve una mejor colaboración entre equipos y una integración más sencilla con otros servicios en el futuro.
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación utilizando Vite y Vue en WebStorm. La implementación se realizó en un entorno de producción, garantizando que todas las características desarrolladas fueran accesibles para los usuarios finales. El despliegue se realizó siguiendo una serie de pasos estructurados que incluyeron la preparación del entorno, la construcción del proyecto y la configuración del servidor. A continuación, se describen las etapas clave del proceso:
+1. **Preparación del Entorno:** Se verificó que el entorno de producción estuviera configurado adecuadamente. Esto incluyó la instalación de las dependencias necesarias y la configuración de variables de entorno para asegurar que la aplicación funcionara correctamente en producción.
+2. **Construcción del Proyecto:** Utilizando Vite, se ejecutó el comando de construcción, lo que permitió generar los archivos optimizados para producción. Este proceso optimiza el tamaño de los archivos y mejora el rendimiento de la aplicación.
+3. **Configuración del Servidor:** Una vez construidos los archivos, se configuró el servidor para servir la aplicación. Esto incluyó la configuración de redirecciones adecuadas y la optimización de la entrega de contenido estático, asegurando que la aplicación se cargara rápidamente para los usuarios.
+4. **Despliegue en Producción:** Finalmente, se subieron los archivos generados al repositorio de GitHub del grupo de trabajo. Como cada integrante trabajó en una rama diferente, se hizo “merge” para garantizar la recopilación general del proyecto.
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
 ## 6. Conclusiones, Bibliografía y Anexos.
 
 
