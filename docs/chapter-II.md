@@ -694,120 +694,126 @@ El User Person Rubén Flores simboliza al productor de vinos artesanales, espec�
 
 Por otro lado, la User Person Camila Ramos, distribuidora de vinos y piscos, representa a las empresas encargadas de la distribución de estos productos a nivel local y nacional. Su prioridad es gestionar de manera eficiente los inventarios y pedidos, asegurando que los productos lleguen a tiempo y en las mejores condiciones a sus clientes. Aunque actualmente utiliza herramientas tecnológicas básicas, busca soluciones que le permitan automatizar y mejorar su gestión sin complicaciones.
 
-![alt text](<../assets/img/chapter-II/Camila Ramos (7).png>)
+![alt text](<../assets/img/chapter-II/Camila Ramos (8).png>)
 Ambos perfiles aportan información valiosa para el desarrollo del sistema MetaSoft, destacando las principales tareas y áreas donde la tecnología puede marcar una diferencia significativa en sus operaciones diarias.
 
 ### 2.3.2. User Task Matrix.
 En esta sección, se presentan las tareas principales que los User Personas (Luis Ramírez, productor de vinos, y Camila Ramos, distribuidora de vinos) realizan para cumplir sus objetivos dentro del sector vitivinícola en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
-<body>
-    <h2>User Task Matrix</h2>
-    <table>
+<h2>User Task Matrix : Rubén Flores (Productor de Vinos)</h2>
+<table>
+    <thead>
         <tr>
-            <th rowspan="2">User Task</th>
-            <th colspan="2">Rubén Flores (Productor de Vinos)</th>
-            <th colspan="2">Camila Ramos (Distribuidora de Vinos y Piscos)</th>
-        </tr>
-        <tr>
-            <th>Frecuencia</th>
-            <th>Importancia</th>
+            <th>User Task</th>
             <th>Frecuencia</th>
             <th>Importancia</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
-            <td>Gestión de inventarios</td>
-            <td>Alta</td>
-            <td>Alta</td>
+            <td>Controlar la calidad de la uva en la cosecha</td>
             <td>Alta</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Planificación de producción</td>
+            <td>Supervisar el proceso de fermentación</td>
             <td>Alta</td>
             <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Verificar el estado de las barricas</td>
             <td>Media</td>
             <td>Media</td>
         </tr>
         <tr>
-            <td>Control de calidad del vino</td>
-            <td>Alta</td>
-            <td>Alta</td>
+            <td>Coordinar el transporte del producto</td>
             <td>Baja</td>
             <td>Media</td>
         </tr>
         <tr>
-            <td>Gestión de pedidos</td>
+            <td>Participar en ferias y eventos de vino</td>
+            <td>Baja</td>
             <td>Media</td>
-            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Contratar y supervisar personal de campo</td>
             <td>Alta</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Seguimiento de ventas</td>
-            <td>Media</td>
-            <td>Media</td>
+            <td>Gestionar las ventas locales</td>
             <td>Alta</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Optimización de costos</td>
+            <td>Coordinar actividades de marketing local</td>
             <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>
+            <td>Media</td>
         </tr>
-        <tr>
-            <td>Relación con proveedores</td>
-            <td>Baja</td>
-            <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>
-        </tr>
-        <tr>
-            <td>Análisis de mercado</td>
-            <td>Baja</td>
-            <td>Media</td>
-            <td>Media</td>
-            <td>Alta</td>
-        </tr>
-        <tr>
-            <td>Capacitación de empleados</td>
-            <td>Media</td>
-            <td>Media</td>
-            <td>Baja</td>
-            <td>Baja</td>
-        </tr>
-        <tr>
-            <td>Planificación de rutas de entrega</td>
-            <td>Baja</td>
-            <td>Baja</td>
-            <td>Baja</td>
-            <td>Baja</td>
-        </tr>
-        <tr>
-            <td>Comunicación con clientes</td>
-            <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>
-        </tr>
-    </table>
-</body>
+    </tbody>
+</table>
 
-**Explicación de las tareas destacadas:**
-
-**Gestión de inventarios:** Es una tarea crucial tanto para Luis Ramírez como para Camila Ramos, ya que ambos necesitan tener un control preciso sobre sus productos. Luis se enfoca en la producción y almacenamiento de vinos, mientras que Camila gestiona el inventario para asegurar una distribución eficiente.
-
-**Gestión de pedidos:** Aunque tiene menos relevancia para Luis, es una tarea fundamental para Camila, quien necesita mantener un flujo constante de productos hacia sus clientes. Para ella, esto es de alta frecuencia y prioridad.
-
-**Comunicación con clientes:** Camila tiene una interacción más constante con los clientes, asegurando que los pedidos sean correctos y entregados a tiempo, mientras que Luis interactúa en menor medida, pero la importancia de esta tarea sigue siendo alta para ambos.
-
-**Diferencias principales:**
-
-**Control de calidad del vino:** Esta tarea es de alta frecuencia e importancia para Luis Ramírez, ya que como productor, su prioridad es asegurar que cada lote de vino cumpla con los estándares de calidad. En contraste, Camila no se involucra directamente en esta área, aunque le da importancia en casos excepcionales cuando los clientes reportan problemas.
-
-**Optimización de costos:** Camila, como distribuidora, se enfoca más en la optimización de costos relacionados con el manejo de inventarios y la distribución, mientras que Luis se concentra en la optimización de los costos de producción.
-
-**Planificación de rutas de entrega:** Aunque es una tarea que podría ser relevante para distribuidores, en el caso de Camila no tiene tanta prioridad, ya que su enfoque está más en la eficiencia de inventarios y pedidos, dejando la planificación de rutas a sus subordinados o colaboradores.
+<h2>User Task Matrix : Camila Ramos (Distribuidora de Vinos y Piscos)</h2>
+<table>
+    <thead>
+        <tr>
+            <th>User Task</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Negociar acuerdos con nuevos proveedores</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Controlar el proceso de almacenaje de productos</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Evaluar la rotación de productos en el almacén</td>
+            <td>Alta</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Coordinar promociones con minoristas y puntos de venta</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Analizar las tendencias del mercado</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Planificar la compra de nuevos productos</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Asistir a eventos y ferias de la industria</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Mantener relaciones comerciales con clientes clave</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Supervisar el estado del mercado de vinos y piscos</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Desarrollar estrategias para expandir la cartera de productos</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 2.3.3. User Journey Mapping.
 **Ruben Flores**
