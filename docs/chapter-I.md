@@ -221,18 +221,6 @@ En esta sección, iniciamos el proceso de Lean UX, que nos permitirá definir y 
 
 A continuación, utilizamos la plantilla de Business Opportunity Statements (Gothelf, 2022) para enfocar nuestro equipo en la creación de una solución que responda eficazmente a las necesidades de los clientes, sin limitaciones que puedan afectar la creatividad y agilidad del desarrollo.
 
-- La plantilla de Business Opportunity Statement:
-
-El estado actual de **[domain]** se ha centrado principalmente en **[segments, pain points, etc.]**
-
-Lo que los productos/servicios existentes no logran abordar es **[this gap]**.
-
-Nuestro producto/servicio abordará esta brecha mediante **[vision / strategy]**.
-
-Nuestro enfoque inicial será **[this segment]**.
-
-Sabremos que tenemos éxito cuando veamos **[these behaviors in our target audience]**.
-
 - ReStyle Lean UX Problem Statements:
 
 El estado actual de **la gestión del proceso productivo en la industria vitivinícola y de pisco** se ha centrado principalmente en **soluciones fragmentadas y sistemas manuales que no ofrecen una integración completa entre la vinificación, el control de inventarios y la administración de pedidos**.
