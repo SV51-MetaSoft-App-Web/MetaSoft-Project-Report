@@ -1359,7 +1359,7 @@ Los siguientes gráficos ofrecen una representación visual de las clonaciones r
 
 
 #### 5.2.2. Sprint 2
-En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funcionalidad de gestión de pedidos dentro de nuestra aplicación ElixirControl, utilizando Vite y Vue en WebStorm como herramientas de desarrollo. Al finalizar este Sprint, se espera que todas las funcionalidades relacionadas, incluyendo la creación, edición y visualización de pedidos, estén completamente operativas. A continuación, se incluyen imágenes que muestran cómo gestionamos las tareas en nuestro tablero de Jira Software, reflejando el progreso y la asignación de responsabilidades del equipo.
+En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funcionalidad de gestión y trazabilidad del proceso de vinificación dentro de nuestra aplicación ElixirControl, utilizando Vite y Vue en WebStorm como herramientas de desarrollo. Al finalizar este Sprint, se espera que todas las funcionalidades relacionadas, incluyendo la creación, edición y visualización de pedidos, estén completamente operativas. A continuación, se incluyen imágenes que muestran cómo gestionamos las tareas en nuestro tablero de Jira Software, reflejando el progreso y la asignación de responsabilidades del equipo.
 
 ##### 5.2.2.1. Sprint Planning 2
 
