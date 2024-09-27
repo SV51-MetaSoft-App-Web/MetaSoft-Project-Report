@@ -192,9 +192,7 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     <td>
         <strong>Escenario 01: Ingreso de Datos.</strong> <br>
         Dado que el encargado de bodega se encuentra en la sección de insumos, cuando ingresa los datos del nuevo insumo, entonces el sistema guarda la información y actualiza el inventario.<br>
-        <strong>Escenario 02: Generación de Código de Barras.</strong> <br>
-        Dado que se ha registrado un nuevo insumo, cuando el sistema genera el código de barras, entonces el encargado de bodega puede imprimir la etiqueta y pegarla en el producto.<br>
-        <strong>Escenario 03: Notificación al Enólogo.</strong> <br>
+        <strong>Escenario 02: Notificación al Enólogo.</strong> <br>
         Dado que se ha registrado un nuevo insumo, cuando el sistema envía la notificación al enólogo, entonces el enólogo recibe la información sobre la llegada del nuevo insumo.
     </td>
     <td>EPIC-001</td>
@@ -208,10 +206,10 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
         Como encargado de despacho, quiero registrar la salida de productos terminados para mantener actualizado el inventario.
     </td>
     <td>
-        <strong>Escenario 01: Escaneo de Código de Barras.</strong> <br>
-        Dado que el encargado de despacho se encuentra en la sección de despacho, cuando escanea el código de barras del producto, entonces el sistema registra automáticamente la salida del producto.<br>
+        <strong>Escenario 01: Registro Manual.</strong> <br>
+        Dado que el encargado de despacho se encuentra en la sección de despacho, cuando ingresa manualmente el código del producto, entonces el sistema actualiza el inventario con la información del producto despachado.<br>
         <strong>Escenario 02: Registro de Fecha y Hora.</strong> <br>
-        Dado que se ha escaneado el código de barras, cuando el sistema registra la fecha y hora de salida, entonces se actualiza el inventario con la información del producto despachado.<br>
+        Dado que se ha registrado la salida del producto, cuando el sistema captura la fecha y hora, entonces se actualiza el inventario con esta información.<br>
         <strong>Escenario 03: Reporte de Despachos.</strong> <br>
         Dado que se han registrado varios despachos, cuando el encargado de despacho genera el reporte, entonces el sistema muestra un listado de todos los productos despachados por día.
     </td>
@@ -266,18 +264,20 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </td>
     <td>EPIC-002</td>
 </tr>
-        <!-- User Story 11 -->
+<!-- User Story 11 -->
 <tr>
     <td>US-011</td>
-    <td>Registro de Pedidos de Clientes</td>
+    <td>Edición de Pedidos de Clientes</td>
     <td>
-        Como vendedor, quiero registrar los pedidos de mis clientes para tener un control de las ventas y facilitar el despacho.
+        Como vendedor, quiero poder editar los pedidos de mis clientes para mantener actualizada la información y facilitar el despacho.
     </td>
     <td>
-        <strong>Escenario 01: Registro de Pedido.</strong> <br>
-        Dado que el vendedor se encuentra en la sección de pedidos, cuando completa el formulario de pedido y lo envía, entonces el sistema guarda la información y genera un número de pedido.<br>
-        <strong>Escenario 02: Visualización de Pedidos.</strong> <br>
-        Dado que el pedido ha sido registrado, cuando el vendedor revisa la lista de pedidos, entonces puede ver el nuevo pedido en la lista.
+        <strong>Escenario 01: Selección de Pedido.</strong> <br>
+        Dado que el vendedor se encuentra en la sección de pedidos, cuando selecciona un pedido existente, entonces el sistema muestra los detalles del pedido para su edición.<br>
+        <strong>Escenario 02: Modificación de Información.</strong> <br>
+        Dado que el vendedor ha seleccionado un pedido, cuando realiza cambios en la información del pedido, entonces el sistema actualiza los datos sin modificar el número de pedido original.<br>
+        <strong>Escenario 03: Confirmación de Cambios.</strong> <br>
+        Dado que se han realizado modificaciones en el pedido, cuando el vendedor confirma los cambios, entonces el sistema guarda la información actualizada.
     </td>
     <td>EPIC-002</td>
 </tr>
@@ -493,23 +493,21 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </td>
     <td>EPIC-005</td>
 </tr>
-
 <!-- User Story 25 -->
 <tr>
     <td>US-025</td>
-    <td>Mejora de la Experiencia del Usuario</td>
+    <td>Búsqueda de Pedidos con Filtros</td>
     <td>
-        Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general.
+        Como usuario, quiero poder buscar pedidos utilizando filtros para encontrar rápidamente la información que necesito.
     </td>
     <td>
-        <strong>Escenario 01: Accesibilidad de Información.</strong> <br>
-        Dado que el usuario navega por la aplicación, cuando encuentra información, entonces debe ser fácil de entender y accesible.<br>
-        <strong>Escenario 02: Recursos de Ayuda.</strong> <br>
-        Dado que el usuario tiene dificultades, cuando busca ayuda, entonces el sistema proporciona recursos útiles y accesibles.
+        <strong>Escenario 01: Filtros de Búsqueda.</strong> <br>
+        Dado que el usuario se encuentra en la sección de pedidos, cuando aplica filtros como fecha, estado o cliente, entonces el sistema muestra solo los pedidos que coinciden con los criterios seleccionados.<br>
+        <strong>Escenario 02: Visualización de Resultados.</strong> <br>
+        Dado que se han aplicado los filtros, cuando el usuario revisa los resultados, entonces debe ser fácil identificar y acceder a los detalles de cada pedido filtrado.
     </td>
-    <td>EPIC-006</td>
+    <td>EPIC-002</td>
 </tr>
-
 <!-- User Story 26 -->
 <tr>
     <td>US-026</td>
@@ -594,6 +592,148 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
         El sistema debe ser probado en diferentes dispositivos y navegadores para asegurar que la experiencia del usuario sea consistente y sin errores.
     </td>
     <td>EPIC-006</td>
+</tr>
+<tr>
+    <td>US-031</td>
+    <td>Registro de Datos de Productores</td>
+    <td>
+        Como encargado, quiero registrar los datos de los productores para tener un historial de sus productos y facilitar futuras transacciones.
+    </td>
+    <td>
+        <strong>Escenario 01: Registro de Productor.</strong> <br>
+        Dado que el encargado accede a la sección de registro de productores, cuando completa el formulario con los datos del productor y lo envía, entonces el sistema guarda la información y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Visualización de Productores.</strong> <br>
+        Dado que el encargado desea ver la lista de productores registrados, cuando accede a la sección de productores, entonces el sistema muestra una lista con todos los productores registrados.
+    </td>
+    <td>EPIC-006</td>
+</tr>
+
+<tr>
+    <td>US-032</td>
+    <td>Edición de Lotes</td>
+    <td>
+        Añadir funcionalidad para que el usuario pueda modificar la información de un lote.
+    </td>
+    <td>
+        <strong>Escenario 01: Editar Lote.</strong> <br>
+        Dado que el usuario accede a la sección de edición de lotes, cuando selecciona un lote y modifica la información, entonces el sistema actualiza los datos y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Visualización de Lotes Editados.</strong> <br>
+        Dado que el usuario desea ver los lotes editados, cuando accede a la sección de lotes, entonces el sistema muestra la información actualizada de los lotes modificados.
+    </td>
+    <td>EPIC-006</td>
+</tr>
+
+<tr>
+    <td>US-033</td>
+    <td>Eliminar Lotes</td>
+    <td>
+        Añadir funcionalidad para que el usuario pueda eliminar un lote seleccionado.
+    </td>
+    <td>
+        <strong>Escenario 01: Eliminar Lote.</strong> <br>
+        Dado que el usuario accede a la sección de eliminación de lotes, cuando selecciona un lote y confirma la eliminación, entonces el sistema elimina el lote y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Visualización de Lotes Eliminados.</strong> <br>
+        Dado que el usuario desea ver los lotes eliminados, cuando accede a la sección de lotes, entonces el sistema no muestra los lotes que han sido eliminados.
+    </td>
+    <td>EPIC-006</td>
+</tr>
+<tr>
+    <td>US-034</td>
+    <td>Visualización de Detalles de Cliente</td>
+    <td>
+        Como vendedor, quiero visualizar los detalles de un cliente para poder acceder a su información y facilitar futuras interacciones.
+    </td>
+    <td>
+        <strong>Escenario 01: Ver Detalles Breves del Cliente.</strong> <br>
+        Dado que el vendedor accede a la sección de clientes, cuando selecciona un cliente específico, entonces el sistema muestra un resumen breve con el nombre y el contacto del cliente.<br>
+        <strong>Escenario 02: Ver Detalles del Cliente.</strong> <br>
+        Dado que el vendedor desea obtener más información, cuando selecciona "Ver Detalles", entonces el sistema muestra todos los detalles relevantes del cliente, incluyendo dirección, correo electrónico, número de teléfono y cualquier otra información adicional disponible.
+    </td>
+    <td>EPIC-007</td>
+</tr>
+<tr>
+    <td>US-035</td>
+    <td>Edición de Información del Cliente</td>
+    <td>
+        Como vendedor, quiero editar la información de un cliente para mantener sus datos actualizados y precisos.
+    </td>
+    <td>
+        <strong>Escenario 01: Editar Información del Cliente.</strong> <br>
+        Dado que el vendedor accede a la sección de edición de clientes, cuando selecciona un cliente y modifica su información, entonces el sistema actualiza los datos y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Validación de Datos Editados.</strong> <br>
+        Dado que el vendedor ha editado la información del cliente, cuando intenta guardar los cambios, entonces el sistema valida los datos ingresados y muestra un mensaje si hay errores.
+    </td>
+    <td>EPIC-007</td>
+</tr>
+<tr>
+    <td>US-036</td>
+    <td>Eliminación de Cliente</td>
+    <td>
+        Como vendedor, quiero eliminar un cliente para mantener la base de datos limpia y libre de registros obsoletos.
+    </td>
+    <td>
+        <strong>Escenario 01: Eliminar Cliente.</strong> <br>
+        Dado que el vendedor accede a la sección de eliminación de clientes, cuando selecciona un cliente y confirma la eliminación, entonces el sistema elimina al cliente y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Verificación de Eliminación.</strong> <br>
+        Dado que el vendedor desea verificar que el cliente ha sido eliminado, cuando accede a la lista de clientes, entonces el sistema no muestra al cliente eliminado.
+    </td>
+    <td>EPIC-007</td>
+</tr>
+<tr>
+    <td>US-037</td>
+    <td>Visualización de Pedidos</td>
+    <td>
+        Como vendedor, quiero visualizar los detalles de los pedidos para poder acceder a la información relevante y facilitar el seguimiento de las transacciones.
+    </td>
+    <td>
+        <strong>Escenario 01: Ver Resumen de Pedidos.</strong> <br>
+        Dado que el vendedor accede a la sección de pedidos, cuando selecciona un pedido específico, entonces el sistema muestra un resumen breve con el número de pedido, fecha y estado.<br>
+        <strong>Escenario 02: Ver Detalles del Pedido.</strong> <br>
+        Dado que el vendedor desea obtener más información, cuando selecciona "Ver Detalles", entonces el sistema muestra todos los detalles relevantes del pedido, incluyendo artículos, cantidades, precios y cualquier otra información adicional disponible.
+    </td>
+    <td>EPIC-008</td>
+</tr>
+<tr>
+    <td>US-038</td>
+    <td>Búsqueda de Productos</td>
+    <td>
+        Como usuario, quiero buscar productos en el sistema para encontrar rápidamente lo que necesito.
+    </td>
+    <td>
+        <strong>Escenario 01: Búsqueda Simple de Productos.</strong> <br>
+        Dado que el usuario accede a la sección de búsqueda, cuando ingresa un término en el campo de búsqueda, entonces el sistema muestra una lista de productos que coinciden con el término ingresado.<br>
+        <strong>Escenario 02: Filtrado de Resultados.</strong> <br>
+        Dado que el usuario ha realizado una búsqueda, cuando aplica filtros (como categoría, precio o unidades), entonces el sistema actualiza la lista de resultados para mostrar solo los productos que cumplen con los criterios seleccionados.
+    </td>
+    <td>EPIC-004</td>
+</tr>
+<tr>
+    <td>US-039</td>
+    <td>Filtrado por Fecha</td>
+    <td>
+        Como usuario, quiero filtrar los productos por fecha para encontrar fácilmente los más recientes o los más antiguos.
+    </td>
+    <td>
+        <strong>Escenario 01: Filtrar por Fecha de Creación.</strong> <br>
+        Dado que el usuario ha realizado una búsqueda, cuando selecciona la opción de filtrar por fecha de creación y especifica un rango, entonces el sistema muestra solo los productos creados dentro del rango de fechas seleccionado.<br>
+        <strong>Escenario 02: Filtrar por Fecha de Modificación.</strong> <br>
+        Dado que el usuario ha realizado una búsqueda, cuando selecciona la opción de filtrar por fecha de modificación y especifica un rango, entonces el sistema muestra solo los productos modificados dentro del rango de fechas seleccionado.
+    </td>
+    <td>EPIC-004</td>
+</tr>
+<tr>
+    <td>US-040</td>
+    <td>Detalles del Pedido</td>
+    <td>
+        Como vendedor, quiero ver los detalles completos de un pedido para tener una visión clara de la transacción.
+    </td>
+    <td>
+        <strong>Escenario 01: Ver Resumen del Pedido.</strong> <br>
+        Dado que el vendedor accede a la sección de pedidos, cuando selecciona un pedido específico, entonces el sistema muestra un resumen con información básica como número de pedido, fecha, cliente y estado.<br>
+        <strong>Escenario 02: Ver Detalles del Pedido.</strong> <br>
+        Dado que el vendedor ha seleccionado un pedido, cuando hace clic en "Ver Detalles", entonces el sistema muestra información detallada del pedido, incluyendo productos, cantidades, precios unitarios, descuentos, impuestos y total.
+    </td>
+    <td>EPIC-008</td>
 </tr>
  <tr>
         <td>TS001</td>
@@ -794,127 +934,214 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     <td>Como usuario, quiero ver un mensaje claro cuando accedo a una página que no existe para entender que la URL es incorrecta.</td>
     <td>3</td>
 </tr>
-       <tr>
+ <tr>
     <td>11</td>
+    <td>US-031</td>
+    <td>Registro de Datos de Productores</td>
+    <td>Como encargado, quiero registrar los datos de los productores para tener un historial de sus productos y facilitar futuras transacciones.</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>12</td>
+    <td>US-032</td>
+    <td>Edición de Lotes</td>
+    <td>Añadir funcionalidad para que el usuario pueda modificar la información de un lote.</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>13</td>
+    <td>US-033</td>
+    <td>Eliminar Lotes</td>
+    <td>Añadir funcionalidad para que el usuario pueda eliminar un lote seleccionado.</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>14</td>
+    <td>US-034</td>
+    <td>Visualización de Detalles de Cliente</td>
+    <td>Como vendedor, quiero visualizar los detalles de un cliente para poder acceder a su información y facilitar futuras interacciones.</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>15</td>
+    <td>US-036</td>
+    <td>Eliminación de Cliente</td>
+    <td>Como vendedor, quiero eliminar un cliente para mantener la base de datos limpia y libre de registros obsoletos.</td>
+    <td>3</td>
+</tr>       
+<tr>
+    <td>16</td>
     <td>US-008</td>
     <td>Visualizar Datos de Solicitud</td>
     <td>Como encargado de bodega, quiero visualizar los datos de solicitud, como negocio, fecha de solicitud y teléfono, para tener un registro claro de las entradas y salidas.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>12</td>
+    <td>17</td>
     <td>US-012</td>
     <td>Visualización de Productos Disponibles</td>
     <td>Como distribuidor, quiero visualizar los productos disponibles para poder realizar mis pedidos.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>13</td>
+    <td>18</td>
     <td>US-013</td>
     <td>Registro de Pedidos</td>
     <td>Como distribuidor, quiero registrar mis pedidos para asegurar la entrega de los productos que necesito.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>14</td>
+    <td>19</td>
     <td>US-018</td>
     <td>Cambiar Idioma</td>
     <td>Como usuario, quiero poder cambiar el idioma de la interfaz de inglés a español y viceversa para que sea más fácil de usar.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>15</td>
+    <td>20</td>
     <td>US-019</td>
     <td>Integración de Validadores en Formularios de la App Web</td>
     <td>Como usuario, quiero que los formularios de la aplicación web tengan validadores para asegurar que los datos ingresados sean correctos.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>16</td>
+    <td>21</td>
     <td>US-021</td>
-    <td>Mejora de la Experiencia del Usuario</td>
-    <td>Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general.</td>
+    <td>Búsqueda de Pedidos con Filtros</td>
+    <td>Como usuario, quiero poder buscar pedidos utilizando filtros para encontrar rápidamente la información que necesito.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>17</td>
+    <td>22</td>
     <td>US-022</td>
     <td>Implementación de Funcionalidad de Búsqueda</td>
     <td>Como usuario, quiero poder realizar búsquedas en la aplicación para encontrar rápidamente la información que necesito.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>18</td>
+    <td>23</td>
+    <td>US-038</td>
+    <td>Filtrado por Fecha</td>
+    <td>Como usuario, quiero filtrar los productos por fecha para encontrar fácilmente los más recientes o los más antiguos.</td>
+    <td>5</td>
+</tr>
+
+<tr>
+    <td>24</td>
+    <td>US-037</td>
+    <td>Búsqueda de Productos</td>
+    <td>Como usuario, quiero buscar productos en el sistema para encontrar rápidamente lo que necesito.</td>
+    <td>5</td>
+</tr>
+
+<tr>
+    <td>25</td>
+    <td>US-039</td>
+    <td>Detalles del Pedido</td>
+    <td>Como vendedor, quiero ver los detalles completos de un pedido para tener una visión clara de la transacción.</td>
+    <td>5</td>
+</tr>
+
+<tr>
+    <td>26</td>
+    <td>US-035</td>
+    <td>Edición de Información del Cliente</td>
+    <td>Como vendedor, quiero editar la información de un cliente para mantener sus datos actualizados y precisos.</td>
+    <td>5</td>
+</tr>
+        <tr>
+            <td>27</td>
+            <td>US-038</td>
+            <td>Filtrado por Fecha</td>
+            <td>Como usuario, quiero filtrar los productos por fecha para encontrar fácilmente los más recientes o los más antiguos.</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>US-039</td>
+            <td>Detalles del Pedido</td>
+            <td>Como vendedor, quiero ver los detalles completos de un pedido para tener una visión clara de la transacción.</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>US-040</td>
+            <td>Generación de Reportes</td>
+            <td>Como usuario, quiero poder generar reportes con gráficos y análisis para tener una visión general del rendimiento del negocio.</td>
+            <td>5</td>
+        </tr>
+<tr>
+    <td>30</td>
     <td>US-003</td>
     <td>Mostrar los planes disponibles</td>
     <td>Como visitante del landing page, quiero saber sobre los planes que tiene, para poder analizar si el plan que me ofrecen se adecúa a las necesidades de mi negocio.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>19</td>
+    <td>31</td>
     <td>US-014</td>
     <td>Visualizar Historial de Pedidos</td>
     <td>Como distribuidor, quiero visualizar el historial de mis pedidos para poder hacer seguimiento a mis transacciones anteriores.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>20</td>
+    <td>32</td>
     <td>US-015</td>
     <td>Confirmación de Pedido</td>
     <td>Como distribuidor, quiero recibir una confirmación de mi pedido para asegurarme de que ha sido procesado correctamente.</td>
     <td>8</td>
 </tr>
-        <tr>
-    <td>21</td>
+<tr>
+    <td>33</td>
     <td>US-025</td>
     <td>Mejora de la Experiencia del Usuario</td>
     <td>Como usuario, quiero que la aplicación sea intuitiva y fácil de usar para mejorar mi experiencia general.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>22</td>
+    <td>34</td>
     <td>US-030</td>
     <td>Diseño Responsive de la Interfaz</td>
     <td>Como usuario, quiero que la interfaz de la aplicación sea responsive para poder visualizar la landing page sin problemas en cualquier dispositivo.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>23</td>
+    <td>35</td>
     <td>US-023</td>
     <td>Gestión de Lotes de Producción</td>
     <td>Como enólogo, quiero tener una herramienta que me ayude a gestionar mis lotes de producción de manera eficiente para poder compartir información relevante con los interesados en el proceso.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>24</td>
+    <td>36</td>
     <td>US-024</td>
     <td>Gestión de Suscripción</td>
     <td>Como productor, quiero contar con la posibilidad de suscribirme a un plan de pago para acceder a beneficios exclusivos y mejorar mi experiencia en la aplicación.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>25</td>
+    <td>37</td>
     <td>US-026</td>
     <td>Gestión de Notificaciones</td>
     <td>Como productor, quiero recibir notificaciones sobre actualizaciones en mis lotes y solicitudes de los distribuidores para estar al tanto de la actividad en mi perfil.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>26</td>
+    <td>38</td>
     <td>US-027</td>
     <td>Generación de Reportes</td>
     <td>Como productor, quiero poder generar reportes sobre mi desempeño y actividad en la plataforma para tener una visión general de mi rendimiento.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>27</td>
+    <td>39</td>
     <td>US-028</td>
     <td>Reportes Personalizados</td>
     <td>Como usuario de producción, quiero poder crear reportes personalizados para analizar datos específicos de producción.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>28</td>
+    <td>40</td>
     <td>US-029</td>
     <td>Actualización de Planes de Pago</td>
     <td>Como usuario, quiero poder actualizar mi plan de pago en cualquier momento para adaptarlo a mis necesidades.</td>
