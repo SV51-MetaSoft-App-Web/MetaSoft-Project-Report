@@ -595,6 +595,148 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </td>
     <td>EPIC-006</td>
 </tr>
+<tr>
+    <td>US-031</td>
+    <td>Registro de Datos de Productores</td>
+    <td>
+        Como encargado, quiero registrar los datos de los productores para tener un historial de sus productos y facilitar futuras transacciones.
+    </td>
+    <td>
+        <strong>Escenario 01: Registro de Productor.</strong> <br>
+        Dado que el encargado accede a la sección de registro de productores, cuando completa el formulario con los datos del productor y lo envía, entonces el sistema guarda la información y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Visualización de Productores.</strong> <br>
+        Dado que el encargado desea ver la lista de productores registrados, cuando accede a la sección de productores, entonces el sistema muestra una lista con todos los productores registrados.
+    </td>
+    <td>EPIC-006</td>
+</tr>
+
+<tr>
+    <td>US-032</td>
+    <td>Edición de Lotes</td>
+    <td>
+        Añadir funcionalidad para que el usuario pueda modificar la información de un lote.
+    </td>
+    <td>
+        <strong>Escenario 01: Editar Lote.</strong> <br>
+        Dado que el usuario accede a la sección de edición de lotes, cuando selecciona un lote y modifica la información, entonces el sistema actualiza los datos y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Visualización de Lotes Editados.</strong> <br>
+        Dado que el usuario desea ver los lotes editados, cuando accede a la sección de lotes, entonces el sistema muestra la información actualizada de los lotes modificados.
+    </td>
+    <td>EPIC-006</td>
+</tr>
+
+<tr>
+    <td>US-033</td>
+    <td>Eliminar Lotes</td>
+    <td>
+        Añadir funcionalidad para que el usuario pueda eliminar un lote seleccionado.
+    </td>
+    <td>
+        <strong>Escenario 01: Eliminar Lote.</strong> <br>
+        Dado que el usuario accede a la sección de eliminación de lotes, cuando selecciona un lote y confirma la eliminación, entonces el sistema elimina el lote y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Visualización de Lotes Eliminados.</strong> <br>
+        Dado que el usuario desea ver los lotes eliminados, cuando accede a la sección de lotes, entonces el sistema no muestra los lotes que han sido eliminados.
+    </td>
+    <td>EPIC-006</td>
+</tr>
+<tr>
+    <td>US-034</td>
+    <td>Visualización de Detalles de Cliente</td>
+    <td>
+        Como vendedor, quiero visualizar los detalles de un cliente para poder acceder a su información y facilitar futuras interacciones.
+    </td>
+    <td>
+        <strong>Escenario 01: Ver Detalles Breves del Cliente.</strong> <br>
+        Dado que el vendedor accede a la sección de clientes, cuando selecciona un cliente específico, entonces el sistema muestra un resumen breve con el nombre y el contacto del cliente.<br>
+        <strong>Escenario 02: Ver Detalles del Cliente.</strong> <br>
+        Dado que el vendedor desea obtener más información, cuando selecciona "Ver Detalles", entonces el sistema muestra todos los detalles relevantes del cliente, incluyendo dirección, correo electrónico, número de teléfono y cualquier otra información adicional disponible.
+    </td>
+    <td>EPIC-007</td>
+</tr>
+<tr>
+    <td>US-035</td>
+    <td>Edición de Información del Cliente</td>
+    <td>
+        Como vendedor, quiero editar la información de un cliente para mantener sus datos actualizados y precisos.
+    </td>
+    <td>
+        <strong>Escenario 01: Editar Información del Cliente.</strong> <br>
+        Dado que el vendedor accede a la sección de edición de clientes, cuando selecciona un cliente y modifica su información, entonces el sistema actualiza los datos y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Validación de Datos Editados.</strong> <br>
+        Dado que el vendedor ha editado la información del cliente, cuando intenta guardar los cambios, entonces el sistema valida los datos ingresados y muestra un mensaje si hay errores.
+    </td>
+    <td>EPIC-007</td>
+</tr>
+<tr>
+    <td>US-036</td>
+    <td>Eliminación de Cliente</td>
+    <td>
+        Como vendedor, quiero eliminar un cliente para mantener la base de datos limpia y libre de registros obsoletos.
+    </td>
+    <td>
+        <strong>Escenario 01: Eliminar Cliente.</strong> <br>
+        Dado que el vendedor accede a la sección de eliminación de clientes, cuando selecciona un cliente y confirma la eliminación, entonces el sistema elimina al cliente y muestra un mensaje de confirmación.<br>
+        <strong>Escenario 02: Verificación de Eliminación.</strong> <br>
+        Dado que el vendedor desea verificar que el cliente ha sido eliminado, cuando accede a la lista de clientes, entonces el sistema no muestra al cliente eliminado.
+    </td>
+    <td>EPIC-007</td>
+</tr>
+<tr>
+    <td>US-037</td>
+    <td>Visualización de Pedidos</td>
+    <td>
+        Como vendedor, quiero visualizar los detalles de los pedidos para poder acceder a la información relevante y facilitar el seguimiento de las transacciones.
+    </td>
+    <td>
+        <strong>Escenario 01: Ver Resumen de Pedidos.</strong> <br>
+        Dado que el vendedor accede a la sección de pedidos, cuando selecciona un pedido específico, entonces el sistema muestra un resumen breve con el número de pedido, fecha y estado.<br>
+        <strong>Escenario 02: Ver Detalles del Pedido.</strong> <br>
+        Dado que el vendedor desea obtener más información, cuando selecciona "Ver Detalles", entonces el sistema muestra todos los detalles relevantes del pedido, incluyendo artículos, cantidades, precios y cualquier otra información adicional disponible.
+    </td>
+    <td>EPIC-008</td>
+</tr>
+<tr>
+    <td>US-038</td>
+    <td>Búsqueda de Productos</td>
+    <td>
+        Como usuario, quiero buscar productos en el sistema para encontrar rápidamente lo que necesito.
+    </td>
+    <td>
+        <strong>Escenario 01: Búsqueda Simple de Productos.</strong> <br>
+        Dado que el usuario accede a la sección de búsqueda, cuando ingresa un término en el campo de búsqueda, entonces el sistema muestra una lista de productos que coinciden con el término ingresado.<br>
+        <strong>Escenario 02: Filtrado de Resultados.</strong> <br>
+        Dado que el usuario ha realizado una búsqueda, cuando aplica filtros (como categoría, precio o unidades), entonces el sistema actualiza la lista de resultados para mostrar solo los productos que cumplen con los criterios seleccionados.
+    </td>
+    <td>EPIC-004</td>
+</tr>
+<tr>
+    <td>US-039</td>
+    <td>Filtrado por Fecha</td>
+    <td>
+        Como usuario, quiero filtrar los productos por fecha para encontrar fácilmente los más recientes o los más antiguos.
+    </td>
+    <td>
+        <strong>Escenario 01: Filtrar por Fecha de Creación.</strong> <br>
+        Dado que el usuario ha realizado una búsqueda, cuando selecciona la opción de filtrar por fecha de creación y especifica un rango, entonces el sistema muestra solo los productos creados dentro del rango de fechas seleccionado.<br>
+        <strong>Escenario 02: Filtrar por Fecha de Modificación.</strong> <br>
+        Dado que el usuario ha realizado una búsqueda, cuando selecciona la opción de filtrar por fecha de modificación y especifica un rango, entonces el sistema muestra solo los productos modificados dentro del rango de fechas seleccionado.
+    </td>
+    <td>EPIC-004</td>
+</tr>
+<tr>
+    <td>US-040</td>
+    <td>Detalles del Pedido</td>
+    <td>
+        Como vendedor, quiero ver los detalles completos de un pedido para tener una visión clara de la transacción.
+    </td>
+    <td>
+        <strong>Escenario 01: Ver Resumen del Pedido.</strong> <br>
+        Dado que el vendedor accede a la sección de pedidos, cuando selecciona un pedido específico, entonces el sistema muestra un resumen con información básica como número de pedido, fecha, cliente y estado.<br>
+        <strong>Escenario 02: Ver Detalles del Pedido.</strong> <br>
+        Dado que el vendedor ha seleccionado un pedido, cuando hace clic en "Ver Detalles", entonces el sistema muestra información detallada del pedido, incluyendo productos, cantidades, precios unitarios, descuentos, impuestos y total.
+    </td>
+    <td>EPIC-008</td>
+</tr>
  <tr>
         <td>TS001</td>
         <td>Obtener Datos de Usuarios</td>
