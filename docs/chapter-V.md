@@ -1389,8 +1389,8 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-031</td>
+      <td>Registro de Datos de Productores</td>
       <td>T002</td>
       <td>Registro de productor.</td>
       <td>Implementar formulario para registro de nuevos productores.</td>
@@ -1439,20 +1439,20 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-032</td>
+      <td>Edición de Lotes</td>
       <td>T007</td>
-      <td>Edición de lotes.</td>
+      <td>Editar lotes.</td>
       <td>Añadir funcionalidad para que el usuario pueda modificar la información de un lote.</td>
       <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-033</td>
+      <td>Eliminación de lotes</td>
       <td>T008</td>
-      <td>Eliminación de lotes.</td>
+      <td>Eliminar lote seleccionado.</td>
       <td>Añadir funcionalidad para que el usuario pueda eliminar un lote seleccionado.</td>
       <td>2</td>
       <td></td>
@@ -1469,30 +1469,30 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-034</td>
+      <td>Visualización de detalles de cliente</td>
       <td>T010</td>
-      <td>Visualización de detalles de cliente.</td>
+      <td>Visualizar informacion del cliente.</td>
       <td>Implementar funcionalidad para ver los detalles del cliente seleccionado.</td>
       <td>3</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-035</td>
+      <td>Edición de información del cliente</td>
       <td>T011</td>
-      <td>Edición de información del cliente.</td>
+      <td>Modificar datos del cliente</td>
       <td>Implementar función para poder modificar los datos del cliente.</td>
       <td>3</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-036</td>
+      <td>Eliminación de cliente</td>
       <td>T012</td>
-      <td>Eliminación de cliente.</td>
+      <td>Eliminar el cliente de la lista</td>
       <td>Implementar función para eliminar un cliente de la lista.</td>
       <td>3</td>
       <td></td>
@@ -1509,10 +1509,10 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-037</td>
+      <td>Visualización de pedidos</td>
       <td>T014</td>
-      <td>Visualización de pedidos.</td>
+      <td>Visualizar lista de pedidos.</td>
       <td>Agregar funcionalidad para que el usuario vea la lista de pedidos.</td>
       <td>4</td>
       <td></td>
@@ -1529,10 +1529,10 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-038</td>
+      <td>Búsqueda de productos</td>
       <td>T016</td>
-      <td>Búsqueda de productos.</td>
+      <td>Sistema de búsqueda de productos.</td>
       <td>Añadir funcionalidad para que el usuario pueda realizar la búsqueda de un pedido.</td>
       <td>3</td>
       <td></td>
@@ -1549,18 +1549,18 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td>T018</td>
+      <td>US-039</td>
       <td>Filtrado por fecha.</td>
+      <td>T018</td>
+      <td>Filtrado de pedido por fecha.</td>
       <td>Agregar opción de poder filtrar un pedido específico usando un rango de fechas.</td>
       <td>4</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>US-40</td>
+      <td>Detalles del Pedido</td>
       <td>T019</td>
       <td>Detalles del pedido.</td>
       <td>Agregar opción para mostrar los detalles completos de un pedido.</td>
