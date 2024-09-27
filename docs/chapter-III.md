@@ -208,10 +208,10 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
         Como encargado de despacho, quiero registrar la salida de productos terminados para mantener actualizado el inventario.
     </td>
     <td>
-        <strong>Escenario 01: Escaneo de Código de Barras.</strong> <br>
-        Dado que el encargado de despacho se encuentra en la sección de despacho, cuando escanea el código de barras del producto, entonces el sistema registra automáticamente la salida del producto.<br>
+        <strong>Escenario 01: Registro Manual.</strong> <br>
+        Dado que el encargado de despacho se encuentra en la sección de despacho, cuando ingresa manualmente el código del producto, entonces el sistema actualiza el inventario con la información del producto despachado.<br>
         <strong>Escenario 02: Registro de Fecha y Hora.</strong> <br>
-        Dado que se ha escaneado el código de barras, cuando el sistema registra la fecha y hora de salida, entonces se actualiza el inventario con la información del producto despachado.<br>
+        Dado que se ha registrado la salida del producto, cuando el sistema captura la fecha y hora, entonces se actualiza el inventario con esta información.<br>
         <strong>Escenario 03: Reporte de Despachos.</strong> <br>
         Dado que se han registrado varios despachos, cuando el encargado de despacho genera el reporte, entonces el sistema muestra un listado de todos los productos despachados por día.
     </td>
@@ -266,18 +266,20 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </td>
     <td>EPIC-002</td>
 </tr>
-        <!-- User Story 11 -->
+<!-- User Story 11 -->
 <tr>
     <td>US-011</td>
-    <td>Registro de Pedidos de Clientes</td>
+    <td>Edición de Pedidos de Clientes</td>
     <td>
-        Como vendedor, quiero registrar los pedidos de mis clientes para tener un control de las ventas y facilitar el despacho.
+        Como vendedor, quiero poder editar los pedidos de mis clientes para mantener actualizada la información y facilitar el despacho.
     </td>
     <td>
-        <strong>Escenario 01: Registro de Pedido.</strong> <br>
-        Dado que el vendedor se encuentra en la sección de pedidos, cuando completa el formulario de pedido y lo envía, entonces el sistema guarda la información y genera un número de pedido.<br>
-        <strong>Escenario 02: Visualización de Pedidos.</strong> <br>
-        Dado que el pedido ha sido registrado, cuando el vendedor revisa la lista de pedidos, entonces puede ver el nuevo pedido en la lista.
+        <strong>Escenario 01: Selección de Pedido.</strong> <br>
+        Dado que el vendedor se encuentra en la sección de pedidos, cuando selecciona un pedido existente, entonces el sistema muestra los detalles del pedido para su edición.<br>
+        <strong>Escenario 02: Modificación de Información.</strong> <br>
+        Dado que el vendedor ha seleccionado un pedido, cuando realiza cambios en la información del pedido, entonces el sistema actualiza los datos sin modificar el número de pedido original.<br>
+        <strong>Escenario 03: Confirmación de Cambios.</strong> <br>
+        Dado que se han realizado modificaciones en el pedido, cuando el vendedor confirma los cambios, entonces el sistema guarda la información actualizada.
     </td>
     <td>EPIC-002</td>
 </tr>
@@ -493,23 +495,21 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </td>
     <td>EPIC-005</td>
 </tr>
-
 <!-- User Story 25 -->
 <tr>
     <td>US-025</td>
-    <td>Mejora de la Experiencia del Usuario</td>
+    <td>Búsqueda de Pedidos con Filtros</td>
     <td>
-        Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general.
+        Como usuario, quiero poder buscar pedidos utilizando filtros para encontrar rápidamente la información que necesito.
     </td>
     <td>
-        <strong>Escenario 01: Accesibilidad de Información.</strong> <br>
-        Dado que el usuario navega por la aplicación, cuando encuentra información, entonces debe ser fácil de entender y accesible.<br>
-        <strong>Escenario 02: Recursos de Ayuda.</strong> <br>
-        Dado que el usuario tiene dificultades, cuando busca ayuda, entonces el sistema proporciona recursos útiles y accesibles.
+        <strong>Escenario 01: Filtros de Búsqueda.</strong> <br>
+        Dado que el usuario se encuentra en la sección de pedidos, cuando aplica filtros como fecha, estado o cliente, entonces el sistema muestra solo los pedidos que coinciden con los criterios seleccionados.<br>
+        <strong>Escenario 02: Visualización de Resultados.</strong> <br>
+        Dado que se han aplicado los filtros, cuando el usuario revisa los resultados, entonces debe ser fácil identificar y acceder a los detalles de cada pedido filtrado.
     </td>
-    <td>EPIC-006</td>
+    <td>EPIC-002</td>
 </tr>
-
 <!-- User Story 26 -->
 <tr>
     <td>US-026</td>
@@ -832,8 +832,8 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
 <tr>
     <td>16</td>
     <td>US-021</td>
-    <td>Mejora de la Experiencia del Usuario</td>
-    <td>Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general.</td>
+    <td>Búsqueda de Pedidos con Filtros</td>
+    <td>Como usuario, quiero poder buscar pedidos utilizando filtros para encontrar rápidamente la información que necesito.</td>
     <td>5</td>
 </tr>
 <tr>
