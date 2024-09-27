@@ -1808,10 +1808,6 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
-
-## 6. Conclusiones, Bibliografía y Anexos.
-
-
 ## 6. Conclusiones, Bibliografía y Anexos.
 
 
@@ -1820,7 +1816,8 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 ### Conclusiones 
 
 
-
+En conclusión, el objetivo de este informe es presentar un análisis detallado que documente la solución de software propuesta, ElixirControl. Para alcanzar este objetivo, es fundamental incluir información clara y concisa sobre el proyecto, que abarque desde la descripción de la idea hasta los requisitos específicos y las funcionalidades deseadas. Este análisis debe ser exhaustivo, proporcionando una visión completa de cómo la solución abordará las necesidades del sector vitivinícola.
+Las user stories desempeñan un papel crucial en este proceso, ya que permiten describir los requisitos de manera simple y centrada en el usuario. En resumen, las user stories son herramientas valiosas en el desarrollo ágil de software, asegurando que el equipo se enfoque en crear un producto que satisfaga efectivamente las necesidades de los clientes y mejore su experiencia en la gestión de procesos productivos y logísticos.
 
 
 ### Bibliografia
