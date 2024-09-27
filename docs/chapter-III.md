@@ -192,9 +192,7 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     <td>
         <strong>Escenario 01: Ingreso de Datos.</strong> <br>
         Dado que el encargado de bodega se encuentra en la sección de insumos, cuando ingresa los datos del nuevo insumo, entonces el sistema guarda la información y actualiza el inventario.<br>
-        <strong>Escenario 02: Generación de Código de Barras.</strong> <br>
-        Dado que se ha registrado un nuevo insumo, cuando el sistema genera el código de barras, entonces el encargado de bodega puede imprimir la etiqueta y pegarla en el producto.<br>
-        <strong>Escenario 03: Notificación al Enólogo.</strong> <br>
+        <strong>Escenario 02: Notificación al Enólogo.</strong> <br>
         Dado que se ha registrado un nuevo insumo, cuando el sistema envía la notificación al enólogo, entonces el enólogo recibe la información sobre la llegada del nuevo insumo.
     </td>
     <td>EPIC-001</td>
@@ -936,127 +934,214 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     <td>Como usuario, quiero ver un mensaje claro cuando accedo a una página que no existe para entender que la URL es incorrecta.</td>
     <td>3</td>
 </tr>
-       <tr>
+ <tr>
     <td>11</td>
+    <td>US-031</td>
+    <td>Registro de Datos de Productores</td>
+    <td>Como encargado, quiero registrar los datos de los productores para tener un historial de sus productos y facilitar futuras transacciones.</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>12</td>
+    <td>US-032</td>
+    <td>Edición de Lotes</td>
+    <td>Añadir funcionalidad para que el usuario pueda modificar la información de un lote.</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>13</td>
+    <td>US-033</td>
+    <td>Eliminar Lotes</td>
+    <td>Añadir funcionalidad para que el usuario pueda eliminar un lote seleccionado.</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>14</td>
+    <td>US-034</td>
+    <td>Visualización de Detalles de Cliente</td>
+    <td>Como vendedor, quiero visualizar los detalles de un cliente para poder acceder a su información y facilitar futuras interacciones.</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>15</td>
+    <td>US-036</td>
+    <td>Eliminación de Cliente</td>
+    <td>Como vendedor, quiero eliminar un cliente para mantener la base de datos limpia y libre de registros obsoletos.</td>
+    <td>3</td>
+</tr>       
+<tr>
+    <td>16</td>
     <td>US-008</td>
     <td>Visualizar Datos de Solicitud</td>
     <td>Como encargado de bodega, quiero visualizar los datos de solicitud, como negocio, fecha de solicitud y teléfono, para tener un registro claro de las entradas y salidas.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>12</td>
+    <td>17</td>
     <td>US-012</td>
     <td>Visualización de Productos Disponibles</td>
     <td>Como distribuidor, quiero visualizar los productos disponibles para poder realizar mis pedidos.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>13</td>
+    <td>18</td>
     <td>US-013</td>
     <td>Registro de Pedidos</td>
     <td>Como distribuidor, quiero registrar mis pedidos para asegurar la entrega de los productos que necesito.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>14</td>
+    <td>19</td>
     <td>US-018</td>
     <td>Cambiar Idioma</td>
     <td>Como usuario, quiero poder cambiar el idioma de la interfaz de inglés a español y viceversa para que sea más fácil de usar.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>15</td>
+    <td>20</td>
     <td>US-019</td>
     <td>Integración de Validadores en Formularios de la App Web</td>
     <td>Como usuario, quiero que los formularios de la aplicación web tengan validadores para asegurar que los datos ingresados sean correctos.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>16</td>
+    <td>21</td>
     <td>US-021</td>
     <td>Búsqueda de Pedidos con Filtros</td>
     <td>Como usuario, quiero poder buscar pedidos utilizando filtros para encontrar rápidamente la información que necesito.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>17</td>
+    <td>22</td>
     <td>US-022</td>
     <td>Implementación de Funcionalidad de Búsqueda</td>
     <td>Como usuario, quiero poder realizar búsquedas en la aplicación para encontrar rápidamente la información que necesito.</td>
     <td>5</td>
 </tr>
 <tr>
-    <td>18</td>
+    <td>23</td>
+    <td>US-038</td>
+    <td>Filtrado por Fecha</td>
+    <td>Como usuario, quiero filtrar los productos por fecha para encontrar fácilmente los más recientes o los más antiguos.</td>
+    <td>5</td>
+</tr>
+
+<tr>
+    <td>24</td>
+    <td>US-037</td>
+    <td>Búsqueda de Productos</td>
+    <td>Como usuario, quiero buscar productos en el sistema para encontrar rápidamente lo que necesito.</td>
+    <td>5</td>
+</tr>
+
+<tr>
+    <td>25</td>
+    <td>US-039</td>
+    <td>Detalles del Pedido</td>
+    <td>Como vendedor, quiero ver los detalles completos de un pedido para tener una visión clara de la transacción.</td>
+    <td>5</td>
+</tr>
+
+<tr>
+    <td>26</td>
+    <td>US-035</td>
+    <td>Edición de Información del Cliente</td>
+    <td>Como vendedor, quiero editar la información de un cliente para mantener sus datos actualizados y precisos.</td>
+    <td>5</td>
+</tr>
+        <tr>
+            <td>27</td>
+            <td>US-038</td>
+            <td>Filtrado por Fecha</td>
+            <td>Como usuario, quiero filtrar los productos por fecha para encontrar fácilmente los más recientes o los más antiguos.</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>US-039</td>
+            <td>Detalles del Pedido</td>
+            <td>Como vendedor, quiero ver los detalles completos de un pedido para tener una visión clara de la transacción.</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>US-040</td>
+            <td>Generación de Reportes</td>
+            <td>Como usuario, quiero poder generar reportes con gráficos y análisis para tener una visión general del rendimiento del negocio.</td>
+            <td>5</td>
+        </tr>
+<tr>
+    <td>30</td>
     <td>US-003</td>
     <td>Mostrar los planes disponibles</td>
     <td>Como visitante del landing page, quiero saber sobre los planes que tiene, para poder analizar si el plan que me ofrecen se adecúa a las necesidades de mi negocio.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>19</td>
+    <td>31</td>
     <td>US-014</td>
     <td>Visualizar Historial de Pedidos</td>
     <td>Como distribuidor, quiero visualizar el historial de mis pedidos para poder hacer seguimiento a mis transacciones anteriores.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>20</td>
+    <td>32</td>
     <td>US-015</td>
     <td>Confirmación de Pedido</td>
     <td>Como distribuidor, quiero recibir una confirmación de mi pedido para asegurarme de que ha sido procesado correctamente.</td>
     <td>8</td>
 </tr>
-        <tr>
-    <td>21</td>
+<tr>
+    <td>33</td>
     <td>US-025</td>
     <td>Mejora de la Experiencia del Usuario</td>
     <td>Como usuario, quiero que la aplicación sea intuitiva y fácil de usar para mejorar mi experiencia general.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>22</td>
+    <td>34</td>
     <td>US-030</td>
     <td>Diseño Responsive de la Interfaz</td>
     <td>Como usuario, quiero que la interfaz de la aplicación sea responsive para poder visualizar la landing page sin problemas en cualquier dispositivo.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>23</td>
+    <td>35</td>
     <td>US-023</td>
     <td>Gestión de Lotes de Producción</td>
     <td>Como enólogo, quiero tener una herramienta que me ayude a gestionar mis lotes de producción de manera eficiente para poder compartir información relevante con los interesados en el proceso.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>24</td>
+    <td>36</td>
     <td>US-024</td>
     <td>Gestión de Suscripción</td>
     <td>Como productor, quiero contar con la posibilidad de suscribirme a un plan de pago para acceder a beneficios exclusivos y mejorar mi experiencia en la aplicación.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>25</td>
+    <td>37</td>
     <td>US-026</td>
     <td>Gestión de Notificaciones</td>
     <td>Como productor, quiero recibir notificaciones sobre actualizaciones en mis lotes y solicitudes de los distribuidores para estar al tanto de la actividad en mi perfil.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>26</td>
+    <td>38</td>
     <td>US-027</td>
     <td>Generación de Reportes</td>
     <td>Como productor, quiero poder generar reportes sobre mi desempeño y actividad en la plataforma para tener una visión general de mi rendimiento.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>27</td>
+    <td>39</td>
     <td>US-028</td>
     <td>Reportes Personalizados</td>
     <td>Como usuario de producción, quiero poder crear reportes personalizados para analizar datos específicos de producción.</td>
     <td>8</td>
 </tr>
 <tr>
-    <td>28</td>
+    <td>40</td>
     <td>US-029</td>
     <td>Actualización de Planes de Pago</td>
     <td>Como usuario, quiero poder actualizar mi plan de pago en cualquier momento para adaptarlo a mis necesidades.</td>
