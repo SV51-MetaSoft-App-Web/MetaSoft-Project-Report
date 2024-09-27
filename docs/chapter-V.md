@@ -1573,6 +1573,241 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
 
 
 ##### 5.2.2.3. Development Evidence for Sprint Review
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>https://github.com/SV51-MetaSoft-App-Web/ElixirControl-FrontEnd.git</td>
+    <td>Master</td>
+    <td>7f851107203c3991fc1fe0d251782570f03545a8</td>
+    <td>Chore: initial commit</td>
+    <td></td>
+    <td>Sep 19, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>7568ba72396e0ef2642a8a2b80ac0d550e955b0f</td>
+    <td>Chore: clean up project</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>410beb3309b6bfc3b2ee7fd19e2f25a9d244277f</td>
+    <td>Chore: added initial project configuration</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Develop</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Feature/customer-management</td>
+    <td>29c992c042ea81ee18785d764f06877138612f83</td>
+    <td>Chore: create db.json</td>
+    <td></td>
+    <td>Sep 27, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Feature/distributor-profile</td>
+    <td>e8e82c48b77706b8ee8f20412a76f0c67e73bbbc</td>
+    <td>Feat(distrubutor-profile): added db.json file to simulate the API</td>
+    <td></td>
+    <td>Sep 25, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>56974485b42a727becd17f1e65558c9af334fb5c</td>
+    <td>feat(distributor-profile): update App.vue component to improve the design</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>33399c36ae71240f7ee69a2a28992da55e6f71da</td>
+    <td>feat(distributor-profile): entities and services corresponding to the distributor profile order history section have been added</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>c12ef7575564e2680bb1e6098c8891d7d04bf7b3</td>
+    <td>feat(distributor-profile): delete other entities and services dont corresponding to the distributor profile order history section have been added</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Feature/inventory-management</td>
+    <td>c6cdbc0dfea0c84aaf59ea49f1b86708a014c675</td>
+    <td>feat(inventory-management): added db.json file to simulate the API</td>
+    <td></td>
+    <td>Sep 25, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>1d11d40e488cca8c5007bb53316a726c55a6c45c</td>
+    <td>feat(inventory-management): update App.vue component to improve the design</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>e4b658a0d4ab734cd8c1ee4f596bc6f6843b33bc</td>
+    <td>feat(inventory-management): entities and services corresponding to the inventory management have been added.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Feature/producer-management</td>
+    <td>f82742e28e0414009dfd0854e36faf0bd194bf94</td>
+    <td>feat(winemaking-process): Entities and services corresponding to the winemaking process have been added.</td>
+    <td></td>
+    <td>Sep 23, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Feature/winemaking-process</td>
+    <td>d4bc3b86517a15e6032fe4827abdfca3e9adf1c2</td>
+    <td>feat(winemaking-process): Added components for creating and editing objects.</td>
+    <td></td>
+    <td>Sep 24, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>45437600b7b04a168285c4af5fb6582a0e216412</td>
+    <td>feat(winemaking-process): Added CRUD to the table with batch information.</td>
+    <td></td>
+    <td>Sep 25, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>113c3afe8a4bb5c43bb85421daa11adcca12a755</td>
+    <td>feat(winemaking-process): Added CRUD to the table with fermentation information.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>0d5411dfec6057d3c2dbf1fa2e4b88387a915526</td>
+    <td>feat(winemaking-process): Added CRUD to the table with aging information.</td>
+    <td></td>
+    <td>Sep 26, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>208f92424d3a0901c97c3e5d1c81cd882fcb2d2d</td>
+    <td>feat(winemaking-process): Added CRUD to the table with bottling information.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>51082f2a5ac747e5179a278b4488d1c8b5e3530b</td>
+    <td>feat(winemaking-process): Added CRUD to the table with clarification and pressing information.</td>
+    <td></td>
+    <td>Sep 27, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>49f65887335478860a0ac6c0d86a345ecc764f0d</td>
+    <td>feat(winemaking-process): Added web app navigation bar.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Feature/security</td>
+    <td>70e035609157b60943f11454652b905b90d8492d</td>
+    <td>feat(security): added "en.json" and "es.json" files.</td>
+    <td></td>
+    <td>Sep 25, 2024</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>aec471b4dae50e2e04b12112153338e826fc6f7c</td>
+    <td>feat(security): added content of "index.js".</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>0df6f357e4aee9314c137a477ea3e8bd8c8c1088</td>
+    <td>feat(security): added pages in "views" section.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>c517242c4af0a179ef98eae9f9f8cc3679643bd9</td>
+    <td>feat(security): added content of "App.vue" and "main.js".</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>cb0a0b2c9e4095d8d52cabb7915c047a5744c78f</td>
+    <td>feat(security): added content of "i18n.js" and "style.css".</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>6810bd939a24f60aabba0049ea5e1642a265c5e9</td>
+    <td>feat(security): added content of "vite.config.js".</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>dec1b180326dec39db5801f8af263227a3ba8059</td>
+    <td>feat(security): updated "style.css" and "vite.config.js".</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>bd4043a36ffd972f4496196bb32bcb4b6b99fb46</td>
+    <td>feat(security): added the component "Header.vue".</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 
 ##### 5.2.2.4. Testing Suite Evidence for Sprint Review
 
