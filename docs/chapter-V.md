@@ -1364,22 +1364,213 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
 ##### 5.2.2.1. Sprint Planning 2
 
 ##### 5.2.2.2. Sprint Backlog 2
-| User Story | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-|------------|-------|----|-------|-------------|--------------------|-------------|--------|
-| US-006 | Registro de Entrada de Insumos | T001 | Registro de entrada de insumos | Implementar el formulario para registrar insumos en el inventario. | 5 | | To-do |
-| | | T002 | Generación de código de barras | Añadir funcionalidad para generar códigos de barras al registrar insumos. | 1 | | To-do |
-| US-007 | Registro de Salida de Productos Terminados | T003 | Registro de salida de productos terminados | Implementar el escaneo de códigos de barras para registrar salidas. | 1 | | To-do |
-| | | T004 | Reporte de despachos | Crear funcionalidad para generar reportes de productos despachados. | 3 | | To-do |
-| US-008 | Visualizar Datos de Solicitud | T005 | Visualizar datos de solicitud | Desarrollar la interfaz para mostrar datos de solicitud de insumos. | 3 | | To-do |
-| US-009 | Registro de Datos de Clientes | T006 | Registro de datos de clientes | Crear formulario para registrar datos de clientes. | 4 | | To-do |
-| US-010 | Registro de Pedidos de Clientes | T007 | Registro de pedidos de clientes | Implementar formulario para registrar pedidos de clientes. | 4 | | To-do |
-| US-012 | Visualización de Productos Disponibles | T008 | Visualización de productos disponibles | Desarrollar la sección para mostrar productos disponibles para distribuidores. | 3 | | To-do |
-| US-014 | Visualizar Historial de Pedidos | T009 | Visualización del historial de pedidos | Crear interfaz para que los distribuidores vean su historial de pedidos. | 2 | | To-do |
-| US-022 | Implementación de Funcionalidad de Búsqueda | T010 | Implementar funcionalidad de búsqueda | Desarrollar la barra de búsqueda para que los usuarios encuentren información. | 3 | | To-do |
-| US-019 | Integración de validadores en formularios de la app web | T011 | Integrar validadores en formularios | Implementar validadores en todos los formularios. | 4 | | To-do |
-| | | T012 | Probar validadores | Verificar que los validadores funcionan correctamente. | 4 | | To-do |
-| US-030 | Diseño responsive de la interfaz | T013 | Hacer la interfaz responsive | Asegurar que la interfaz se adapte a dispositivos móviles. | 1 | | To-do |
-| | | T014 | Pruebas de usabilidad | Realizar pruebas en diferentes dispositivos. | 4 | | To-do |
+<table>
+  <thead>
+    <tr>
+      <th>User Story</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US-009</td>
+      <td>Integración de Validadores en Formularios de la App Web</td>
+      <td>T001</td>
+      <td>Login de distribuidor y productor.</td>
+      <td>Implementar formulario para logeo de distribuidores y productores.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T002</td>
+      <td>Registro de productor.</td>
+      <td>Implementar formulario para registro de nuevos productores.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US-006</td>
+      <td>Registro de Entrada de Insumos</td>
+      <td>T003</td>
+      <td>Registro de insumos.</td>
+      <td>Agregar función para registrar insumos en el inventario.</td>
+      <td>4</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US-007</td>
+      <td>Registro de Salida de Productos Terminados</td>
+      <td>T004</td>
+      <td>Salida de productos.</td>
+      <td>Agregar función para actualizar el inventario.</td>
+      <td>4</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US-008</td>
+      <td>Visualizar Datos de Solicitud</td>
+      <td>T005</td>
+      <td>Mostrar datos de solicitud.</td>
+      <td>Añadir función para mostrar los datos de solicitud y filtrarlos.</td>
+      <td>4</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US-020</td>
+      <td>Gestión de Lotes de Producción</td>
+      <td>T006</td>
+      <td>Visualización de lotes.</td>
+      <td>Añadir funcionalidad para que el usuario pueda visualizar todos los lotes que ha gestionado.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T007</td>
+      <td>Edición de lotes.</td>
+      <td>Añadir funcionalidad para que el usuario pueda modificar la información de un lote.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T008</td>
+      <td>Eliminación de lotes.</td>
+      <td>Añadir funcionalidad para que el usuario pueda eliminar un lote seleccionado.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US-009</td>
+      <td>Registro de Datos de Clientes</td>
+      <td>T009</td>
+      <td>Registro de nuevo cliente.</td>
+      <td>Agregar opción para poder registrar un nuevo cliente con sus datos.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T010</td>
+      <td>Visualización de detalles de cliente.</td>
+      <td>Implementar funcionalidad para ver los detalles del cliente seleccionado.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T011</td>
+      <td>Edición de información del cliente.</td>
+      <td>Implementar función para poder modificar los datos del cliente.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T012</td>
+      <td>Eliminación de cliente.</td>
+      <td>Implementar función para eliminar un cliente de la lista.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US-011</td>
+      <td>Registro de Pedidos de Clientes</td>
+      <td>T013</td>
+      <td>Registro de pedido.</td>
+      <td>Agregar formulario para que el usuario registre su pedido.</td>
+      <td>4</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T014</td>
+      <td>Visualización de pedidos.</td>
+      <td>Agregar funcionalidad para que el usuario vea la lista de pedidos.</td>
+      <td>4</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US-012</td>
+      <td>Visualización de Productos Disponibles</td>
+      <td>T015</td>
+      <td>Visualización de productos.</td>
+      <td>Añadir función para que el usuario pueda ver la lista de productos.</td>
+      <td>4</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T016</td>
+      <td>Búsqueda de productos.</td>
+      <td>Añadir funcionalidad para que el usuario pueda realizar la búsqueda de un pedido.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US-013</td>
+      <td>Visualizar Historial de Pedidos</td>
+      <td>T017</td>
+      <td>Acceso al historial.</td>
+      <td>Agregar opción para que el usuario pueda ver la lista de pedidos realizados.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T018</td>
+      <td>Filtrado por fecha.</td>
+      <td>Agregar opción de poder filtrar un pedido específico usando un rango de fechas.</td>
+      <td>4</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>T019</td>
+      <td>Detalles del pedido.</td>
+      <td>Agregar opción para mostrar los detalles completos de un pedido.</td>
+      <td>4</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ##### 5.2.2.3. Development Evidence for Sprint Review
 
