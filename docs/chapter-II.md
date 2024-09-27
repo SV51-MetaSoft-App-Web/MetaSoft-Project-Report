@@ -410,8 +410,11 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Dado que el presente entrevistado nos comento que se dedicaba al campo de la vitivinícultura, siendo el asistente de una Bodega en Lunahúana, el cual el se dedicaba al area de inventario, para lo cual utilizaba el Excel como ayuda para registrar datos de su almacen, asi como tambien un cuaderno de apuntes el cual lo usaba para datos que no les parecia reelevante. Ademas nos menciono que estaria interesado en nuestra propuesta de un programa que le ayudara a poeder almacenar sus datos y tambien que pudiera llevar un control de las mismas.
-                </td>
+            El entrevistado, Joaquín Carranza, asistente en la bodega Sol Campestre ubicada en Lunahuaná, comentó que sus principales tareas incluyen la gestión del inventario, organización de productos y control de calidad durante la producción de vinos y piscos artesanales. Actualmente, utiliza Excel y un cuaderno para registrar el inventario y asegurarse de que todo esté actualizado, mencionando que estos métodos son efectivos pero limitados cuando la demanda aumenta.
+            Joaquín se mostró interesado en una solución tecnológica que le permita llevar un control en tiempo real del inventario y la calidad de los lotes, facilitando la toma de decisiones y la producción acorde a la demanda. También expresó que le gustaría que el software fuera fácil de usar y compatible con Excel, ya que es una herramienta con la que se siente familiarizado.
+            Considera que la mayor dificultad en su proceso de producción es mantener el control preciso de las condiciones durante la fermentación, debido a que cualquier variación puede afectar la calidad de los lotes, por lo que una tecnología que ayude a gestionar esta información en tiempo real sería beneficiosa.
+            Finalmente, Joaquín está dispuesto a seguir en contacto para futuras pruebas y detalles sobre el desarrollo de la solución.                
+            </td>
             </tr>
             <tr>
                 <td>Tiempo que empieza</td>
@@ -456,7 +459,9 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    La presente intrevistada menciona que era la dueña de un viñedo, el cua ella acordaba con sus ayudantes lo que tenian que hacer para pioder mantener a cuidado si viñedo, ademas menciono que que utilizaba el programa excel para sus cuentas asi como un cuaderno de sus gastos y sus posibles ventas. Nos aclaro que ella lleva en nombre de su familia casi 6 años el viñedo que les heredo sus padres el cual tenia una gran tiempo de produccion de vinos el cual era mas de 50 años de trayectoria, y queria seguir manteniendolo en trayectoria.  
+                    Miriam Sánchez es la propietaria de un viñedo familiar, heredado de sus padres, quienes fundaron la empresa en 1974. Actualmente, Miriam lleva casi seis años a cargo de la producción de vinos y piscos, coordinando todas las fases del proceso, desde el cultivo y la cosecha de la uva hasta la producción y venta de los productos.
+                    Durante la entrevista, destacó que el mayor desafío en la producción es el cuidado de las vides, especialmente en la etapa de poda y protección de las uvas. Además, mencionó que el proceso es mayormente artesanal, apoyándose en mano de obra experimentada, aunque no formalmente capacitada.
+                    Miriam expresó interés en contar con recursos adicionales, como una máquina moledora de uvas y un alambique propio para la producción de pisco, lo que le permitiría optimizar el proceso. Aunque actualmente su producción se gestiona de manera manual, estaría interesada en herramientas tecnológicas que puedan mejorar la eficiencia y facilitar el manejo del viñedo.
                 </td>
             </tr>
             <tr>
@@ -503,8 +508,9 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Durante la entrevista, el entrevistado nos informó que trabaja en el ámbito de la vitivinicultura como asistente en una bodega ubicada en Lunahuaná. Su principal responsabilidad está en el área de inventario, donde emplea Excel para registrar los datos de su almacén. Además, utiliza un cuaderno de apuntes para llevar información que considera de menor relevancia. Nos mencionó que estaría interesado en nuestra propuesta de un sistema que le permitiera almacenar y gestionar sus datos de manera más eficiente, con una funcionalidad que le facilite el control sobre el inventario.
-                </td>
+                Durante la entrevista, el entrevistado, Fabricio de la Cruz Jiménez, nos comentó que trabaja como asistente en la bodega De la Cruz, ubicada en la carretera Panamericana a las afueras de Chincha. Sus principales responsabilidades incluyen la gestión del inventario y el apoyo en la producción de vinos y piscos. Fabricio lleva alrededor de 5 años en esta posición, donde se encarga de supervisar la producción de vinos tradicionales, como el clásico vino de uva, en colaboración con su superior.
+                En cuanto a las herramientas que utiliza para gestionar la bodega, mencionó que, además de un cuaderno para notas, emplea Excel para registrar y administrar la producción e inventario. Sin embargo, expresó que sería beneficioso contar con una herramienta o plataforma de software que le permitiera gestionar el inventario de manera más eficiente, incluyendo características como el seguimiento de mercancías y pedidos, así como el control de su envío y distribución.
+                Fabricio mostró interés en nuestra propuesta de un sistema que le ayude a optimizar el manejo del inventario y la administración de la bodega, y está dispuesto a participar en futuras entrevistas para colaborar en el desarrollo del proyecto.                </td>
             </tr>
             <tr>
                 <td>Tiempo que empieza</td>
@@ -552,7 +558,9 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    En la entrevista, el entrevistado nos comentó que se desempeña como distribuidor de vinos y piscos. Su labor principal consiste en gestionar la distribución de estos productos a diferentes puntos de venta y clientes. Para ello, utiliza herramientas como programas para llevar un control de los pedidos y la distribución de su inventario. Sin embargo, mencionó que le gustaría contar con un sistema más automatizado que le permitiera gestionar de manera más eficiente sus productos, realizar un seguimiento de las entregas, y mejorar la planificación de sus rutas de distribución.
+                    Durante la entrevista, el entrevistado, Jazzy Adolfo Benítez Morales, nos informó que es el gerente de la empresa "Vinos Andinos", ubicada en el departamento de Piura. Lleva más de 10 años en el negocio de la distribución de vinos, donde se encarga de la compra de productos tanto importados de Argentina, Chile y España, como de los que provienen del departamento de Ica. Su rol principal es la gestión de la distribución de estos vinos a distintos puntos de venta y clientes, basándose en la demanda y la calidad de los productos.
+                    En cuanto a las herramientas que utiliza, mencionó que actualmente emplea un sistema llamado Manager para gestionar los inventarios y ventas. A pesar de esto, enfrenta varios desafíos, siendo la logística el principal, ya que resulta complicado predecir la demanda y optimizar la entrega de los productos. Jazzy expresó interés en tecnologías que le permitan mejorar la predicción de la demanda, ayudándole a tener un mayor control sobre las fluctuaciones del mercado y la logística.
+                    Finalmente, mostró disposición para participar en futuras pruebas e investigaciones relacionadas con el desarrollo de nuevas herramientas tecnológicas que puedan optimizar la gestión de su negocio.
                 </td>
             </tr>
             <tr>
@@ -569,8 +577,6 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
             </tr>
         </tbody>
 </table>
-
-
 
 <table>
         <thead>
@@ -616,7 +622,6 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
             </tr>
         </tbody>
 </table>
-
 
 <table>
         <thead>
