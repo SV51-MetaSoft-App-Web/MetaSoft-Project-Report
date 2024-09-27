@@ -558,7 +558,7 @@ En esta seccion se demostrará el diagrama de clases junto con la aplicación de
 
 **Despliegue del diagrama de clase de "Usuarios"**
 
-<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/UML_Userrs.png"> </p>
+<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/UML_Users.png"> </p>
 
 **Despliegue del diagrama de clase de "Inventario"**
 
@@ -591,11 +591,7 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 | firstName           | String   |
 | lastName            | String   |
 | password            | String   |
-| dni                 | String   |
-| phone               | String   |
-| email               | String   |
 | status              | Char     |
-| subscriptionType    | String   |
 
 | Métodos             | Descripción                            |
 |---------------------|----------------------------------------|
