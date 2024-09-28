@@ -1814,6 +1814,17 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 En este Sprint, nos hemos enfocado en el desarrollo y la implementación de la interfaz de gestión de pedidos, un componente esencial para mejorar la experiencia del usuario en nuestra aplicación. A través de un diseño intuitivo y funcional, buscamos facilitar la creación, edición y visualización de pedidos, permitiendo a los usuarios gestionar sus transacciones de manera eficiente y efectiva. Durante este período, hemos trabajado en varias vistas clave que contribuyen a esta funcionalidad. A continuación, se presentan las capturas de pantalla que ilustran las diferentes etapas del proceso de gestión de pedidos, destacando las características y mejoras implementadas. A continuación, te presentamos capturas de pantalla del desarrollo del front-end: 
 
+![img.png](../assets/img/chapter-V/sprint-2/front1.png)
+
+![img.png](../assets/img/chapter-V/sprint-2/front2.png)
+
+![img.png](../assets/img/chapter-V/sprint-2/front3.png)
+
+![img.png](../assets/img/chapter-V/sprint-2/front4.png)
+
+![img.png](../assets/img/chapter-V/sprint-2/front5.png)
+
+
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Durante este Sprint, se ha llevado a cabo la documentación de los endpoints necesarios para la gestión de pedidos, utilizando OpenAPI como herramienta de referencia. Este proceso es fundamental para asegurar que todos los miembros del equipo, así como los desarrolladores futuros, tengan acceso a información clara y detallada sobre cómo interactuar con la API. La tabla a continuación detalla los endpoints documentados, proporcionando una visión clara de las acciones disponibles, los métodos HTTP asociados, y ejemplos de respuestas esperadas. Esta documentación no solo facilita el trabajo del equipo de desarrollo, sino que también mejora la comunicación entre los diferentes actores del proyecto.
 
@@ -1833,6 +1844,12 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 4. **Despliegue en Producción:** Finalmente, se subieron los archivos generados al repositorio de GitHub del grupo de trabajo. Como cada integrante trabajó en una rama diferente, se hizo “merge” para garantizar la recopilación general del proyecto.
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+![img.png](../assets/img/chapter-V/sprint-2/img.png)
+
+![img.png](../assets/img/chapter-V/sprint-2/img1.png)
+
+![img.png](../assets/img/chapter-V/sprint-2/img2.png)
 
 
 ## 6. Conclusiones, Bibliografía y Anexos.
