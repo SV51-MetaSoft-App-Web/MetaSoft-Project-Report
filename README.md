@@ -286,7 +286,6 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 ##### [5.2.1.7. Software Deployment Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5217-software-deployment-evidence-for-sprint-review)
 ##### [5.2.1.8. Team Collaboration Insights during Sprint.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5218-team-collaboration-insights-during-sprint)
 
-
 ## Student Outcome
 
 <table>
@@ -299,55 +298,49 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
     </thead>
     <tbody>
         <tr>
-        <!--Criterio Específico 2-->
+            <!--Criterio Específico 1-->
             <td>
                 <h4>
                     Trabaja en equipo para proporcionar liderazgo en forma conjunta.
                 </h4>
             </td>
-            <!--Acciones Realizadas de la competencia 1-->
+            <!--Acciones Realizadas del Criterio 1-->
             <td>
-            <p style="text-align: center;" ><strong >Presentable del TB1</strong></p>
-            <br>
-            <strong>Janover Gonzalo Saldaña Vela: </strong> 
-            <br> Durante el desarrollo de esta primera entrega trabajar en equipo de manera conjunta fue un factor crucial para nuestra determinación en acabar con los entregables a tiempo y cumpliendo con los requisitos que nos pide el usuario final.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Luis Alfonso Villegas Jipa: </strong> 
-            <br> En la elaboracion de la primera entrega he realizado el analisis de comptenecia, los users stories sobre la funcionalidad de la applicacion, el product backlog y los diagramas de clase, comunicandome con mis compañeros para ir mejorando y
-                agregando las secciones consecuentes que se requeria. Dando asi, la culminacion de esta primera entrega.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Jhordi Luis Carranza Pérez: </strong> 
-            <br> El desarrollo de esta primera parte del trabajo marcó un lazo importante entre los integrantes del equipo, la expresión de ideas claras y comunicación acertiva nos ayudó a poder desarrollar el proyecto de la mejor manera posible. 
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Oscar Javier Armas Sánchez </strong> 
-            <br> En la creacion de esta primera parte de la primera entrega, me centré en la coordinación del equipo para asegurar que todos los integrantes trabajen de manera alineada. Tomé el rol de cumplir, promoviendo la puntualidad y asegurando que las tareas se cumplieran equitativamente entre los miembros. 
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Juan Paul Llamccaya Arone</strong> 
-            <br> Durante esta primera entrega, me enfoqué principalmente en la Requirements Specification. Me aseguré de que todo los documentos del capitulo esten bien documentados y alineados con las necesidades del usuario. Colaboré estrechamente con el equipo para clarificar cualquier duda en cuanto a los Requirements Specification, lo que facilitó una mejor comprensión del proyecto y permitió que el desarrollo se realizara conforme a las expectativas del usuario.
-            <!--Siguiente-->
-            <br> <br>
-            <p style="text-align: center;" ><strong >Presentable del TB2</strong></p>
+                <p style="text-align: center;"><strong>Presentable del TB1</strong></p>
+                <br>
+                <strong>Janover Gonzalo Saldaña Vela:</strong>
+                <br> Durante el desarrollo de esta primera entrega, trabajar en equipo de manera conjunta fue un factor crucial para nuestra determinación en acabar con los entregables a tiempo y cumpliendo con los requisitos que nos pide el usuario final.
+                <br><br>
+                <strong>Luis Alfonso Villegas Jipa:</strong>
+                <br> En la elaboración de la primera entrega he realizado el análisis de competencia, los user stories sobre la funcionalidad de la aplicación, el product backlog y los diagramas de clase, comunicándome con mis compañeros para ir mejorando y agregando las secciones consecuentes que se requerían. Dando así, la culminación de esta primera entrega.
+                <br><br>
+                <strong>Jhordi Luis Carranza Pérez:</strong>
+                <br> El desarrollo de esta primera parte del trabajo marcó un lazo importante entre los integrantes del equipo, la expresión de ideas claras y comunicación asertiva nos ayudó a poder desarrollar el proyecto de la mejor manera posible.
+                <br><br>
+                <strong>Oscar Javier Armas Sánchez:</strong>
+                <br> En la creación de esta primera parte de la primera entrega, me centré en la coordinación del equipo para asegurar que todos los integrantes trabajen de manera alineada. Tomé el rol de cumplir, promoviendo la puntualidad y asegurando que las tareas se cumplieran equitativamente entre los miembros.
+                <br><br>
+                <strong>Juan Paul Llamccaya Arone:</strong>
+                <br> Durante esta primera entrega, me enfoqué principalmente en la Requirements Specification. Me aseguré de que todos los documentos del capítulo estén bien documentados y alineados con las necesidades del usuario.
+                <br><br>
+                <p style="text-align: center;"><strong>Presentable del TB2</strong></p>
+                <br>
+                <strong>Luis Alfonso Villegas Jipa:</strong>
+                <br> Desarrollo del frontend, enfocándose en la gestión de inventario y el historial de pedidos. Apoyo en la creación y mejora del contenido para la presentación en PowerPoint. Corrección y revisión de la TB1, asegurando que se cumplieran todos los requisitos. Documentación del Sprint 2, recopilando información y resultados para un seguimiento efectivo del progreso.
+                <br><br>
+                <strong>Oscar Javier Armas Sánchez:</strong>
+                <br> Desarrollo de la aplicación Frontend, específicamente en la gestión de clientes. Apoyo en la creación y mejora del contenido para la presentación en PowerPoint. Corrección y revisión de la TB1, enfocándose en los capítulos 1 y 2 para asegurar la calidad del documento. Documentación del Sprint 2, recopilando y organizando la información necesaria para el progreso del proyecto.
             </td>
-             <!--Conclusiones de la competencia 2-->
             <td>
-                <p style="text-align: center;" >
-                    <strong >Conclusión General TB1</strong>
-                    <br>
-                    En este entregable se logró crear un entorno colaborativo e inclusivo, donde todos los miembros del equipo participaron activamente. Las metas fueron claramente definidas al principio del proyecto, la asignación de tareas se planificaron de manera estratégica según las habilidades de los integrantes del equipo y se hizo un seguimiento constante del progreso. Gracias a la comunicación efectiva y la flexibilidad, se alcanzaron los objetivos de manera eficiente y exitosa. 
+                <p style="text-align: center;">
+                    <strong>Conclusión General TB1</strong>
+                    <br> En este entregable se logró crear un entorno colaborativo e inclusivo, donde todos los miembros del equipo participaron activamente. Las metas fueron claramente definidas al principio del proyecto, la asignación de tareas se planificaron de manera estratégica según las habilidades de los integrantes del equipo y se hizo un seguimiento constante del progreso. Gracias a la comunicación efectiva y la flexibilidad, se alcanzaron los objetivos de manera eficiente y exitosa.
                 </p>
-                 <!--Siguiente-->
-                <br> <br>
-                <p style="text-align: center;" >
-                    <strong >Conclusión General TB2</strong>
-                    <br>
-                    Descripción de conclusión TB2
+                <br><br>
+                <p style="text-align: center;">
+                    <strong>Conclusión General TB2</strong>
+                    <br> Descripción de conclusión TB2
                 </p>
-                <br> <br>
-                 <!--Siguiente-->
             </td>
         </tr>
         <!--FILA 2-->
@@ -358,49 +351,44 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
                     Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
                 </h4>
             </td>
-            <!--Acciones Realizadas de la competencia 2-->
+            <!--Acciones Realizadas del Criterio 2-->
             <td>
-            <p style="text-align: center;" ><strong >Presentable del TB1</strong></p>
-            <br>
-            <strong>Janover Gonzalo Saldaña Vela </strong> 
-            <br> Durante el proceso de la primera entrega del TF, nuestro equipo se mantuvo en comunicación constante y establecimos tareas para cada integrante con el fin de que podamos cumplir con el objetivo en común de acabar de manera satisfactoria el primer
-                sprint (Landing Page).
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Luis Alfonso Villegas Jipa: </strong> 
-            <br> Durante la elaboracion del Landing Page, he apoyando con el desarrollo de la App web y Mobile Wireframes. Ya que, mantuve una comunicacion acertiva y planificando una solucion ágil en nuestros objetivos colaborativos. 
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Jhordi Luis Carranza Pérez: </strong> 
-            <br> Durante la elbaoración previa al diseño del entorno general de la plataforma, se analizó de manera concreta el estilo general que esta llevaría: colores primarios y secundarios, tamañios de fuente, ubicación de iconos y botones, fonts y demás consideraciones. En conjunto con el equipo de trabajo se logró desarrollarlo de manera efectiva gracias a la comunicación constante y la ayuda mutua.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Oscar Javier Armas Sánchez </strong> 
-            <br> En esta primera entrega, me concentré en realizar mis tareas asignadas con eficiencia y puntualidad. Colaboré con el equipo para asegurar que mi trabajo contribuyera a alcanzar los objetivos del proyecto, manteniendo siempre una comunicación fluida para resolver dudas y facilitar la integración del trabajo conjunto.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Juan Paul Llamccaya Arone</strong> 
-            <br> En esta primera entrega, trabajé en el User Journey Mapping para entender el recorrido del usuario y en el Empathy Mapping para captar sus necesidades. También realicé el As-is Scenario Mapping para analizar el estado actual del sistema y establecí el Ubiquitous Language para alinear al equipo. Finalmente, desarrollé el To-Be Scenario Mapping y el Impact Mapping para visualizar mejoras y conectar los objetivos del proyecto con los resultados esperados. Mantuvimos una comunicación constante para cumplir los objetivos en conjunto.
-            <!--Siguiente-->
-            <br> <br>
-            <p style="text-align: center;" ><strong >Presentable del TB2</strong></p>
+                <p style="text-align: center;"><strong>Presentable del TB1</strong></p>
+                <br>
+                <strong>Janover Gonzalo Saldaña Vela:</strong>
+                <br> Durante el proceso de la primera entrega del TF, nuestro equipo se mantuvo en comunicación constante y establecimos tareas para cada integrante con el fin de que podamos cumplir con el objetivo en común de acabar de manera satisfactoria el primer sprint (Landing Page).
+                <br><br>
+                <strong>Luis Alfonso Villegas Jipa:</strong>
+                <br> Durante la elaboración del Landing Page, apoyé con el desarrollo de la App web y Mobile Wireframes. Manteniendo una comunicación asertiva y planificando una solución ágil en nuestros objetivos colaborativos.
+                <br><br>
+                <strong>Jhordi Luis Carranza Pérez:</strong>
+                <br> Durante la elaboración previa al diseño del entorno general de la plataforma, se analizó de manera concreta el estilo general que esta llevaría: colores primarios y secundarios, tamaños de fuente, ubicación de iconos y botones, fonts y demás consideraciones. En conjunto con el equipo de trabajo se logró desarrollarlo de manera efectiva gracias a la comunicación constante y la ayuda mutua.
+                <br><br>
+                <strong>Oscar Javier Armas Sánchez:</strong>
+                <br> En esta primera entrega, me concentré en realizar mis tareas asignadas con eficiencia y puntualidad. Colaboré con el equipo para asegurar que mi trabajo contribuyera a alcanzar los objetivos del proyecto, manteniendo siempre una comunicación fluida para resolver dudas y facilitar la integración del trabajo conjunto.
+                <br><br>
+                <strong>Juan Paul Llamccaya Arone:</strong>
+                <br> En esta primera entrega, trabajé en el User Journey Mapping para entender el recorrido del usuario y en el Empathy Mapping para captar sus necesidades. También realicé el As-is Scenario Mapping para analizar el estado actual del sistema y establecí el Ubiquitous Language para alinear al equipo.
+                <br><br>
+                <p style="text-align: center;"><strong>Presentable del TB2</strong></p>
+                <br>
+                <strong>Luis Alfonso Villegas Jipa:</strong>
+                <br> Desarrollo del frontend, centrado en la mejora de la experiencia de usuario en la vista de inventario y pedidos. Colaboré estrechamente con mis compañeros en la documentación y ajuste de las funcionalidades claves de la aplicación para el Sprint 2.
+                <br><br>
+                <strong>Oscar Javier Armas Sánchez:</strong>
+                <br> Desarrollo de la vista para la gestión de clientes en el Frontend. En el Sprint 2, me concentré en ajustar y optimizar la experiencia del usuario, además de colaborar en la planificación de tareas y metas del equipo.
             </td>
-            <!--Conclusiones de la competencia 2-->
+            <!--Conclusiones del Criterio 2-->
             <td>
-                <p style="text-align: center;" >
-                    <strong >Conclusión General TB1</strong>
-                    <br>
-                    Se creó un entorno colaborativo e inclusivo, en el que cada miembro del equipo tuvo la oportunidad de aportar sus ideas y habilidades. Las metas se establecieron de forma clara y alineadas con las capacidades del equipo, las tareas se planificaron estratégicamente y se realizó un seguimiento constante del avance. Como resultado, los objetivos se cumplieron de manera efectiva, fomentando una dinámica de trabajo productiva y armónica.
+                <p style="text-align: center;">
+                    <strong>Conclusión General TB1</strong>
+                    <br> Se creó un entorno colaborativo e inclusivo, en el que cada miembro del equipo tuvo la oportunidad de aportar sus ideas y habilidades. Las metas se establecieron de forma clara y alineadas con las capacidades del equipo, las tareas se planificaron estratégicamente y se realizó un seguimiento constante del avance.
                 </p>
-                 <!--Siguiente-->
-                <br> <br>
-                <p style="text-align: center;" >
-                    <strong >Conclusión General TB2</strong>
-                    <br>
-                    Descripción de conclusión TB2
+                <br><br>
+                <p style="text-align: center;">
+                    <strong>Conclusión General TB2</strong>
+                    <br> Descripción de conclusión TB2
                 </p>
-                <br> <br>
-                 <!--Siguiente-->
             </td>
         </tr>
     </tbody>
