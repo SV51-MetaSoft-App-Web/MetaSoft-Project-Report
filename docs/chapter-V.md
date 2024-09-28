@@ -1337,6 +1337,65 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
 
 ##### 5.2.2.1. Sprint Planning 2
 
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Planning Background </p1></td>
+        </tr>
+        <!--FILA 1-->
+        <tr>
+            <td>Date</td>
+            <td>22-09-2024</td>
+        </tr>
+        <!--FILA 2-->
+        <tr>
+            <td>Time</td>
+            <td>10:00 p.m</td>
+        </tr>
+        <!--FILA 3-->
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <!--FILA 4-->
+        <tr>
+            <td>Prepared By</td>
+            <td>Janover Saldaña</td>
+        </tr>
+        <!--FILA 5-->
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Jhordi Carranza - Oscar Armas - Luis Villegas </td>
+        </tr>
+        <!--FILA 6-->
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Goal & User Stories </p1></td>
+        </tr>
+        <!--FILA 7-->
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td>En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funcionalidad de gestión y trazabilidad del proceso de vinificación dentro de nuestra aplicación ElixirControl, utilizando Vite y Vue en WebStorm como herramientas de desarrollo. Al finalizar este Sprint, se espera que todas las funcionalidadessss relacionadas, incluyendo la creación, edición y visualización de pedidos, estén completamente operativas. A continuación, se incluyen imágenes que muestran cómo gestionamos las tareas en nuestro tablero de Jira Software, reflejando el progreso y la asignación de responsabilidades del equipo.</td>
+        </tr>
+        <!--FILA 8-->
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>36</td>
+        </tr>
+        <!--FILA 9-->
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>43</td>
+        </tr>
+    </tbody>
+</table>
+
+
 ##### 5.2.2.2. Sprint Backlog 2
 <table>
   <thead>
