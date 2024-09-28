@@ -690,121 +690,135 @@ El **100%** de los entrevistados utiliza herramientas tecnológicas para llevar 
 La identificación y comprensión profunda de las necesidades de los usuarios es crucial para el éxito de ElixirControl, una plataforma diseñada para la gestión del proceso productivo en la industria del vino y pisco. Mediante un enfoque meticuloso de *needfinding*, se recolecta y analiza información clave sobre las operaciones y desafíos específicos que enfrentan tanto los productores de vino como los distribuidores de pisco. Este enfoque permite descubrir puntos críticos y oportunidades significativas que informan el desarrollo y diseño de la solución. Al explorar a fondo los comportamientos, preferencias y dificultades de estos usuarios, ElixirControl se orienta a crear una herramienta que no solo optimiza la eficiencia, sino que también proporciona una experiencia de usuario adaptada y sencilla. Los perfiles de usuario (*user personas*) que guían este desarrollo están basados en los perfiles detallados de productores y distribuidores, asegurando que la plataforma satisfaga de manera precisa sus necesidades específicas y maximice su efectividad en el sector.
 
 ### 2.3.1. User Personas.
-En esta sección se incluye la elaboración de las fichas de User Persona. La sección
-inicia con una introducción explicando la relación entre los artefactos a presentar y
-las principales características que se están tomando en cuenta del análisis de
-entrevistas y de la competencia. 
-![UPRF](../assets/img/chapter-II/RubenEP.png)
-![UPCR](<../assets/img/chapter-II/Camila Ramos_UP.png>)
+
+En esta sección se presentan dos User Personas que representan los segmentos clave del proyecto MetaSoft: los Productores de Vinos y los Distribuidores de Vinos y Piscos en Lima, Perú. Estos perfiles son fundamentales para entender las necesidades, motivaciones y comportamientos de los usuarios potenciales de MetaSoft, que busca optimizar la producción y comercialización de vinos a nivel local, regional y nacional.
+
+El User Person Rubén Flores simboliza al productor de vinos artesanales, específicamente a las microempresas y pequeñas empresas productoras. Rubén enfrenta el reto de gestionar inventarios y asegurar la calidad del vino mientras trabaja con herramientas manuales como Excel y cuadernos. Su objetivo es mejorar la eficiencia en la producción y obtener un mayor control de sus procesos de inventario, sin perder el enfoque artesanal de su negocio familiar.
+
+![alt text](<../assets/img/chapter-II/Ruben Flores (9).png>)
+
+Por otro lado, la User Person Camila Ramos, distribuidora de vinos y piscos, representa a las empresas encargadas de la distribución de estos productos a nivel local y nacional. Su prioridad es gestionar de manera eficiente los inventarios y pedidos, asegurando que los productos lleguen a tiempo y en las mejores condiciones a sus clientes. Aunque actualmente utiliza herramientas tecnológicas básicas, busca soluciones que le permitan automatizar y mejorar su gestión sin complicaciones.
+
+![alt text](<../assets/img/chapter-II/Camila Ramos (8).png>)
+Ambos perfiles aportan información valiosa para el desarrollo del sistema MetaSoft, destacando las principales tareas y áreas donde la tecnología puede marcar una diferencia significativa en sus operaciones diarias.
+
 ### 2.3.2. User Task Matrix.
-En este User Task Matrix, se analizan dos segmentos clave: Ruben Flores, productor de vinos artesanales, y Camila Ramos, distribuidora de vinos. Ruben se enfoca en la gestión del proceso de producción y control de calidad, mientras que Camila gestiona la distribución, el inventario y las relaciones con los productores. Estos segmentos fueron seleccionados por su importancia en la cadena de producción y distribución de vinos, permitiendo identificar sus tareas y necesidades esenciales.
-<body>
-    <h2>User Task Matrix</h2>
-    <table>
+En esta sección, se presentan las tareas principales que los User Personas (Luis Ramírez, productor de vinos, y Camila Ramos, distribuidora de vinos) realizan para cumplir sus objetivos dentro del sector vitivinícola en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
+<h2>User Task Matrix : Rubén Flores (Productor de Vinos)</h2>
+<table>
+    <thead>
         <tr>
-            <th rowspan="2">User Task</th>
-            <th colspan="2">Ruben Flores   (Productor de Vinos)</th>
-            <th colspan="2">Camila Ramos (Distribuidora de Vinos y Piscos)</th>
-        </tr>
-        <tr>
-            <th>Frecuencia</th>
-            <th>Importancia</th>
+            <th>User Task</th>
             <th>Frecuencia</th>
             <th>Importancia</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
-            <td>Asegurar la calidad de los productos enviados/recibidos</td>
+            <td>Controlar la calidad de la uva en la cosecha</td>
             <td>Alta</td>
-            <td>Alta</td>
-            <td>Media</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Optimizar los costos operativos.</td>
+            <td>Supervisar el proceso de fermentación</td>
             <td>Alta</td>
             <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Verificar el estado de las barricas</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Coordinar el transporte del producto</td>
             <td>Baja</td>
             <td>Media</td>
         </tr>
         <tr>
-            <td>Mejorar la satisfacción del cliente</td>
-            <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>
-        </tr>
-        <tr>
-            <td>Ampliar la presencia en nuevos mercados</td>
-            <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>  
-        </tr>
-        <tr>
-            <td>Fortalecer las relaciones con proveedores.</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Media</td>
-            <td>Media</td>  
-        </tr>
-        <tr>
-            <td>Planificar la producción y logística</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Media</td>
-            <td>Alta</td>  
-        </tr>
-        <tr>
-            <td>Realizar pedidos a productores.</td>
-            <td>Media</td>
-            <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>  
-        </tr>
-        <tr>
-            <td>Realizar análisis de mercado.</td>
+            <td>Participar en ferias y eventos de vino</td>
             <td>Baja</td>
             <td>Media</td>
-            <td>Baja</td>
-            <td>Media</td>  
         </tr>
         <tr>
-            <td>Buscar nuevos clientes para expandir el negocio.</td>
+            <td>Contratar y supervisar personal de campo</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Gestionar las ventas locales</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Coordinar actividades de marketing local</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>User Task Matrix : Camila Ramos (Distribuidora de Vinos y Piscos)</h2>
+<table>
+    <thead>
+        <tr>
+            <th>User Task</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Negociar acuerdos con nuevos proveedores</td>
             <td>Media</td>
             <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>  
         </tr>
-    </table>
-</body>
-
-**Explicación de las tareas destacadas:**
-
-Las tareas destacadas en el User Task Matrix son fundamentales para el éxito y la eficiencia en la producción y distribución de vinos y piscos. A continuación, se presentan las tareas clave que deben ser priorizadas por Ruben Flores y Camila Ramos para alcanzar sus objetivos.
-
-**Asegurar la calidad de los productos enviados/recibidos**
-
-**Ruben Flores:** Alta frecuencia e importancia. Ruben garantiza que el vino producido cumpla con los estándares de calidad para satisfacer a los clientes y mantener la reputación de su marca.
-
-**Camila Ramos:** Media frecuencia y alta importancia. Camila revisa la calidad de los productos antes de su distribución para asegurar que cumplan con las expectativas del mercado.
-
-**Mejorar la satisfacción del cliente**
-
-**Ruben Flores:** Media frecuencia y alta importancia. Ruben trabaja en mejorar la experiencia del cliente, lo que es crucial para la fidelización y el crecimiento del negocio.
-
-**Camila Ramos:** Alta frecuencia e importancia. Camila se enfoca en asegurar que sus clientes estén satisfechos, un factor clave para mantener la lealtad y el éxito del negocio.
-
-**Ampliar la presencia en nuevos mercados**
-
-**Ruben Flores:** Media frecuencia y alta importancia. Ruben explora nuevas oportunidades para expandir su mercado y aumentar su alcance comercial.
-
-**Camila Ramos:** Alta frecuencia e importancia. Camila busca constantemente nuevos mercados para mejorar la distribución y aumentar las ventas.
-
-**Optimizar los costos operativos**
-
-**Ruben Flores:** Alta frecuencia e importancia. Ruben busca eficiencias en sus operaciones para reducir costos y mejorar la rentabilidad de la producción.
-
-**Camila Ramos:** Baja frecuencia y media importancia. Aunque importante, la optimización de costos operativos no es una prioridad diaria en comparación con la gestión de inventarios y la satisfacción del cliente.
+        <tr>
+            <td>Controlar el proceso de almacenaje de productos</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Evaluar la rotación de productos en el almacén</td>
+            <td>Alta</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Coordinar promociones con minoristas y puntos de venta</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Analizar las tendencias del mercado</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Planificar la compra de nuevos productos</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Asistir a eventos y ferias de la industria</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Mantener relaciones comerciales con clientes clave</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Supervisar el estado del mercado de vinos y piscos</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Desarrollar estrategias para expandir la cartera de productos</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 2.3.3. User Journey Mapping.
 **Ruben Flores**
