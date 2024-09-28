@@ -410,8 +410,11 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Dado que el presente entrevistado nos comento que se dedicaba al campo de la vitivinícultura, siendo el asistente de una Bodega en Lunahúana, el cual el se dedicaba al area de inventario, para lo cual utilizaba el Excel como ayuda para registrar datos de su almacen, asi como tambien un cuaderno de apuntes el cual lo usaba para datos que no les parecia reelevante. Ademas nos menciono que estaria interesado en nuestra propuesta de un programa que le ayudara a poeder almacenar sus datos y tambien que pudiera llevar un control de las mismas.
-                </td>
+            El entrevistado, Joaquín Carranza, asistente en la bodega Sol Campestre ubicada en Lunahuaná, comentó que sus principales tareas incluyen la gestión del inventario, organización de productos y control de calidad durante la producción de vinos y piscos artesanales. Actualmente, utiliza Excel y un cuaderno para registrar el inventario y asegurarse de que todo esté actualizado, mencionando que estos métodos son efectivos pero limitados cuando la demanda aumenta.
+            Joaquín se mostró interesado en una solución tecnológica que le permita llevar un control en tiempo real del inventario y la calidad de los lotes, facilitando la toma de decisiones y la producción acorde a la demanda. También expresó que le gustaría que el software fuera fácil de usar y compatible con Excel, ya que es una herramienta con la que se siente familiarizado.
+            Considera que la mayor dificultad en su proceso de producción es mantener el control preciso de las condiciones durante la fermentación, debido a que cualquier variación puede afectar la calidad de los lotes, por lo que una tecnología que ayude a gestionar esta información en tiempo real sería beneficiosa.
+            Finalmente, Joaquín está dispuesto a seguir en contacto para futuras pruebas y detalles sobre el desarrollo de la solución.                
+            </td>
             </tr>
             <tr>
                 <td>Tiempo que empieza</td>
@@ -456,7 +459,9 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    La presente intrevistada menciona que era la dueña de un viñedo, el cua ella acordaba con sus ayudantes lo que tenian que hacer para pioder mantener a cuidado si viñedo, ademas menciono que que utilizaba el programa excel para sus cuentas asi como un cuaderno de sus gastos y sus posibles ventas. Nos aclaro que ella lleva en nombre de su familia casi 6 años el viñedo que les heredo sus padres el cual tenia una gran tiempo de produccion de vinos el cual era mas de 50 años de trayectoria, y queria seguir manteniendolo en trayectoria.  
+                    Miriam Sánchez es la propietaria de un viñedo familiar, heredado de sus padres, quienes fundaron la empresa en 1974. Actualmente, Miriam lleva casi seis años a cargo de la producción de vinos y piscos, coordinando todas las fases del proceso, desde el cultivo y la cosecha de la uva hasta la producción y venta de los productos.
+                    Durante la entrevista, destacó que el mayor desafío en la producción es el cuidado de las vides, especialmente en la etapa de poda y protección de las uvas. Además, mencionó que el proceso es mayormente artesanal, apoyándose en mano de obra experimentada, aunque no formalmente capacitada.
+                    Miriam expresó interés en contar con recursos adicionales, como una máquina moledora de uvas y un alambique propio para la producción de pisco, lo que le permitiría optimizar el proceso. Aunque actualmente su producción se gestiona de manera manual, estaría interesada en herramientas tecnológicas que puedan mejorar la eficiencia y facilitar el manejo del viñedo.
                 </td>
             </tr>
             <tr>
@@ -503,8 +508,9 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    Durante la entrevista, el entrevistado nos informó que trabaja en el ámbito de la vitivinicultura como asistente en una bodega ubicada en Lunahuaná. Su principal responsabilidad está en el área de inventario, donde emplea Excel para registrar los datos de su almacén. Además, utiliza un cuaderno de apuntes para llevar información que considera de menor relevancia. Nos mencionó que estaría interesado en nuestra propuesta de un sistema que le permitiera almacenar y gestionar sus datos de manera más eficiente, con una funcionalidad que le facilite el control sobre el inventario.
-                </td>
+                Durante la entrevista, el entrevistado, Fabricio de la Cruz Jiménez, nos comentó que trabaja como asistente en la bodega De la Cruz, ubicada en la carretera Panamericana a las afueras de Chincha. Sus principales responsabilidades incluyen la gestión del inventario y el apoyo en la producción de vinos y piscos. Fabricio lleva alrededor de 5 años en esta posición, donde se encarga de supervisar la producción de vinos tradicionales, como el clásico vino de uva, en colaboración con su superior.
+                En cuanto a las herramientas que utiliza para gestionar la bodega, mencionó que, además de un cuaderno para notas, emplea Excel para registrar y administrar la producción e inventario. Sin embargo, expresó que sería beneficioso contar con una herramienta o plataforma de software que le permitiera gestionar el inventario de manera más eficiente, incluyendo características como el seguimiento de mercancías y pedidos, así como el control de su envío y distribución.
+                Fabricio mostró interés en nuestra propuesta de un sistema que le ayude a optimizar el manejo del inventario y la administración de la bodega, y está dispuesto a participar en futuras entrevistas para colaborar en el desarrollo del proyecto.                </td>
             </tr>
             <tr>
                 <td>Tiempo que empieza</td>
@@ -552,7 +558,9 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
                 <td>
                 <strong>
                     Resumen:</strong><br>
-                    En la entrevista, el entrevistado nos comentó que se desempeña como distribuidor de vinos y piscos. Su labor principal consiste en gestionar la distribución de estos productos a diferentes puntos de venta y clientes. Para ello, utiliza herramientas como programas para llevar un control de los pedidos y la distribución de su inventario. Sin embargo, mencionó que le gustaría contar con un sistema más automatizado que le permitiera gestionar de manera más eficiente sus productos, realizar un seguimiento de las entregas, y mejorar la planificación de sus rutas de distribución.
+                    Durante la entrevista, el entrevistado, Jazzy Adolfo Benítez Morales, nos informó que es el gerente de la empresa "Vinos Andinos", ubicada en el departamento de Piura. Lleva más de 10 años en el negocio de la distribución de vinos, donde se encarga de la compra de productos tanto importados de Argentina, Chile y España, como de los que provienen del departamento de Ica. Su rol principal es la gestión de la distribución de estos vinos a distintos puntos de venta y clientes, basándose en la demanda y la calidad de los productos.
+                    En cuanto a las herramientas que utiliza, mencionó que actualmente emplea un sistema llamado Manager para gestionar los inventarios y ventas. A pesar de esto, enfrenta varios desafíos, siendo la logística el principal, ya que resulta complicado predecir la demanda y optimizar la entrega de los productos. Jazzy expresó interés en tecnologías que le permitan mejorar la predicción de la demanda, ayudándole a tener un mayor control sobre las fluctuaciones del mercado y la logística.
+                    Finalmente, mostró disposición para participar en futuras pruebas e investigaciones relacionadas con el desarrollo de nuevas herramientas tecnológicas que puedan optimizar la gestión de su negocio.
                 </td>
             </tr>
             <tr>
@@ -569,8 +577,6 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
             </tr>
         </tbody>
 </table>
-
-
 
 <table>
         <thead>
@@ -616,7 +622,6 @@ _**Agradecer al entrevistado por su tiempo y participación.**_
             </tr>
         </tbody>
 </table>
-
 
 <table>
         <thead>
@@ -685,121 +690,135 @@ El **100%** de los entrevistados utiliza herramientas tecnológicas para llevar 
 La identificación y comprensión profunda de las necesidades de los usuarios es crucial para el éxito de ElixirControl, una plataforma diseñada para la gestión del proceso productivo en la industria del vino y pisco. Mediante un enfoque meticuloso de *needfinding*, se recolecta y analiza información clave sobre las operaciones y desafíos específicos que enfrentan tanto los productores de vino como los distribuidores de pisco. Este enfoque permite descubrir puntos críticos y oportunidades significativas que informan el desarrollo y diseño de la solución. Al explorar a fondo los comportamientos, preferencias y dificultades de estos usuarios, ElixirControl se orienta a crear una herramienta que no solo optimiza la eficiencia, sino que también proporciona una experiencia de usuario adaptada y sencilla. Los perfiles de usuario (*user personas*) que guían este desarrollo están basados en los perfiles detallados de productores y distribuidores, asegurando que la plataforma satisfaga de manera precisa sus necesidades específicas y maximice su efectividad en el sector.
 
 ### 2.3.1. User Personas.
-En esta sección se incluye la elaboración de las fichas de User Persona. La sección
-inicia con una introducción explicando la relación entre los artefactos a presentar y
-las principales características que se están tomando en cuenta del análisis de
-entrevistas y de la competencia. 
-![UPRF](../assets/img/chapter-II/RubenEP.png)
-![UPCR](<../assets/img/chapter-II/Camila Ramos_UP.png>)
+
+En esta sección se presentan dos User Personas que representan los segmentos clave del proyecto MetaSoft: los Productores de Vinos y los Distribuidores de Vinos y Piscos en Lima, Perú. Estos perfiles son fundamentales para entender las necesidades, motivaciones y comportamientos de los usuarios potenciales de MetaSoft, que busca optimizar la producción y comercialización de vinos a nivel local, regional y nacional.
+
+El User Person Rubén Flores simboliza al productor de vinos artesanales, específicamente a las microempresas y pequeñas empresas productoras. Rubén enfrenta el reto de gestionar inventarios y asegurar la calidad del vino mientras trabaja con herramientas manuales como Excel y cuadernos. Su objetivo es mejorar la eficiencia en la producción y obtener un mayor control de sus procesos de inventario, sin perder el enfoque artesanal de su negocio familiar.
+
+![alt text](<../assets/img/chapter-II/Ruben Flores (9).png>)
+
+Por otro lado, la User Person Camila Ramos, distribuidora de vinos y piscos, representa a las empresas encargadas de la distribución de estos productos a nivel local y nacional. Su prioridad es gestionar de manera eficiente los inventarios y pedidos, asegurando que los productos lleguen a tiempo y en las mejores condiciones a sus clientes. Aunque actualmente utiliza herramientas tecnológicas básicas, busca soluciones que le permitan automatizar y mejorar su gestión sin complicaciones.
+
+![alt text](<../assets/img/chapter-II/Camila Ramos (8).png>)
+Ambos perfiles aportan información valiosa para el desarrollo del sistema MetaSoft, destacando las principales tareas y áreas donde la tecnología puede marcar una diferencia significativa en sus operaciones diarias.
+
 ### 2.3.2. User Task Matrix.
-En este User Task Matrix, se analizan dos segmentos clave: Ruben Flores, productor de vinos artesanales, y Camila Ramos, distribuidora de vinos. Ruben se enfoca en la gestión del proceso de producción y control de calidad, mientras que Camila gestiona la distribución, el inventario y las relaciones con los productores. Estos segmentos fueron seleccionados por su importancia en la cadena de producción y distribución de vinos, permitiendo identificar sus tareas y necesidades esenciales.
-<body>
-    <h2>User Task Matrix</h2>
-    <table>
+En esta sección, se presentan las tareas principales que los User Personas (Luis Ramírez, productor de vinos, y Camila Ramos, distribuidora de vinos) realizan para cumplir sus objetivos dentro del sector vitivinícola en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
+<h2>User Task Matrix : Rubén Flores (Productor de Vinos)</h2>
+<table>
+    <thead>
         <tr>
-            <th rowspan="2">User Task</th>
-            <th colspan="2">Ruben Flores   (Productor de Vinos)</th>
-            <th colspan="2">Camila Ramos (Distribuidora de Vinos y Piscos)</th>
-        </tr>
-        <tr>
-            <th>Frecuencia</th>
-            <th>Importancia</th>
+            <th>User Task</th>
             <th>Frecuencia</th>
             <th>Importancia</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
-            <td>Asegurar la calidad de los productos enviados/recibidos</td>
+            <td>Controlar la calidad de la uva en la cosecha</td>
             <td>Alta</td>
-            <td>Alta</td>
-            <td>Media</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Optimizar los costos operativos.</td>
+            <td>Supervisar el proceso de fermentación</td>
             <td>Alta</td>
             <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Verificar el estado de las barricas</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Coordinar el transporte del producto</td>
             <td>Baja</td>
             <td>Media</td>
         </tr>
         <tr>
-            <td>Mejorar la satisfacción del cliente</td>
-            <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>
-        </tr>
-        <tr>
-            <td>Ampliar la presencia en nuevos mercados</td>
-            <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>  
-        </tr>
-        <tr>
-            <td>Fortalecer las relaciones con proveedores.</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Media</td>
-            <td>Media</td>  
-        </tr>
-        <tr>
-            <td>Planificar la producción y logística</td>
-            <td>Alta</td>
-            <td>Alta</td>
-            <td>Media</td>
-            <td>Alta</td>  
-        </tr>
-        <tr>
-            <td>Realizar pedidos a productores.</td>
-            <td>Media</td>
-            <td>Media</td>
-            <td>Alta</td>
-            <td>Alta</td>  
-        </tr>
-        <tr>
-            <td>Realizar análisis de mercado.</td>
+            <td>Participar en ferias y eventos de vino</td>
             <td>Baja</td>
             <td>Media</td>
-            <td>Baja</td>
-            <td>Media</td>  
         </tr>
         <tr>
-            <td>Buscar nuevos clientes para expandir el negocio.</td>
+            <td>Contratar y supervisar personal de campo</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Gestionar las ventas locales</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Coordinar actividades de marketing local</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>User Task Matrix : Camila Ramos (Distribuidora de Vinos y Piscos)</h2>
+<table>
+    <thead>
+        <tr>
+            <th>User Task</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Negociar acuerdos con nuevos proveedores</td>
             <td>Media</td>
             <td>Alta</td>
-            <td>Alta</td>
-            <td>Alta</td>  
         </tr>
-    </table>
-</body>
-
-**Explicación de las tareas destacadas:**
-
-Las tareas destacadas en el User Task Matrix son fundamentales para el éxito y la eficiencia en la producción y distribución de vinos y piscos. A continuación, se presentan las tareas clave que deben ser priorizadas por Ruben Flores y Camila Ramos para alcanzar sus objetivos.
-
-**Asegurar la calidad de los productos enviados/recibidos**
-
-**Ruben Flores:** Alta frecuencia e importancia. Ruben garantiza que el vino producido cumpla con los estándares de calidad para satisfacer a los clientes y mantener la reputación de su marca.
-
-**Camila Ramos:** Media frecuencia y alta importancia. Camila revisa la calidad de los productos antes de su distribución para asegurar que cumplan con las expectativas del mercado.
-
-**Mejorar la satisfacción del cliente**
-
-**Ruben Flores:** Media frecuencia y alta importancia. Ruben trabaja en mejorar la experiencia del cliente, lo que es crucial para la fidelización y el crecimiento del negocio.
-
-**Camila Ramos:** Alta frecuencia e importancia. Camila se enfoca en asegurar que sus clientes estén satisfechos, un factor clave para mantener la lealtad y el éxito del negocio.
-
-**Ampliar la presencia en nuevos mercados**
-
-**Ruben Flores:** Media frecuencia y alta importancia. Ruben explora nuevas oportunidades para expandir su mercado y aumentar su alcance comercial.
-
-**Camila Ramos:** Alta frecuencia e importancia. Camila busca constantemente nuevos mercados para mejorar la distribución y aumentar las ventas.
-
-**Optimizar los costos operativos**
-
-**Ruben Flores:** Alta frecuencia e importancia. Ruben busca eficiencias en sus operaciones para reducir costos y mejorar la rentabilidad de la producción.
-
-**Camila Ramos:** Baja frecuencia y media importancia. Aunque importante, la optimización de costos operativos no es una prioridad diaria en comparación con la gestión de inventarios y la satisfacción del cliente.
+        <tr>
+            <td>Controlar el proceso de almacenaje de productos</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Evaluar la rotación de productos en el almacén</td>
+            <td>Alta</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Coordinar promociones con minoristas y puntos de venta</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Analizar las tendencias del mercado</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Planificar la compra de nuevos productos</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Asistir a eventos y ferias de la industria</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Mantener relaciones comerciales con clientes clave</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Supervisar el estado del mercado de vinos y piscos</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Desarrollar estrategias para expandir la cartera de productos</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 2.3.3. User Journey Mapping.
 **Ruben Flores**
