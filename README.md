@@ -21,9 +21,8 @@
 
 * **Janover Gonzalo Saldaña Vela    U20201B510**
 * **Oscar Javier Armas Sánchez      U20211G192**
-* **Jhordi Luis Carranza Pérez      U20191E835**
 * **Luis Alfonso Villegas Jipa      U201717523**
-* **Juan Paul Llamccaya Arone       U201923571**
+
 
 
 <center>
