@@ -206,7 +206,7 @@ A diferencia de las ramas principales, estas ramas secundarias tienen una vida �
 
 Como se mencionó previamente, la gestión de nuestro código fuente se llevará a cabo mediante
 GitHub. El IDE utilizado en este caso, WebStorm, debe estar vinculado directamente al 
-repositorio creado por nuestra empresa MetaSoft. De esta manera, cada commit realizado por 
+repositorio creado por nuestra StartUp. De esta manera, cada commit realizado por 
 un miembro del equipo se subirá automáticamente y se cargará en el GitHub de la organización. Las instrucciones para completar con éxito este proceso de emparejamiento se detallan a continuación:
 
 * **Activar el controlador de versiones del IDE**
@@ -1852,6 +1852,548 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 ![img.png](../assets/img/chapter-V/sprint-2/img2.png)
 
 
+## 5.2.3. Sprint 3
+
+
+
+#### 5.2.3.1.Spring Planning 3.
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--====================================================================-->
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Planning Background </p1></td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Date</td>
+            <td>12-10-2024</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Time</td>
+            <td> 10:00 p.m </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Prepared By</td>
+            <td>Janover Saldaña</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Oscar Armas - Luis Villegas</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 2 Review Summary</td>
+            <td>Contenido Review</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 2 Retrospective Summary</td>
+            <td>Contenido Retrospective</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Goal & User Stories </p1></td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 3 Goal</td>
+            <td> Por definir </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 3 Velocity</td>
+            <td> Por definir </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sum of Story Points</td>
+            <td> Por Definir </td>
+        </tr>
+        <!--====================================================================-->
+    </tbody>
+</table>
+
+
+
+#### 5.2.3.2.Sprint Backlog 3.
+
+
+<!--Status -> (To-do / In-Process / To-Review / Done) -->
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="7">Srpint 3</th>
+            <th> Sprint 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--====================================================================-->
+        <tr>
+            <td colspan="1">User Story</td>
+            <td colspan="15">Work-Item / Task</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (hours)</td>
+            <td>Assigned To</td>
+            <td>Status</td>
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="4" >  CODE USER STORY  </td>
+            <td rowspan="4" >TITLE USER STORY</td>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="3"> CODE USER STORY	</td>
+            <td rowspan="3">TITLE USER STORY</td>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="3"> CODE USER STORY	</td>
+            <td rowspan="3">TITLE USER STORY</td>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr> 
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>>
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="5"> CODE USER STORY	</td>
+            <td rowspan="5">TITLE USER STORY </td>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr> 
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>  
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="4"> CODE USER STORY	</td>
+            <td rowspan="4">TITLE USER STORY</td>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr> 
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>   
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="3"> CODE USER STORY	</td>
+            <td rowspan="3">TITLE USER STORY</td>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td> 
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>CÓDIGO TAREAS</td>
+            <td>TITULO TAREAS	</td>
+            <td>DESCRIPCIÓN TAREA	</td>
+            <td>ESTIMACIÓN</td>
+            <td>PERSONA ASIGNADA</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+    </tbody>
+</table>
+
+
+
+#### 5.2.3.3.Development Evidence for Sprint Review.
+
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="" >Repository</th>
+            <th>Branch</th>
+            <th>Commit Id</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commited on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--======================================REPOSITORY======================================-->
+        <tr>
+            <td rowspan="14">END POINT</td>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td> 
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>   
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>Branch	</td>
+            <td>Commit Id</td>
+            <td>Commit Message</td>
+            <td>Commit Message Body</td>
+            <td>Commited on (Date)</td>  
+        </tr> 
+    </tbody>
+</table>
+
+
+
+#### 5.2.3.4.Testing Suite Evidence for Sprint Review.
+
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+
+
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>HTTP Verb</th>
+      <th>Function or Action</th>
+    </tr>
+  </thead>
+  <tbody>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>url Endpoint</td>
+      <td>HTTP verb</td>
+      <td>Descripción</td>
+    </tr>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>url Endpoint</td>
+      <td>HTTP verb</td>
+      <td>Descripción</td>
+    </tr>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>url Endpoint</td>
+      <td>HTTP verb</td>
+      <td>Descripción</td>
+    </tr>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>url Endpoint</td>
+      <td>HTTP verb</td>
+      <td>Descripción</td>
+    </tr>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>url Endpoint</td>
+      <td>HTTP verb</td>
+      <td>Descripción</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+
+
+
+## 5.3. Validation Interviews.
+
+### 5.3.1. Diseño de Entrevistas.
+
+
+
+### 5.3.2. Registro de Entrevistas.
+
+
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+
+
+## 5.4. Video About-the-Product.
+
+
+
+
+
+
 ## 6. Conclusiones, Bibliografía y Anexos.
 
 
@@ -1952,3 +2494,4 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         </tr>
     </tbody>
 </table>
+
