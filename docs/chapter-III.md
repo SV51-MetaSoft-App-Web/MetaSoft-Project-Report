@@ -686,70 +686,425 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </tr>
     <!--=========================== User Story 33 ===========================-->
     <tr>
-        <td>TS003</td>
-        <td>Obtener Datos de Inventario</td>
-        <td>
-            Como desarrollador backend en ElixirControl, quiero obtener la información del Inventario de los productores a través de una API para permitir al equipo de frontend utilizar los datos del mismo.
-        </td>
-        <td>
-            <strong>Escenario 01: Obtener Datos de Inventario Exitosamente</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Inventario, cuando envío una solicitud GET para la obtención de datos de Inventario, entonces el servidor responde con un código de estado 200 OK y recibo la información del Inventario en un response de formato JSON que contiene al menos un registro con los siguientes campos:<br>
-            - ID: {ID del Registro de Inventario}<br>
-            - Product Id: {Id del producto}<br>
-            - Producer Id: {Id del productor}<br>
-            - Quantity: {Cantidad en inventario}<br>
-            - Unit: {Unidad de medida}<br>
-            - Expiration Date: {Fecha de caducidad}<br>
-            - Batch: {Lote del producto}<br>
-            - Last Updated: {Última actualización}<br><br>
-            <strong>Escenario 02: Obtener Datos de Inventario Exitosamente por ID</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Inventario por ID, cuando envío una solicitud GET para la obtención de datos del Inventario por su ID, entonces el servidor responde con un código de estado 200 OK y recibo la información del Registro de Inventario actual en un response de formato JSON.<br><br>
-            <strong>Escenario 03: Obtener Datos de Inventario por ID con Parámetro Erróneo</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Inventario por ID, cuando envío una solicitud GET para la obtención de datos del Inventario con un ID de parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en la solicitud indicando que el ID de parámetro es incorrecto o no existe.
-        </td>
-        <td></td>
-    </tr>
+    <td>TS-03</td>
+    <td>Eliminar Datos de los Procesos de Vinificación</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero eliminar un proceso de vinificación a través de una API 
+        para mantener la base de datos limpia y actualizada.
+    </td>
+    <td>
+        <strong>Scenario 01: Eliminar Datos de Vinificación Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de eliminación de Vinificación, 
+        <strong>When</strong> envío una solicitud DELETE para eliminar el proceso de vinificación con un ID válido, 
+        <strong>Then</strong> el servidor responde con un código de estado 204 No Content 
+        <strong>And</strong> confirmo que el proceso de vinificación ha sido eliminado con éxito.<br><br>
+        <strong>Scenario 02: Eliminar Datos de Vinificación por ID Inexistente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de eliminación de Vinificación, 
+        <strong>When</strong> envío una solicitud DELETE para eliminar el proceso de vinificación con un ID que no existe, 
+        <strong>Then</strong> el servidor responde con un código de estado 404 Not Found 
+        <strong>And</strong> recibo un mensaje de error indicando que el proceso de vinificación no se encuentra.<br><br>
+        <strong>Scenario 03: Eliminar Datos de Vinificación sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización en el uso de la API para el endpoint de eliminación de Vinificación, 
+        <strong>When</strong> envío una solicitud DELETE para eliminar un proceso de vinificación, 
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden 
+        <strong>And</strong> recibo un mensaje de error indicando que no tengo permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
     <!--=========================== User Story 34 ===========================-->
-    <tr>
-        <td>TS004</td>
-        <td>Obtener Datos de Suscripciones de Usuarios</td>
-        <td>
-            Como desarrollador backend en ElixirControl, quiero obtener la información de las suscripciones de los usuarios (gratis, básico y premium) a través de una API para permitir al equipo de frontend utilizar los datos de suscripción en la interfaz.
-        </td>
-        <td>
-            <strong>Escenario 01: Obtener Datos de Suscripciones Exitosamente</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Suscripciones, cuando envío una solicitud GET para la obtención de datos de las suscripciones, entonces el servidor responde con un código de estado 200 OK y recibo la información de las suscripciones en un response de formato JSON que contiene al menos una suscripción con los siguientes campos:<br>
-            - ID: {ID de la suscripción}<br>
-            - UserID: {ID del usuario}<br>
-            - Type: {Tipo de suscripción (gratis, básico, premium)}<br>
-            - Start Date: {Fecha de inicio}<br>
-            - End Date: {Fecha de fin}<br>
-            - Cost: {Costo de la suscripción}<br>
-            - Features: {Características de la suscripción}<br><br>
-            <strong>Escenario 02: Obtener Datos de Suscripciones con Parámetro Erróneo</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Suscripciones, cuando envío una solicitud GET para la obtención de datos de las suscripciones con un parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
-        </td>
-        <td></td>
-    </tr>
+   <tr>
+    <td>TS-04</td>
+    <td>Crear Datos de los Procesos de Vinificación</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero crear un nuevo proceso de vinificación a través de una API 
+        para permitir que los vinicultores registren sus procesos de manera eficiente.
+    </td>
+    <td>
+        <strong>Scenario 01: Crear Datos de Vinificación Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de creación de Vinificación, 
+        <strong>When</strong> envío una solicitud POST con los datos necesarios para crear un nuevo proceso de vinificación, 
+        <strong>Then</strong> el servidor responde con un código de estado 201 Created 
+        <strong>And</strong> recibo la información del nuevo proceso de vinificación en un response de formato JSON que incluye el nuevo ID generado.<br><br>
+        <strong>Scenario 02: Crear Datos de Vinificación con Datos Inválidos</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de creación de Vinificación, 
+        <strong>When</strong> envío una solicitud POST con datos que no cumplen las validaciones requeridas, 
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request 
+        <strong>And</strong> recibo un mensaje de error detallando qué campos son inválidos.<br><br>
+        <strong>Scenario 03: Crear Datos de Vinificación sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización en el uso de la API para el endpoint de creación de Vinificación, 
+        <strong>When</strong> envío una solicitud POST para crear un nuevo proceso de vinificación, 
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden 
+        <strong>And</strong> recibo un mensaje de error indicando que no tengo permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
     <!--=========================== User Story 35 ===========================-->
+   <tr>
+    <td>TS-05</td>
+    <td>Crear un cliente distribuidor</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para crear un cliente distribuidor a través de una API 
+        para permitir que los vinicultores registren nuevos distribuidores de manera eficiente.
+    </td>
+    <td>
+        <strong>Scenario 01: Crear Cliente Distribuidor Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de creación de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud POST con los datos necesarios del cliente distribuidor, 
+        <strong>Then</strong> el servidor responde con un código de estado 201 Created 
+        <strong>And</strong> recibo la información del nuevo cliente distribuidor en un response en formato JSON que incluye el nuevo ID generado.<br><br>
+        <strong>Scenario 02: Crear Cliente Distribuidor con Datos Inválidos</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de creación de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud POST con datos que no cumplen las validaciones requeridas, 
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request 
+        <strong>And</strong> recibo un mensaje de error detallando qué campos son inválidos.<br><br>
+        <strong>Scenario 03: Crear Cliente Distribuidor sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización para utilizar la API del endpoint de creación de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud POST para crear un nuevo cliente distribuidor, 
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden 
+        <strong>And</strong> recibo un mensaje de error indicando que no tengo permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
+       <!--=========================== task matrix 6 ===========================-->
+        <tr>
+    <td>TS-06</td>
+    <td>Editar los detalles de un cliente distribuidor</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para editar los datos de un cliente distribuidor a través de una API 
+        para que el vinicultor pueda actualizar la información del cliente cuando sea necesario.
+    </td>
+    <td>
+        <strong>Scenario 01: Editar Cliente Distribuidor Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de edición de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud PUT con los datos actualizados del cliente distribuidor, 
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK 
+        <strong>And</strong> confirmo que los datos del cliente distribuidor han sido actualizados exitosamente.<br><br>
+        <strong>Scenario 02: Editar Cliente Distribuidor con Datos Inválidos</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de edición de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud PUT con datos que no cumplen las validaciones requeridas, 
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request 
+        <strong>And</strong> recibo un mensaje de error detallando qué campos son inválidos.<br><br>
+        <strong>Scenario 03: Editar Cliente Distribuidor sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización para utilizar la API del endpoint de edición de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud PUT para modificar los datos de un cliente distribuidor, 
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden 
+        <strong>And</strong> recibo un mensaje de error indicando que no tengo permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
+        <!--=========================== task matrix 6 ===========================-->
     <tr>
-        <td>TS005</td>
-        <td>Obtener Historial de Pedidos</td>
-        <td>
-            Como desarrollador backend en ElixirControl, quiero obtener el historial de pedidos realizados por los productores a través de una API para permitir al equipo de frontend utilizar los datos de los pedidos en la interfaz.
-        </td>
-        <td>
-            <strong>Escenario 01: Obtener Historial de Pedidos Exitosamente</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Historial de Pedidos, cuando envío una solicitud GET para la obtención de datos del historial de pedidos, entonces el servidor responde con un código de estado 200 OK y recibo la información del historial de pedidos en un response de formato JSON que contiene al menos un pedido con los siguientes campos:<br>
-            - ID: {ID del historial}<br>
-            - Order ID: {ID del pedido}<br>
-            - Registration Date: {Fecha de registro}<br>
-            - Status: {Estado del pedido (pendiente, completado, cancelado)}<br><br>
-            <strong>Escenario 02: Obtener Historial de Pedidos con Parámetro Erróneo</strong><br>
-            Dado que tengo autorización en el uso de la API y al endpoint de Historial de Pedidos, cuando envío una solicitud GET para la obtención de datos del historial de pedidos con un parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
-        </td>
-        <td></td>
-    </tr>
+    <td>TS-07</td>
+    <td>Eliminar un cliente distribuidor</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para eliminar un cliente distribuidor a través de una API 
+        para asegurar que los vinicultores puedan mantener su lista de clientes distribuidores limpia y actualizada.
+    </td>
+    <td>
+        <strong>Scenario 01: Implementar Eliminación de Cliente Distribuidor Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de eliminación de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud DELETE para eliminar al cliente distribuidor con un ID válido, 
+        <strong>Then</strong> el servidor responde con un código de estado 204 No Content 
+        <strong>And</strong> confirmo que la eliminación del cliente distribuidor se realizó con éxito.<br><br>
+        <strong>Scenario 02: Implementar Eliminación de Cliente Distribuidor por ID Inexistente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de eliminación de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud DELETE para eliminar a un cliente distribuidor con un ID que no existe, 
+        <strong>Then</strong> el servidor responde con un código de estado 404 Not Found 
+        <strong>And</strong> recibo un mensaje de error indicando que el cliente distribuidor no se encuentra.<br><br>
+        <strong>Scenario 03: Implementar Eliminación de Cliente Distribuidor sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización en el uso de la API para el endpoint de eliminación de clientes distribuidores, 
+        <strong>When</strong> envío una solicitud DELETE para eliminar a un cliente distribuidor, 
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden 
+        <strong>And</strong> recibo un mensaje de error indicando que no tengo permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
+    <tr>
+    <td>TS-08</td>
+    <td>Ver los detalles de un cliente distribuidor</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para ver los detalles de un cliente distribuidor a través de una API 
+        para que el vinicultor pueda acceder a la información detallada de sus clientes de manera eficiente.
+    </td>
+    <td>
+        <strong>Scenario 01: Ver Detalles de Cliente Distribuidor Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de visualización de detalles de cliente distribuidor, 
+        <strong>When</strong> el vinicultor envía una solicitud GET para obtener los detalles del cliente distribuidor con un ID válido, 
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK 
+        <strong>And</strong> el vinicultor recibe la información del cliente distribuidor en un response de formato JSON.<br><br>
+        <strong>Scenario 02: Ver Detalles de Cliente Distribuidor por ID Inexistente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de visualización de detalles de cliente distribuidor, 
+        <strong>When</strong> el vinicultor envía una solicitud GET para obtener los detalles del cliente distribuidor con un ID que no existe, 
+        <strong>Then</strong> el servidor responde con un código de estado 404 Not Found 
+        <strong>And</strong> el vinicultor recibe un mensaje de error indicando que el cliente distribuidor no se encuentra.<br><br>
+        <strong>Scenario 03: Ver Detalles de Cliente Distribuidor sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización en el uso de la API para el endpoint de visualización de detalles de cliente distribuidor, 
+        <strong>When</strong> el vinicultor envía una solicitud GET para obtener los detalles de un cliente distribuidor, 
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden 
+        <strong>And</strong> el vinicultor recibe un mensaje de error indicando que no tiene permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td>TS-09</td>
+    <td>Registrar un pedido</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero crear un nuevo pedido a través de una API 
+        para permitir que los vinicultores registren sus pedidos de manera eficiente.
+    </td>
+    <td>
+        <strong>Scenario 01: Crear Pedido Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de creación de pedidos, 
+        <strong>When</strong> envío una solicitud POST con los datos necesarios del cliente distribuidor, 
+        <strong>Then</strong> el servidor responde con un código de estado 201 Created 
+        <strong>And</strong> recibo la información del nuevo pedido en un response en formato JSON que incluye el nuevo ID generado.<br><br>
+        <strong>Scenario 02: Crear Pedido con Datos Inválidos</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de creación de pedidos, 
+        <strong>When</strong> envío una solicitud POST con datos que no cumplen las validaciones requeridas, 
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request 
+        <strong>And</strong> recibo un mensaje de error detallando qué campos son inválidos.<br><br>
+        <strong>Scenario 03: Crear Pedido sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización para utilizar la API del endpoint de creación de pedidos, 
+        <strong>When</strong> envío una solicitud POST para crear un nuevo pedido, 
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden 
+        <strong>And</strong> recibo un mensaje de error indicando que no tengo permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
+        <tr>
+    <td>TS-10</td>
+    <td>Ver detalles de un pedido</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para ver los detalles de un pedido a través de una API 
+        para que el vinicultor pueda acceder a la información detallada de un pedido de manera eficiente.
+    </td>
+    <td>
+        <strong>Scenario 01: Ver detalles del pedido Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de detalles de pedidos, 
+        <strong>When</strong> envío una solicitud GET by ID con el ID del pedido, 
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK 
+        <strong>And</strong> recibo la información del pedido en un response en formato JSON.<br><br>
+        <strong>Scenario 02: Error al obtener datos del detalle de pedidos</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de detalle de pedidos, 
+        <strong>When</strong> envío una solicitud GET con el ID pero hay un error interno en la comunicación al backend, 
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request 
+        <strong>And</strong> recibo un mensaje de error y no se mostrarán los datos en el frontend.
+    </td>
+    <td></td>
+</tr>
+        <tr>
+    <td>TS-11</td>
+    <td>Creación y Gestión de Pedidos de Vinos</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar un endpoint de API que permita a los distribuidores crear, modificar y visualizar sus pedidos de vinos 
+        para facilitar la gestión eficiente de pedidos y su seguimiento a través de la plataforma.
+    </td>
+    <td>
+        <strong>Scenario 1: Creación de Pedido de Vinos Exitoso</strong><br>
+        <strong>Given</strong> que un distribuidor autenticado está creando un pedido, 
+        <strong>When</strong> envía una solicitud POST al endpoint de creación de pedidos, proporcionando el tipo de vino, cantidad, y la fecha de entrega, 
+        <strong>Then</strong> el servidor responde con un código de estado 201 Created y el pedido es registrado exitosamente en la base de datos con un response JSON que incluye los datos del pedido.<br><br>
+        <strong>Scenario 2: Verificación de Stock Antes de Confirmar el Pedido</strong><br>
+        <strong>Given</strong> que un distribuidor autenticado selecciona un producto y cantidad, 
+        <strong>When</strong> envía una solicitud GET para verificar la disponibilidad del stock, 
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK, indicando si la cantidad solicitada está disponible en stock.<br><br>
+        <strong>Scenario 3: Modificación de Pedido Antes del Envío</strong><br>
+        <strong>Given</strong> que un distribuidor autenticado ha realizado un pedido y desea modificarlo antes de que haya sido enviado, 
+        <strong>When</strong> envía una solicitud PUT al endpoint de modificación de pedido, 
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK, confirmando que el pedido ha sido actualizado con éxito.
+    </td>
+    <td></td>
+</tr>
+        <tr>
+    <td>TS-12</td>
+    <td>Actualizar estado de un pedido</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para actualizar el estado de un pedido 
+        para que el vinicultor pueda tener la información 
+        actualizada y administrar mejor sus pedidos.
+    </td>
+    <td>
+        <strong>Scenario 01: Actualizar estado de un pedido exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de pedidos.<br>
+        <strong>When</strong> envío una solicitud PUT by ID con el ID del pedido.<br>
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK<br>
+        <strong>And</strong> recibo el estado actualizado en un response en formato JSON.<br><br>
+        <strong>Scenario 02: Error al actualizar estado de un pedido</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de pedidos.<br>
+        <strong>When</strong> envío una solicitud PUT by ID con el ID del pedido.<br>
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request<br>
+        <strong>And</strong> no se actualiza el estado y la data se mantendrá igual.
+    </td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>TS-13</td>
+    <td>Seguimiento y Notificaciones del Estado del Pedido</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar un endpoint de API para que los distribuidores puedan seguir el estado de sus pedidos y recibir notificaciones 
+        para que estén informados sobre cualquier cambio en el estado o fecha de entrega del pedido.
+    </td>
+    <td>
+        <strong>Scenario 1: Visualización del Estado del Pedido</strong><br>
+        <strong>Given</strong> que un distribuidor autenticado accede a la plataforma,<br>
+        <strong>When</strong> envía una solicitud GET al endpoint de seguimiento de pedidos,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK, proporcionando una lista de pedidos en formato JSON.<br><br>
+        <strong>Scenario 2: Actualización del Estado del Pedido y Notificación</strong><br>
+        <strong>Given</strong> que el estado de un pedido cambia (por ejemplo, de pendiente a enviado),<br>
+        <strong>When</strong> el sistema actualiza el estado del pedido,<br>
+        <strong>Then</strong> el distribuidor recibe una notificación por correo electrónico y en la plataforma, y el servidor responde con un código de estado 200 OK, confirmando el envío de la notificación.<br><br>
+        <strong>Scenario 3: Error al Intentar Modificar Pedido ya Enviado</strong><br>
+        <strong>Given</strong> que un distribuidor autenticado intenta modificar un pedido que ya ha sido enviado,<br>
+        <strong>When</strong> envía una solicitud PUT al endpoint de modificación de pedidos,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request, indicando que no se puede modificar un pedido que ya ha sido enviado.
+    </td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>TS-14</td>
+    <td>Ver detalles de un ítem del inventario</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para ver los detalles de un ítem del inventario a través de una API, 
+        para que los usuarios puedan acceder a la información detallada de cada ítem de manera eficiente.
+    </td>
+    <td>
+        <strong>Scenario 1: Ver Detalles del Ítem Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de visualización de detalles del ítem,<br>
+        <strong>When</strong> el usuario envía una solicitud GET para obtener los detalles del ítem con un ID válido,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK<br>
+        <strong>And</strong> el usuario recibe la información del ítem en un response de formato JSON.<br><br>
+        <strong>Scenario 2: Ver Detalles del Ítem por ID Inexistente</strong><br>
+        <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de visualización de detalles del ítem,<br>
+        <strong>When</strong> el usuario envía una solicitud GET para obtener los detalles del ítem con un ID que no existe,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 404 Not Found<br>
+        <strong>And</strong> el usuario recibe un mensaje de error indicando que el ítem no se encuentra.<br><br>
+        <strong>Scenario 3: Ver Detalles del Ítem sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización en el uso de la API para el endpoint de visualización de detalles del ítem,<br>
+        <strong>When</strong> el usuario envía una solicitud GET para obtener los detalles de un ítem,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden<br>
+        <strong>And</strong> el usuario recibe un mensaje de error indicando que no tiene permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td>TS-15</td>
+    <td>Eliminar un ítem del inventario</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para eliminar un ítem del inventario a través de una API, 
+        para permitir que los administradores gestionen eficientemente los ítems innecesarios.
+    </td>
+    <td>
+        <strong>Scenario 1: Eliminar Ítem Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y al endpoint de eliminación de ítems,<br>
+        <strong>When</strong> envío una solicitud DELETE para eliminar un ítem con un ID válido,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 204 No Content,<br>
+        <strong>And</strong> el ítem es eliminado permanentemente del inventario.<br><br>
+        <strong>Scenario 2: Eliminar Ítem por ID Inexistente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y al endpoint de eliminación de ítems,<br>
+        <strong>When</strong> envío una solicitud DELETE para eliminar un ítem con un ID que no existe,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 404 Not Found,<br>
+        <strong>And</strong> recibo un mensaje de error indicando que el ítem no se encuentra.<br><br>
+        <strong>Scenario 3: Eliminar Ítem sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización para utilizar la API del endpoint de eliminación de ítems,<br>
+        <strong>When</strong> envío una solicitud DELETE para eliminar un ítem,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden,<br>
+        <strong>And</strong> recibo un mensaje de error indicando que no tengo permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>TS-16</td>
+    <td>Agregar nuevo ítem al inventario</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para agregar nuevos ítems al inventario a través de una API, 
+        para permitir que los administradores registren nuevos productos eficientemente.
+    </td>
+    <td>
+        <strong>Scenario 1: Agregar Ítem Exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y al endpoint de creación de ítems,<br>
+        <strong>When</strong> envío una solicitud POST con los datos necesarios del nuevo ítem (nombre, cantidad, unidad, proveedor, costo por unidad),<br>
+        <strong>Then</strong> el servidor responde con un código de estado 201 Created,<br>
+        <strong>And</strong> recibo la información del nuevo ítem en un response en formato JSON que incluye el nuevo ID generado.<br><br>
+        <strong>Scenario 2: Agregar Ítem con Datos Inválidos</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y al endpoint de creación de ítems,<br>
+        <strong>When</strong> envío una solicitud POST con datos que no cumplen las validaciones requeridas (por ejemplo, campos vacíos),<br>
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request,<br>
+        <strong>And</strong> recibo un mensaje de error detallando qué campos son inválidos.<br><br>
+        <strong>Scenario 3: Agregar Ítem sin Autorización</strong><br>
+        <strong>Given</strong> que no tengo autorización para utilizar la API del endpoint de creación de ítems,<br>
+        <strong>When</strong> envío una solicitud POST para agregar un nuevo ítem,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 403 Forbidden,<br>
+        <strong>And</strong> recibo un mensaje de error indicando que no tengo permiso para realizar esta acción.
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td>TS-17</td>
+    <td>Buscar y filtrar ítems en el inventario</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar una función de búsqueda y filtrado para los ítems del inventario a través de una API 
+        para que los usuarios puedan encontrar fácilmente los ítems que necesitan según diferentes criterios.
+    </td>
+    <td>
+        <strong>Scenario 1: Búsqueda por Nombre Exitosamente</strong><br>
+        <strong>Given</strong> que el usuario accede al endpoint de búsqueda de ítems,<br>
+        <strong>When</strong> el usuario envía una solicitud GET con un nombre de ítem que contiene al menos 3 caracteres,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK,<br>
+        <strong>And</strong> el usuario recibe una lista de ítems que coinciden con el nombre proporcionado en un response en formato JSON.<br><br>
+        <strong>Scenario 2: Filtrar por Tipo de Ítem Exitosamente</strong><br>
+        <strong>Given</strong> que el usuario accede al endpoint de filtrado de ítems,<br>
+        <strong>When</strong> el usuario envía una solicitud GET para filtrar los ítems por un tipo específico (por ejemplo, "Consumable"),<br>
+        <strong>Then</strong> el servidor responde con un código de estado 200 OK,<br>
+        <strong>And</strong> el usuario recibe una lista de ítems que pertenecen al tipo especificado en un response en formato JSON.<br><br>
+        <strong>Scenario 3: Búsqueda sin Resultados Encontrados</strong><br>
+        <strong>Given</strong> que el usuario accede al endpoint de búsqueda de ítems,<br>
+        <strong>When</strong> el usuario envía una solicitud GET con un nombre de ítem que no existe en la base de datos,<br>
+        <strong>Then</strong> el servidor responde con un código de estado 404 Not Found,<br>
+        <strong>And</strong> el usuario recibe un mensaje indicando que no se encontraron ítems que coincidan.
+    </td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>TS-18</td>
+    <td>Eliminar un pedido</td>
+    <td>
+        Como desarrollador backend en MetaSoft, 
+        quiero implementar la función para eliminar un pedido 
+        para que el vinicultor pueda eliminar un pedido mal realizado.
+    </td>
+    <td>
+        <strong>Scenario 01: Eliminar un pedido exitosamente</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de pedidos.<br>
+        <strong>When</strong> envío una solicitud DELETE by ID con el ID del pedido.<br>
+        <strong>Then</strong> el servidor responde con un código de estado 204 No Content.<br>
+        <strong>And</strong> se elimina el registro de ese pedido.<br><br>
+        <strong>Scenario 02: Error al eliminar un pedido</strong><br>
+        <strong>Given</strong> que tengo autorización para utilizar la API y el endpoint de pedidos.<br>
+        <strong>When</strong> envío una solicitud DELETE by ID con el ID del pedido, pero hay un error con la comunicación del servidor.<br>
+        <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request.<br>
+        <strong>And</strong> no se elimina el registro del pedido.
+    </td>
+    <td></td>
+</tr>
     </tbody>
 </table>
 
