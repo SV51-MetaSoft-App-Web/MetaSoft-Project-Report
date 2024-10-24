@@ -418,179 +418,168 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
         <td>EPIC-006</td>
     </tr>
     <!--=========================== User Story 17 ===========================-->
-    <tr>
+        <tr>
         <td>US-017</td>
-        <td>Visualizar una Página No Encontrada</td>
+        <td>Editar un cliente distribuidor</td>
         <td>
-            Como usuario, quiero ver un mensaje claro cuando accedo a una página que no existe para entender que la URL es incorrecta.
+            Como vinicultor, quiero poder editar la información de mis clientes distribuidores, para actualizar los datos en caso de cambios.
         </td>
         <td>
-            <strong>Escenario 01: Página de Error 404.</strong> <br>
-            Dado que el usuario accede a una URL no válida, entonces el sistema muestra una página de error 404 con un mensaje claro.<br>
-            <strong>Escenario 02: Navegación desde la Página de Error.</strong> <br>
-            Dado que el usuario está en la página de error, cuando hace clic en el enlace de inicio, entonces el sistema lo redirige a la página de inicio.
-        </td>
+            <strong>Escenario 01: Edición exitosa de cliente distribuidor.</strong> <br>
+            Given el vinicultor accede a la lista de clientes distribuidores, When el vinicultor selecciona un cliente, actualiza los datos y guarda los cambios, Then la información del cliente se actualiza correctamente And el sistema muestra los nuevos datos en la vista de detalles del cliente.            <strong>Escenario 02: Navegación desde la Página de Error.</strong> <br>
+            <strong>Escenario 02: Error al intentar editar con datos incorrectos.</strong> <br>
+            Given el vinicultor accede a la opción de editar un cliente, When ingresa información no válida (como un correo electrónico mal formateado) y envía el formulario, Then el sistema muestra un mensaje de error explicando qué campo necesita ser corregido.        </td>
         <td>EPIC-006</td>
     </tr>
     <!--=========================== User Story 18 ===========================-->
     <tr>
         <td>US-018</td>
-        <td>Cambiar Idioma</td>
+        <td>Eliminar un cliente distribuidor</td>
         <td>
-            Como usuario, quiero poder cambiar el idioma de la interfaz de inglés a español y viceversa para que sea más fácil de usar.
+            Como vinicultor, quiero poder eliminar a un cliente distribuidor que ya no está activo, para mantener mi lista de contactos limpia y actualizada.
         </td>
         <td>
-            <strong>Escenario 01: Cambio de Idioma.</strong> <br>
-            Dado que el usuario accede a la configuración de idioma, cuando selecciona un idioma diferente, entonces el sistema cambia el idioma de la interfaz.<br>
-            <strong>Escenario 02: Persistencia del Idioma.</strong> <br>
-            Dado que el usuario ha cambiado el idioma, cuando recarga la página, entonces el sistema mantiene el idioma seleccionado.
+            <strong>Escenario 01: Eliminación exitosa de cliente distribuidor.</strong> <br>
+            Dado que el vinicultor accede a la lista de clientes distribuidores, cuando selecciona eliminar a un cliente distribuidor, entonces el cliente es eliminado de la lista y el sistema muestra una notificación de confirmación.<br>
+            <strong>Escenario 02: Confirmación antes de eliminar un cliente.</strong> <br>
+            Dado que el vinicultor intenta eliminar a un cliente distribuidor, cuando selecciona la opción de eliminar, entonces el sistema muestra un diálogo de confirmación y solo elimina al cliente si el vinicultor confirma la acción.
         </td>
-        <td>EPIC-006</td>
+        <td>EPIC-002</td>
     </tr>
     <!--=========================== User Story 19 ===========================-->
     <tr>
         <td>US-019</td>
-        <td>Integración de Validadores en Formularios de la App Web</td>
+        <td>Ver detalles de un cliente distribuidor</td>
         <td>
-            Como usuario, quiero que los formularios de la aplicación web tengan validadores para asegurar que los datos ingresados sean correctos.
+            Como vinicultor, quiero ver los detalles completos de un cliente distribuidor, para gestionar mejor la relación comercial y obtener toda la información relevante sobre mis clientes.
         </td>
         <td>
-            <strong>Escenario 01: Validación de Datos Incorrectos.</strong> <br>
-            Dado que el usuario completa un formulario, cuando envía el formulario con datos incorrectos, entonces el sistema muestra mensajes de error específicos.<br>
-            <strong>Escenario 02: Validación de Datos Correctos.</strong> <br>
-            Dado que el usuario completa un formulario correctamente, cuando envía el formulario, entonces el sistema procesa la información y muestra un mensaje de éxito.
+            <strong>Escenario 01: Visualización exitosa de los detalles de un cliente distribuidor.</strong> <br>
+            Dado que un vinicultor tiene acceso al sistema de gestión de clientes, cuando selecciona a un cliente distribuidor desde la lista, entonces se muestra toda la información del cliente, incluyendo nombre, DNI, RUC, teléfono, correo electrónico, dirección, país y ciudad.<br>
+            <strong>Escenario 02: Error al intentar acceder a un cliente distribuidor inexistente.</strong> <br>
+            Dado que un vinicultor intenta acceder a los detalles de un cliente que no existe, cuando el sistema no encuentra los datos del cliente, entonces se muestra un mensaje de error indicando que el cliente no está disponible.<br>
+            <strong>Escenario 03: Visualización de datos con campos faltantes.</strong> <br>
+            Dado que un vinicultor intenta ver los detalles de un cliente distribuidor cuyos datos no están completos, cuando faltan campos obligatorios como el RUC o la dirección, entonces el sistema muestra un mensaje indicando que hay campos faltantes en la información del cliente.
         </td>
-        <td>EPIC-006</td>
+        <td>EPIC-002</td>
     </tr>
     <!--=========================== User Story 20 ===========================-->
     <tr>
         <td>US-020</td>
-        <td>Gestión de Lotes de Producción</td>
+        <td>Buscar clientes distribuidores por nombre</td>
         <td>
-            Como enólogo, quiero tener una herramienta que me ayude a gestionar mis lotes de producción de manera eficiente para poder compartir información relevante con los interesados en el proceso.
+            Como vinicultor, quiero buscar a un cliente distribuidor por su nombre, para localizar rápidamente la información relevante.
         </td>
         <td>
-            <strong>Escenario 01: Visualización de Lotes.</strong> <br>
-            Dado que el enólogo se encuentra en su perfil, cuando accede a la sección de lotes, entonces el sistema muestra todos los lotes que ha gestionado.<br>
-            <strong>Escenario 02: Edición de Lotes.</strong> <br>
-            Dado que el enólogo se encuentra en su lista de lotes, cuando selecciona un lote y elige la opción de editar, entonces puede modificar la información del lote y guardar los cambios.<br>
-            <strong>Escenario 03: Eliminación de Lotes.</strong> <br>
-            Dado que el enólogo se encuentra en su lista de lotes, cuando selecciona un lote y elige la opción de eliminar, entonces se le solicita confirmación y, al confirmarla, el lote se elimina de la lista.
+            <strong>Escenario 01: Búsqueda exitosa por nombre.</strong> <br>
+            Dado que el vinicultor está en la lista de clientes distribuidores, cuando ingresa el nombre de un cliente en el campo de búsqueda, entonces el sistema muestra los clientes cuyo nombre coincide parcial o totalmente con el criterio de búsqueda.
         </td>
-        <td>EPIC-004</td>
+        <td>EPIC-002</td>
     </tr>
     <!--=========================== User Story 21 ===========================-->
     <tr>
         <td>US-021</td>
-        <td>Mejora de la Experiencia del Usuario</td>
+        <td>Creación de pedidos de vinos</td>
         <td>
-            Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general.
+            Como distribuidor, quiero crear un pedido seleccionando el tipo y la cantidad de productos, para que mi solicitud sea procesada correctamente y recibida en los tiempos acordados.
         </td>
         <td>
-            <strong>Escenario 01: Accesibilidad de Información.</strong> <br>
-            Dado que el usuario navega por la aplicación, cuando encuentra información, entonces debe ser fácil de entender y accesible.<br>
-            <strong>Escenario 02: Recursos de Ayuda.</strong> <br>
-            Dado que el usuario tiene dificultades, cuando busca ayuda, entonces el sistema proporciona recursos útiles y accesibles.
+            <strong>Escenario 01: Creación exitosa del pedido.</strong> <br>
+            Dado que un distribuidor está autenticado en la plataforma, cuando selecciona los vinos y las cantidades en el formulario de pedido, entonces puede enviar el pedido y recibe una confirmación de que ha sido registrado exitosamente.<br>
+            <strong>Escenario 02: Validación de los datos del pedido.</strong> <br>
+            Dado que un distribuidor está autenticado en la plataforma, cuando revisa los detalles del pedido antes de confirmarlo, entonces puede ver un resumen del pedido con todos los productos y cantidades seleccionados antes de proceder.
         </td>
-        <td>EPIC-006</td>
+        <td>EPIC-005</td>
     </tr>
     <!--=========================== User Story 22 ===========================-->
     <tr>
         <td>US-022</td>
-        <td>Implementación de Funcionalidad de Búsqueda</td>
+        <td>Seguimiento del estado del pedido</td>
         <td>
-            Como usuario, quiero poder realizar búsquedas en la aplicación para encontrar rápidamente la información que necesito.
+            Como distribuidor, quiero poder ver el estado actual de mis pedidos (pendiente, en proceso, enviado, entregado), para conocer en qué etapa se encuentra mi pedido y planificar la recepción del producto.
         </td>
         <td>
-            <strong>Escenario 01: Búsqueda por Palabra Clave.</strong> <br>
-            Dado que el usuario está en la página de búsqueda, cuando ingresa una palabra clave en el campo de búsqueda y hace clic en "Buscar", entonces el sistema debe mostrar una lista de resultados que contengan la palabra clave en el título o descripción.<br>
-            <strong>Escenario 02: Búsqueda Sin Resultados.</strong> <br>
-            Dado que el usuario ha ingresado una palabra clave en el campo de búsqueda, cuando no hay resultados que coincidan con la búsqueda, entonces el sistema debe mostrar un mensaje que indique "No se encontraron resultados para tu búsqueda. Por favor, intenta con otra palabra clave."
+            <strong>Escenario 01: Visualización del estado del pedido.</strong> <br>
+            Dado que un distribuidor está autenticado en la plataforma, cuando navega a la sección de pedidos, entonces puede ver una lista de pedidos con el estado actual de cada uno (pendiente, en proceso, enviado, entregado).<br>
+            <strong>Escenario 02: Actualización del estado del pedido.</strong> <br>
+            Dado que un distribuidor tiene un pedido en curso, cuando el estado del pedido cambia en el sistema (por ejemplo, de pendiente a enviado), entonces el distribuidor recibe una notificación y el estado se actualiza en su cuenta.
         </td>
-        <td>EPIC-006</td>
+        <td>EPIC-005</td>
     </tr>
     <!--=========================== User Story 23 ===========================-->
     <tr>
         <td>US-023</td>
-        <td>Gestión de Lotes de Producción</td>
+        <td>Confirmación de disponibilidad de stock</td>
         <td>
-            Como enólogo, quiero tener una herramienta que me ayude a gestionar mis lotes de producción de manera eficiente para poder compartir información relevante con los interesados en el proceso.
+            Como distribuidor, quiero recibir confirmación de la disponibilidad del stock de vinos solicitado, para asegurarme de que el producto que estoy pidiendo esté disponible antes de confirmar el pedido.
         </td>
         <td>
-            <strong>Escenario 01: Visualización de Lotes.</strong> <br>
-            Dado que el enólogo se encuentra en su perfil, cuando accede a la sección de lotes, entonces el sistema muestra todos los lotes que ha gestionado.<br>
-            <strong>Escenario 02: Edición de Lotes.</strong> <br>
-            Dado que el enólogo se encuentra en su lista de lotes, cuando selecciona un lote y elige la opción de editar, entonces puede modificar la información del lote y guardar los cambios.<br>
-            <strong>Escenario 03: Eliminación de Lotes.</strong> <br>
-            Dado que el enólogo se encuentra en su lista de lotes, cuando selecciona un lote y elige la opción de eliminar, entonces se le solicita confirmación y, al confirmarla, el lote se elimina de la lista.
+            <strong>Escenario 01: Verificación de stock antes de confirmar el pedido.</strong> <br>
+            Dado que un distribuidor está autenticado en la plataforma, cuando selecciona un producto y una cantidad, entonces el sistema verifica si el stock es suficiente y muestra una confirmación antes de permitir que el pedido sea enviado.<br>
+            <strong>Escenario 02: Notificación de falta de stock.</strong> <br>
+            Dado que un distribuidor está creando un pedido, cuando el stock no es suficiente para completar la solicitud, entonces el distribuidor recibe una notificación y se le ofrece la opción de ajustar las cantidades o elegir otro producto.
         </td>
-        <td>EPIC-004</td>
+        <td>EPIC-005</td>
     </tr>
     <!--=========================== User Story 24 ===========================-->
     <tr>
         <td>US-024</td>
-        <td>Gestión de Suscripción</td>
+        <td>Programación de entregas</td>
         <td>
-            Como productor, quiero contar con la posibilidad de suscribirme a un plan de pago para acceder a beneficios exclusivos y mejorar mi experiencia en la aplicación.
+            Como distribuidor, quiero poder programar la fecha de entrega del pedido según mis necesidades, para asegurar que la entrega se realice en el momento más conveniente para mi negocio.
         </td>
         <td>
-            <strong>Escenario 01: Selección de Plan.</strong> <br>
-            Dado que el productor se encuentra en la sección de suscripción, cuando elige un plan de pago, entonces el sistema muestra los detalles y beneficios de ese plan.<br>
-            <strong>Escenario 02: Proceso de Suscripción.</strong> <br>
-            Dado que el productor ha seleccionado un plan, cuando completa el formulario de suscripción y realiza el pago, entonces el sistema confirma la suscripción y activa los beneficios correspondientes.<br>
-            <strong>Escenario 03: Cancelación de Suscripción.</strong> <br>
-            Dado que el productor desea cancelar su suscripción, cuando selecciona la opción de cancelar, entonces el sistema le solicita confirmación y, al confirmarla, cancela la suscripción y notifica al usuario.
+            <strong>Escenario 01: Selección de la fecha de entrega.</strong> <br>
+            Dado que un distribuidor está autenticado en la plataforma, cuando está completando el pedido, entonces puede seleccionar una fecha de entrega de entre las opciones disponibles, que se ajustan a la logística del producto.<br>
+            <strong>Escenario 02: Confirmación de la fecha de entrega.</strong> <br>
+            Dado que un distribuidor ha seleccionado una fecha de entrega, cuando el pedido es confirmado, entonces el sistema muestra la fecha de entrega en la confirmación del pedido y la almacena en el sistema.
         </td>
         <td>EPIC-005</td>
     </tr>
     <!--=========================== User Story 25 ===========================-->
     <tr>
         <td>US-025</td>
-        <td>Mejora de la Experiencia del Usuario</td>
+        <td>Modificación de pedidos antes del envío</td>
         <td>
-            Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general.
+            Como distribuidor, quiero poder modificar la cantidad o tipo de vinos en mi pedido si aún no ha sido enviado, para adaptarme a cambios de última hora en la demanda o en la disponibilidad de espacio.
         </td>
         <td>
-            <strong>Escenario 01: Accesibilidad de Información.</strong> <br>
-            Dado que el usuario navega por la aplicación, cuando encuentra información, entonces debe ser fácil de entender y accesible.<br>
-            <strong>Escenario 02: Recursos de Ayuda.</strong> <br>
-            Dado que el usuario tiene dificultades, cuando busca ayuda, entonces el sistema proporciona recursos útiles y accesibles.
+            <strong>Escenario 01: Modificación permitida antes del envío.</strong> <br>
+            Dado que un distribuidor ha realizado un pedido, cuando el pedido aún no ha sido enviado, entonces puede modificar los detalles del pedido, como la cantidad de productos o la fecha de entrega, y recibir una confirmación de los cambios.<br>
+            <strong>Escenario 02: Notificación de bloqueo de modificación.</strong> <br>
+            Dado que un distribuidor intenta modificar un pedido, cuando el pedido ya ha sido enviado o está en proceso de envío, entonces el sistema no permite realizar modificaciones y notifica al distribuidor que el pedido ya está bloqueado para cambios.
         </td>
-        <td>EPIC-006</td>
+        <td>EPIC-005</td>
     </tr>
     <!--=========================== User Story 26 ===========================-->
     <tr>
         <td>US-026</td>
-        <td>Gestión de Notificaciones</td>
+        <td>Recepción de notificaciones sobre el estado del pedido</td>
         <td>
-            Como productor, quiero recibir notificaciones sobre actualizaciones en mis lotes y solicitudes de los distribuidores para estar al tanto de la actividad en mi perfil.
+            Como distribuidor, quiero recibir notificaciones en la plataforma y por correo electrónico sobre actualizaciones en el estado de mi pedido, para estar siempre informado sobre la situación de mis envíos.
         </td>
         <td>
-            <strong>Escenario 01: Notificaciones de Lote.</strong> <br>
-            Dado que el productor tiene lotes en curso, cuando ocurre un cambio o actualización en alguno de ellos, entonces recibe una notificación con los detalles.<br>
-            <strong>Escenario 02: Notificaciones de Solicitud.</strong> <br>
-            Dado que un distribuidor envía una solicitud al productor, cuando se recibe la solicitud, entonces el productor recibe una notificación con la información del distribuidor y el lote solicitado.<br>
-            <strong>Escenario 03: Configuración de Notificaciones.</strong> <br>
-            Dado que el productor desea personalizar sus notificaciones, cuando accede a la sección de configuración, entonces puede seleccionar el tipo de notificaciones que desea recibir y la frecuencia.
+            <strong>Escenario 01: Recepción de notificaciones en la plataforma.</strong> <br>
+            Dado que un distribuidor tiene un pedido en curso, cuando hay una actualización en el estado del pedido, entonces recibe una notificación dentro de la plataforma con los detalles del cambio.<br>
+            <strong>Escenario 02: Recepción de notificaciones por correo electrónico.</strong> <br>
+            Dado que un distribuidor tiene un pedido en curso, cuando hay un cambio en el estado del pedido, entonces recibe un correo electrónico informando sobre la actualización junto con un resumen del pedido.
         </td>
         <td>EPIC-005</td>
     </tr>
     <!--=========================== User Story 27 ===========================-->
     <tr>
         <td>US-027</td>
-        <td>Generación de Reportes</td>
+        <td>Generación de informes de ventas</td>
         <td>
-            Como productor, quiero poder generar reportes sobre mi desempeño y actividad en la plataforma para tener una visión general de mi rendimiento.
+            Como vinicultor, quiero generar informes de ventas por periodo (diario, semanal, mensual), para analizar el rendimiento de mis productos y tomar decisiones informadas sobre el negocio.
         </td>
         <td>
-            <strong>Escenario 01: Selección de Reportes.</strong> <br>
-            Dado que el productor se encuentra en la sección de reportes, cuando selecciona el tipo de reporte que desea generar, entonces el sistema muestra las opciones disponibles.<br>
-            <strong>Escenario 02: Generación de Reporte.</strong> <br>
-            Dado que el productor ha seleccionado las opciones para el reporte, cuando genera el reporte, entonces el sistema muestra los resultados en formato PDF o Excel.<br>
-            <strong>Escenario 03: Programación de Reportes.</strong> <br>
-            Dado que el productor desea recibir reportes periódicamente, cuando programa la generación de reportes, entonces el sistema envía automáticamente los reportes según la frecuencia establecida.
+            <strong>Escenario 01: Generación exitosa de un informe de ventas.</strong> <br>
+            Dado que un vinicultor está autenticado en la plataforma, cuando selecciona el rango de fechas y tipo de informe, entonces puede generar un informe que incluye detalles de ventas por producto, cantidad vendida y total de ingresos.<br>
+            <strong>Escenario 02: Visualización de error al intentar generar un informe sin datos.</strong> <br>
+            Dado que un vinicultor intenta generar un informe, cuando no hay ventas registradas en el periodo seleccionado, entonces el sistema muestra un mensaje de error indicando que no hay datos disponibles para generar el informe.
         </td>
-        <td>EPIC-004</td>
+        <td>EPIC-006</td>
     </tr>
     <!--=========================== User Story 28 ===========================-->
     <tr>
