@@ -583,7 +583,7 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </tr>
     <!--=========================== User Story 28 ===========================-->
     <tr>
-        <td>US-028</td>
+        <td>US-028 </td>
         <td>Reportes Personalizados</td>
         <td>
             Como usuario de producción, quiero poder crear reportes personalizados para analizar datos específicos de producción.
