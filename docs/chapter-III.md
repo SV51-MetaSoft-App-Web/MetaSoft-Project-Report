@@ -248,175 +248,373 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
         </td>
         <td>EPIC-09</td>
     </tr>
-    <!--=========================== User Story 6 ===========================-->
-    <tr>
-        <td>US-006</td>
-        <td>Registro de Entrada de Insumos</td>
-        <td>
-            Como encargado de bodega, quiero registrar la entrada de insumos para mantener actualizado el inventario.
-        </td>
-        <td>
-            <strong>Escenario 01: Ingreso de Datos.</strong> <br>
-            Dado que el encargado de bodega se encuentra en la sección de insumos, cuando ingresa los datos del nuevo insumo, entonces el sistema guarda la información y actualiza el inventario.<br>
-            <strong>Escenario 02: Generación de Código de Barras.</strong> <br>
-            Dado que se ha registrado un nuevo insumo, cuando el sistema genera el código de barras, entonces el encargado de bodega puede imprimir la etiqueta y pegarla en el producto.<br>
-            <strong>Escenario 03: Notificación al Enólogo.</strong> <br>
-            Dado que se ha registrado un nuevo insumo, cuando el sistema envía la notificación al enólogo, entonces el enólogo recibe la información sobre la llegada del nuevo insumo.
-        </td>
-        <td>EPIC-09</td>
-    </tr>
-    <!--=========================== User Story 7 ===========================-->
-    <tr>
-        <td>US-007</td>
-        <td>Registro de Salida de Productos Terminados</td>
-        <td>
-            Como encargado de despacho, quiero registrar la salida de productos terminados para mantener actualizado el inventario.
-        </td>
-        <td>
-            <strong>Escenario 01: Escaneo de Código de Barras.</strong> <br>
-            Dado que el encargado de despacho se encuentra en la sección de despacho, cuando escanea el código de barras del producto, entonces el sistema registra automáticamente la salida del producto.<br>
-            <strong>Escenario 02: Registro de Fecha y Hora.</strong> <br>
-            Dado que se ha escaneado el código de barras, cuando el sistema registra la fecha y hora de salida, entonces se actualiza el inventario con la información del producto despachado.<br>
-            <strong>Escenario 03: Reporte de Despachos.</strong> <br>
-            Dado que se han registrado varios despachos, cuando el encargado de despacho genera el reporte, entonces el sistema muestra un listado de todos los productos despachados por día.
-        </td>
-        <td>EPIC-001</td>
-    </tr>
-    <!--=========================== User Story 8 ===========================-->
-    <tr>
-        <td>US-008</td>
-        <td>Visualizar Datos de Solicitud</td>
-        <td>
-            Como encargado de bodega, quiero visualizar los datos de solicitud, como negocio, fecha de solicitud y teléfono, para tener un registro claro de las entradas y salidas.
-        </td>
-        <td>
-            <strong>Escenario 01: Visualización de Datos.</strong> <br>
-            Dado que el encargado de bodega accede a la sección de inventario, cuando selecciona la opción de visualizar datos, entonces el sistema muestra una lista con los datos de negocio, fecha de solicitud y teléfono.<br>
-            <strong>Escenario 02: Filtrado de Datos.</strong> <br>
-            Dado que el encargado de bodega desea ver información específica, cuando aplica un filtro por fecha o negocio, entonces el sistema muestra solo los registros que cumplen con los criterios seleccionados.
-        </td>
-        <td>EPIC-001</td>
-    </tr>
-    <!--=========================== User Story 9 ===========================-->
-    <tr>
-        <td>US-009</td>
-        <td>Registro de Datos de Clientes</td>
-        <td>
-            Como vendedor, quiero registrar los datos de mis clientes para tener un historial de sus compras y facilitar futuras transacciones.
-        </td>
-        <td>
-            <strong>Escenario 01: Registro de Cliente.</strong> <br>
-            Dado que el vendedor accede a la sección de registro de clientes, cuando completa el formulario con los datos del cliente y lo envía, entonces el sistema guarda la información y muestra un mensaje de confirmación.<br>
-            <strong>Escenario 02: Visualización de Clientes.</strong> <br>
-            Dado que el vendedor desea ver la lista de clientes registrados, cuando accede a la sección de clientes, entonces el sistema muestra una lista con todos los clientes registrados.
-        </td>
-        <td>EPIC-002</td>
-    </tr>
-    <!--=========================== User Story 10 ===========================-->
-    <tr>
-        <td>US-010</td>
-        <td>Registro de Pedidos de Clientes</td>
-        <td>
-            Como vendedor, quiero registrar los pedidos de mis clientes para tener un control de las ventas y facilitar el despacho.
-        </td>
-        <td>
-            <strong>Escenario 01: Registro de Pedido.</strong> <br>
-            Dado que el vendedor se encuentra en la sección de pedidos, cuando completa el formulario de pedido y lo envía, entonces el sistema guarda la información y genera un número de pedido.<br>
-            <strong>Escenario 02: Visualización de Pedidos.</strong> <br>
-            Dado que el pedido ha sido registrado, cuando el vendedor revisa la lista de pedidos, entonces puede ver el nuevo pedido en la lista.
-        </td>
-        <td>EPIC-002</td>
-    </tr>
-    <!--=========================== User Story 11 ===========================-->
-    <tr>
-        <td>US-011</td>
-        <td>Registro de Pedidos de Clientes</td>
-        <td>
-            Como vendedor, quiero registrar los pedidos de mis clientes para tener un control de las ventas y facilitar el despacho.
-        </td>
-        <td>
-            <strong>Escenario 01: Registro de Pedido.</strong> <br>
-            Dado que el vendedor se encuentra en la sección de pedidos, cuando completa el formulario de pedido y lo envía, entonces el sistema guarda la información y genera un número de pedido.<br>
-            <strong>Escenario 02: Visualización de Pedidos.</strong> <br>
-            Dado que el pedido ha sido registrado, cuando el vendedor revisa la lista de pedidos, entonces puede ver el nuevo pedido en la lista.
-        </td>
-        <td>EPIC-002</td>
-    </tr>
-    <!--=========================== User Story 12 ===========================-->
-    <tr>
-        <td>US-012</td>
-        <td>Visualización de Productos Disponibles</td>
-        <td>
-            Como distribuidor, quiero visualizar los productos disponibles para poder realizar mis pedidos.
-        </td>
-        <td>
-            <strong>Escenario 01: Visualización de Productos.</strong> <br>
-            Dado que el distribuidor accede a la sección de productos, cuando visualiza la lista, entonces el sistema muestra todos los productos disponibles con sus respectivas descripciones y precios.<br>
-            <strong>Escenario 02: Búsqueda de Productos.</strong> <br>
-            Dado que el distribuidor desea buscar un producto, cuando ingresa el nombre en el buscador, entonces el sistema filtra la lista de productos.
-        </td>
-        <td>EPIC-003</td>
-    </tr>
-    <!--=========================== User Story 13 ===========================-->
-    <tr>
-        <td>US-013</td>
-        <td>Registro de Pedidos</td>
-        <td>
-            Como distribuidor, quiero registrar mis pedidos para asegurar la entrega de los productos que necesito.
-        </td>
-        <td>
-            <strong>Escenario 01: Registro de Pedido.</strong> <br>
-            Dado que el distribuidor se encuentra en la sección de pedidos, cuando completa el formulario de pedido, entonces el sistema guarda la información y actualiza el inventario.<br>
-            <strong>Escenario 02: Confirmación de Pedido.</strong> <br>
-            Dado que el distribuidor ha registrado un pedido, cuando finaliza el proceso, entonces el sistema muestra un mensaje de confirmación.
-        </td>
-        <td>EPIC-003</td>
-    </tr>
-    <!--=========================== User Story 14 ===========================-->
-    <tr>
-        <td>US-014</td>
-        <td>Visualizar Historial de Pedidos</td>
-        <td>
-            Como distribuidor, quiero visualizar el historial de mis pedidos para poder hacer seguimiento a mis transacciones anteriores.
-        </td>
-        <td>
-            <strong>Escenario 01: Acceso al Historial.</strong> <br>
-            Dado que el distribuidor se encuentra en la sección de pedidos, cuando selecciona la opción de "Historial de Pedidos", entonces el sistema muestra una lista de todos los pedidos realizados con detalles como fecha, estado y productos.<br>
-            <strong>Escenario 02: Filtrado por Fecha.</strong> <br>
-            Dado que el distribuidor desea ver pedidos de un periodo específico, cuando selecciona un rango de fechas, entonces el sistema muestra solo los pedidos realizados en ese rango.<br>
-            <strong>Escenario 03: Detalles del Pedido.</strong> <br>
-            Dado que el distribuidor está revisando el historial, cuando selecciona un pedido específico, entonces el sistema muestra los detalles completos del pedido, incluyendo productos, cantidades y precios.
-        </td>
-        <td>EPIC-003</td>
-    </tr>
-    <!--=========================== User Story 15 ===========================-->
-    <tr>
-        <td>US-015</td>
-        <td>Confirmación de Pedido</td>
-        <td>
-            Como distribuidor, quiero recibir una confirmación de mi pedido para asegurarme de que ha sido procesado correctamente.
-        </td>
-        <td>
-            <strong>Escenario 01: Envío de Confirmación.</strong> <br>
-            Dado que se ha realizado un pedido, entonces el sistema envía un correo electrónico de confirmación al distribuidor con los detalles del pedido.
-        </td>
-        <td>EPIC-003</td>
-    </tr>
-    <!--=========================== User Story 16 ===========================-->
-    <tr>
-        <td>US-016</td>
-        <td>Visualizar Home de la Plataforma</td>
-        <td>
-            Como usuario, quiero visualizar la página de inicio de la plataforma para acceder fácilmente a las principales funcionalidades.
-        </td>
-        <td>
-            <strong>Escenario 01: Acceso a la Home.</strong> <br>
-            Dado que el usuario accede a la plataforma, entonces el sistema muestra la página de inicio con enlaces a las principales secciones.<br>
-            <strong>Escenario 02: Navegación desde la Home.</strong> <br>
-            Dado que el usuario está en la página de inicio, cuando hace clic en cualquier enlace, entonces el sistema lo redirige a la sección correspondiente.
-        </td>
-        <td>EPIC-006</td>
-    </tr>
+        <!-- User Story 6 -->
+<tr>
+    <td>US-006</td>
+    <td>Opiniones de usuarios que inspiran confianza </td>
+    <td>
+        Como visitante con rol de vinicultor que está considerando usar Elixir Control, 
+quiero leer testimonios de otros usuarios, 
+para conocer sus experiencias y validar la efectividad de la aplicación. 
+    </td>
+    <td>
+       <strong> Scenario 1: Testimonios de usuarios están disponibles </strong>
+
+Given un vinicultor en la landing page
+
+When el visitante llega a la sección de testimonios
+
+Then puede leer las opiniones de otros usuarios de Elixir Control.
+
+<strong> Scenario 2: Testimonios permiten validar la efectividad de la aplicación </strong>
+
+Given un vinicultor en la landing page
+
+When el visitante revisa los testimonios
+
+Then puede validar la efectividad de la aplicación a partir de las experiencias compartidas.  </td>
+<td>EPIC-009</td>
+</tr>
+
+<!-- User Story 7 -->
+<tr>
+    <td>US-007</td>
+    <td>Navegación fluida en dispositivos móviles </td>
+    <td>
+       Como visitante que llega a la landing page, 
+quiero que la navegación de la landing page sea fácil y fluida en mi dispositivo móvil, 
+para poder acceder a la información sin interrupciones o problemas de visualización.  </td>
+    <td>
+     <strong>  Scenario 1: Navegación sin problemas en móvil </strong>
+
+Given un usuario accede a la landing page desde un dispositivo móvil
+
+When carga el sitio web en su totalidad
+
+Then la navegación es fluida y sin problemas de desplazamiento o funcionalidad.
+
+<strong> Scenario 2: Menús adaptados a pantallas pequeñas </strong>
+
+Given un usuario accede desde un dispositivo móvil
+
+When intenta utilizar los menús de navegación
+
+Then los menús se adaptan correctamente al tamaño de pantalla y permiten una navegación eficiente.  </td>
+<td>EPIC-007</td>
+</tr>
+
+<!-- User Story 8 -->
+<tr>
+    <td>US-008</td>
+    <td>Adaptación de la landing page en tabletas 
+
+ </td>
+    <td>
+        Como visitante que llega a la landing page, 
+quiero que la navegación de la landing page sea fácil y fluida en mi dispositivo móvil, 
+para poder acceder a la información sin interrupciones o problemas de visualización.  </td>
+    <td>
+   <strong>    Scenario 1: Contenido adaptado a tabletas </strong>
+
+Given un usuario accede a la landing page desde una tableta
+
+When se carga el sitio web completamente
+
+Then el contenido se ajusta adecuadamente al tamaño de la pantalla de la tableta.
+
+<strong> Scenario 2: Imágenes y textos bien proporcionados </strong>
+
+Given un usuario accede desde una tableta
+
+When revisa la disposición de imágenes y textos
+
+Then estos elementos mantienen las proporciones correctas y son legibles.  </td>
+<td>EPIC-007</td>
+</tr>
+
+<!-- User Story 9 -->
+
+<tr>
+    <td>US-009</td>
+    <td>Compatibilidad en computadoras de escritorio 
+
+ </td>
+    <td>
+        Como visitante que llega a la landing page, 
+quiero que la landing page sea completamente funcional en una computadora de escritorio, 
+para disfrutar de una experiencia completa sin pérdida de contenido o funcionalidades.  </td>
+    <td>
+    <strong>    Scenario 1: Página sin problemas en pantallas grandes  </strong>
+
+Given un usuario accede a la landing page desde una computadora de escritorio
+
+When el sitio web se carga
+
+Then todo el contenido y las funcionalidades están disponibles sin distorsión o pérdida de calidad.
+
+<strong> Scenario 2: Distribución eficiente en pantallas anchas </strong>
+
+Given un usuario accede a la landing page desde una computadora de escritorio
+
+When utiliza una pantalla ancha
+
+Then la distribución del contenido se adapta correctamente, ocupando el espacio disponible de manera eficiente.   </td>
+<td>EPIC-007</td>
+</tr>
+
+<!-- User Story 10 -->
+<tr>
+    <td>US-010</td>
+    <td>Registro del estado de fermentación </td>
+    <td>
+       Como usuario con rol de vinicultor, 
+
+quiero registrar y monitorear el estado de la fermentación de mis lotes,
+
+para asegurar que las condiciones iniciales y los parámetros del proceso se controlen correctamente y queden
+documentados.  </td>
+<td>
+<strong> Scenario 1: Registro exitoso de la finalización de la fermentación </strong>
+
+Given el vinicultor está monitoreando la fase de fermentación
+
+When el proceso de fermentación llega a su tiempo final
+
+Then el sistema actualiza el estado a "Fermentación completada"
+
+And registra el tiempo y la temperatura final en el historial.
+
+<strong> Scenario 2: Fallo en el registro de tiempo de fermentación </strong>
+
+Given el vinicultor está en la fase de fermentación
+
+When el sistema no puede registrar el tiempo final por error de conexión
+
+Then el sistema muestra una alerta de error de registro
+
+And solicita la intervención manual para completar el registro.  </td>
+<td>EPIC-003</td>
+</tr>
+        <!-- User Story 11 -->
+<tr>
+    <td>US-011</td>
+    <td>Registro del estado de clarificación </td>
+    <td>
+        Como usuario con rol de vinicultor, 
+
+quiero registrar y actualizar los datos relacionados con la clarificación de mis lotes,
+
+para asegurarme de que los agentes clarificantes y las fechas del proceso se gestionen adecuadamente y queden
+registrados en el sistema.  </td>
+<td>
+<strong> Scenario 1: Registro exitoso de agentes clarificantes añadidos </strong>
+
+Given el vinicultor está en la fase de clarificación
+
+When se añaden los agentes clarificantes correctamente
+
+Then el sistema actualiza el estado a "Clarificación en proceso"
+
+And registra el tipo y cantidad de agentes en el historial de la fase.
+
+<strong> Scenario 2: Registro exitoso de finalización del proceso de clarificación </strong>
+
+Given el vinicultor ha completado el tiempo de clarificación
+
+When el proceso de clarificación finaliza
+
+Then el sistema actualiza el estado a "Clarificación completada"
+
+And registra la fecha y hora de finalización.  </td>
+<td>EPIC-003</td>
+</tr>
+
+<!-- User Story 12 -->
+<tr>
+    <td>US-012</td>
+    <td>Registro del estado de prensado 
+
+ </td>
+    <td>
+        Como usuario con rol de vinicultor, 
+
+quiero registrar el inicio, progreso y finalización del prensado de mis lotes,
+
+para controlar y documentar de manera precisa la cantidad de jugo extraído y los detalles del proceso.  </td>
+<td>
+<strong> Scenario 1: Registro del inicio del prensado </strong>
+
+Given el vinicultor está comenzando la fase de prensado
+
+When registra los detalles del lote y el inicio del proceso
+
+Then el sistema actualiza el estado a "Prensado en proceso"
+
+And almacena los detalles del lote y la fecha de inicio en el registro.
+
+<strong> Scenario 2: Error en el registro de prensado </strong>
+
+Given el vinicultor intenta registrar el inicio del prensado
+
+When ocurre un fallo en la app durante el registro
+
+Then el sistema muestra una alerta de fallo y ofrece opciones para reintentar.
+
+<strong> Scenario 3: Registro de cantidad de jugo extraído </strong>
+
+Given el prensado ha sido completado
+
+When el vinicultor registra la cantidad de jugo extraído en la app
+
+Then el sistema actualiza el estado a "Prensado completado"
+
+And almacena los detalles del rendimiento en el historial del lote.  </td>
+<td>EPIC-003</td>
+</tr>
+
+<!-- User Story 13 -->
+<tr>
+    <td>US-013</td>
+    <td>Registro del estado de añejamiento </td>
+    <td>
+       Como usuario con rol de vinicultor, 
+
+quiero registrar las condiciones y fechas del añejamiento de mis vinos,
+
+para asegurar que el proceso se documente correctamente y monitorear la evolución del producto a lo largo del tiempo.
+</td>
+    <td>
+     <strong>  Scenario 1: Registro de inicio del añejamiento </strong>
+
+Given el vinicultor inicia el añejamiento de un lote
+
+When registra la fecha y condiciones de almacenamiento (temperatura, barrica)
+
+Then el sistema actualiza el estado a "Añejamiento en proceso"
+
+And almacena los detalles del lote y las condiciones de inicio.
+
+<strong> Scenario 2: Fallo en el registro de parámetros de añejamiento </strong>
+
+Given el vinicultor intenta registrar las condiciones del añejamiento
+
+When hay un error en la app al guardar los datos
+
+Then el sistema muestra un mensaje de error y solicita corrección.
+
+<strong> Scenario 3: Registro de la finalización del añejamiento </strong>
+
+Given el vinicultor ha completado el añejamiento
+
+When registra la fecha de finalización y las condiciones de salida
+
+Then el sistema actualiza el estado a "Añejamiento completado"
+
+And guarda los datos de calidad y fecha final en el historial del lote.  </td>
+<td>EPIC-003</td>
+</tr>
+
+<!-- User Story 14 -->
+<tr>
+    <td>US-014</td>
+    <td>Registro del estado de embotellado </td>
+    <td>
+       Como usuario con rol de vinicultor, 
+
+quiero registrar el inicio y finalización del proceso de embotellado, incluyendo la cantidad de botellas producidas,
+
+para asegurar que esta etapa esté bien documentada y se refleje correctamente en los registros del lote. </td>
+<td>
+<strong> Scenario 1: Registro de inicio del embotellado </strong>
+
+Given el vinicultor comienza el embotellado de un lote
+
+When registra el número de lote y la cantidad de botellas en la app
+
+Then el sistema actualiza el estado a "Embotellado en proceso"
+
+And almacena los detalles del lote y la cantidad embotellada.
+
+<strong> Scenario 2: Error en el registro de embotellado </strong>
+
+Given el vinicultor está embotellando el lote
+
+When ocurre un error al registrar el lote en la app
+
+Then el sistema muestra una alerta de fallo y solicita corrección manual.
+
+<strong> Scenario 3: Registro de finalización del embotellado </strong>
+
+Given el vinicultor ha finalizado el embotellado
+
+When registra la cantidad final de botellas y la fecha
+
+Then el sistema actualiza el estado a "Embotellado completado"
+
+And guarda los detalles finales en el historial del lote.  </td>
+<td>EPIC-003</td>
+</tr>
+
+<!-- User Story 15 -->
+<tr>
+    <td>US-015</td>
+    <td>Registro de pedido </td>
+    <td>
+        Como usuario con rol de vinicultor,  
+
+quiero registrar los pedidos realizados por los distribuidores
+
+para poder llevar un seguimiento de estos con mayor facilidad. </td>
+<td>
+<strong> Scenario 1: Registro de pedidos </strong>
+
+Given el vinicultor recibe un pedido
+
+When registra el pedido y los datos del que está haciendo el pedido
+
+Then el guarda el pedido con toda la información
+
+And almacena el estado del pedido para poder gestionarlo con mayor facilidad.
+
+<strong> Scenario 2: Error en el registro de pedidos </strong>
+
+Given el vinicultor recibe un pedido
+
+When registra el pedido y hay un error del sistema interno
+
+Then el sistema muestra una alerta avisando que no se guardó el pedido correctamente.  </td>
+<td>EPIC-004</td>
+</tr>
+
+<!-- User Story 16 -->
+<tr>
+    <td>US-016</td>
+    <td>Crear un cliente distribuidor </td>
+    <td>
+       Como vinicultor, quiero poder crear un nuevo cliente distribuidor en la plataforma, para agregar nuevos socios comerciales y mantener su información actualizada.  </td>
+    <td>
+   <strong>    Scenario 1: Cliente distribuidor creado con éxito  </strong>
+
+Given el vinicultor accede a la sección de clientes distribuidores,
+
+When el vinicultor completa todos los campos obligatorios (nombre, contacto, ubicación) y envía el formulario,
+
+Then el cliente distribuidor se crea exitosamente
+
+And se muestra en la lista de clientes distribuidores.
+
+And el sistema muestra una notificación de éxito.
+
+<strong> Scenario 2: Error por datos faltantes </strong>
+
+Given el vinicultor accede al formulario de creación de cliente distribuidor,
+
+When el vinicultor intenta enviar el formulario con campos obligatorios incompletos,
+
+Then el sistema muestra un mensaje de error indicando que todos los campos obligatorios deben ser completados.
+
+  </td>
+    <td>EPIC-006</td>
     <!--=========================== User Story 17 ===========================-->
         <tr>
         <td>US-017</td>
