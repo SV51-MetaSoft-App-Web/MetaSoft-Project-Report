@@ -433,153 +433,153 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </tr>
     <!--=========================== User Story 18 ===========================-->
     <tr>
-        <td>US-018</td>
+        <td>US-18</td>
         <td>Eliminar un cliente distribuidor</td>
         <td>
             Como vinicultor, quiero poder eliminar a un cliente distribuidor que ya no está activo, para mantener mi lista de contactos limpia y actualizada.
         </td>
         <td>
-            <strong>Escenario 01: Eliminación exitosa de cliente distribuidor.</strong> <br>
-            Dado que el vinicultor accede a la lista de clientes distribuidores, cuando selecciona eliminar a un cliente distribuidor, entonces el cliente es eliminado de la lista y el sistema muestra una notificación de confirmación.<br>
-            <strong>Escenario 02: Confirmación antes de eliminar un cliente.</strong> <br>
-            Dado que el vinicultor intenta eliminar a un cliente distribuidor, cuando selecciona la opción de eliminar, entonces el sistema muestra un diálogo de confirmación y solo elimina al cliente si el vinicultor confirma la acción.
+            <strong>Escenario 01: Eliminación exitosa de cliente distribuidor</strong> <br>
+            Given el vinicultor accede a la lista de clientes distribuidores, When selecciona eliminar a un cliente distribuidor, Then el cliente es eliminado de la lista And el sistema muestra una notificación de confirmación. <br><br>
+            <strong>Escenario 02: Confirmación antes de eliminar un cliente</strong> <br>
+            Given el vinicultor intenta eliminar a un cliente distribuidor, When selecciona la opción de eliminar, Then el sistema muestra un diálogo de confirmación And solo elimina al cliente si el vinicultor confirma la acción.
         </td>
-        <td>EPIC-002</td>
+        <td>Epic-02</td>
     </tr>
     <!--=========================== User Story 19 ===========================-->
     <tr>
-        <td>US-019</td>
+        <td>US-19</td>
         <td>Ver detalles de un cliente distribuidor</td>
         <td>
             Como vinicultor, quiero ver los detalles completos de un cliente distribuidor, para gestionar mejor la relación comercial y obtener toda la información relevante sobre mis clientes.
         </td>
         <td>
-            <strong>Escenario 01: Visualización exitosa de los detalles de un cliente distribuidor.</strong> <br>
-            Dado que un vinicultor tiene acceso al sistema de gestión de clientes, cuando selecciona a un cliente distribuidor desde la lista, entonces se muestra toda la información del cliente, incluyendo nombre, DNI, RUC, teléfono, correo electrónico, dirección, país y ciudad.<br>
-            <strong>Escenario 02: Error al intentar acceder a un cliente distribuidor inexistente.</strong> <br>
-            Dado que un vinicultor intenta acceder a los detalles de un cliente que no existe, cuando el sistema no encuentra los datos del cliente, entonces se muestra un mensaje de error indicando que el cliente no está disponible.<br>
-            <strong>Escenario 03: Visualización de datos con campos faltantes.</strong> <br>
-            Dado que un vinicultor intenta ver los detalles de un cliente distribuidor cuyos datos no están completos, cuando faltan campos obligatorios como el RUC o la dirección, entonces el sistema muestra un mensaje indicando que hay campos faltantes en la información del cliente.
+            <strong>Escenario 01: Visualización exitosa de los detalles de un cliente distribuidor</strong> <br>
+            Given un vinicultor tiene acceso al sistema de gestión de clientes, When selecciona a un cliente distribuidor desde la lista, Then se muestra toda la información del cliente, incluyendo nombre, DNI, RUC, teléfono, correo electrónico, dirección, país y ciudad. <br><br>
+            <strong>Escenario 02: Error al intentar acceder a un cliente distribuidor inexistente</strong> <br>
+            Given un vinicultor intenta acceder a los detalles de un cliente que no existe, When el sistema no encuentra los datos del cliente, Then se muestra un mensaje de error indicando que el cliente no está disponible. <br><br>
+            <strong>Escenario 03: Visualización de datos con campos faltantes</strong> <br>
+            Given un vinicultor intenta ver los detalles de un cliente distribuidor cuyos datos no están completos, When faltan campos obligatorios como el RUC o la dirección, Then el sistema muestra un mensaje indicando que hay campos faltantes en la información del cliente.
         </td>
-        <td>EPIC-002</td>
+        <td>Epic-02</td>
     </tr>
     <!--=========================== User Story 20 ===========================-->
     <tr>
-        <td>US-020</td>
+        <td>US-20</td>
         <td>Buscar clientes distribuidores por nombre</td>
         <td>
             Como vinicultor, quiero buscar a un cliente distribuidor por su nombre, para localizar rápidamente la información relevante.
         </td>
         <td>
-            <strong>Escenario 01: Búsqueda exitosa por nombre.</strong> <br>
-            Dado que el vinicultor está en la lista de clientes distribuidores, cuando ingresa el nombre de un cliente en el campo de búsqueda, entonces el sistema muestra los clientes cuyo nombre coincide parcial o totalmente con el criterio de búsqueda.
+            <strong>Escenario 01: Búsqueda exitosa por nombre</strong> <br>
+            Given el vinicultor está en la lista de clientes distribuidores, When ingresa el nombre de un cliente en el campo de búsqueda, Then el sistema muestra los clientes cuyo nombre coincide parcial o totalmente con el criterio de búsqueda.
         </td>
-        <td>EPIC-002</td>
+        <td>Epic-02</td>
     </tr>
     <!--=========================== User Story 21 ===========================-->
     <tr>
-        <td>US-021</td>
+        <td>US-21</td>
         <td>Creación de pedidos de vinos</td>
         <td>
             Como distribuidor, quiero crear un pedido seleccionando el tipo y la cantidad de productos, para que mi solicitud sea procesada correctamente y recibida en los tiempos acordados.
         </td>
         <td>
-            <strong>Escenario 01: Creación exitosa del pedido.</strong> <br>
-            Dado que un distribuidor está autenticado en la plataforma, cuando selecciona los vinos y las cantidades en el formulario de pedido, entonces puede enviar el pedido y recibe una confirmación de que ha sido registrado exitosamente.<br>
-            <strong>Escenario 02: Validación de los datos del pedido.</strong> <br>
-            Dado que un distribuidor está autenticado en la plataforma, cuando revisa los detalles del pedido antes de confirmarlo, entonces puede ver un resumen del pedido con todos los productos y cantidades seleccionados antes de proceder.
+            <strong>Escenario 01: Creación exitosa del pedido</strong> <br>
+            Given un distribuidor autenticado en la plataforma, When selecciona los vinos y las cantidades en el formulario de pedido, Then puede enviar el pedido y recibe una confirmación de que ha sido registrado exitosamente. <br><br>
+            <strong>Escenario 02: Validación de los datos del pedido</strong> <br>
+            Given un distribuidor autenticado en la plataforma, When revisa los detalles del pedido antes de confirmarlo, Then puede ver un resumen del pedido con todos los productos y cantidades seleccionados antes de proceder.
         </td>
-        <td>EPIC-005</td>
+        <td>Epic-05</td>
     </tr>
     <!--=========================== User Story 22 ===========================-->
     <tr>
-        <td>US-022</td>
+        <td>US-22</td>
         <td>Seguimiento del estado del pedido</td>
         <td>
             Como distribuidor, quiero poder ver el estado actual de mis pedidos (pendiente, en proceso, enviado, entregado), para conocer en qué etapa se encuentra mi pedido y planificar la recepción del producto.
         </td>
         <td>
-            <strong>Escenario 01: Visualización del estado del pedido.</strong> <br>
-            Dado que un distribuidor está autenticado en la plataforma, cuando navega a la sección de pedidos, entonces puede ver una lista de pedidos con el estado actual de cada uno (pendiente, en proceso, enviado, entregado).<br>
-            <strong>Escenario 02: Actualización del estado del pedido.</strong> <br>
-            Dado que un distribuidor tiene un pedido en curso, cuando el estado del pedido cambia en el sistema (por ejemplo, de pendiente a enviado), entonces el distribuidor recibe una notificación y el estado se actualiza en su cuenta.
+            <strong>Escenario 01: Visualización del estado del pedido</strong> <br>
+            Given un distribuidor autenticado en la plataforma, When navega a la sección de pedidos, Then puede ver una lista de pedidos con el estado actual de cada uno (pendiente, en proceso, enviado, entregado). <br><br>
+            <strong>Escenario 02: Actualización del estado del pedido</strong> <br>
+            Given un distribuidor con un pedido en curso, When el estado del pedido cambia en el sistema (por ejemplo, de pendiente a enviado), Then el distribuidor recibe una notificación y el estado se actualiza en su cuenta.
         </td>
-        <td>EPIC-005</td>
+        <td>Epic-05</td>
     </tr>
     <!--=========================== User Story 23 ===========================-->
     <tr>
-        <td>US-023</td>
+        <td>US-23</td>
         <td>Confirmación de disponibilidad de stock</td>
         <td>
             Como distribuidor, quiero recibir confirmación de la disponibilidad del stock de vinos solicitado, para asegurarme de que el producto que estoy pidiendo esté disponible antes de confirmar el pedido.
         </td>
         <td>
-            <strong>Escenario 01: Verificación de stock antes de confirmar el pedido.</strong> <br>
-            Dado que un distribuidor está autenticado en la plataforma, cuando selecciona un producto y una cantidad, entonces el sistema verifica si el stock es suficiente y muestra una confirmación antes de permitir que el pedido sea enviado.<br>
-            <strong>Escenario 02: Notificación de falta de stock.</strong> <br>
-            Dado que un distribuidor está creando un pedido, cuando el stock no es suficiente para completar la solicitud, entonces el distribuidor recibe una notificación y se le ofrece la opción de ajustar las cantidades o elegir otro producto.
+            <strong>Escenario 01: Verificación de stock antes de confirmar el pedido</strong> <br>
+            Given un distribuidor autenticado en la plataforma, When selecciona un producto y una cantidad, Then el sistema verifica si el stock es suficiente y muestra una confirmación antes de permitir que el pedido sea enviado. <br><br>
+            <strong>Escenario 02: Notificación de falta de stock</strong> <br>
+            Given un distribuidor que está creando un pedido, When el stock no es suficiente para completar la solicitud, Then el distribuidor recibe una notificación y se le ofrece la opción de ajustar las cantidades o elegir otro producto.
         </td>
-        <td>EPIC-005</td>
+        <td>Epic-05</td>
     </tr>
     <!--=========================== User Story 24 ===========================-->
     <tr>
-        <td>US-024</td>
+        <td>US-24</td>
         <td>Programación de entregas</td>
         <td>
             Como distribuidor, quiero poder programar la fecha de entrega del pedido según mis necesidades, para asegurar que la entrega se realice en el momento más conveniente para mi negocio.
         </td>
         <td>
-            <strong>Escenario 01: Selección de la fecha de entrega.</strong> <br>
-            Dado que un distribuidor está autenticado en la plataforma, cuando está completando el pedido, entonces puede seleccionar una fecha de entrega de entre las opciones disponibles, que se ajustan a la logística del producto.<br>
-            <strong>Escenario 02: Confirmación de la fecha de entrega.</strong> <br>
-            Dado que un distribuidor ha seleccionado una fecha de entrega, cuando el pedido es confirmado, entonces el sistema muestra la fecha de entrega en la confirmación del pedido y la almacena en el sistema.
+            <strong>Escenario 01: Selección de la fecha de entrega</strong> <br>
+            Given un distribuidor autenticado en la plataforma, When está completando el pedido, Then puede seleccionar una fecha de entrega de entre las opciones disponibles, que se ajustan a la logística del producto. <br><br>
+            <strong>Escenario 02: Confirmación de la fecha de entrega</strong> <br>
+            Given un distribuidor que ha seleccionado una fecha de entrega, When el pedido es confirmado, Then el sistema muestra la fecha de entrega en la confirmación del pedido y la almacena en el sistema.
         </td>
-        <td>EPIC-005</td>
+        <td>Epic-05</td>
     </tr>
     <!--=========================== User Story 25 ===========================-->
     <tr>
-        <td>US-025</td>
+        <td>US-25</td>
         <td>Modificación de pedidos antes del envío</td>
         <td>
             Como distribuidor, quiero poder modificar la cantidad o tipo de vinos en mi pedido si aún no ha sido enviado, para adaptarme a cambios de última hora en la demanda o en la disponibilidad de espacio.
         </td>
         <td>
-            <strong>Escenario 01: Modificación permitida antes del envío.</strong> <br>
-            Dado que un distribuidor ha realizado un pedido, cuando el pedido aún no ha sido enviado, entonces puede modificar los detalles del pedido, como la cantidad de productos o la fecha de entrega, y recibir una confirmación de los cambios.<br>
-            <strong>Escenario 02: Notificación de bloqueo de modificación.</strong> <br>
-            Dado que un distribuidor intenta modificar un pedido, cuando el pedido ya ha sido enviado o está en proceso de envío, entonces el sistema no permite realizar modificaciones y notifica al distribuidor que el pedido ya está bloqueado para cambios.
+            <strong>Escenario 01: Modificación permitida antes del envío</strong> <br>
+            Given un distribuidor que ha realizado un pedido, When el pedido aún no ha sido enviado, Then puede modificar los detalles del pedido, como la cantidad de productos o la fecha de entrega, y recibir una confirmación de los cambios. <br><br>
+            <strong>Escenario 02: Notificación de bloqueo de modificación</strong> <br>
+            Given un distribuidor que intenta modificar un pedido, When el pedido ya ha sido enviado o está en proceso de envío, Then el sistema no permite realizar modificaciones y notifica al distribuidor que el pedido ya está bloqueado para cambios.
         </td>
-        <td>EPIC-005</td>
+        <td>Epic-05</td>
     </tr>
     <!--=========================== User Story 26 ===========================-->
     <tr>
-        <td>US-026</td>
+        <td>US-26</td>
         <td>Recepción de notificaciones sobre el estado del pedido</td>
         <td>
-            Como distribuidor, quiero recibir notificaciones en la plataforma y por correo electrónico sobre actualizaciones en el estado de mi pedido, para estar siempre informado sobre la situación de mis envíos.
+            Como distribuidor, quiero recibir notificaciones en la plataforma y por correo electrónico sobre actualizaciones en el estado de mi pedido, para estar informado en todo momento de cualquier cambio en la fecha de entrega o en la cantidad de producto disponible.
         </td>
         <td>
-            <strong>Escenario 01: Recepción de notificaciones en la plataforma.</strong> <br>
-            Dado que un distribuidor tiene un pedido en curso, cuando hay una actualización en el estado del pedido, entonces recibe una notificación dentro de la plataforma con los detalles del cambio.<br>
-            <strong>Escenario 02: Recepción de notificaciones por correo electrónico.</strong> <br>
-            Dado que un distribuidor tiene un pedido en curso, cuando hay un cambio en el estado del pedido, entonces recibe un correo electrónico informando sobre la actualización junto con un resumen del pedido.
+            <strong>Escenario 01: Notificación en la plataforma</strong> <br>
+            Given un distribuidor que tiene un pedido en curso, When el estado del pedido cambia, Then el distribuidor recibe una notificación en la plataforma. <br><br>
+            <strong>Escenario 02: Notificación por correo electrónico</strong> <br>
+            Given un distribuidor que tiene un pedido en curso, When el estado del pedido cambia, Then el distribuidor recibe una notificación en el correo electrónico registrado, detallando los cambios en el pedido.
         </td>
-        <td>EPIC-005</td>
+        <td>Epic-05</td>
     </tr>
     <!--=========================== User Story 27 ===========================-->
     <tr>
-        <td>US-027</td>
-        <td>Generación de informes de ventas</td>
+        <td>US-27</td>
+        <td>Registro de nuevos insumos en el inventario</td>
         <td>
-            Como vinicultor, quiero generar informes de ventas por periodo (diario, semanal, mensual), para analizar el rendimiento de mis productos y tomar decisiones informadas sobre el negocio.
+            Como vinicultor, quiero poder registrar nuevos insumos y materiales en el inventario, para mantener un control adecuado sobre los recursos disponibles para la producción.
         </td>
         <td>
-            <strong>Escenario 01: Generación exitosa de un informe de ventas.</strong> <br>
-            Dado que un vinicultor está autenticado en la plataforma, cuando selecciona el rango de fechas y tipo de informe, entonces puede generar un informe que incluye detalles de ventas por producto, cantidad vendida y total de ingresos.<br>
-            <strong>Escenario 02: Visualización de error al intentar generar un informe sin datos.</strong> <br>
-            Dado que un vinicultor intenta generar un informe, cuando no hay ventas registradas en el periodo seleccionado, entonces el sistema muestra un mensaje de error indicando que no hay datos disponibles para generar el informe.
+            <strong>Escenario 01: Registro exitoso de insumos</strong> <br>
+            Given un vinicultor autenticado en la plataforma, When añade un nuevo insumo o material al inventario, Then puede ingresar el nombre, la cantidad y la descripción del insumo, y el sistema confirma el registro exitoso. <br><br>
+            <strong>Escenario 02: Validación de campos obligatorios</strong> <br>
+            Given un vinicultor agregando un nuevo insumo, When intenta guardar un insumo sin completar los campos obligatorios (nombre, cantidad), Then el sistema muestra un mensaje de error solicitando completar los campos faltantes.
         </td>
-        <td>EPIC-006</td>
+        <td>Epic-01</td>
     </tr>
     <!--=========================== User Story 28 ===========================-->
     <tr>
