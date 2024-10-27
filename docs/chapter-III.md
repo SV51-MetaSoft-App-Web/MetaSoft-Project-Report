@@ -772,9 +772,9 @@ Then el sistema muestra un mensaje de error indicando que todos los campos oblig
             Como vinicultor, quiero poder registrar nuevos insumos y materiales en el inventario, para mantener un control adecuado sobre los recursos disponibles para la producción.
         </td>
         <td>
-            <strong>Escenario 01: Registro exitoso de insumos</strong> <br>
+            <strong>Scenario 01: Registro exitoso de insumos</strong> <br>
             Given un vinicultor autenticado en la plataforma, When añade un nuevo insumo o material al inventario, Then puede ingresar el nombre, la cantidad y la descripción del insumo, y el sistema confirma el registro exitoso. <br><br>
-            <strong>Escenario 02: Validación de campos obligatorios</strong> <br>
+            <strong>Scenario 02: Validación de campos obligatorios</strong> <br>
             Given un vinicultor agregando un nuevo insumo, When intenta guardar un insumo sin completar los campos obligatorios (nombre, cantidad), Then el sistema muestra un mensaje de error solicitando completar los campos faltantes.
         </td>
         <td>Epic-01</td>
@@ -782,96 +782,216 @@ Then el sistema muestra un mensaje de error indicando que todos los campos oblig
     <!--=========================== User Story 28 ===========================-->
     <tr>
         <td>US-028 </td>
-        <td>Reportes Personalizados</td>
+        <td>Actualización del stock de insumos en tiempo real</td>
         <td>
-            Como usuario de producción, quiero poder crear reportes personalizados para analizar datos específicos de producción.
+            Como vinicultor, quiero que el inventario se actualice en tiempo real al utilizar o ingresar nuevos insumos, para poder tomar decisiones informadas sobre cuándo reabastecer materiales. 
         </td>
         <td>
-            <strong>Escenario 01: Creación de Reportes Personalizados.</strong> <br>
-            Dado que el gerente accede a la sección de reportes, cuando selecciona las métricas y filtros deseados, entonces el sistema genera un reporte personalizado.<br>
-            <strong>Escenario 02: Exportación de Reportes.</strong> <br>
-            Los reportes deben poder exportarse en diferentes formatos (PDF, Excel).
+            <strong>Scenario 01: Descuento de stock al utilizar insumos</strong> <br>
+            <strong>Given</strong> un vinicultor utilizando insumos durante la producción, 
+            <strong>When</strong> registra el uso de un insumo, 
+            <strong>Then</strong> el sistema descuenta automáticamente la cantidad utilizada del stock disponible.<br>
+            <strong>Scenario 02: Aumento del stock al ingresar nuevos insumos</strong> <br>
+            <strong>Given</strong> un vinicultor que recibe un nuevo lote de insumos, 
+            <strong>When</strong> registra el ingreso de insumos al inventario, 
+            <strong>Then</strong> el stock se actualiza sumando la nueva cantidad ingresada. 
         </td>
-        <td>EPIC-004</td>
+        <td>EPIC-001</td>
     </tr>
     <!--=========================== User Story 29 ===========================-->
     <tr>
         <td>US-029</td>
-        <td>Actualización de Planes de Pago</td>
+        <td>Reabastecimiento de insumos directamente desde la plataforma</td>
         <td>
-            Como productor, quiero poder actualizar mi plan de pago en cualquier momento para adaptarlo a mis necesidades.
+            Como vinicultor, quiero poder realizar órdenes de compra de insumos directamente desde la plataforma cuando el stock esté bajo, para agilizar el proceso de reabastecimiento y evitar interrupciones en la producción. 
         </td>
         <td>
-            <strong>Escenario 01: Selección de Nuevo Plan.</strong> <br>
-            Dado que el usuario accede a la sección de suscripción, cuando selecciona un nuevo plan y confirma, entonces el sistema actualiza su plan de pago.<br>
-            <strong>Escenario 02: Confirmación de Actualización.</strong> <br>
-            El sistema debe mostrar un mensaje de confirmación de la actualización.
+            <strong>Scenario 01: Creación de órdenes de compra</strong> <br>
+            <strong>Given</strong> un vinicultor autenticado en la plataforma, 
+            <strong>When</strong> un insumo tiene stock bajo, 
+            <strong>Then</strong> puede crear una orden de compra desde la plataforma, seleccionando el proveedor y la cantidad a reabastecer.  <br>
+            <strong>Scenario 02: Confirmación de orden de compra</strong> <br>
+            <strong>Given</strong> un vinicultor que ha creado una orden de compra, 
+            <strong>When</strong> confirma la orden, 
+            <strong>Then</strong> el sistema registra la orden y envía una notificación al proveedor seleccionado. 
         </td>
-        <td>EPIC-005</td>
+        <td>EPIC-001</td>
     </tr>
     <!--=========================== User Story 30 ===========================-->
     <tr>
         <td>US-030</td>
-        <td>Diseño Responsive de la Interfaz</td>
+        <td>Asignación de insumos a diferentes fases de producción </td>
         <td>
-            Como usuario, quiero que la interfaz de la aplicación sea responsive para poder visualizar la landing page sin problemas en cualquier dispositivo.
+            Como vinicultor, quiero asignar insumos a las diferentes fases del proceso de producción, para asegurar que cada etapa tenga los recursos necesarios y evitar cuellos de botella en la producción. 
         </td>
         <td>
-            <strong>Escenario 01: Adaptabilidad a Diferentes Dispositivos.</strong> <br>
-            Dado que el usuario accede a la landing page desde un dispositivo, entonces la interfaz debe ajustarse automáticamente al tamaño de la pantalla (PC, tablet, móvil).<br>
-            <strong>Escenario 02: Navegación Intuitiva.</strong> <br>
-            Dado que el usuario está utilizando un dispositivo móvil, cuando navega por la página, entonces todos los elementos deben ser fácilmente accesibles y legibles sin necesidad de hacer zoom.<br>
-            <strong>Escenario 03: Pruebas de Usabilidad.</strong> <br>
-            El sistema debe ser probado en diferentes dispositivos y navegadores para asegurar que la experiencia del usuario sea consistente y sin errores.
+            <strong>Scenario 01: Asignación de insumos a fases de producción</strong> <br>
+            <strong>Given</strong> un vinicultor autenticado en la plataforma, 
+            <strong>When</strong> está gestionando el inventario, 
+            <strong>Then</strong> puede asignar ciertos insumos a diferentes fases del proceso de producción (por ejemplo, fermentación, embotellado). <br>
+            <strong>Scenario 02: Verificación de asignaciones de insumos </strong> <br>
+            <strong>Given</strong> un vinicultor visualizando las fases de producción, 
+            <strong>When</strong> revisa la fase actual, 
+            <strong>Then</strong> puede ver los insumos asignados a esa fase y la cantidad disponible para su uso.<br>
         </td>
-        <td>EPIC-006</td>
+        <td>EPIC-001</td>
     </tr>
     <!--=========================== User Story 31 ===========================-->
+    <tr>
+        <td>US-031</td>
+        <td>Informes de inventario</td>
+        <td>
+            Como vinicultor, quiero generar informes sobre el estado actual del inventario y su evolución a lo largo del tiempo, para poder analizar el consumo de insumos y planificar la producción futura. 
+        </td>
+        <td>
+            <strong>Scenario 1: Generación de informes de inventario</strong> <br>
+            <strong>Given</strong> un vinicultor autenticado en la plataforma, 
+            <strong>When</strong> navega a la sección de informes, 
+            <strong>Then</strong> puede seleccionar un rango de fechas y generar un informe que muestre el estado del inventario en ese período.  <br>
+            <strong>Scenario 02: Exportación de informes de inventario </strong> <br>
+            <strong>Given</strong> un vinicultor que ha generado un informe de inventario, 
+            <strong>When</strong> quiere compartir o archivar el informe, 
+            <strong>Then</strong> puede exportarlo en formato PDF o Excel. <br>
+        </td>
+        <td>EPIC-001</td>
+    </tr>
+    <!--=========================== User Story 32 ===========================-->
+    <tr>
+        <td>US-032</td>
+        <td>Filtrar insumos del inventario por categoría </td>
+        <td>
+            Como vinicultor, quiero poder filtrar los insumos por categorías como "Tipo" o "Proveedor", para poder gestionar más fácilmente los recursos del inventario. 
+        </td>
+        <td>
+            <strong>Scenario 1: Filtros disponibles</strong> <br>
+            <strong>Given</strong> un vinicultor en la página de gestión de inventario 
+            <strong>When</strong> visualiza la lista de insumos 
+            <strong>Then</strong> puede ver opciones para filtrar por categorías como "Tipo", "Proveedor", "Unidad", etc.   <br>
+            <strong>Scenario 2: Filtro aplicado correctamente  </strong> <br>
+            <strong>Given</strong> un vinicultor que desea ver insumos de una categoría específica 
+            <strong>When</strong> selecciona un filtro 
+            <strong>Then</strong> solo los insumos que coinciden con ese filtro se muestran en la lista. <br>
+        </td>
+        <td>EPIC-001</td>
+    </tr>
+    <!--=========================== User Story 33 ===========================-->
+    <tr>
+        <td>US-033</td>
+        <td>Buscar insumos en el inventario  </td>
+        <td>
+            Como vinicultor, quiero poder buscar insumos específicos en el inventario, para encontrarlos rápidamente y revisar su estado o disponibilidad. 
+        </td>
+        <td>
+            <strong>Scenario 1: Barra de búsqueda está visible </strong> <br>
+            <strong>Given</strong> un vinicultor en la página de gestión de inventario 
+            <strong>When</strong> visualiza la lista de insumos 
+            <strong>Then</strong> puede ver una barra de búsqueda en la parte superior.  <br>
+            <strong>Scenario 2: Insumos filtrados por búsqueda   </strong> <br>
+            <strong>Given</strong> un vinicultor con muchos insumos registrados 
+            <strong>When</strong> escribe un término en la barra de búsqueda 
+            <strong>Then</strong> solo los insumos que coinciden con el término se muestran en la lista.  <br>
+        </td>
+        <td>EPIC-001</td>
+    </tr>
+    <!--=========================== User Story 34 ===========================-->
+    <tr>
+        <td>US-034</td>
+        <td>Obtener detalles de un pedido   </td>
+        <td>
+            Como usuario con rol de vinicultor,  
+            quiero poder visualizar todos los detalles de un pedido realizado 
+            para poder llevar un seguimiento de estos con mayor facilidad.
+        </td>
+        <td>
+            <strong>Scenario 1: Obtener detalles de un pedido  </strong> <br>
+            <strong>Given</strong> el vinicultor tiene pedidos abiertos en la seccion pedidos 
+            <strong>When</strong> va al boton “Details” de un pedido 
+            <strong>Then</strong> se visualiza un card con toda la informacion del pedido.  <br>
+            <strong>Scenario 2: Error en obtener detalles de un pedido </strong> <br>
+            <strong>Given</strong> el vinicultor tiene pedidos abiertos en la sección pedidos 
+            <strong>When</strong> va al botón “Details” de un pedido y hay un error del sistema interno para mostrar los detalles 
+            <strong>Then</strong> se visualiza una notificacion que avisa que hubo un error para mostrar los detalles.   <br>
+        </td>
+        <td>EPIC-004</td>
+    </tr>
+    <!--=========================== User Story 35 ===========================-->
+    <tr>
+        <td>US-035</td>
+        <td>Administrar el estado de un pedido  </td>
+        <td>
+            Como usuario con rol de vinicultor,  
+            quiero poder administrar el estado de un pedido 
+            para poder manejarlos fácilmente y tener la información más actualizada 
+        </td>
+        <td>
+            <strong>Scenario 1: Visualizar estado de un pedido </strong> <br>
+            <strong>Given</strong> el vinicultor quiere visualizar el estado de un pedido 
+            <strong>When</strong> da click en la sección Mis Pedidos 
+            <strong>Then</strong> se visualizará un botón y su label será el estado actual de ese pedido. <br>
+            <strong>Scenario 2: Cambiar el estado de un pedido </strong> <br>
+            <strong>Given</strong> el vinicultor en la seccion detalles de un pedido 
+            <strong>When</strong> da click en el estado de pedido 
+            <strong>Then</strong> se despliega el combo box con las opciones de estado de un pedido y al momento de seleccionar una el estado del pedido se actualizará. <br>
+        </td>
+        <td>EPIC-004</td>
+    </tr>
+    <!--=========================== Task Matrix 1 ===========================-->
      <tr>
             <td>TS001</td>
-            <td>Obtener Datos de Usuarios</td>
+            <td>Obtener Datos de los procesos de vinificación </td>
             <td>
-                Como desarrollador backend en ElixirControl, quiero obtener la información de los usuarios productores y distribuidores a través de una API para permitir al equipo de frontend utilizar los datos del usuario en la interfaz.
+                Como desarrollador backend en MetaSoft, quiero obtener los datos del proceso de vinificación a través de una API para permitir al equipo de frontend utilizar los datos del proceso en la interfaz. 
             </td>
             <td>
-                <strong>Escenario 01: Obtener Datos de Usuarios Exitosamente</strong><br>
-                Dado que tengo autorización en el uso de la API y al endpoint de Usuarios, cuando envío una solicitud GET para la obtención de datos del usuario, entonces el servidor responde con un código de estado 200 OK y recibo la información de los usuarios en un response de formato JSON que contiene al menos un usuario con los siguientes campos:<br>
-                - Id: {ID del usuario}<br>
-                - Email: {Email del usuario}<br>
-                - Password: {Contraseña del usuario}<br>
-                - Type: {Segmento objetivo del usuario}<br>
-                - First name: {Nombre del usuario}<br>
-                - Paternal Surname: {Apellido paterno del usuario}<br>
-                - Maternal Surname: {Apellido materno del usuario}<br><br>
-                <strong>Escenario 02: Obtener Datos del Usuario con Parámetro Erróneo</strong><br>
-                Dado que tengo autorización en el uso de la API y al endpoint de Usuarios, cuando envío una solicitud GET para la obtención de datos del usuario con un parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en el response indicando que el parámetro es incorrecto o no existe.
+                <strong>Scenario 01: Obtener Datos de Vinificación Exitosamente</strong><br>
+                <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de Vinificación, 
+                <strong>When</strong> envío una solicitud GET para la obtención de datos del proceso de vinificación, 
+                <strong>Then</strong> el servidor responde con un código de estado 200 OK y recibo la información del proceso de vinificación en un response de formato JSON que contiene los siguientes campos:<br>
+                - ID: {ID del proceso de vinificación} <br>
+                - Product ID: {ID del producto} <br>
+                - Start Date: {Fecha de inicio} <br>
+                - End Date: {Fecha de fin} <br>
+                - Status: {Estado del proceso (en curso, completado, cancelado)}<br><br>
+                <strong>Scenario 02: Obtener Datos de Vinificación Exitosamente por ID</strong><br>
+                <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de Vinificación por ID, 
+                <strong>When</strong> envío una solicitud GET para la obtención de datos del proceso de vinificación por su ID, 
+                <strong>Then</strong> el servidor responde con un código de estado 200 OK y recibo la información del proceso de vinificación actual en un response de formato JSON.
+                <strong>Scenario 03: Obtener Datos de Vinificación por ID con Parámetro Erróneo</strong><br>
+                <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de Vinificación por ID, 
+                <strong>When</strong> envío una solicitud GET para la obtención de datos del proceso de vinificación con un ID de parámetro erróneo o inexistente, 
+                <strong>THEN</strong> el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en la solicitud indicando que el ID de parámetro es incorrecto o no existe. 
             </td>
          <td></td>
         </tr>
-    <!--=========================== User Story 32 ===========================-->
-    <tr>
-        <td>TS002</td>
-    <td>Obtener Datos de Vinificación</td>
-    <td>
-        Como desarrollador backend en ElixirControl, quiero obtener los datos del proceso de vinificación a través de una API para permitir al equipo de frontend utilizar los datos del proceso en la interfaz.
-    </td>
-    <td>
-        <strong>Escenario 01: Obtener Datos de Vinificación Exitosamente</strong><br>
-        Dado que tengo autorización en el uso de la API y al endpoint de Vinificación, cuando envío una solicitud GET para la obtención de datos del proceso de vinificación, entonces el servidor responde con un código de estado 200 OK y recibo la información del proceso de vinificación en un response de formato JSON que contiene los siguientes campos:<br>
-        - ID: {ID del proceso de vinificación}<br>
-        - Product ID: {ID del producto}<br>
-        - Producer ID: {ID del productor}<br>
-        - Start Date: {Fecha de inicio}<br>
-        - End Date: {Fecha de fin}<br>
-        - Status: {Estado del proceso (en curso, completado, cancelado)}<br><br>
-        <strong>Escenario 02: Obtener Datos de Vinificación Exitosamente por ID</strong><br>
-        Dado que tengo autorización en el uso de la API y al endpoint de Vinificación por ID, cuando envío una solicitud GET para la obtención de datos del proceso de vinificación por su ID, entonces el servidor responde con un código de estado 200 OK y recibo la información del proceso de vinificación actual en un response de formato JSON.<br><br>
-        <strong>Escenario 03: Obtener Datos de Vinificación por ID con Parámetro Erróneo</strong><br>
-        Dado que tengo autorización en el uso de la API y al endpoint de Vinificación por ID, cuando envío una solicitud GET para la obtención de datos del proceso de vinificación con un ID de parámetro erróneo o inexistente, entonces el servidor responde con un código de estado 400 Bad Request y recibo un mensaje de error en la solicitud indicando que el ID de parámetro es incorrecto o no existe.
-        </td>
-        <td></td>
-    </tr>
-    <!--=========================== User Story 33 ===========================-->
+        <!--=========================== Task Matrix 2 ===========================-->
+     <tr>
+            <td>TS002</td>
+            <td>Editar Datos de los Procesos de Vinificación  </td>
+            <td>
+                Como desarrollador backend en MetaSoft, 
+                quiero editar los datos de un proceso de vinificación a través de una API 
+                para asegurar que la información del proceso esté siempre actualizada. 
+            </td>
+            <td>
+                <strong>Scenario 01: Editar Datos de Vinificación Exitosamente </strong><br>
+                <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de edición de Vinificación 
+                <strong>When</strong> envío una solicitud PUT para actualizar los datos del proceso de vinificación con un ID válido 
+                <strong>Then</strong> el servidor responde con un código de estado 200 OK 
+                <strong>And</strong> recibo la confirmación de que los datos han sido actualizados en un response de formato JSON <br><br>
+                <strong>Scenario 02: Editar Datos de Vinificación por ID Inexistente</strong><br>
+                <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de edición de Vinificación 
+                <strong>When</strong> envío una solicitud PUT para actualizar los datos del proceso de vinificación con un ID que no existe 
+                <strong>Then</strong> el servidor responde con un código de estado 404 Not Found 
+                <strong>And</strong> recibo un mensaje de error indicando que el proceso de vinificación no se encuentra 
+                <strong>Scenario 03: Editar Datos de Vinificación con Datos Inválidos</strong><br>
+                <strong>Given</strong> que tengo autorización en el uso de la API y al endpoint de edición de Vinificación 
+                <strong>When</strong> envío una solicitud PUT con datos que no cumplen las validaciones requeridas 
+                <strong>Then</strong> el servidor responde con un código de estado 400 Bad Request 
+                <strong>And</strong> recibo un mensaje de error detallando qué campos son inválidos.
+            </td>
+         <td></td>
+        </tr>
+    <!--=========================== Task Matrix 3 ===========================-->
     <tr>
     <td>TS-03</td>
     <td>Eliminar Datos de los Procesos de Vinificación</td>
