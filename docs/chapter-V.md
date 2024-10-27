@@ -1961,146 +1961,74 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="4" >  CODE USER STORY  </td>
-            <td rowspan="4" >TITLE USER STORY</td>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
+            <td rowspan="3" >  TS-01  </td>
+            <td rowspan="3" > Obtener Datos de los procesos de vinificación</td>
+            <td> TS-01-T-01 </td>
+            <td> Crear modelo de datos de vinificación </td>
+            <td> Definir el modelo de datos del proceso de vinificación en la base de datos, incluyendo campos de lote, fase y fechas de cada etapa.	</td>
+            <td>ESTIMACIÓN</td>
+            <td>Janover Saldaña</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td> TS-01-T-02 </td>
+            <td> Implementar endpoint GET para lotes </td>
+            <td> Configurar el endpoint GET (/api/v1/vinificacion/lotes) para consultar información detallada de cada lote en el proceso de vinificación.	</td>
             <td>ESTIMACIÓN</td>
             <td>PERSONA ASIGNADA</td>
             <td>Done</td>
         </tr>
         <!--====================================================================-->
         <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
+            <td> TS-01-T-03 </td>
+            <td> Implementar endpoint GET para etapas </td>
+            <td> Crear endpoints GET (/api/v1/vinificacion/{lote}/etapa) para consultar el estado de cada etapa (fermentación, prensado, clarificación, etc.) de un lote.	</td>
+            <td> ESTIMACIÓN </td>
+            <td> PERSONA ASIGNADA </td>
+            <td> Done </td>
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="3"> CODE USER STORY	</td>
-            <td rowspan="3">TITLE USER STORY</td>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
+            <td rowspan="2"> TS-03 </td>
+            <td rowspan="2"> Eliminar Datos de los Procesos de Vinificación	</td>
+            <td> TS-03-T01 </td>
+            <td> Implementar endpoint DELETE para lotes	</td>
+            <td> Configurar el endpoint DELETE (/api/v1/vinificacion/lotes/{id}) para eliminar un lote completo, incluyendo sus datos de cada etapa del proceso.	</td>
+            <td> ESTIMACIÓN</td>
+            <td> PERSONA ASIGNADA</td>
+            <td> Done</td>
         </tr>
         <!--====================================================================-->
         <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
+            <td> TS-03-T02 </td>
+            <td> Desarrollar capa de servicio para eliminación	</td>
+            <td> Crear la lógica de servicio para eliminar un lote y sus datos relacionados en la base de datos, asegurando integridad referencial.	</td>
+            <td> ESTIMACIÓN </td>
+            <td> PERSONA ASIGNADA </td>
+            <td> Done </td>
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="3"> CODE USER STORY	</td>
-            <td rowspan="3">TITLE USER STORY</td>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
-        </tr> 
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>>
+            <td rowspan="1"> TS-04 </td>
+            <td rowspan="1"> Registro de Lotes en el Proceso de Vinificación </td>
+            <td> TS-04-T01</td>
+            <td> Implementar endpoint POST para lotes	</td>
+            <td> Crear el endpoint POST (/api/v1/vinificacion/lotes) para registrar nuevos lotes, incluyendo información básica como tipo de uva y fecha de inicio.	</td>
+            <td> ESTIMACIÓN </td>
+            <td> PERSONA ASIGNADA </td>
+            <td> Done </td>
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="5"> CODE USER STORY	</td>
-            <td rowspan="5">TITLE USER STORY </td>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
-        </tr> 
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>  
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
-            <td>Done</td>
+            <td rowspan="1"> TS-05 </td>
+            <td rowspan="1"> Registro de Etapas en el Proceso de Vinificación </td>
+            <td> TS-05-T-01 </td>
+            <td> Implementar endpoint POST para etapas	</td>
+            <td> Crear el endpoint POST (/api/v1/vinificacion/{lote}/etapas) para registrar nuevas etapas de fermentación, prensado, clarificación, envejecimiento y embotellado.	</td>
+            <td> ESTIMACIÓN</td>
+            <td> PERSONA ASIGNADA</td>
+            <td> Done</td>
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
