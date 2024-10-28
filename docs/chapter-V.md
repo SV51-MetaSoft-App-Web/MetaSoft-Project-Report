@@ -2589,7 +2589,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 
 
-### Bibliografia
+### Bibliografía
 
 
 
@@ -2597,85 +2597,118 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 ### Anexos
 
 <table>
-    <thead>
-        <tr>
-            <th>Sección</th>
-            <th>Características del video</th>
-            <th>Sobre el contenido</th>
-            <th>Integración y entrega</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!--FILA 1-->
-        <tr>
-            <td>Needfinding Interviews</td>
-            <td>
-              Cantidad de videos: 1
-              Nomenclatura: upc-pre-202402-si730-sv51-metasoft-needfinding-sprint-1
-              Formato: .mp4
-            </td>
-            <td>Consolida todas las entrevistas realizadas	</td>
-            <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EZw-9tmmOSJPsIy_Qcor0FkBBYUZFt8o47YcZmrvLmA8Fg?e=Pyj62I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D </td>
-        </tr>
-        <!--FILA 1-->
-        <tr>
-            <td>Exposición</td>
-            <td>
-              Cantidad de videos: 1
-              Nomenclatura: upc-pre-202402-si730-sv51-metasoft-expo-tb1
-              Formato: .mp4
-            </td>
-            <td>Consolida las exposiciones de la TB1	</td>
-            <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/ERTxpx1uyvJKmY3QL8mRb6sB8lFh8XQB4o_F_MernOdpGQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7R6pjN </td>
-        </tr>
-        <!--FILA 2-->
-        <tr>
-            <td>Prototypes Navigation / Product Navigation</td>
-            <td>
-              Cantidad de videos: 1
-              Nomenclatura: upc-pre-202402-si730-sv51-metasoft-prototype-navigation-sprint-1
-              Formato: .mp4
-            </td>
-            <td>Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.	</td>
-            <td>
-              Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EQ3ShXzJBlJAllrQ9SJ3yY8Bacs6SF9dXo-7o_dXhgiZYw?e=e6Hn8s&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-            </td>
-        </tr>
-        <!--FILA 3-->
-        <tr>
-            <td>Validation Interviews</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 4-->
-        <tr>
-            <td>About the Product</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 5-->
-        <tr>
-            <td>About the Team</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 6-->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <!--FILA 7-->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
+<thead>
+    <tr>
+        <th>Sección</th>
+        <th>Características del video</th>
+        <th>Sobre el contenido</th>
+        <th>Integración y entrega</th>
+    </tr>
+</thead>
+<tbody>
+<!--========================================= FILA 1 ======================================-->
+<tr>
+  <td>Needfinding Interviews</td>
+  <td>
+    Cantidad de videos: 1
+    Nomenclatura: upc-pre-202402-si730-sv51-metasoft-needfinding-sprint-1
+    Formato: .mp4
+  </td>
+  <td> Consolida todas las entrevistas realizadas </td>
+  <td> 
+    Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EZw-9tmmOSJPsIy_Qcor0FkBBYUZFt8o47YcZmrvLmA8Fg?e=Pyj62I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+</td>
+</tr>
+<!--========================================= FILA 2 ======================================-->
+<tr>
+  <td>Exposición</td>
+  <td>
+    Cantidad de videos: 1
+    Nomenclatura: upc-pre-202402-si730-sv51-metasoft-expo-tb1
+    Formato: .mp4
+  </td>
+  <td>Consolida las exposiciones de la TB1	</td>
+  <td>
+    Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/ERTxpx1uyvJKmY3QL8mRb6sB8lFh8XQB4o_F_MernOdpGQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7R6pjN 
+  </td>
+</tr>
+<!--========================================= FILA 3 ======================================-->
+<tr>
+  <td>
+    Prototypes Navigation / Product Navigation
+  </td>
+  <td>
+    Cantidad de videos: 1
+    Nomenclatura: upc-pre-202402-si730-sv51-metasoft-prototype-navigation-sprint-1
+    Formato: .mp4
+  </td>
+  <td>
+    Consolida demostración del flujo de navegación de las aplicaciones, priorizando los user flows relacionados con el core business.	
+  </td>
+  <td>
+    Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EQ3ShXzJBlJAllrQ9SJ3yY8Bacs6SF9dXo-7o_dXhgiZYw?e=e6Hn8s&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  </td>
+</tr>
+<!--========================================= FILA 4 ======================================-->
+<tr>
+  <td>
+    Validation Interviews
+  </td>
+  <td>
+    Contenido 
+  </td>
+  <td>
+    Contenido 
+  </td>
+  <td>
+    Contenido 
+  </td>
+</tr>
+<!--========================================= FILA 5 ======================================-->
+<tr>
+  <td>
+    About the Product
+  </td>
+  <td>
+    Contenido 
+  </td>
+  <td>
+    Contenido 
+  </td>
+  <td>
+    Contenido 
+  </td>
+</tr>
+<!--========================================= FILA 6 ======================================-->
+<tr>
+  <td>
+    About the Team
+  </td>
+  <td>
+    Contenido 
+  </td>
+  <td>
+    Contenido 
+  </td>
+  <td>
+    Contenido 
+  </td>
+</tr>
+<!--========================================= FILA 7 ======================================-->
+<tr>
+  <td>
+    Conclusiones, Bibliografía y Anexos
+  </td>
+  <td>
+    Contenido 
+  </td>
+  <td>
+    Contenido 
+  </td>
+  <td>
+    Contenido 
+  </td>
+</tr>
+</tbody>
 </table>
 
