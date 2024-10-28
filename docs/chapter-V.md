@@ -2303,16 +2303,272 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 
 ## 5.3. Validation Interviews.
 
+En esta sección se realizarán entrevistas mediante las cuales buscamos recoger opiniones y recomendaciones. Esto asegura que la aplicación web no solo cumpla con los requisitos técnicos, sino también con las expectativas de nuestros segmentos objetivos.
+
 ### 5.3.1. Diseño de Entrevistas.
 
+**User Goal: Navegar por la landing page**
 
+_User persona → Vinicultores y Distribuidores_
+
+**_Explicación del flujo →_** El usuario deberá ingresar a la landing page de la aplicación web.
+En esta, podrá desplazarse y visualizar información general sobre los servicios ofrecidos, 
+así como los beneficios de utilizar la aplicación. Además, podrá cambiar el idioma a inglés
+o español a través de un botón. También, tendrá acceso directo a la aplicación web a través
+de un Call To Action situado en la vista principal de la landing page.
+
+### **User goals para vinicultores:**
+
+1. **Gestionar el inventario de insumos y materiales:**
+
+    **_User Goal →_** Como vinicultor, necesito poder registrar y actualizar el inventario 
+    de insumos y materiales para controlar la disponibilidad de estos. 
+
+    **_Explicación del flujo →_** Los vinicultores deben ingresar a la sección de gestión de 
+    inventario de la aplicación web, esta se puede realizar búsquedas de materiales específicos,
+    añadir nuevos ítems, y ajustar las cantidades manualmente según las compras o el consumo 
+    en el proceso productivo.
+
+   <br>
+
+2. **Gestionar la cartera de clientes:**
+
+    **_User Goal →_** Como vinicultor, necesito poder gestionar la información de mis clientes
+    
+    **_Explicación del flujo →_** Los vinicultores pueden añadir, modificar o eliminar clientes
+    desde el módulo de gestión de clientes. Deben actualizar la información básica como nombres,
+    contactos, nombre de negocios, encargados, RUC del negocio,etc.
+
+   <br>
+
+3. **Gestionar productos disponibles para la venta:**
+
+    **_User Goal →_** Como vinicultor, necesito poder llevar un registro de mis productos que
+    están listos para la venta.
+    
+    **_Explicación del flujo →_**  Desde la vista de productos, deben seleccionar los que están
+    en inventario y publicar su disponibilidad. Pueden ajustar cantidades en función de la 
+    producción y eliminar productos que ya no estén disponibles.
+
+   <br>
+
+4. **Controlar el proceso productivo de vino por fases:**
+
+    **_User Goal →_** Como vinicultor, necesito poder llevar un registro detallado de cada lote
+    de vino en producción, incluyendo las fases de fermentación, clarificación, prensado, 
+    añejamiento y embotellado.
+    
+    **_Explicación del flujo →_** Los vinicultores deben crear y gestionar lotes en la aplicación,
+    ingresando datos sobre cada fase del proceso. A medida que el lote avanza, actualizan el estado
+    de cada fase y pueden ingresar observaciones o ajustar los tiempos de cada una según el avance
+    del lote.
+
+
+### **User goals para distribuidores:**
 
 ### 5.3.2. Registro de Entrevistas.
 
 
-
 ### 5.3.3. Evaluaciones según heurísticas.
 
+__________________________________________________________________________________________
+
+<strong> <p style="text-align: center;"> UX Heuristics & Principles Evaluation </p> </strong> 
+
+<p style="text-align: center; font-weight: bold;   font-style: italic;"> Usability – Inclusive Design – Information Architecture </p>
+
+**_CARRERA:_** Ingeniería de Software
+
+**_CURSO:_** Aplicaciones Web
+
+**_SECCIÓN:_** SV51
+
+**_PROFESOR:_** Angel Augusto Velasquez Nuñez
+
+**_AUDITOR:_** MetaSoft
+
+**_CLIENTE:_** MetaSoft
+
+__________________________________________________________________________________________
+
+**SITE o APP A EVALUAR:** ElixirControl
+
+**TAREAS A EVALUAR:**
+
+**_Landing Page: ElixirControl:_**
+
+1. Definir Tarea 1
+2. Definir Tarea 2
+3. Definir Tarea 3
+4. Definir Tarea 4
+
+**_Web Application: ElixirControl:_**
+
+1. Definir Tarea 1
+2. Definir Tarea 2
+3. Definir Tarea 3
+4. Definir Tarea 4
+
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+<table>
+<thead>
+  <tr>
+    <th> Nivel </th>
+    <th> Descripción </th>
+  </tr>
+</thead>
+
+<tbody>
+  <!--========================================= FILA 1 ======================================-->
+  <tr>
+    <td> 1 </td>
+    <td> 
+      Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco
+      frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo 
+    </td>
+  </tr>
+  <!--========================================= FILA 2 ======================================-->
+  <tr>
+    <td> 2 </td>
+    <td> 
+      Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de
+      superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente
+      reléase
+    </td>
+  </tr>
+  <!--========================================= FILA 3 ======================================-->
+  <tr>
+    <td> 3 </td>
+    <td> 
+      Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es
+      importante que sean corregidos y se les debe asignar una prioridad alta.
+    </td>
+  </tr>
+  <!--========================================= FILA 4 ======================================-->
+  <tr>
+    <td> 4 </td>
+    <td> 
+      Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de
+      la herramienta. Es imperativo que sea corregido antes del lanzamiento
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+**TABLA DE RESUMEN - LANDING PAGE:**
+
+<table>
+<thead>
+ <tr>
+  <th> # </th>
+  <th> Problema </th>
+  <th> Escala de severidad </th>
+  <th> Heurística/Principio violada(o) </th>
+</tr>
+</thead>
+<tbody>
+<!--========================================= FILA 1 ======================================-->
+<tr>
+  <td> 1 </td>
+  <td> Contenido del Problema </td>
+  <td> Contenido de la Escala de severidad </td>
+  <td> Contenido de Heurística/Principio violada(o) </td>
+</tr>
+<!--========================================= FILA 2 ======================================-->
+<tr>
+  <td> 2 </td>
+  <td> Contenido del Problema </td>
+  <td> Contenido de la Escala de severidad </td>
+  <td> Contenido de Heurística/Principio violada(o) </td>
+</tr>
+<!--========================================= FILA 3 ======================================-->
+<tr>
+  <td> 3 </td>
+  <td> Contenido del Problema </td>
+  <td> Contenido de la Escala de severidad </td>
+  <td> Contenido de Heurística/Principio violada(o) </td>
+</tr>
+<!--========================================= FILA 4 ======================================-->
+<tr>
+  <td> 4 </td>
+  <td> Contenido del Problema </td>
+  <td> Contenido de la Escala de severidad </td>
+  <td> Contenido de Heurística/Principio violada(o) </td>
+</tr>
+</tbody>
+</table>
+
+
+**_DESCRIPCIÓN DE PROBLEMAS - LANDING PAGE:_**
+
+**_PROBLEMA #1:_**
+
+**_Severidad: 3_**
+
+**_Problema:_**
+
+
+**_Recomendación:_**
+
+
+**TABLA DE RESUMEN - WEB APPLICATION:**
+<table>
+<thead>
+ <tr>
+  <th> # </th>
+  <th> Problema </th>
+  <th> Escala de severidad </th>
+  <th> Heurística/Principio violada(o) </th>
+</tr>
+</thead>
+<tbody>
+<!--========================================= FILA 1 ======================================-->
+<tr>
+  <td> 1 </td>
+  <td> Contenido del Problema </td>
+  <td> Contenido de la Escala de severidad </td>
+  <td> Contenido de Heurística/Principio violada(o) </td>
+</tr>
+<!--========================================= FILA 2 ======================================-->
+<tr>
+  <td> 2 </td>
+  <td> Contenido del Problema </td>
+  <td> Contenido de la Escala de severidad </td>
+  <td> Contenido de Heurística/Principio violada(o) </td>
+</tr>
+<!--========================================= FILA 3 ======================================-->
+<tr>
+  <td> 3 </td>
+  <td> Contenido del Problema </td>
+  <td> Contenido de la Escala de severidad </td>
+  <td> Contenido de Heurística/Principio violada(o) </td>
+</tr>
+<!--========================================= FILA 4 ======================================-->
+<tr>
+  <td> 4 </td>
+  <td> Contenido del Problema </td>
+  <td> Contenido de la Escala de severidad </td>
+  <td> Contenido de Heurística/Principio violada(o) </td>
+</tr>
+</tbody>
+</table>
+
+
+**_DESCRIPCIÓN DE PROBLEMAS - WEB APPLICATION:_**
+
+**_PROBLEMA #1:_**
+
+**_Severidad: 3_**
+
+**_Problema:_**
+
+
+**_Recomendación:_**
 
 
 ## 5.4. Video About-the-Product.
