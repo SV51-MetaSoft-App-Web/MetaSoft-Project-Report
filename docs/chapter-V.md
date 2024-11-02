@@ -2215,6 +2215,120 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>PERSONA ASIGNADA</td>
             <td>Done</td>
         </tr>
+ <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="3"> US-16	</td>
+            <td rowspan="3">Crear un cliente distribuidor</td>
+            <td>US-16: TASK-01</td>
+            <td>Crear formulario de cliente distribuidor	</td>
+            <td>Desarrollar un formulario para registrar y gestionar los datos de clientes distribuidores, asegurando que la información necesaria esté completa y estructurada para facilitar la administración y consulta posterior.	</td>
+            <td>1h</td>
+            <td>Gustavo</td>
+            <td>Done</td> 
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>US-16: TASK-02 </td>
+            <td>Configurar validaciones de campos obligatorios	</td>
+            <td>Configura los campos esenciales como obligatorios para asegurar que se complete toda la información necesaria antes de enviar el formulario.	</td>
+            <td>2h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>US-16: TASK-03</td>
+            <td>Desarrollar método de creación en ClientsService	</td>
+            <td>Crear un método en ClientsService que permita enviar los datos de un cliente nuevo a la API, realizando una solicitud POST para registrar la información en el servidor.	</td>
+            <td>2h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+<!--====================================================================-->
+        <tr>
+            <td>US-16: TASK-04</td>
+            <td>Conectar el formulario con el método de creación del servicio	</td>
+            <td>Implementar la conexión entre el formulario de cliente distribuidor y el método que permite registrar un nuevo cliente. Esto incluye obtener los datos del formulario al enviarlo y gestionar la respuesta para confirmar la creación exitosa y manejar posibles errores.</td>
+            <td>2h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+<!--====================================================================-->
+        <tr>
+            <td>US-16: TASK-05</td>
+            <td>Mostrar notificación de éxito	</td>
+            <td>Implementar una notificación que informe al usuario sobre el registro exitoso del cliente, asegurando que sea clara y se cierre automáticamente después de unos segundos..</td>
+            <td>1h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+<!--====================================================================-->
+        <tr>
+            <td>US-16: TASK-06</td>
+            <td>Redirigir a la lista de clientes distribuidores	</td>
+            <td> Redirigir al usuario a la lista de clientes distribuidores tras un registro exitoso, asegurando que la navegación sea intuitiva y rápida.</td>
+            <td>1h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+ <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="3"> US-17	</td>
+            <td rowspan="3">Editar un cliente distribuidor</td>
+            <td>US-17: TASK-01</td>
+            <td>Crear componente de edición	</td>
+            <td>Desarrollar ClientEditComponent.vue para editar los datos de un cliente, cargando la información actual y permitiendo su actualización a través de un formulario.	</td>
+            <td>3h</td>
+            <td>Gustavo</td>
+            <td>Done</td> 
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>US-17: TASK-02</td>
+            <td>Implementar método de actualización en ClientsService	</td>
+            <td>Desarrollar un método en ClientsService que permita actualizar los datos de un cliente existente mediante una solicitud PUT a la API.	</td>
+            <td>2h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>US-17: TASK-03</td>
+            <td>Configurar validaciones de datos	</td>
+            <td>Implementar las validaciones necesarias en el formulario de edición para asegurar que todos los campos requeridos sean completados correctamente antes de permitir la actualización de los datos del cliente.	</td>
+            <td>1h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+ <!--====================================================================-->
+        <tr>
+            <td>US-17: TASK-04</td>
+            <td>Conectar el formulario de edición con el servicio de actualización	</td>
+            <td> Integrar el formulario de edición con el método de actualización del servicio, asegurando que los datos ingresados se envíen correctamente para actualizar la información del cliente en la API.	</td>
+            <td>1h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+ <!--====================================================================-->
+        <tr>
+            <td>US-17: TASK-05</td>
+            <td> Mostrar notificación de éxito de edición	</td>
+            <td>Implementar una notificación que informe al usuario sobre la edición exitosa de los datos del cliente, asegurando que sea clara y visible, y que se cierre automáticamente después de unos segundos.	</td>
+            <td>2h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+<!--====================================================================-->
+        <tr>
+            <td>US-17: TASK-06</td>
+            <td> Actualizar vista de detalles	</td>
+            <td>Actualizar la vista de detalles del cliente para mostrar la información más reciente después de la edición..	</td>
+            <td>1h</td>
+            <td>Gustavo</td>
+            <td>Done</td>
+        </tr>
+
         <!--====================================================================-->
     </tbody>
 </table>
