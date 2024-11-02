@@ -2217,8 +2217,8 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         </tr>
  <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="3"> US-16	</td>
-            <td rowspan="3">Crear un cliente distribuidor</td>
+            <td rowspan="6"> US-16	</td>
+            <td rowspan="6">Crear un cliente distribuidor</td>
             <td>US-16: TASK-01</td>
             <td>Crear formulario de cliente distribuidor	</td>
             <td>Desarrollar un formulario para registrar y gestionar los datos de clientes distribuidores, asegurando que la información necesaria esté completa y estructurada para facilitar la administración y consulta posterior.	</td>
@@ -2244,7 +2244,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>Gustavo</td>
             <td>Done</td>
         </tr>
-<!--====================================================================-->
+        <!--====================================================================-->
         <tr>
             <td>US-16: TASK-04</td>
             <td>Conectar el formulario con el método de creación del servicio	</td>
@@ -2253,7 +2253,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>Gustavo</td>
             <td>Done</td>
         </tr>
-<!--====================================================================-->
+        <!--====================================================================-->
         <tr>
             <td>US-16: TASK-05</td>
             <td>Mostrar notificación de éxito	</td>
@@ -2274,8 +2274,8 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
  <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="3"> US-17	</td>
-            <td rowspan="3">Editar un cliente distribuidor</td>
+            <td rowspan="6"> US-17	</td>
+            <td rowspan="6">Editar un cliente distribuidor</td>
             <td>US-17: TASK-01</td>
             <td>Crear componente de edición	</td>
             <td>Desarrollar ClientEditComponent.vue para editar los datos de un cliente, cargando la información actual y permitiendo su actualización a través de un formulario.	</td>
