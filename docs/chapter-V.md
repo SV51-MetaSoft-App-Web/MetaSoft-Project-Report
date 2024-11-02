@@ -2180,7 +2180,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 <!--====================================================================-->
 <tr>
     <td> US-33-T-04 </td>
-    <td> Pruebas unitarias para la búsqueda </ td >
+    <td> Pruebas unitarias para la búsqueda </td>
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de búsqueda de insumos. </td>
     <td> ESTIMACIÓN < td>
     <td> Luis Villegas </td>
@@ -2486,6 +2486,48 @@ de un Call To Action situado en la vista principal de la landing page.
 
 ### 5.3.2. Registro de Entrevistas.
 
+Entrevista a Vinicultor
+
+<table>
+
+<thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Giovanni Torres</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Luis Villegas</th>
+            </tr>
+</thead>        
+<tbody>
+            <tr>
+                <td>Edad</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Tacna</td>
+            </tr>
+            <tr>
+                <td><img src="/assets/img/chapter-V/sprint-3/entrevista_vinicultor.png" alt="agregar foto"></td>
+                <td><strong>Resumen:</strong><br>
+                  El usuario pudo completar todos los User Goals, esta contento con el estilo y funcionalidad de tanto la aplicación como el landing page. 
+                  Sin embargo, destaca algunos cambios que se pueden realizar en cuanto al diseño de algunas pages de la aplicación para que esta pueda ser más intuitivo y se vea más profesional.
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>06:24 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/ESCnPrRBol5Mh9m1g7LPXlsBOGddZUA2QIj9xLP9Vng8CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dNgRoo</td>
+            </tr>
+</tbody>
+       
+
+
+</table>
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
@@ -2522,8 +2564,8 @@ ________________________________________________________________________________
 
 **_Web Application: ElixirControl:_**
 
-1. Definir Tarea 1
-2. Definir Tarea 2
+1. Acceso a la visualizacion de datos en el inventario
+2. Mejora de diseño en la interfaz en la seccion "Vinicultor"
 3. Definir Tarea 3
 4. Definir Tarea 4
 
@@ -2626,6 +2668,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **_PROBLEMA #1:_**
 
+
+
 **_Severidad: 3_**
 
 **_Problema:_**
@@ -2648,16 +2692,16 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 <!--========================================= FILA 1 ======================================-->
 <tr>
   <td> 1 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Falta de captura de datos en el inventario </td>
+  <td> 3 </td>
+  <td> Usability: Control y libertad del usuario  </td>
 </tr>
 <!--========================================= FILA 2 ======================================-->
 <tr>
   <td> 2 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Mejora de diseño en la interfaz en la seccion "Vinicultor" </td>
+  <td> 1 </td>
+  <td> Inclusive Design: Estética y diseño minimalista </td>
 </tr>
 <!--========================================= FILA 3 ======================================-->
 <tr>
@@ -2679,14 +2723,37 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **_DESCRIPCIÓN DE PROBLEMAS - WEB APPLICATION:_**
 
-**_PROBLEMA #1:_**
+**_PROBLEMA #1: Falta de captura de datos en el inventario**
 
 **_Severidad: 3_**
 
 **_Problema:_**
+El boton de detalles en el apartado de "Inventario" no captura los datos correctamente, lo cual puede generar
+confusion al usuario al momento de navegar en el dicho apartado. Esta problemática es de un nivel 3 de severidad,
+ya que impide al usuario acceder a la aplicación y puede afectar negativamente
+su experiencia.
 
+![inventario_correcion.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Finventario_correcion.png)
 
 **_Recomendación:_**
+Se recomienda realizar un cambio en la estrcutura del codigo en la seccion de "Inventario" para que pueda captar bien los datos que
+el usuario podra ir agregando. A partir de ello, el usuario ya podra visualizar correctamente los datos sin problema alguno.
+
+**_PROBLEMA #2: Mejora de diseño en la interfaz en la seccion "Vinicultor"**
+
+**_Severidad: 1_**
+
+**_Problema:_** 
+
+En el apartado de "Viniciacion" el usuario se le dificulta un poco en el momento de seleccionar dichas opciones que estan integradas en el dicho apartado
+ya que si cada vez que agrega un cierto producto le gustaria que este añadido como un filtro para asi pueda registrar mas rapido los items.
+
+![inventario_correcion2.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Finventario_correcion2.png)
+
+**_Recomendación:_**
+
+Se recomienda realizar una breve mejora en la estructura del codigo en el apartado css para que tenga una mayor visualizacion para asi para lograr una apariencia más
+cohesiva y profesional. 
 
 
 ## 5.4. Video About-the-Product.
