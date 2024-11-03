@@ -743,6 +743,8 @@ Además, en TypeScript, se siguen las mismas convenciones que se utilizan en Jav
 
 ### 5.1.4. Software Deployment Configuration.
 
+#### Landing Page Deployment
+
 Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes pasos:
 
 **1. Ubicar el repositorio que tiene guardado el codigo fuente y dirigirse al apartado de configuración (settings):**
@@ -759,6 +761,64 @@ Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes p
 **1. Configurar la rama que será usada para hacer deploy:**
 
 ![rama-landing-page.png](/assets/img/chapter-V/sprint-1/rama-landing-page.png)
+
+
+#### Aplicación ElixirControl Deployment
+
+
+
+
+
+
+
+
+
+
+#### Web services Deployment
+
+El despliegue de los servicios web se realizara en MonsterASP.NET.
+
+![](../assets/img/chapter-V/sprint-3/monster.PNG)
+
+Para el correcto depliegue a partir de los repositorios de código fuente nos guiaremos del siguiente tutorial publicado por MonsterASP.NET llamado "How to deploy .NET Core Web API with Swagger using Visual Studio"
+
+[Link de referencia:https://help.monsterasp.net/books/deploy/page/how-to-deploy-net-core-web-api-with-swagger-using-visual-studio](https://help.monsterasp.net/books/deploy/page/how-to-deploy-net-core-web-api-with-swagger-using-visual-studio)
+
+![](../assets/img/chapter-V/sprint-3/monster-tutorial.PNG)
+
+En primer lugar tenemos que crear un website dentro de MonsterASP.NET, para ello nos dirigimos a la sección de Websites y seleccionamos la opción de "Create Website"
+
+Elijiremos la version gratuita ya que es mas que suficiente para el despliegue de nuestra aplicación le damos al boton de "Create"
+
+![](../assets/img/chapter-V/sprint-3/gratuito.PNG)
+
+
+![](../assets/img/chapter-V/sprint-3/create.PNG)
+
+Luego tenemos que habilitar el modo de producción de swagger 
+
+![](../assets/img/chapter-V/sprint-3/swagger.PNG)
+
+
+Luego tendremos que descargar el "WebDeploy publish profile"
+
+![](../assets/img/chapter-V/sprint-3/profile.PNG)
+
+Y por ultimo publicamos el proyecto en Visual Studio 2022, utilizando el archivo descargado anteriormente.
+
+![](../assets/img/chapter-V/sprint-3/publish.PNG)
+
+![](../assets/img/chapter-V/sprint-3/import.PNG)
+
+![](../assets/img/chapter-V/sprint-3/server.PNG)
+
+Terminado los pasos nos aparecera un mensaje de exito en la publicación de nuestro proyecto junto a un link del proyecto deplegado.
+
+
+
+
+
+
 
 
 ## 5.2. Landing Page, Services & Applications Implementation.
@@ -2037,7 +2097,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-14-T-01 </td>
     <td> Ver detalle del ítem exitosamente </td>
     <td> Implementar un endpoint y un JSON con la información del ítem cuando se proporciona un ID válido. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
     </tr>
@@ -2046,7 +2106,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-14-T-02 </td>
     <td> Diseño de la Estructura de la API </td>
     <td> Definir la estructura y los endpoints de la API para acceder a los detalles del ítem del inventario (/api/inventory/items/{id}). </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
     </tr>
@@ -2055,7 +2115,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-14-T-03 </td>
     <td> Manejo de Control de Errores </td>
     <td> Implementar un manejo adecuado de errores para las respuestas de la API, como el mensaje de error 404. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2068,7 +2128,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         - Prueba para un ID inexistente.
         - Prueba para solicitud sin autorización.
     </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2079,7 +2139,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-16-T-01 </td>
     <td> Implementar endpoint para agregar ítem </td>
     <td> Implementar un endpoint y un JSON para agregar un nuevo ítem al inventario. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2088,7 +2148,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-16-T-02 </td>
     <td> Validar datos del ítem </td>
     <td> Asegurarse de que los datos del nuevo ítem cumplan con las validaciones necesarias antes de ser agregados. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2097,7 +2157,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-16-T-03 </td>
     <td> Manejo de errores en la API </td>
     <td> Implementar manejo de errores para situaciones como datos inválidos o problemas de conexión. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2106,9 +2166,9 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-16-T-04 </td>
     <td> Pruebas unitarias para agregar ítem </td>
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint para agregar un nuevo ítem. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> Done</td>
 </tr>
        <!--==================================USER STORY==================================-->
 <tr>
@@ -2117,7 +2177,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-32-T-01 </td>
     <td> Implementar endpoint de filtrado </td>
     <td> Implementar un endpoint que permita filtrar insumos del inventario según la categoría seleccionada. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2126,7 +2186,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-32-T-02 </td>
     <td> Validar categorías disponibles </td>
     <td> Asegurarse de que las categorías disponibles para el filtrado sean correctas y estén actualizadas. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2135,7 +2195,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-32-T-03 </td>
     <td> Manejo de errores en el filtrado </td>
     <td> Implementar manejo de errores para situaciones como categorías no encontradas o problemas en la consulta. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2144,7 +2204,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-32-T-04 </td>
     <td> Pruebas unitarias para el filtrado </td>
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de filtrado por categoría. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2155,7 +2215,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-33-T-01 </td>
     <td> Implementar endpoint de búsqueda </td>
     <td> Implementar un endpoint que permita buscar insumos en el inventario utilizando diferentes criterios. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2164,7 +2224,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-33-T-02 </td>
     <td> Filtrar resultados por atributos </td>
     <td> Permitir a los usuarios filtrar los resultados de búsqueda por atributos específicos, como nombre, categoría y cantidad. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2173,7 +2233,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-33-T-03 </td>
     <td> Manejo de errores en la búsqueda </td>
     <td> Implementar manejo de errores para situaciones como insumos no encontrados o problemas en la consulta. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2182,37 +2242,37 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-33-T-04 </td>
     <td> Pruebas unitarias para la búsqueda </td>
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de búsqueda de insumos. </td>
-    <td> ESTIMACIÓN < td>
+    <td> 1h < td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
         <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="3"> CODE USER STORY	</td>
-            <td rowspan="3">TITLE USER STORY</td>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
+            <td rowspan="3">TS-09</td>
+            <td rowspan="3">Registrar un pedido</td>
+            <td>TS-09-T-01</td>
+            <td>Implementar endpoint de pedidos</td>
+            <td>Implementar la lógica para agregar una nueva orden</td>
+            <td>3h</td>
+            <td>Vicente</td>
             <td>Done</td> 
         </tr>
         <!--====================================================================-->
         <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
+            <td>TS-09-T-02</td>
+            <td>Crear endpoint</td>
+            <td>Crear el endpoint "/api/v1/order" en el controlador</td>
+            <td>4h</td>
+            <td>Vicente</td>
             <td>Done</td>
         </tr>
         <!--====================================================================-->
         <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
+            <td>TS-09-T-03</td>
+            <td>validar endpoint</td>
+            <td>Validar que el endpoint maneje correctamente las respuestas</td>
+            <td>1h</td>
+            <td>Vicente</td>
             <td>Done</td>
         </tr>
  <!--==================================USER STORY==================================-->
@@ -2328,6 +2388,37 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>Gustavo</td>
             <td>Done</td>
         </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="6"> US-34	</td>
+            <td rowspan="6">Obtener detalles de un pedido</td>
+            <td>US-34: TASK-01</td>
+            <td>Order details	</td>
+            <td>Desarrollo del componente visual order-details	</td>
+            <td>4h</td>
+            <td>Vicente</td>
+            <td>Done</td> 
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>US-34: TASK-02</td>
+            <td>Añadir campos en entity	</td>
+            <td>Añadir los campos necesarios en el entity model para que maneje todos los detalles necesarios del pedido	</td>
+            <td>2h</td>
+            <td>Vicente</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>US-34: TASK-03</td>
+            <td>Validar que el service funcione</td>
+            <td>Validar que el service retorne todos los datos del order-details</td>
+            <td>1h</td>
+            <td>Vicente</td>
+            <td>Done</td>
+        </tr>
+ <!--====================================================================-->
+        
 
         <!--====================================================================-->
     </tbody>
@@ -2352,116 +2443,172 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <tbody>
         <!--======================================REPOSITORY======================================-->
         <tr>
-            <td rowspan="14">END POINT</td>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
+            <td rowspan="21">ElixirControl-Platform</td>
+            <td>feature/customer-management</td>
+            <td>96a3929</td>
+            <td>feat(customer-management): client command service added.</td>
+            <td>client command service added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>3c32ce3</td>
+            <td>feat(customer-management): client repository added.</td>
+            <td>client repository added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>2233cbc</td>
+            <td>feat(customer-management): interface client query service added.</td>
+            <td>interface client query service added.</td>
             <td>Commited on (Date)</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/customer-management</td>
+            <td>7738dea</td>
+            <td>feat(customer-management): dependency injection of clients added.</td>
+            <td>dependency injection of clients added.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/customer-management</td>
+            <td>1bd6da8</td>
+            <td>feat(customer-management): find all clients async method added.</td>
+            <td>find all clients async method added.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/inventory-management</td>
+            <td>06ca584</td>
+            <td>chore(inventory-management): Added the inventory management bounded context structure.</td>
+            <td>Added the inventory management bounded context structure.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/inventory-management</td>
+            <td>b515735</td>
+            <td>feat(inventory-management): Added resources and application layer for inventory.</td>
+            <td>Added resources and application layer for inventory.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/inventory-management</td>
+            <td>4c1b464</td>
+            <td>feat(inventory-management): Added transform and application layer for inventory.</td>
+            <td>Added transform and application layer for inventory.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/inventory-management</td>
+            <td>b8979ff</td>
+            <td>feat(inventory-management): added interface inventory controller</td>
+            <td>added interface inventory controller</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/order-management</td>
+            <td>e06ad04</td>
+            <td>feat(IOrderCommandService): added the OrderCommandService interface for handling the CreateOrderCommand</td>
+            <td>added the OrderCommandService interface for handling the CreateOrderCommand</td>
+            <td>Commited on 30/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
-        </tr>
-        <!--=========================================FILA======================================-->
-        <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
-        </tr>
-        <!--=========================================FILA======================================-->
-        <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td> 
+            <td>feature/order-management</td>
+            <td>7fc94a6</td>
+            <td>feat: added order controller repository and entityassembler</td>
+            <td>added order controller repository and entityassembler</td>
+            <td>Commited on 30/10/2024</td> 
         </tr> 
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>  
+            <td>feature/order-management</td>
+            <td>ce81dc3</td>
+            <td>feat(Orders): added the Orders agreggate</td>
+            <td>added the Orders agreggate</td>
+            <td>Commited on 30/10/2024</td>  
         </tr> 
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>   
+            <td>feature/order-management</td>
+            <td>25c5b31</td>
+            <td>refactor(example): deleted the example md files</td>
+            <td>deleted the example md files</td>
+            <td>Commited on 30/10/2024</td>   
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>  
+            <td>feature/order-request</td>
+            <td>cd0147d</td>
+            <td>chore(order-request):Added the order request bounded context structure.</td>
+            <td>Added the order request bounded context structure.</td>
+            <td>Commited on 30/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>4406efb</td>
+            <td>feat(order-request): Create Order Command From Resource Assembler added.</td>
+            <td>Create Order Command From Resource Assembler added.</td>
+            <td>Commited on 28/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>9f72938</td>
+            <td>feat(order-request): Get All Orders Query added</td>
+            <td>Get All Orders Query added</td>
+            <td>Commited on 28/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>a5370e1</td>
+            <td>feat(order-request): Order Controller added.</td>
+            <td>Order Controller added.</td>
+            <td>Commited on 28/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>30e4f42</td>
+            <td>feat(winemaking-process): Added entity and command to add the clarification process to a batch.</td>
+            <td>Added entity and command to add the clarification process to a batch.</td>
+            <td>Commited on 01/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>e816564</td>
+            <td>chore(winemaking-process): Added the winemaking process bounded context structure.</td>
+            <td>Added the winemaking process bounded context structure.</td>
+            <td>Commited on 28/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>92089e4</td>
+            <td>feat(winemaking-process): Added the controller that creates the "Clarification" process for the batch.</td>
+            <td>Added the controller that creates the "Clarification" process for the batch.</td>
+            <td>Commited on 01/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>b03da24</td>
+            <td>feat(winemaking-process): Added endpoints that return the winemaking processes (Fermentation, Clarification)</td>
+            <td>Added endpoints that return the winemaking processes (Fermentation, Clarification)</td>
+            <td>Commited on 01/11/2024</td>  
         </tr> 
     </tbody>
 </table>
@@ -2490,33 +2637,105 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
   <tbody>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/orders</td>
+      <td>GET</td>
+      <td>Get all orders</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/orders</td>
+      <td>POST</td>
+      <td>Create an order</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/orders/{id}</td>
+      <td>GET</td>
+      <td>Get order by id</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/clients</td>
+      <td>GET</td>
+      <td>Gett all clients</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/clients</td>
+      <td>POST</td>
+      <td>Create a client</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/clients/{id}</td>
+      <td>GET</td>
+      <td>Get client by id</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/clients/{dni}</td>
+      <td>GET</td>
+      <td>Get client by dni</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/inventory</td>
+      <td>GET</td>
+      <td>Get all inventory</td>
+    </tr>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/inventory</td>
+      <td>POST</td>
+      <td>Create an item</td>
+    </tr>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/inventory/{id}</td>
+      <td>GET</td>
+      <td>Get item by id</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch</td>
+      <td>GET</td>
+      <td>Get all batches</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch</td>
+      <td>POST</td>
+      <td>Create a batch</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{id}</td>
+      <td>GET</td>
+      <td>Get batch by id</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{batchId}/fermentation</td>
+      <td>GET</td>
+      <td>Get a fermentation by batch</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{batchId}/fermentation</td>
+      <td>POST</td>
+      <td>Get a fermentation to a batch</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{batchId}/clarification</td>
+      <td>GET</td>
+      <td>Get a clarification by batch</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{batchId}/clarification</td>
+      <td>POST</td>
+      <td>Add a clarification to a batch</td>
     </tr>
   </tbody>
 </table>
