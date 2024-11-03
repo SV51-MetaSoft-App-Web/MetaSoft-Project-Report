@@ -3226,13 +3226,11 @@ Evidencia de la seccion de "My Clients"
 
 Evidencias de Swagger conectado a nuestro backend:
 
-![clients.jpeg](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fclients.jpeg)
+![api1.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fapi1.png)
 
-![vini.jpeg](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fvini.jpeg)
+![api2.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fapi2.png)
 
-![inventario.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Finventario.png)
-
-![order.jpeg](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Forder.jpeg)
+Enlace del Web Services desplegado: http://elixircontrol.runasp.net/swagger/index.html
 
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
