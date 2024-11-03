@@ -2607,13 +2607,15 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <tbody>
     <!--======================================REPOSITORY======================================-->
         <tr>
-            <td rowspan="20">ElixirControl-FrontEnd</td>
+            <td rowspan="20">Elixir front</td>
             <td>feature/customer-management</td>
             <td>96a3929</td>
             <td>feat(customer-management): client command service added.</td>
             <td>client command service added.</td>
             <td>Commited on 31/10/2024</td>
         </tr>
+    <tbody>
+    </tbody>
         <!--======================================REPOSITORY======================================-->
         <tr>
             <td rowspan="35">ElixirControl-Platform</td>
