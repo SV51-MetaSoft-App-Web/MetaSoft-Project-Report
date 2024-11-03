@@ -2614,6 +2614,54 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td>The structure of the components of the winemaking process has been updated.</td>
             <td>Commited on 09/10/2024</td>
         </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>9ee3db4</td>
+            <td>feat(customer-management): clients.service added.</td>
+            <td>clients.service added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>0bc2260</td>
+            <td>feat(customer-management): clients.service added.</td>
+            <td>clients.service added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>4399fe8</td>
+            <td>feat(customer-management): client create and edit component added.</td>
+            <td>client create and edit component added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>2dade9e</td>
+            <td>feat(customer-management): client management added.</td>
+            <td>client management added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b0ff73a</td>
+            <td>feat(customer-management): client service added.</td>
+            <td>client service added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b0ff73a</td>
+            <td>feat(customer-management): massage, skeleton, panel and divider from PrimeVue added.</td>
+            <td>massage, skeleton, panel and divider from PrimeVue added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
     </tbody>
     <tbody>
         <!--======================================REPOSITORY======================================-->
