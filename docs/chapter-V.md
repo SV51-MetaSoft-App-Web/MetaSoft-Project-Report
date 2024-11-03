@@ -2928,15 +2928,16 @@ Implementar una notificación visual, como un mensaje de éxito o un icono de co
 ## 5.4. Video About-the-Product.
 
 
-En esta sección presentamos el video about the product. Este consolida una orientación promocional, resumiendo el modelo de nuestro negocio de ReStyle, las características y beneficios del producto, incluyendo algunas escenas deinteracción con el producto y una opinión por cada segmento objetivo, en nuestro caso segmento ojetivo de contratistas y remodeladores.
+En esta sección presentamos el video sobre nuestro producto, ElixirControl. Este video ofrece una perspectiva promocional, resumida en el modelo de nuestro negocio, que abarca las funcionalidades y beneficios de la plataforma. También incluye escenas de interacción con el sistema y opiniones de los principales segmentos objetivo: vitivinicultores y distribuidores de vinos y piscos artesanales.
 
-¿Eres una empresa remodeladora que desea acceder a una amplia gama de clientes o eres un cliente que desea remodelar su propiedad? Te presentamos a ReStyle. ReStyle es nuestra plataforma que te ayuda a encontrar profesionales en la remodelación y reparación de cuestiones del hogar.
+¿Eres un productor vitivinícola que busca una solución integral para gestionar tu inventario, mejorar la trazabilidad de tus productos y optimizar tus procesos? ¿O eres un distribuidor que quiere asegurar una cadena de suministro eficiente y bien organizada? Te presentamos ElixirControl. ElixirControl es nuestra plataforma que facilita la gestión de inventarios, pedidos y el control de calidad, diseñada especialmente para la industria vitivinícola, para que puedas dedicarte a lo que más importa: la creación de productos de alta calidad.
 
 <img src="/assets/img/chapter-V/sprint-3/videoabouttheproduct.png" alt="Foto de video about-the-product">
 
-Link de Microsoft Stream: https://1drv.ms/v/c/cab22ef84dc9095b/Ef6hskhLpFJDiyqCgws149cBkYiR3Z7gNJzAtu0w4I_g5Q?e=cqAQ21
+Link de Microsoft Stream: https://1drv.ms/v/c/cab22ef84dc9095b/Ef6hskhLpFJDiyqCgws149cBkYiR3Z7gNJzAtu0w4I_g5Q?e=B0tbiv
 
 Link de Youtube: https://youtu.be/YTH8Bv54DZs
+
 
 
 
