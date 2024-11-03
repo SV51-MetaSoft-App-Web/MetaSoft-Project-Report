@@ -3235,122 +3235,52 @@ Enlace del Web Services desplegado: http://elixircontrol.runasp.net/swagger/inde
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
-<table>
-  <thead>
-    <tr>
-      <th>Endpoint</th>
-      <th>HTTP Verb</th>
-      <th>Function or Action</th>
-    </tr>
-  </thead>
-  <tbody>
-  <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/orders</td>
-      <td>GET</td>
-      <td>Get all orders</td>
-    </tr>
-  <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/orders</td>
-      <td>POST</td>
-      <td>Create an order</td>
-    </tr>
-  <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/orders/{id}</td>
-      <td>GET</td>
-      <td>Get order by id</td>
-    </tr>
-  <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/clients</td>
-      <td>GET</td>
-      <td>Gett all clients</td>
-    </tr>
-  <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/clients</td>
-      <td>POST</td>
-      <td>Create a client</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/clients/{id}</td>
-      <td>GET</td>
-      <td>Get client by id</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/clients/{dni}</td>
-      <td>GET</td>
-      <td>Get client by dni</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/inventory</td>
-      <td>GET</td>
-      <td>Get all inventory</td>
-    </tr>
-  <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/inventory</td>
-      <td>POST</td>
-      <td>Create an item</td>
-    </tr>
-  <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/inventory/{id}</td>
-      <td>GET</td>
-      <td>Get item by id</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/batch</td>
-      <td>GET</td>
-      <td>Get all batches</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/batch</td>
-      <td>POST</td>
-      <td>Create a batch</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/batch/{id}</td>
-      <td>GET</td>
-      <td>Get batch by id</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/WinemakingProcess/{batchId}/fermentation</td>
-      <td>GET</td>
-      <td>Get a fermentation by batch</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/WinemakingProcess/{batchId}/fermentation</td>
-      <td>POST</td>
-      <td>Get a fermentation to a batch</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/WinemakingProcess/batch/{batchId}/clarification</td>
-      <td>GET</td>
-      <td>Get a clarification by batch</td>
-    </tr>
-    <!--========================================FILA===============================-->
-    <tr>
-      <td>/api/v1/WinemakingProcess/{batchId}/clarification</td>
-      <td>POST</td>
-      <td>Add a clarification to a batch</td>
-    </tr>
-  </tbody>
-</table>
 
+### Batch Endpoints
 
+| URL                                                | Endpoint                | HTTP Verb | Acción Implementada     | Sintaxis de Llamada                                                                             | Parámetros Posibles     | Ejemplo de Response                                                    | Explicación del Response                |
+|----------------------------------------------------|-------------------------|-----------|-------------------------|-------------------------------------------------------------------------------------------------|-------------------------|------------------------------------------------------------------------|-----------------------------------------|
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/batch/{batchId} | GET       | Obtener un lote por ID  | 'accept: application/json'                                                                      | batchId (path)          | `{"id": 0, "vineyardCode": "string", "grapeVariety": "string", ...}`   | Retorna un objeto con detalles del lote |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/batch           | POST      | Crear un nuevo lote     | 'Content-Type: application/json' -d '{"vineyardCode": "string", "grapeVariety": "string", ...}' | JSON con datos del lote | `{"id": 0, "vineyardCode": "string", "grapeVariety": "string", ...}`   | Retorna el objeto lote creado           |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/batch           | GET       | Obtener todos los lotes | 'accept: application/json'                                                                      | Ninguno                 | `[{"id": 0, "vineyardCode": "string", "grapeVariety": "string", ...}]` | Retorna un array de objetos lote        |
 
+## WinemakingProcessByBatch Endpoints
+
+| URL                                                | Endpoint                                                | HTTP Verb | Acción Implementada             | Sintaxis de Llamada                                                                 | Parámetros Posibles                              | Ejemplo de Response                                                        | Explicación del Response                      |
+|----------------------------------------------------|---------------------------------------------------------|-----------|---------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------|
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/winemakingProcess/batch/{batchId}/fermentation  | GET       | Obtener fermentación por lote   | 'accept: application/json'                                                          | batchId (path)                                   | `{"id": 0, "batchId": 0, "startDate": "string", ...}`                      | Retorna objeto con detalles de fermentación   |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/winemakingProcess/{batchId}/fermentation        | POST      | Añadir fermentación a un lote   | 'Content-Type: application/json' -d '{"batchId": 0, "startDate": "string", ...}'    | batchId (path), JSON con datos de fermentación   | `{"id": 0, "batchId": 0, "startDate": "string", ...}`                      | Retorna el objeto fermentación creado         |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/winemakingProcess/batch/{batchId}/clarification | GET       | Obtener clarificación por lote  | 'accept: application/json'                                                          | batchId (path)                                   | `{"id": 0, "batchId": 0, "productsUsed": "string", ...}`                   | Retorna objeto con detalles de clarificación  |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/winemakingProcess/{batchId}/clarification       | POST      | Añadir clarificación a un lote  | 'Content-Type: application/json' -d '{"batchId": 0, "productsUsed": "string", ...}' | batchId (path), JSON con datos de clarificación  | `{"id": 0, "batchId": 0, "productsUsed": "string", ...}`                   | Retorna el objeto clarificación creado        |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/winemakingProcess/batch/{batchId}/pressing      | GET       | Obtener prensado por lote       | 'accept: application/json'                                                          | batchId (path)                                   | `{"id": 0, "batchId": 0, "pressingDate": "2024-11-03T09:24:52.277Z", ...}` | Retorna objeto con detalles de prensado       |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/winemakingProcess/{batchId}/pressing            | POST      | Añadir prensado a un lote       | 'Content-Type: application/json' -d '{"batchId": 0, "pressingDate": "string", ...}' | batchId (path), JSON con datos de prensado       | `{"id": 0, "batchId": 0, "pressingDate": "2024-11-03T09:24:52.281Z", ...}` | Retorna el objeto prensado creado             |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/winemakingProcess/batch/{batchId}/aging         | GET       | Obtener envejecimiento por lote | 'accept: application/json'                                                          | batchId (path)                                   | `{"id": 0, "batchId": 0, "barrelType": "string", ...}`                     | Retorna objeto con detalles de envejecimiento |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/winemakingProcess/{batchId}/aging               | POST      | Añadir envejecimiento a un lote | 'Content-Type: application/json' -d '{"batchId": 0, "barrelType": "string", ...}'   | batchId (path), JSON con datos de envejecimiento | `{"id": 0, "batchId": 0, "barrelType": "string", ...}`                     | Retorna el objeto envejecimiento creado       |
+
+## Orders Endpoints
+
+| URL                                                | Endpoint            | HTTP Verb | Acción Implementada       | Sintaxis de Llamada                                                                              | Parámetros Posibles        | Ejemplo de Response                                                     | Explicación del Response                   |
+|----------------------------------------------------|---------------------|-----------|---------------------------|--------------------------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------|--------------------------------------------|
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/orders      | POST      | Crear una nueva orden     | 'Content-Type: application/json' -d '{"businessName": "string", "requestedDate": "string", ...}' | JSON con datos de la orden | `{"id": 0, "businessName": "string", "requestedDate": "string", ...}`   | Retorna el objeto orden creado             |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/orders      | GET       | Obtener todas las órdenes | 'accept: application/json'                                                                       | Ninguno                    | `[{"id": 0, "businessName": "string", "requestedDate": "string", ...}]` | Retorna un array de objetos orden          |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/orders/{id} | GET       | Obtener una orden por ID  | 'accept: application/json'                                                                       | id (path)                  | `{"id": 0, "businessName": "string", "requestedDate": "string", ...}`   | Retorna un objeto con detalles de la orden |
+
+## Inventory Endpoints
+
+| URL                                                | Endpoint                        | HTTP Verb | Acción Implementada           | Sintaxis de Llamada                                                             | Parámetros Posibles           | Ejemplo de Response                                    | Explicación del Response                      |
+|----------------------------------------------------|---------------------------------|-----------|-------------------------------|---------------------------------------------------------------------------------|-------------------------------|--------------------------------------------------------|-----------------------------------------------|
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/inventory/{inventoryId} | GET       | Obtener inventario por ID     | 'accept: application/json'                                                      | inventoryId (path)            | `{"id": 0, "name": "string", "type": "string", ...}`   | Retorna un objeto con detalles del inventario |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/inventory               | POST      | Crear un nuevo inventario     | 'Content-Type: application/json' -d '{"name": "string", "type": "string", ...}' | JSON con datos del inventario | `{"id": 0, "name": "string", "type": "string", ...}`   | Retorna el objeto inventario creado           |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/inventory               | GET       | Obtener todos los inventarios | 'accept: application/json'                                                      | Ninguno                       | `[{"id": 0, "name": "string", "type": "string", ...}]` | Retorna un array de objetos inventario        |
+
+## Clients Endpoints
+
+| URL                                                | Endpoint                     | HTTP Verb | Acción Implementada        | Sintaxis de Llamada                                                                  | Parámetros Posibles        | Ejemplo de Response                                         | Explicación del Response                       |
+|----------------------------------------------------|------------------------------|-----------|----------------------------|--------------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------|------------------------------------------------|
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/clients              | POST      | Crear un nuevo cliente     | 'Content-Type: application/json' -d '{"personName": "string", "dni": "string", ...}' | JSON con datos del cliente | `{"id": 0, "personName": "string", "dni": "string", ...}`   | Retorna el objeto cliente creado               |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/clients              | GET       | Obtener todos los clientes | 'accept: application/json'                                                           | Ninguno                    | `[{"id": 0, "personName": "string", "dni": "string", ...}]` | Retorna un array de objetos cliente            |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/clients/{id}         | GET       | Obtener un cliente por ID  | 'accept: application/json'                                                           | id (path)                  | `{"id": 0, "personName": "string", "dni": "string", ...}`   | Retorna un objeto con detalles del cliente     |
+| http://elixircontrol.runasp.net/swagger/index.html | /api/v1/clients/{dni}/client | GET       | Obtener clientes por DNI   | 'accept: application/json'                                                           | dni (path)                 | `[{"id": 0, "personName": "string", "dni": "string", ...}]` | Retorna un array de objetos cliente con el DNI |
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
