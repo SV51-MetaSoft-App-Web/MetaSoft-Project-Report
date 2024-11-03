@@ -888,7 +888,14 @@ gestionamos las tareas en Jira Software.
         <!--FILA 7-->
         <tr>
             <td>Sprint 1 Goal</td>
-            <td> Implementar la landing page incluyendo las distintas secciones acordadas y el requisito de cambio de idioma para la aplicación de ElixirControl </td>
+            <td> 
+              Nuestro enfoque está en implementar la landing page de ElixirControl, incluyendo todas las 
+              secciones acordadas y el requisito de cambio de idioma para la aplicación. Creemos que esto
+              mejora la accesibilidad y la experiencia del usuario, permitiendo que más vinicultores y 
+              distribuidores se conecten con la plataforma. Esto se confirmará cuando la landing page 
+              esté completa, funcional y los usuarios puedan navegar por las secciones en su idioma 
+              preferido, reportando satisfacción con la interfaz y la usabilidad.
+            </td>
         </tr>
         <!--FILA 8-->
         <tr>
@@ -1423,6 +1430,107 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
 
 ##### 5.2.2.1. Sprint Planning 2
 
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--====================================================================-->
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Planning Background </p1></td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Date</td>
+            <td>14-09-2024</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Time</td>
+            <td> 10:00 p.m </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Location</td>
+            <td>Modalidad Remota a través de la plataforma Discord</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Prepared By</td>
+            <td>Janover Saldaña</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Oscar Armas - Luis Villegas - Gustavo Huanca - Vicente Quijandria</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td> 
+              En este sprint, el equipo completó con éxito la implementación de la landing page de 
+              ElixirControl, incluyendo todas las secciones acordadas y la funcionalidad de cambio de idioma. 
+              Esto mejora la accesibilidad y la experiencia del usuario, permitiendo una navegación 
+              intuitiva en su idioma preferido. Recibimos comentarios positivos sobre la usabilidad 
+              y estética de la página, lo que valida el impacto positivo de nuestro trabajo. No 
+              obstante, identificamos oportunidades de mejora en la optimización de elementos 
+              visuales y en la precisión de las traducciones. Con estos logros y aprendizajes, nos 
+              preparamos para seguir aportando valor a nuestros vinicultores y distribuidores en el 
+              próximo sprint.
+            </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+              En este sprint, el equipo enfrentó desafíos en la comunicación y la gestión de tareas, 
+              lo que impactó la colaboración y el flujo de trabajo. A pesar de estas dificultades,
+              logramos completar la landing page de ElixirControl y la funcionalidad de cambio de 
+              idioma, demostrando nuestra capacidad de adaptación. Los miembros del equipo resaltaron 
+              la necesidad de mejorar la coordinación y clarificar roles para optimizar el uso del 
+              tiempo y recursos. A pesar de los obstáculos, mantuvimos un fuerte compromiso con el 
+              proyecto. De cara al próximo sprint, es crucial aplicar las lecciones aprendidas para 
+              fortalecer nuestra dinámica de trabajo y asegurar que todos estén alineados en 
+              nuestros objetivos.
+            </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Goal & User Stories </p1></td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td> 
+              Nuestro enfoque está en implementar la interfaz de usuario para la gestión de procesos 
+              vitivinícolas, incluyendo la visualización y envío de solicitudes de pedidos a 
+              vinicultores, la creación y visualización de procesos de vinificación, la gestión
+              de datos de inventario del vinicultor y la administración de información de clientes. 
+              Creemos que esto proporcionará una experiencia de usuario más ágil y efectiva para 
+              vinicultores y distribuidores. Esto se confirmará cuando todas las funcionalidades 
+              del frontend sean probadas con éxito, se utilicen activamente en la aplicación y los 
+              usuarios reporten una mejora en la eficiencia de sus flujos de trabajo y satisfacción 
+              con las nuevas características visuales implementadas.
+            </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td> Por definir </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sum of Story Points</td>
+            <td> Por Definir </td>
+        </tr>
+        <!--====================================================================-->
+    </tbody>
+</table>
+
+
 ##### 5.2.2.2. Sprint Backlog 2
 <table>
   <thead>
@@ -1914,9 +2022,13 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 
 ## 5.2.3. Sprint 3
 
+El Sprint Planning es una reunión clave en Scrum donde el equipo se junta para definir el objetivo del próximo sprint y planificar las tareas a realizar. Durante esta sesión, revisamos el backlog del producto para identificar las historias de usuario más relevantes, asegurándonos de que todos comprendan su valor. El Product Owner guía la conversación y aclara dudas.
 
+El proceso se divide en dos partes: primero, establecemos el objetivo del sprint y seleccionamos las historias a abordar; luego, desglosamos esas historias en tareas más pequeñas y asignamos responsabilidades. Al final, todos tenemos un plan claro y compartido, lo que nos permite avanzar juntos hacia nuestros objetivos en la próxima iteración.
 
 #### 5.2.3.1.Spring Planning 3.
+
+
 
 <table>
     <thead>
@@ -1933,7 +2045,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
         <tr>
             <td>Date</td>
-            <td>12-10-2024</td>
+            <td>19-10-2024</td>
         </tr>
         <!--====================================================================-->
         <tr>
@@ -1943,7 +2055,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
         <tr>
             <td>Location</td>
-            <td>Discord</td>
+            <td>Modalidad Remota a través de la plataforma Discord</td>
         </tr>
         <!--====================================================================-->
         <tr>
@@ -1953,17 +2065,34 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
         <tr>
             <td>Attendees (to planning meeting)</td>
-            <td>Oscar Armas - Luis Villegas</td>
+            <td>Oscar Armas - Luis Villegas - Gustavo Huanca - Vicente Quijandria</td>
         </tr>
         <!--====================================================================-->
         <tr>
             <td>Sprint 2 Review Summary</td>
-            <td>Contenido Review</td>
+            <td> 
+              Durante el Sprint #2, el equipo logró avances en la implementación de la gestión de 
+              inventarios, gestión de productos terminados, gestión del proceso de vinificación por lotes 
+              de cosecha de uvas, gestión de cartera de clientes de los vinicultores y el historial de 
+              solicitudes de compra a vinicultores por parte de los distribuidores
+            </td>
         </tr>
         <!--====================================================================-->
         <tr>
             <td>Sprint 2 Retrospective Summary</td>
-            <td>Contenido Retrospective</td>
+            <td>
+              Durante este sprint, el equipo enfrentó algunos desafíos significativos, especialmente con el 
+              retiro de dos integrantes que no mostraron el compromiso esperado y tenían limitaciones en sus
+              conocimientos sobre el desarrollo del frontend. Esto afectó la comunicación y la gestión de 
+              tareas, generando dificultades en el flujo de trabajo. A pesar de estos obstáculos, logramos 
+              cumplir con los objetivos establecidos, gracias al compromiso y la colaboración de los demás
+              miembros. A través de la resiliencia y el apoyo mutuo, completamos las entregas, demostrando
+              que, incluso en situaciones adversas, el trabajo en equipo es fundamental. Identificamos 
+              varias oportunidades para mejorar la claridad en los roles y fortalecer el seguimiento de 
+              tareas, lo que nos ayudará a optimizar nuestra dinámica en futuros sprints. Nuestro desempeño
+              refleja un camino claro hacia el cumplimiento de los objetivos del próximo sprint, 
+              asegurando una mejor eficiencia en el uso de recursos y tiempo.
+            </td>
         </tr>
         <!--====================================================================-->
         <tr>
@@ -1972,7 +2101,16 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
         <tr>
             <td>Sprint 3 Goal</td>
-            <td> Por definir </td>
+            <td> 
+              Nuestro enfoque está en implementar endpoints para la gestión de procesos vitivinícolas, 
+              incluyendo solicitudes de pedidos a vinicultores, creación y obtención de procesos de 
+              vinificación, datos de inventario del vinicultor y gestión de datos de clientes. Creemos 
+              que esto proporciona operaciones más ágiles y una mejor experiencia de usuario a los 
+              vinicultores y distribuidores. Esto se confirmará cuando todos los endpoints sean probados
+              con éxito y se utilicen activamente en la aplicación, y cuando los usuarios informen sobre 
+              una mejora en la eficiencia de sus flujos de trabajo y satisfacción con las nuevas 
+              características visuales del frontend. 
+            </td>
         </tr>
         <!--====================================================================-->
         <tr>
@@ -2390,6 +2528,35 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
+            <td rowspan="3"> TS-21 </td>
+            <td rowspan="3"> Creación de pedidos de vinos </td>
+            <td> TS-21-T-01 </td>
+            <td> Implementar formulario de creación de pedidos </td>
+            <td> Desarrollar el formulario de pedidos que permita seleccionar el tipo de producto y la cantidad deseada. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td> TS-21-T-02 </td>
+            <td> Configurar endpoint para la creación de pedidos </td>
+            <td> Configurar el endpoint POST (/api/v1/pedidos) para procesar la creación de nuevos pedidos de vino. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td> TS-21-T-03 </td>
+            <td> Validar los datos del pedido </td>
+            <td> Implementar validaciones en el formulario de pedidos para asegurar que los datos sean correctos y completos antes de procesarlos. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
             <td rowspan="6"> US-34	</td>
             <td rowspan="6">Obtener detalles de un pedido</td>
             <td>US-34: TASK-01</td>
@@ -2418,9 +2585,6 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>Done</td>
         </tr>
  <!--====================================================================-->
-        
-
-        <!--====================================================================-->
     </tbody>
 </table>
 
@@ -2441,13 +2605,216 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         </tr>
     </thead>
     <tbody>
+    <!--======================================REPOSITORY======================================-->
+        <tr>
+            <td rowspan="21">ElixirControl-FrontEnd</td>
+            <td>feature/winemaking-process</td>
+            <td>e049e2f</td>
+            <td>feat(winemaking-process): The structure of the components of the winemaking process has been updated.</td>
+            <td>The structure of the components of the winemaking process has been updated.</td>
+            <td>Commited on 09/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>9ee3db4</td>
+            <td>feat(customer-management): clients.service added.</td>
+            <td>clients.service added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>0bc2260</td>
+            <td>feat(customer-management): clients.service added.</td>
+            <td>clients.service added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>4399fe8</td>
+            <td>feat(customer-management): client create and edit component added.</td>
+            <td>client create and edit component added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>2dade9e</td>
+            <td>feat(customer-management): client management added.</td>
+            <td>client management added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b0ff73a</td>
+            <td>feat(customer-management): client service added.</td>
+            <td>client service added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b0ff73a</td>
+            <td>feat(customer-management): massage, skeleton, panel and divider from PrimeVue added.</td>
+            <td>massage, skeleton, panel and divider from PrimeVue added.</td>
+            <td>Commited on 18/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>3716964</td>
+            <td>feat(oder-management): added order management structure.</td>
+            <td>added order management structure.</td>
+            <td>Commited on 14/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>bf4e1d1</td>
+            <td>feat(order): added order entity</td>
+            <td>added order entity.</td>
+            <td>Commited on 17/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>dabe65c</td>
+            <td>feat(order): added order create and edit component</td>
+            <td>added order create and edit component</td>
+            <td>Commited on 17/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>b0ebd9a</td>
+            <td>feat(order): created order service</td>
+            <td>created order service</td>
+            <td>Commited on 17/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>382a5bb</td>
+            <td>feat(navbar-elixir-control.component.vue):  added the navbar elixir control component</td>
+            <td>added the navbar elixir control component</td>
+            <td>Commited on 19/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>a81e7d3</td>
+            <td>feat(order-details):  added the order details card component</td>
+            <td>added the order details card component</td>
+            <td>Commited on 19/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>c7f9dc1</td>
+            <td>refactor(order-management): edited the order management page</td>
+            <td>edited the order management page</td>
+            <td>Commited on 19/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>bd2a699</td>
+            <td>refactor(order-api.service): applied the new endpoints of the db.json</td>
+            <td>applied the new endpoints of the db.json</td>
+            <td>Commited on 20/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>ee5ec86</td>
+            <td>feat(order-management): added the status button and its now displaying with a certain color depending on the status</td>
+            <td>added the status button and its now displaying with a certain color depending on the status</td>
+            <td>Commited on 20/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>9800bda</td>
+            <td>refactor(index.js): changed the order details and my orders routes</td>
+            <td>changed the order details and my orders routes</td>
+            <td>Commited on 20/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>cd5e1ab</td>
+            <td>feat(order-create-and-edit): added more inputs for the new attributes of the order</td>
+            <td>added more inputs for the new attributes of the order</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>661eb7d</td>
+            <td>feat(order.entity): added more attributes to the order entity</td>
+            <td>added more attributes to the order entity</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>be0e883</td>
+            <td>feat(order-details): added more details of the new attributes of the order</td>
+            <td>added more details of the new attributes of the order</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>0c95e8a</td>
+            <td>refactor(order-management): fixed an error of the details button not displaying correctly</td>
+            <td>fixed an error of the details button not displaying correctly</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+    </tbody>
+    <tbody>
         <!--======================================REPOSITORY======================================-->
         <tr>
-            <td rowspan="21">ElixirControl-Platform</td>
+            <td rowspan="35">ElixirControl-Platform</td>
             <td>feature/customer-management</td>
             <td>96a3929</td>
             <td>feat(customer-management): client command service added.</td>
             <td>client command service added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>9ee3db4</td>
+            <td>chore(develop): Added the base structure of bounded contexts.</td>
+            <td>Added the base structure of bounded contexts.</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>3ed3156</td>
+            <td>chore(customer-management): Added the order management bounded context structure.</td>
+            <td>Added the order management bounded context structure.</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>713529c</td>
+            <td>feat(customer-management): class client added.</td>
+            <td>class client added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>487c5dc</td>
+            <td>feat(customer-management): db context of clients added.</td>
+            <td>db context of clients added.</td>
             <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
@@ -2461,10 +2828,42 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--=========================================FILA======================================-->
         <tr>
             <td>feature/customer-management</td>
+            <td>d89597e</td>
+            <td>feat(customer-management): client resource added.</td>
+            <td>client resource added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b4f8bdb</td>
+            <td>feat(customer-management): client resource from entity assembles added.</td>
+            <td>client resource from entity assembles added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>df2045a</td>
+            <td>feat(customer-management): end points added.</td>
+            <td>end points added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>0cc12a8</td>
+            <td>feat(customer-management): create client command from resource assembler added.</td>
+            <td>create client command from resource assembler added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
             <td>2233cbc</td>
             <td>feat(customer-management): interface client query service added.</td>
             <td>interface client query service added.</td>
-            <td>Commited on (Date)</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
@@ -2472,6 +2871,22 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>7738dea</td>
             <td>feat(customer-management): dependency injection of clients added.</td>
             <td>dependency injection of clients added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b2a5d3d</td>
+            <td>feat(customer-management): create client resource added.</td>
+            <td>create client resource added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>34ace70</td>
+            <td>feat(customer-management): client query service added.</td>
+            <td>client query service added.</td>
             <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
@@ -2513,6 +2928,38 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>feat(inventory-management): added interface inventory controller</td>
             <td>added interface inventory controller</td>
             <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>b6a4487</td>
+            <td>feat(CreateOrderCommand): added the command for Create Order</td>
+            <td>added the command for Create Order</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>b8e13b2</td>
+            <td>feat(GetOrderByIdQuery): created the Get Order by Id Query</td>
+            <td>created the Get Order by Id Query</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>730d4b5</td>
+            <td>feat(Order): created the order entity on the domain</td>
+            <td>created the order entity on the domain</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>ccc505d</td>
+            <td>feat(IOrderQueryService): added the Order Query Service interface</td>
+            <td>added the Order Query Service interface</td>
+            <td>Commited on 30/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
@@ -2637,103 +3084,103 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
   <tbody>
   <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/orders</td>
+      <td>/api/v1/orders</td>
       <td>GET</td>
       <td>Get all orders</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/orders</td>
+      <td>/api/v1/orders</td>
       <td>POST</td>
       <td>Create an order</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/orders/{id}</td>
+      <td>/api/v1/orders/{id}</td>
       <td>GET</td>
       <td>Get order by id</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/clients</td>
+      <td>h/api/v1/clients</td>
       <td>GET</td>
       <td>Gett all clients</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/clients</td>
+      <td>/api/v1/clients</td>
       <td>POST</td>
       <td>Create a client</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/clients/{id}</td>
+      <td>/api/v1/clients/{id}</td>
       <td>GET</td>
       <td>Get client by id</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/clients/{dni}</td>
+      <td>/api/v1/clients/{dni}</td>
       <td>GET</td>
       <td>Get client by dni</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/inventory</td>
+      <td>/api/v1/inventory</td>
       <td>GET</td>
       <td>Get all inventory</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/inventory</td>
+      <td>/api/v1/inventory</td>
       <td>POST</td>
       <td>Create an item</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/inventory/{id}</td>
+      <td>/api/v1/inventory/{id}</td>
       <td>GET</td>
       <td>Get item by id</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/batch</td>
+      <td>/api/v1/batch</td>
       <td>GET</td>
       <td>Get all batches</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/batch</td>
+      <td>/api/v1/batch</td>
       <td>POST</td>
       <td>Create a batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/batch/{id}</td>
+      <td>/api/v1/batch/{id}</td>
       <td>GET</td>
       <td>Get batch by id</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/batch/{batchId}/fermentation</td>
+      <td>/api/v1/batch/{batchId}/fermentation</td>
       <td>GET</td>
       <td>Get a fermentation by batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/batch/{batchId}/fermentation</td>
+      <td>/api/v1/batch/{batchId}/fermentation</td>
       <td>POST</td>
       <td>Get a fermentation to a batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/batch/{batchId}/clarification</td>
+      <td>/api/v1/batch/{batchId}/clarification</td>
       <td>GET</td>
       <td>Get a clarification by batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>http://localhost:5097/api/v1/batch/{batchId}/clarification</td>
+      <td>/api/v1/batch/{batchId}/clarification</td>
       <td>POST</td>
       <td>Add a clarification to a batch</td>
     </tr>
@@ -2933,8 +3380,11 @@ Entrevista a Vinicultor
             <tr>
                 <td><img src="/assets/img/chapter-V/sprint-3/entrevista_vinicultor.png" alt="agregar foto"></td>
                 <td><strong>Resumen:</strong><br>
-                  El usuario pudo completar todos los User Goals, esta contento con el estilo y funcionalidad de tanto la aplicación como el landing page. 
-                  Sin embargo, destaca algunos cambios que se pueden realizar en cuanto al diseño de algunas pages de la aplicación para que esta pueda ser más intuitivo y se vea más profesional.
+                  Giovanni Torres, de 25 años, participo en la entrevista centrada en la evaluación de la interfaz de usuario de nuestra aplicacion. Durante el desarrollo de la entrevista, destaco que la interfaz 
+                  de la "Landing Page" esta bien hecho, le agrada mucho que se maneje bien la informacion y sobre todo se mantiene en order. En el apartado del "Front End" su navegacion fue fluida pero se vio 
+                  interrumpida en la opcion de inventario en el momento de visualizar los detalles ya que no capturaba el dato. Por otro lado, en la opcion de proceso de vinificacion observó que necesita tener un 
+                  mejor diseño para que pueda navegar más rapido en el momento de registrar embotellamientos y elproceso de la enfermentacion. Se concluye la entrevista, complentado todos los User Goals, 
+                  destacando la faclidad de la intefaz de usuario y agregando comentarios para la implementacion de mejora en la aplicacion para que se peuda ser más intuitivo y se vea más profesional.
                 </td>
             </tr>
             <tr>
@@ -3381,13 +3831,15 @@ Link de Youtube: https://youtu.be/YTH8Bv54DZs
     About the Product
   </td>
   <td>
-    Contenido 
+    Cantidad de videos: 1
+    Nomenclatura: upc-pre-202402-si730-sv51-metasoft-aboutthe-product-sprint-3
+    Formato: .mp4 
   </td>
   <td>
-    Contenido 
+    Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo.
   </td>
   <td>
-    Contenido 
+    Link:  https://1drv.ms/v/c/cab22ef84dc9095b/Ef6hskhLpFJDiyqCgws149cBkYiR3Z7gNJzAtu0w4I_g5Q?e=B0tbiv
   </td>
 </tr>
 <!--========================================= FILA 6 ======================================-->
