@@ -2443,7 +2443,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <tbody>
         <!--======================================REPOSITORY======================================-->
         <tr>
-            <td rowspan="14">ElixirControl-Platform</td>
+            <td rowspan="21">ElixirControl-Platform</td>
             <td>feature/customer-management</td>
             <td>96a3929</td>
             <td>feat(customer-management): client command service added.</td>
