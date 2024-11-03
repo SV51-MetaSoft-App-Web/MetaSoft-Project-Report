@@ -58,49 +58,33 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 3-->
             <td> 
-            <img src="../assets/img/chapter-I/juan_paul.jpeg" height="120" alt="Juan Paul">
-            Juan Paul Llamccaya Arone -
-            U20193571
-            <br>
-            </td>
-            <!-- DESCRIPCIÓN del integrante 3-->
-            <td> 
-              Estudio la carrera de Ingenieria de Software en la UPC. Soy una persona que le gusta siempre aprender nuevos conocimientos que me pueden llevar a convertirme en un gran profesional, asi poder cada dia cumplir mis metas.
-            </td>
-            <!-- CONOCIMIENTOS del integrante 3-->
-            <td>
-              Tengo experiencia en programación en C++ (CLI), en programación orientada a objetos (POO), y en desarrollo web utilizando HTML, JavaScript y CSS. Además, poseo conocimientos en diseño de UX, en el uso de Packet Tracer, SQL y Python.
-            </td>
-        </tr>
-        <tr>
-            <!-- DATOS del integrante 4-->
-            <td> 
-            <img src="../assets/img/chapter-I/Jhordi Carranza.jpg" height="120" alt="Jhordi Carranza">
-            <br> 
-            </td>
-            <!-- DESCRIPCIÓN del integrante 4-->
-            <td>
-              Soy estudiante de la carrera de ingeniería de software en la UPC. Tengo pasión por la música, algo que me ha ayudado tanto monetariamente como profesionalmente. Trato siempre de poder aprender y mejorar cada día.
-            </td>
-            <!-- CONOCIMIENTOS del integrante 4-->
-            <td>
-              Cuento con conocimientos en lenguajes de programación como C++, Python, C# y programación web utilizando HTML y CSS; así mismo también poseo conocimientos generales en diversas materias como matemáticas y ciencias naturales.
-            </td>
-        </tr>
-        <tr>
-            <!-- DATOS del integrante 5-->
-            <td> 
             <img src="../assets/img/chapter-I/oscar_armas.jpg" height="120" alt="">
               Oscar Javier Armas Sánchez - U20211G192
             <br> 
             </td>
-            <!-- DESCRIPCIÓN del integrante 5-->
+            <!-- DESCRIPCIÓN del integrante 3-->
             <td>
               Soy estudiante de la carrera de ingeniería de software en la UPC. Tengo pasión por la lectura , y me gusta experimentar diferentes campos. Trato siempre de poder mejorar y aprender cada día.
             </td>
-            <!-- CONOCIMIENTOS del integrante 5-->
+            <!-- CONOCIMIENTOS del integrante 3-->
             <td> 
                Cuento con conocimientos en lenguajes de programación como C++, Python, programación web utilizando HTML y CSS, conocimientos en SQL ; así mismo también poseo conocimientos generales en diversas materias como matemáticas y fisica
+               .
+            </td>
+        </tr>
+<tr>
+            <!-- DATOS del integrante 3-->
+            <td>
+              Gustavo Esau Huanca Navarro - U202215285
+            <br> 
+            </td>
+            <!-- DESCRIPCIÓN del integrante 5-->
+            <td>
+Soy Gustavo Huanca, estudiante de Ingeniería de Software. Me considero puntual, responsable y disfruto resolviendo problemas tecnológicos. Tengo conocimientos en desarrollo de software, varios lenguajes de programación, estructuras de datos y algoritmos. Además. Mi objetivo es contribuir eficazmente al éxito del equipo con mis habilidades
+              </td>
+            <!-- CONOCIMIENTOS del integrante 5-->
+            <td> 
+               Cuento con conocimientos en lenguajes de programación como C++, Angular, Java, Python, programación web utilizando HTML y CSS, conocimientos en SQL ; así mismo también poseo conocimientos generales en diversas materias como matemáticas y fisica.
                .
             </td>
         </tr>
