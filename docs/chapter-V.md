@@ -2262,7 +2262,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>TS-09-T-02</td>
             <td>Crear endpoint</td>
             <td>Crear el endpoint "/api/v1/order" en el controlador</td>
-            <td>4h/td>
+            <td>4h</td>
             <td>Vicente</td>
             <td>Done</td>
         </tr>
