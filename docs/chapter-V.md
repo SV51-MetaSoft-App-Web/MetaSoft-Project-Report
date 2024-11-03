@@ -2607,6 +2607,17 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <tbody>
     <!--======================================REPOSITORY======================================-->
         <tr>
+            <td rowspan="10">ElixirControl-Landing-Page</td>
+            <td>BRANCH</td>
+            <td>COMMIT ID</td>
+            <td>COMMIT MESSAGE</td>
+            <td>COMMIT MESSAGE BODY</td>
+            <td>Commited on (DATE)</td>
+        </tr>
+    </tbody>
+    <tbody>
+    <!--======================================REPOSITORY======================================-->
+        <tr>
             <td rowspan="21">ElixirControl-FrontEnd</td>
             <td>feature/winemaking-process</td>
             <td>e049e2f</td>
@@ -2778,7 +2789,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <tbody>
         <!--======================================REPOSITORY======================================-->
         <tr>
-            <td rowspan="35">ElixirControl-Platform</td>
+            <td rowspan="44">ElixirControl-Platform</td>
             <td>feature/customer-management</td>
             <td>96a3929</td>
             <td>feat(customer-management): client command service added.</td>
@@ -3027,6 +3038,38 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
         </tr> 
         <!--=========================================FILA======================================-->
         <tr>
+            <td>feature/order-request</td>
+            <td>90f1cda</td>
+            <td>feat(order-request): Order Command Service added.</td>
+            <td>Order Command Service added.</td>
+            <td>Commited on 02/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>b3a2a98</td>
+            <td>feat(order-request): Order Resource From Entity Assembler added.</td>
+            <td>Order Resource From Entity Assembler added.</td>
+            <td>Commited on 02/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>f50146b</td>
+            <td>feat(order-request): Order Resource added.</td>
+            <td>Order Resource added.</td>
+            <td>Commited on 02/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>8ebe465</td>
+            <td>feat(order-request): Order Query Service added.</td>
+            <td>Order Query Service added.</td>
+            <td>Commited on 02/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
             <td>feature/winemaking-process</td>
             <td>30e4f42</td>
             <td>feat(winemaking-process): Added entity and command to add the clarification process to a batch.</td>
@@ -3056,6 +3099,46 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td>feat(winemaking-process): Added endpoints that return the winemaking processes (Fermentation, Clarification)</td>
             <td>Added endpoints that return the winemaking processes (Fermentation, Clarification)</td>
             <td>Commited on 01/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>9eff846</td>
+            <td>feat(winemaking-process): Added infrastructure and application layer for batches.</td>
+            <td>Added infrastructure and application layer for batches.</td>
+            <td>Commited on 01/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>14ccb3a</td>
+            <td>feat(winemaking-process): Added REST resources and transforms to add batch clarification stage.</td>
+            <td>Added REST resources and transforms to add batch clarification stage.</td>
+            <td>Commited on 01/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>6e291d4</td>
+            <td>feat(winemaking-process): Added implementation of the Service that returns the fermentation process by BatchID.</td>
+            <td>Added implementation of the Service that returns the fermentation process by BatchID.</td>
+            <td>Commited on 01/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>84a1137</td>
+            <td>feat(winemaking-process): Added the end point to create the fermentation state of a batch.</td>
+            <td>Added the end point to create the fermentation state of a batch.</td>
+            <td>Commited on 02/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>70f11e5</td>
+            <td>feat(winemaking-process): Added endpoints to create and return the batch pressing process.</td>
+            <td>Added endpoints to create and return the batch pressing process.</td>
+            <td>Commited on 02/11/2024</td>  
         </tr> 
     </tbody>
 </table>
@@ -3102,7 +3185,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>h/api/v1/clients</td>
+      <td>/api/v1/clients</td>
       <td>GET</td>
       <td>Gett all clients</td>
     </tr>
@@ -3162,25 +3245,25 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>/api/v1/batch/{batchId}/fermentation</td>
+      <td>/api/v1/WinemakingProcess/{batchId}/fermentation</td>
       <td>GET</td>
       <td>Get a fermentation by batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>/api/v1/batch/{batchId}/fermentation</td>
+      <td>/api/v1/WinemakingProcess/{batchId}/fermentation</td>
       <td>POST</td>
       <td>Get a fermentation to a batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>/api/v1/batch/{batchId}/clarification</td>
+      <td>/api/v1/WinemakingProcess/batch/{batchId}/clarification</td>
       <td>GET</td>
       <td>Get a clarification by batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>/api/v1/batch/{batchId}/clarification</td>
+      <td>/api/v1/WinemakingProcess/{batchId}/clarification</td>
       <td>POST</td>
       <td>Add a clarification to a batch</td>
     </tr>
