@@ -888,7 +888,14 @@ gestionamos las tareas en Jira Software.
         <!--FILA 7-->
         <tr>
             <td>Sprint 1 Goal</td>
-            <td> Implementar la landing page incluyendo las distintas secciones acordadas y el requisito de cambio de idioma para la aplicación de ElixirControl </td>
+            <td> 
+              Nuestro enfoque está en implementar la landing page de ElixirControl, incluyendo todas las 
+              secciones acordadas y el requisito de cambio de idioma para la aplicación. Creemos que esto
+              mejora la accesibilidad y la experiencia del usuario, permitiendo que más vinicultores y 
+              distribuidores se conecten con la plataforma. Esto se confirmará cuando la landing page 
+              esté completa, funcional y los usuarios puedan navegar por las secciones en su idioma 
+              preferido, reportando satisfacción con la interfaz y la usabilidad.
+            </td>
         </tr>
         <!--FILA 8-->
         <tr>
@@ -1423,6 +1430,107 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
 
 ##### 5.2.2.1. Sprint Planning 2
 
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--====================================================================-->
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Planning Background </p1></td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Date</td>
+            <td>14-09-2024</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Time</td>
+            <td> 10:00 p.m </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Location</td>
+            <td>Modalidad Remota a través de la plataforma Discord</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Prepared By</td>
+            <td>Janover Saldaña</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Oscar Armas - Luis Villegas - Gustavo Huanca - Vicente Quijandria</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td> 
+              En este sprint, el equipo completó con éxito la implementación de la landing page de 
+              ElixirControl, incluyendo todas las secciones acordadas y la funcionalidad de cambio de idioma. 
+              Esto mejora la accesibilidad y la experiencia del usuario, permitiendo una navegación 
+              intuitiva en su idioma preferido. Recibimos comentarios positivos sobre la usabilidad 
+              y estética de la página, lo que valida el impacto positivo de nuestro trabajo. No 
+              obstante, identificamos oportunidades de mejora en la optimización de elementos 
+              visuales y en la precisión de las traducciones. Con estos logros y aprendizajes, nos 
+              preparamos para seguir aportando valor a nuestros vinicultores y distribuidores en el 
+              próximo sprint.
+            </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+              En este sprint, el equipo enfrentó desafíos en la comunicación y la gestión de tareas, 
+              lo que impactó la colaboración y el flujo de trabajo. A pesar de estas dificultades,
+              logramos completar la landing page de ElixirControl y la funcionalidad de cambio de 
+              idioma, demostrando nuestra capacidad de adaptación. Los miembros del equipo resaltaron 
+              la necesidad de mejorar la coordinación y clarificar roles para optimizar el uso del 
+              tiempo y recursos. A pesar de los obstáculos, mantuvimos un fuerte compromiso con el 
+              proyecto. De cara al próximo sprint, es crucial aplicar las lecciones aprendidas para 
+              fortalecer nuestra dinámica de trabajo y asegurar que todos estén alineados en 
+              nuestros objetivos.
+            </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td colspan="2"> <p1 style="text-align: center;"> Sprint Goal & User Stories </p1></td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td> 
+              Nuestro enfoque está en implementar la interfaz de usuario para la gestión de procesos 
+              vitivinícolas, incluyendo la visualización y envío de solicitudes de pedidos a 
+              vinicultores, la creación y visualización de procesos de vinificación, la gestión
+              de datos de inventario del vinicultor y la administración de información de clientes. 
+              Creemos que esto proporcionará una experiencia de usuario más ágil y efectiva para 
+              vinicultores y distribuidores. Esto se confirmará cuando todas las funcionalidades 
+              del frontend sean probadas con éxito, se utilicen activamente en la aplicación y los 
+              usuarios reporten una mejora en la eficiencia de sus flujos de trabajo y satisfacción 
+              con las nuevas características visuales implementadas.
+            </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td> Por definir </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>Sum of Story Points</td>
+            <td> Por Definir </td>
+        </tr>
+        <!--====================================================================-->
+    </tbody>
+</table>
+
+
 ##### 5.2.2.2. Sprint Backlog 2
 <table>
   <thead>
@@ -1914,9 +2022,13 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 
 ## 5.2.3. Sprint 3
 
+El Sprint Planning es una reunión clave en Scrum donde el equipo se junta para definir el objetivo del próximo sprint y planificar las tareas a realizar. Durante esta sesión, revisamos el backlog del producto para identificar las historias de usuario más relevantes, asegurándonos de que todos comprendan su valor. El Product Owner guía la conversación y aclara dudas.
 
+El proceso se divide en dos partes: primero, establecemos el objetivo del sprint y seleccionamos las historias a abordar; luego, desglosamos esas historias en tareas más pequeñas y asignamos responsabilidades. Al final, todos tenemos un plan claro y compartido, lo que nos permite avanzar juntos hacia nuestros objetivos en la próxima iteración.
 
 #### 5.2.3.1.Spring Planning 3.
+
+
 
 <table>
     <thead>
@@ -1933,7 +2045,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
         <tr>
             <td>Date</td>
-            <td>12-10-2024</td>
+            <td>19-10-2024</td>
         </tr>
         <!--====================================================================-->
         <tr>
@@ -1943,7 +2055,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
         <tr>
             <td>Location</td>
-            <td>Discord</td>
+            <td>Modalidad Remota a través de la plataforma Discord</td>
         </tr>
         <!--====================================================================-->
         <tr>
@@ -1953,17 +2065,34 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
         <tr>
             <td>Attendees (to planning meeting)</td>
-            <td>Oscar Armas - Luis Villegas</td>
+            <td>Oscar Armas - Luis Villegas - Gustavo Huanca - Vicente Quijandria</td>
         </tr>
         <!--====================================================================-->
         <tr>
             <td>Sprint 2 Review Summary</td>
-            <td>Contenido Review</td>
+            <td> 
+              Durante el Sprint #2, el equipo logró avances en la implementación de la gestión de 
+              inventarios, gestión de productos terminados, gestión del proceso de vinificación por lotes 
+              de cosecha de uvas, gestión de cartera de clientes de los vinicultores y el historial de 
+              solicitudes de compra a vinicultores por parte de los distribuidores
+            </td>
         </tr>
         <!--====================================================================-->
         <tr>
             <td>Sprint 2 Retrospective Summary</td>
-            <td>Contenido Retrospective</td>
+            <td>
+              Durante este sprint, el equipo enfrentó algunos desafíos significativos, especialmente con el 
+              retiro de dos integrantes que no mostraron el compromiso esperado y tenían limitaciones en sus
+              conocimientos sobre el desarrollo del frontend. Esto afectó la comunicación y la gestión de 
+              tareas, generando dificultades en el flujo de trabajo. A pesar de estos obstáculos, logramos 
+              cumplir con los objetivos establecidos, gracias al compromiso y la colaboración de los demás
+              miembros. A través de la resiliencia y el apoyo mutuo, completamos las entregas, demostrando
+              que, incluso en situaciones adversas, el trabajo en equipo es fundamental. Identificamos 
+              varias oportunidades para mejorar la claridad en los roles y fortalecer el seguimiento de 
+              tareas, lo que nos ayudará a optimizar nuestra dinámica en futuros sprints. Nuestro desempeño
+              refleja un camino claro hacia el cumplimiento de los objetivos del próximo sprint, 
+              asegurando una mejor eficiencia en el uso de recursos y tiempo.
+            </td>
         </tr>
         <!--====================================================================-->
         <tr>
@@ -1972,7 +2101,16 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--====================================================================-->
         <tr>
             <td>Sprint 3 Goal</td>
-            <td> Por definir </td>
+            <td> 
+              Nuestro enfoque está en implementar endpoints para la gestión de procesos vitivinícolas, 
+              incluyendo solicitudes de pedidos a vinicultores, creación y obtención de procesos de 
+              vinificación, datos de inventario del vinicultor y gestión de datos de clientes. Creemos 
+              que esto proporciona operaciones más ágiles y una mejor experiencia de usuario a los 
+              vinicultores y distribuidores. Esto se confirmará cuando todos los endpoints sean probados
+              con éxito y se utilicen activamente en la aplicación, y cuando los usuarios informen sobre 
+              una mejora en la eficiencia de sus flujos de trabajo y satisfacción con las nuevas 
+              características visuales del frontend. 
+            </td>
         </tr>
         <!--====================================================================-->
         <tr>
@@ -2447,9 +2585,6 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>Done</td>
         </tr>
  <!--====================================================================-->
-        
-
-        <!--====================================================================-->
     </tbody>
 </table>
 
@@ -3436,13 +3571,15 @@ Link de Youtube: https://youtu.be/YTH8Bv54DZs
     About the Product
   </td>
   <td>
-    Contenido 
+    Cantidad de videos: 1
+    Nomenclatura: upc-pre-202402-si730-sv51-metasoft-aboutthe-product-sprint-3
+    Formato: .mp4 
   </td>
   <td>
-    Contenido 
+    Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo.
   </td>
   <td>
-    Contenido 
+    Link:  https://1drv.ms/v/c/cab22ef84dc9095b/Ef6hskhLpFJDiyqCgws149cBkYiR3Z7gNJzAtu0w4I_g5Q?e=B0tbiv
   </td>
 </tr>
 <!--========================================= FILA 6 ======================================-->
