@@ -3193,11 +3193,46 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
 
 #### 5.2.3.4.Testing Suite Evidence for Sprint Review.
 
-
+En esta entrega no se han realizado los test
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
+* Landing Page Execution
 
+Evidencias de ultima version de Landing Page
+
+![fronted.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Ffronted.png)
+
+Evidencia del video de About the product
+
+![aboutapp.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Faboutapp.png)
+
+* Web Application Execution
+
+Evidencias de ultima version de la aplicacion con una mejora en la interfaz de navegacion, mejora en los detalles del inventario
+y se completo la seccion de "My Clients"
+
+![frontendv2.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Ffrontendv2.png)
+
+Evidencia de mejora del inventario
+
+![frontendv3.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Ffrontendv3.png)
+
+Evidencia de la seccion de "My Clients"
+
+![frontendv4.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Ffrontendv4.png)
+
+* Web Services Execution
+
+Evidencias de Swagger conectado a nuestro backend:
+
+![clients.jpeg](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fclients.jpeg)
+
+![vini.jpeg](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fvini.jpeg)
+
+![inventario.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Finventario.png)
+
+![order.jpeg](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Forder.jpeg)
 
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
