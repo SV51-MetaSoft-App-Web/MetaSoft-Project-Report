@@ -2390,6 +2390,35 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
+            <td rowspan="3"> TS-21 </td>
+            <td rowspan="3"> Creación de pedidos de vinos </td>
+            <td> TS-21-T-01 </td>
+            <td> Implementar formulario de creación de pedidos </td>
+            <td> Desarrollar el formulario de pedidos que permita seleccionar el tipo de producto y la cantidad deseada. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td> TS-21-T-02 </td>
+            <td> Configurar endpoint para la creación de pedidos </td>
+            <td> Configurar el endpoint POST (/api/v1/pedidos) para procesar la creación de nuevos pedidos de vino. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td> TS-21-T-03 </td>
+            <td> Validar los datos del pedido </td>
+            <td> Implementar validaciones en el formulario de pedidos para asegurar que los datos sean correctos y completos antes de procesarlos. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
             <td rowspan="6"> US-34	</td>
             <td rowspan="6">Obtener detalles de un pedido</td>
             <td>US-34: TASK-01</td>
