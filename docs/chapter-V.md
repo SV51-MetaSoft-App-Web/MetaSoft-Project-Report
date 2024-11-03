@@ -743,6 +743,8 @@ Además, en TypeScript, se siguen las mismas convenciones que se utilizan en Jav
 
 ### 5.1.4. Software Deployment Configuration.
 
+#### Landing Page Deployment
+
 Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes pasos:
 
 **1. Ubicar el repositorio que tiene guardado el codigo fuente y dirigirse al apartado de configuración (settings):**
@@ -759,6 +761,64 @@ Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes p
 **1. Configurar la rama que será usada para hacer deploy:**
 
 ![rama-landing-page.png](/assets/img/chapter-V/sprint-1/rama-landing-page.png)
+
+
+#### Aplicación ElixirControl Deployment
+
+
+
+
+
+
+
+
+
+
+#### Web services Deployment
+
+El despliegue de los servicios web se realizara en MonsterASP.NET.
+
+![](../assets/img/chapter-V/sprint-3/monster.PNG)
+
+Para el correcto depliegue a partir de los repositorios de código fuente nos guiaremos del siguiente tutorial publicado por MonsterASP.NET llamado "How to deploy .NET Core Web API with Swagger using Visual Studio"
+
+[Link de referencia:https://help.monsterasp.net/books/deploy/page/how-to-deploy-net-core-web-api-with-swagger-using-visual-studio](https://help.monsterasp.net/books/deploy/page/how-to-deploy-net-core-web-api-with-swagger-using-visual-studio)
+
+![](../assets/img/chapter-V/sprint-3/monster-tutorial.PNG)
+
+En primer lugar tenemos que crear un website dentro de MonsterASP.NET, para ello nos dirigimos a la sección de Websites y seleccionamos la opción de "Create Website"
+
+Elijiremos la version gratuita ya que es mas que suficiente para el despliegue de nuestra aplicación le damos al boton de "Create"
+
+![](../assets/img/chapter-V/sprint-3/gratuito.PNG)
+
+
+![](../assets/img/chapter-V/sprint-3/create.PNG)
+
+Luego tenemos que habilitar el modo de producción de swagger 
+
+![](../assets/img/chapter-V/sprint-3/swagger.PNG)
+
+
+Luego tendremos que descargar el "WebDeploy publish profile"
+
+![](../assets/img/chapter-V/sprint-3/profile.PNG)
+
+Y por ultimo publicamos el proyecto en Visual Studio 2022, utilizando el archivo descargado anteriormente.
+
+![](../assets/img/chapter-V/sprint-3/publish.PNG)
+
+![](../assets/img/chapter-V/sprint-3/import.PNG)
+
+![](../assets/img/chapter-V/sprint-3/server.PNG)
+
+Terminado los pasos nos aparecera un mensaje de exito en la publicación de nuestro proyecto junto a un link del proyecto deplegado.
+
+
+
+
+
+
 
 
 ## 5.2. Landing Page, Services & Applications Implementation.
@@ -2730,6 +2790,45 @@ Entrevista a Vinicultor
 
 </table>
 
+
+<table>
+
+<thead>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Jazzy Benitez</th>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Oscar Armas Sánchez</th>
+            </tr>
+</thead>        
+<tbody>
+            <tr>
+                <td>Edad</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Pisco</td>
+            </tr>
+            <tr>
+                <td><img src="/assets/img/chapter-V/sprint-3/EntrevistaJazzy.png" alt="agregar foto"></td>
+                <td><strong>Resumen:</strong><br>
+                Jazzy Benítez, de 32 años, participó en una entrevista centrada en la evaluación de la interfaz de usuario de nuestra aplicación. Durante la conversación, Jazzy destacó que las tarjetas de los servicios en la página de inicio son una excelente forma de presentar la oferta de la empresa, permitiendo a los usuarios identificar rápidamente los servicios disponibles. También sugirió incluir, facilitando así la compra o venta de productos.Al iniciar sesión, Jazzy notó de inmediato el tipo de usuario que debía seleccionar y comentó que la página de inicio es muy accesible. Sin embargo, recomendó mejorar el diseño visual para que la interfaz luzca más profesional. En cuanto a la navegación, mencionó que pudo explorar fácilmente los vinos populares y acceder a los detalles de los productos gracias a los filtros disponibles en la sección de "vinos". Además, sugirió la incorporación de un carrito de compras, lo que permitiría a los usuarios adquirir múltiples productos a la vez. La entrevista concluyó con Jazzy destacando la simplicidad y facilidad de uso de la interfaz, sugiriendo que al implementar los comentarios proporcionados, la aplicación podría convertirse en una herramienta valiosa para los consumidores y entusiastas del vino y pisco.
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>05:56 min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://1drv.ms/v/c/cab22ef84dc9095b/EZYjA8O9xGtAhrruq1zHJ1MBeLWhP1zuUOiB_DoX543Agg?e=to7r3s</td>
+            </tr>
+</tbody>
+</table>
+
+
 ### 5.3.3. Evaluaciones según heurísticas.
 
 __________________________________________________________________________________________
@@ -2955,6 +3054,22 @@ ya que si cada vez que agrega un cierto producto le gustaria que este añadido c
 
 Se recomienda realizar una breve mejora en la estructura del codigo en el apartado css para que tenga una mayor visualizacion para asi para lograr una apariencia más
 cohesiva y profesional. 
+
+**_PROBLEMA #3: Falta de retroalimentación en el proceso de guardado de datos_**
+
+**_Severidad: 2_**
+
+**_Problema:_**  
+En la sección de inventario, cuando el usuario guarda un nuevo registro, no recibe una notificación clara o retroalimentación visual de que la acción se ha completado exitosamente. Esto puede generar confusión sobre si el proceso de guardado fue efectivo, especialmente si el usuario está realizando múltiples cambios.
+
+**_Heurística/Principio violada(o): Usabilidad: Visibilidad del estado del sistema_**  
+Es fundamental que el sistema proporcione una retroalimentación inmediata y clara al usuario sobre el estado de la acción, asegurando que se entienda que el registro ha sido exitosamente guardado o si ocurrió un error.
+
+![inventario_correcion3.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Finventario_correcion3.png)
+
+**_Recomendación:_**  
+Implementar una notificación visual, como un mensaje de éxito o un icono de confirmación, que aparezca brevemente en la pantalla cada vez que se guarden los cambios en el inventario. Esto ayudará a mejorar la confianza del usuario en la funcionalidad y le permitirá continuar trabajando sin interrupciones o dudas sobre el resultado de sus acciones.
+
 
 
 ## 5.4. Video About-the-Product.
