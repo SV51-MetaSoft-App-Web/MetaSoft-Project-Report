@@ -2678,6 +2678,33 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <td>Gustavo</td>
     <td>Done</td>
 </tr>
+<!--================================== USER STORY TS-18 ==================================-->
+<tr>
+    <td rowspan="3">TS-18</td>
+    <td rowspan="3">Eliminar un cliente distribuidor</td>
+    <td>TS-18: TASK-01</td>
+    <td>Agregar botón de eliminación</td>
+    <td>Agregar un botón en la lista de clientes para permitir la eliminación de un cliente distribuidor</td>
+    <td>1h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-18: TASK-02</td>
+    <td>Desarrollar método de eliminación</td>
+    <td>Desarrollar el método de eliminación en el servicio ClientsService para manejar la eliminación de clientes</td>
+    <td>2h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-18: TASK-03</td>
+    <td>Implementar diálogo de confirmación</td>
+    <td>Implementar un diálogo de confirmación que solicite al usuario la verificación antes de eliminar el cliente</td>
+    <td>1h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
 
 
 </table>
