@@ -3817,7 +3817,9 @@ Se recomienda implementar una acción que guíe al usuario después de seleccion
 
 **Problema:**  
 Los usuarios encuentran dificultades para navegar en la landing page debido a la falta de claridad en la estructura de información y a un diseño visual poco intuitivo. Esto puede llevar a confusión y a una experiencia de usuario negativa, dificultando que los visitantes comprendan rápidamente la propuesta de valor del producto.
-![planes_seleccion.png](../assets/img/chapter-V/sprint-3/errorlandingpage.PNG)
+
+![errorlandingpage.png](../assets/img/chapter-V/sprint-3/errorlandingpage.PNG)
+
 **Recomendación:**  
 Se sugiere realizar una revisión completa de la arquitectura de información de la landing page, asegurando que los elementos más importantes (como beneficios, características clave y llamados a la acción) sean fácilmente accesibles y visualmente destacados. Implementar un diseño más limpio y organizado, utilizando jerarquías visuales efectivas, permitirá guiar a los usuarios a través de la página de manera más fluida. Además, incluir etiquetas y descripciones claras para cada sección ayudará a los usuarios a entender mejor el contenido presentado.
 
