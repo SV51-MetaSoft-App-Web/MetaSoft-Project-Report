@@ -190,7 +190,6 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 
 ![tb1-pulse](./assets/img/develop/tb1-pulse.png)
 
-
 ![tb1-clone](./assets/img/develop/tb1-clone.png)
 
 
@@ -198,8 +197,11 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro Tercer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
 
+![tb2-Network-graph.png](./assets/img/develop/tb2-Network-graph.png)
 
+![alt text](./assets/img/develop/tb2-pulse.png)
 
+![tb2-clone.png](./assets/img/develop/tb2-clone.png)
 
 
 ## Contenido 
@@ -340,8 +342,22 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <br> Durante esta primera entrega, me enfoqué principalmente en la Requirements Specification. Me aseguré de que todo los documentos del capitulo esten bien documentados y alineados con las necesidades del usuario. Colaboré estrechamente con el equipo para clarificar cualquier duda en cuanto a los Requirements Specification, lo que facilitó una mejor comprensión del proyecto y permitió que el desarrollo se realizara conforme a las expectativas del usuario.
             <!--Siguiente-->
             <br> <br>
-            <p style="text-align: center;" ><strong >Presentable del TB2</strong></p>
-            </td>
+            <p style="text-align: center;" ><strong >Presentable del TB2</strong><p>
+            <br> <br>
+            <strong>Janover Gonzalo Saldaña Vela</strong> 
+            En este presentbale se delegaron funciones con el fin de que podamos
+            recer profesionalmente como tener un entorno en el cual todos podamos colaborar.
+            <br> <br>
+            <strong> Luis Alfonso Villegas Jipa  </strong> 
+            El establecimiento de un entorno colaborativo también se extendió a nuestra relación con los clientes, donde la comunicación abierta y transparente fue esencial. Mantener a los clientes informados sobre el progreso del proyecto y recibir su retroalimentación en tiempo real permitió ajustar nuestras estrategias y soluciones de manera proactiva. Esta interacción no solo fortaleció la confianza, sino que también garantizó que el producto final se alineara perfectamente con sus expectativas y necesidades.
+            <br> <br>
+            <strong> Gustavo Esau Huanca Navarro  </strong> 
+            He experimentado un liderazgo compartido con el equipo Metasot, donde cada
+            miembro contribuye desde sus habilidades y se apoya en los demás. Esto ha mejorado 
+            nuestra toma de decisiones y ha fortalecido la confianza mutua.
+            </td></td>
+            <strong> Oscar Javier Armas Sánchez  </strong> 
+                Conclusiones: En esta tercera entrega, el entorno colaborativo que se estableció fue clave para el éxito del proyecto. La asignación estratégica de tareas y la claridad en nuestras metas permitieron que cada miembro del equipo trabajara de manera efectiva y se sintiera valorado en su contribución. La colaboración constante y el intercambio de ideas enriquecieron nuestras soluciones, y el trabajo conjunto en la actualización de la landing page y el desarrollo del backend aseguraron que el producto final cumpliera con las expectativas del cliente. Gracias a la inclusión y la planificación cuidadosa, logramos cumplir con los objetivos establecidos y avanzar hacia la próxima fase del proyecto.
              <!--Conclusiones de la competencia 2-->
             <td>
                 <p style="text-align: center;" >
@@ -393,7 +409,21 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
             <br> En esta primera entrega, trabajé en el User Journey Mapping para entender el recorrido del usuario y en el Empathy Mapping para captar sus necesidades. También realicé el As-is Scenario Mapping para analizar el estado actual del sistema y establecí el Ubiquitous Language para alinear al equipo. Finalmente, desarrollé el To-Be Scenario Mapping y el Impact Mapping para visualizar mejoras y conectar los objetivos del proyecto con los resultados esperados. Mantuvimos una comunicación constante para cumplir los objetivos en conjunto.
             <!--Siguiente-->
             <br> <br>
-            <p style="text-align: center;" ><strong >Presentable del TB2</strong></p>
+            <p style="text-align: center;" ><strong >Presentable del TB2</strong><p>
+            <strong>Oscar Javier Armas Sánchez</strong> 
+            El entorno colaborativo creado fue fundamental para el éxito del proyecto. La asignación estratégica de tareas y la claridad en nuestras metas permitieron a cada miembro contribuir eficazmente. La colaboración constante enriqueció nuestras soluciones, y logramos cumplir con los objetivos establecidos, avanzando hacia la próxima fase del proyecto.
+            <br><br>
+            <strong>Gustavo Esau Huanca Navarro</strong> 
+            He creado un entorno colaborativo en Metasot, con metas claras y planificación
+            conjunta. La comunicación abierta y el compromiso de cada miembro nos han permitido cumplir nuestros
+            objetivos de manera eficiente.
+            <br><br>
+            <strong>Luis Alfonso Villegas Jipa</strong> 
+            La inclusión de los clientes en el proceso creativo fue otro factor determinante para el éxito del proyecto. Al involucrarlos en sesiones de brainstorming y revisiones periódicas, logramos captar sus perspectivas y sugerencias, lo que enriqueció nuestras propuestas. Esta colaboración no solo mejoró la calidad del producto final, sino que también fomentó un sentido de pertenencia y satisfacción en los clientes, asegurando que se sintieran parte integral del proceso de desarrollo.
+            <br><br>
+            <strong>Janover Gonzalo Saldaña Vela</strong> 
+            En este presentbale se delegaron funciones con el fin de que podamos
+            recer profesionalmente como tener un entorno en el cual todos podamos colaborar 
             </td>
             <!--Conclusiones de la competencia 2-->
             <td>
