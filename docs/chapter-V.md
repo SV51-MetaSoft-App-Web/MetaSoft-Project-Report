@@ -2557,8 +2557,8 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="6"> US-34	</td>
-            <td rowspan="6">Obtener detalles de un pedido</td>
+            <td rowspan="3"> US-34	</td>
+            <td rowspan="3">Obtener detalles de un pedido</td>
             <td>US-34: TASK-01</td>
             <td>Order details	</td>
             <td>Desarrollo del componente visual order-details	</td>
@@ -2584,6 +2584,45 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td>Vicente</td>
             <td>Done</td>
         </tr>
+        <!--==================================USER STORY==================================-->
+<tr>
+    <td rowspan="4"> TS-19 </td>
+    <td rowspan="4"> Despliegue del Servicio Web </td>
+    <td> TS-19-TASK-01 </td>
+    <td> Activar Modo Producción y Configurar Swagger </td>
+    <td> Configurar el proyecto para funcionar en modo producción y habilitar Swagger para acceso en producción. </td>
+    <td> 2h </td>
+    <td> Gustavo </td>
+    <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td> TS-19-TASK-02 </td>
+    <td> Configurar y Activar WebDeploy en el Hosting </td>
+    <td> Activar la cuenta de WebDeploy en el panel de control de MonsterASP y preparar el perfil de publicación. </td>
+    <td> 2h </td>
+    <td> Gustavo </td>
+    <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td> TS-19-TASK-03 </td>
+    <td> Desplegar el Proyecto en el Servidor </td>
+    <td> Publicar el proyecto en el servidor utilizando el perfil de publicación de WebDeploy. </td>
+    <td> 1h </td>
+    <td> Gustavo </td>
+    <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td> TS-19-TASK-04 </td>
+    <td> Verificar el Funcionamiento de la API y Swagger </td>
+    <td> Comprobar que la API y la interfaz de Swagger están accesibles y funcionando correctamente en el entorno de producción. </td>
+    <td> 1h </td>
+    <td> Gustavo </td>
+    <td> Done </td>
+</tr>
+
  <!--====================================================================-->
     </tbody>
 </table>
