@@ -22,6 +22,8 @@
 * **Janover Gonzalo Saldaña Vela    U20201B510**
 * **Oscar Javier Armas Sánchez      U20211G192**
 * **Luis Alfonso Villegas Jipa      U201717523**
+* **Gustavo Esau Huanca Navarro     U202215285**
+* **Vicente Quijandria Araneda      U201822697**
 
 
 
@@ -190,6 +192,15 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 
 
 ![tb1-clone](./assets/img/develop/tb1-clone.png)
+
+
+### Entregable TB2
+
+A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro Tercer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
+
+
+
+
 
 ## Contenido 
 
