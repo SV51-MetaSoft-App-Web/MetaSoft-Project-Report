@@ -3459,7 +3459,17 @@ Link del  Web Service desplegado: [http://elixircontrol.runasp.net/swagger/index
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
+En esta entrega, nuestra meta principal fue culminar los servicios tanto del frontend y backend. Se representan los commits realizados por cada miembro del equipo MetaSoft:
 
+A continuación se muestra la cantidad de clonaciones realizadas por cada integrante del equipo durante el desarrollo de los services.
+
+![image (1).png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fimage%20%281%29.png)
+
+![gitclones (1).png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fgitclones%20%281%29.png)
+
+En esta captura se muestra el flujo de las ramas creadas, su creación.
+
+![commits.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fcommits.png)
 
 
 ## 5.3. Validation Interviews.
