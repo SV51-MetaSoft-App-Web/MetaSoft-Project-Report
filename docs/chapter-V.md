@@ -2637,33 +2637,105 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
   <tbody>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/orders</td>
+      <td>GET</td>
+      <td>Get all orders</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/orders</td>
+      <td>POST</td>
+      <td>Create an order</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/orders/{id}</td>
+      <td>GET</td>
+      <td>Get order by id</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/clients</td>
+      <td>GET</td>
+      <td>Gett all clients</td>
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>url Endpoint</td>
-      <td>HTTP verb</td>
-      <td>Descripción</td>
+      <td>http://localhost:5097/api/v1/clients</td>
+      <td>POST</td>
+      <td>Create a client</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/clients/{id}</td>
+      <td>GET</td>
+      <td>Get client by id</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/clients/{dni}</td>
+      <td>GET</td>
+      <td>Get client by dni</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/inventory</td>
+      <td>GET</td>
+      <td>Get all inventory</td>
+    </tr>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/inventory</td>
+      <td>POST</td>
+      <td>Create an item</td>
+    </tr>
+  <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/inventory/{id}</td>
+      <td>GET</td>
+      <td>Get item by id</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch</td>
+      <td>GET</td>
+      <td>Get all batches</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch</td>
+      <td>POST</td>
+      <td>Create a batch</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{id}</td>
+      <td>GET</td>
+      <td>Get batch by id</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{batchId}/fermentation</td>
+      <td>GET</td>
+      <td>Get a fermentation by batch</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{batchId}/fermentation</td>
+      <td>POST</td>
+      <td>Get a fermentation to a batch</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{batchId}/clarification</td>
+      <td>GET</td>
+      <td>Get a clarification by batch</td>
+    </tr>
+    <!--========================================FILA===============================-->
+    <tr>
+      <td>http://localhost:5097/api/v1/batch/{batchId}/clarification</td>
+      <td>POST</td>
+      <td>Add a clarification to a batch</td>
     </tr>
   </tbody>
 </table>
