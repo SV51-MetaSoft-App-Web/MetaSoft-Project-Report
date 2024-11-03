@@ -3680,17 +3680,17 @@ ________________________________________________________________________________
 
 **_Landing Page: ElixirControl:_**
 
-1. Definir Tarea 1
-2. Definir Tarea 2
-3. Definir Tarea 3
-4. Definir Tarea 4
+1. Información y descripción de la aplicación y sus funcionalidades
+2. Visualización de planes de pago y precio de la aplicación
+3. Interacción de la landing page con la aplicación
+
 
 **_Web Application: ElixirControl:_**
 
 1. Acceso a la visualizacion de datos en el inventario
 2. Mejora de diseño en la interfaz en la seccion "Vinicultor"
 3. Definir Tarea 3
-4. Definir Tarea 4
+4. Definir Tarea 4  
 
 
 **ESCALA DE SEVERIDAD:**
