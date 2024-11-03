@@ -2607,6 +2607,17 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <tbody>
     <!--======================================REPOSITORY======================================-->
         <tr>
+            <td rowspan="21">ElixirControl-Landing-Page</td>
+            <td>feature/winemaking-process</td>
+            <td>e049e2f</td>
+            <td>feat(winemaking-process): The structure of the components of the winemaking process has been updated.</td>
+            <td>The structure of the components of the winemaking process has been updated.</td>
+            <td>Commited on 09/10/2024</td>
+        </tr>
+    </tbody>
+    <tbody>
+    <!--======================================REPOSITORY======================================-->
+        <tr>
             <td rowspan="21">ElixirControl-FrontEnd</td>
             <td>feature/winemaking-process</td>
             <td>e049e2f</td>
