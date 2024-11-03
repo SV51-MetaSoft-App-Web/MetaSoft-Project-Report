@@ -3758,9 +3758,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 <!--========================================= FILA 1 ======================================-->
 <tr>
   <td> 1 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Falta de acción al elegir un plan en la sección de "Planes" </td>
+  <td> 2</td>
+  <td> Usability: Visibilidad del estado del sistema </td>
 </tr>
 <!--========================================= FILA 2 ======================================-->
 <tr>
@@ -3789,16 +3789,18 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **_DESCRIPCIÓN DE PROBLEMAS - LANDING PAGE:_**
 
-**_PROBLEMA #1:_**
+**PROBLEMA #1:** Falta de acción al elegir un plan en la sección de "Planes"
 
+**Severidad: 2**
 
+**Problema:**  
+En la sección de "Planes" de la landing page, al seleccionar un plan, el sistema no despliega ninguna pestaña ni redirige al usuario a otra página para completar el proceso de elección. Esto puede generar confusión en el usuario, ya que no hay una acción clara o retroalimentación al seleccionar una opción. Esta problemática tiene una severidad de nivel 2, ya que no impide completamente el acceso a la aplicación, pero sí afecta la experiencia del usuario al hacer que el proceso de selección sea poco intuitivo.
 
-**_Severidad: 3_**
+![planes_seleccion.png](../assets/img/chapter-V/sprint-3/landing.PNG)
 
-**_Problema:_**
+**Recomendación:**  
+Se recomienda implementar una acción que guíe al usuario después de seleccionar un plan, como abrir una pestaña emergente con más detalles del plan o redirigir a una página de registro o pago. Esto facilitaría al usuario el proceso de completar su selección y mejoraría la experiencia de navegación al hacerlo más intuitivo y directo.
 
-
-**_Recomendación:_**
 
 
 **TABLA DE RESUMEN - WEB APPLICATION:**
