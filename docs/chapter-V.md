@@ -743,6 +743,8 @@ Además, en TypeScript, se siguen las mismas convenciones que se utilizan en Jav
 
 ### 5.1.4. Software Deployment Configuration.
 
+#### Landing Page Deployment
+
 Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes pasos:
 
 **1. Ubicar el repositorio que tiene guardado el codigo fuente y dirigirse al apartado de configuración (settings):**
@@ -759,6 +761,64 @@ Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes p
 **1. Configurar la rama que será usada para hacer deploy:**
 
 ![rama-landing-page.png](/assets/img/chapter-V/sprint-1/rama-landing-page.png)
+
+
+#### Aplicación ElixirControl Deployment
+
+
+
+
+
+
+
+
+
+
+#### Web services Deployment
+
+El despliegue de los servicios web se realizara en MonsterASP.NET.
+
+![](../assets/img/chapter-V/sprint-3/monster.PNG)
+
+Para el correcto depliegue a partir de los repositorios de código fuente nos guiaremos del siguiente tutorial publicado por MonsterASP.NET llamado "How to deploy .NET Core Web API with Swagger using Visual Studio"
+
+[Link de referencia:https://help.monsterasp.net/books/deploy/page/how-to-deploy-net-core-web-api-with-swagger-using-visual-studio](https://help.monsterasp.net/books/deploy/page/how-to-deploy-net-core-web-api-with-swagger-using-visual-studio)
+
+![](../assets/img/chapter-V/sprint-3/monster-tutorial.PNG)
+
+En primer lugar tenemos que crear un website dentro de MonsterASP.NET, para ello nos dirigimos a la sección de Websites y seleccionamos la opción de "Create Website"
+
+Elijiremos la version gratuita ya que es mas que suficiente para el despliegue de nuestra aplicación le damos al boton de "Create"
+
+![](../assets/img/chapter-V/sprint-3/gratuito.PNG)
+
+
+![](../assets/img/chapter-V/sprint-3/create.PNG)
+
+Luego tenemos que habilitar el modo de producción de swagger 
+
+![](../assets/img/chapter-V/sprint-3/swagger.PNG)
+
+
+Luego tendremos que descargar el "WebDeploy publish profile"
+
+![](../assets/img/chapter-V/sprint-3/profile.PNG)
+
+Y por ultimo publicamos el proyecto en Visual Studio 2022, utilizando el archivo descargado anteriormente.
+
+![](../assets/img/chapter-V/sprint-3/publish.PNG)
+
+![](../assets/img/chapter-V/sprint-3/import.PNG)
+
+![](../assets/img/chapter-V/sprint-3/server.PNG)
+
+Terminado los pasos nos aparecera un mensaje de exito en la publicación de nuestro proyecto junto a un link del proyecto deplegado.
+
+
+
+
+
+
 
 
 ## 5.2. Landing Page, Services & Applications Implementation.
