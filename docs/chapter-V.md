@@ -2873,8 +2873,11 @@ Entrevista a Vinicultor
             <tr>
                 <td><img src="/assets/img/chapter-V/sprint-3/entrevista_vinicultor.png" alt="agregar foto"></td>
                 <td><strong>Resumen:</strong><br>
-                  El usuario pudo completar todos los User Goals, esta contento con el estilo y funcionalidad de tanto la aplicación como el landing page. 
-                  Sin embargo, destaca algunos cambios que se pueden realizar en cuanto al diseño de algunas pages de la aplicación para que esta pueda ser más intuitivo y se vea más profesional.
+                  Giovanni Torres, de 25 años, participo en la entrevista centrada en la evaluación de la interfaz de usuario de nuestra aplicacion. Durante el desarrollo de la entrevista, destaco que la interfaz 
+                  de la "Landing Page" esta bien hecho, le agrada mucho que se maneje bien la informacion y sobre todo se mantiene en order. En el apartado del "Front End" su navegacion fue fluida pero se vio 
+                  interrumpida en la opcion de inventario en el momento de visualizar los detalles ya que no capturaba el dato. Por otro lado, en la opcion de proceso de vinificacion observó que necesita tener un 
+                  mejor diseño para que pueda navegar más rapido en el momento de registrar embotellamientos y elproceso de la enfermentacion. Se concluye la entrevista, complentado todos los User Goals, 
+                  destacando la faclidad de la intefaz de usuario y agregando comentarios para la implementacion de mejora en la aplicacion para que se peuda ser más intuitivo y se vea más profesional.
                 </td>
             </tr>
             <tr>
