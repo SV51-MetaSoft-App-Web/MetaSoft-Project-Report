@@ -2097,7 +2097,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-14-T-01 </td>
     <td> Ver detalle del ítem exitosamente </td>
     <td> Implementar un endpoint y un JSON con la información del ítem cuando se proporciona un ID válido. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
     </tr>
@@ -2106,7 +2106,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-14-T-02 </td>
     <td> Diseño de la Estructura de la API </td>
     <td> Definir la estructura y los endpoints de la API para acceder a los detalles del ítem del inventario (/api/inventory/items/{id}). </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
     </tr>
@@ -2115,7 +2115,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-14-T-03 </td>
     <td> Manejo de Control de Errores </td>
     <td> Implementar un manejo adecuado de errores para las respuestas de la API, como el mensaje de error 404. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2128,7 +2128,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         - Prueba para un ID inexistente.
         - Prueba para solicitud sin autorización.
     </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2139,7 +2139,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-16-T-01 </td>
     <td> Implementar endpoint para agregar ítem </td>
     <td> Implementar un endpoint y un JSON para agregar un nuevo ítem al inventario. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2148,7 +2148,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-16-T-02 </td>
     <td> Validar datos del ítem </td>
     <td> Asegurarse de que los datos del nuevo ítem cumplan con las validaciones necesarias antes de ser agregados. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2157,7 +2157,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-16-T-03 </td>
     <td> Manejo de errores en la API </td>
     <td> Implementar manejo de errores para situaciones como datos inválidos o problemas de conexión. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2166,9 +2166,9 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> TS-16-T-04 </td>
     <td> Pruebas unitarias para agregar ítem </td>
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint para agregar un nuevo ítem. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> Done</td>
 </tr>
        <!--==================================USER STORY==================================-->
 <tr>
@@ -2177,7 +2177,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-32-T-01 </td>
     <td> Implementar endpoint de filtrado </td>
     <td> Implementar un endpoint que permita filtrar insumos del inventario según la categoría seleccionada. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2186,7 +2186,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-32-T-02 </td>
     <td> Validar categorías disponibles </td>
     <td> Asegurarse de que las categorías disponibles para el filtrado sean correctas y estén actualizadas. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2195,7 +2195,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-32-T-03 </td>
     <td> Manejo de errores en el filtrado </td>
     <td> Implementar manejo de errores para situaciones como categorías no encontradas o problemas en la consulta. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2204,7 +2204,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-32-T-04 </td>
     <td> Pruebas unitarias para el filtrado </td>
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de filtrado por categoría. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2215,7 +2215,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-33-T-01 </td>
     <td> Implementar endpoint de búsqueda </td>
     <td> Implementar un endpoint que permita buscar insumos en el inventario utilizando diferentes criterios. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2224,7 +2224,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-33-T-02 </td>
     <td> Filtrar resultados por atributos </td>
     <td> Permitir a los usuarios filtrar los resultados de búsqueda por atributos específicos, como nombre, categoría y cantidad. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 1h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2233,7 +2233,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-33-T-03 </td>
     <td> Manejo de errores en la búsqueda </td>
     <td> Implementar manejo de errores para situaciones como insumos no encontrados o problemas en la consulta. </td>
-    <td> ESTIMACIÓN </td>
+    <td> 2h </td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
@@ -2242,7 +2242,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> US-33-T-04 </td>
     <td> Pruebas unitarias para la búsqueda </td>
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de búsqueda de insumos. </td>
-    <td> ESTIMACIÓN < td>
+    <td> 1h < td>
     <td> Luis Villegas </td>
     <td> Done </td>
 </tr>
