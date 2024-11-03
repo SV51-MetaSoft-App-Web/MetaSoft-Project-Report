@@ -3283,7 +3283,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 
-En esta sección se describen los procesos de despliegue de la base de datos y el backend realizados durante el Sprint. Para la base de datos, se utilizó AWS LightSail, donde se creó una base MySQL en un plan gratuito. El backend se desplegó en MonsterASP.net, configurando un sitio web gratuito, activando el acceso de web deploy y publicando desde Visual Studio 2022. Ambos componentes quedaron listos para su uso.
+En esta sección se describen los procesos de despliegue de la base de datos y el Web Service realizados durante el Sprint. Para la base de datos, se utilizó AWS LightSail, donde se creó una base MySQL en un plan gratuito. El  Web Service se desplegó en MonsterASP.net, configurando un sitio web gratuito, activando el acceso de web deploy y publicando desde Visual Studio 2022. Ambos componentes quedaron listos para su uso.
 
 
 ### Despliegue de la base de datos
@@ -3313,10 +3313,10 @@ Finalmente nuestra base de datos esta creada y lista para ser utilizada
 ![](../assets/img/chapter-V/sprint-3/database5.PNG)
 
 
-### Despliegue del backend
+### Despliegue del Web Service
 
 
-Para el despliegue del backend se utilizo MonsterASP.net
+Para el despliegue del  Web Service se utilizo MonsterASP.net
 
 Comenzamos con la creacion de cuenta en MonsterASP.net
 
@@ -3364,12 +3364,12 @@ Seleccionamos el boton de publicar y esperamos que complete el proceso
 
 ![](../assets/img/chapter-V/sprint-3/deploy12.PNG)
 
-Finalmente nuestro backend esta desplegado y listo para ser utilizado
+Finalmente nuestro  Web Service esta desplegado y listo para ser utilizado
 
 ![](../assets/img/chapter-V/sprint-3/deploy14.PNG)
 
 
-Link del backend desplegado: [http://elixircontrol.runasp.net/swagger/index.html](http://elixircontrol.runasp.net/swagger/index.html)
+Link del  Web Service desplegado: [http://elixircontrol.runasp.net/swagger/index.html](http://elixircontrol.runasp.net/swagger/index.html)
 
 
 
