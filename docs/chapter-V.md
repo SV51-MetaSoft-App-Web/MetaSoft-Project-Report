@@ -2928,6 +2928,16 @@ Implementar una notificación visual, como un mensaje de éxito o un icono de co
 ## 5.4. Video About-the-Product.
 
 
+En esta sección presentamos el video about the product. Este consolida una orientación promocional, resumiendo el modelo de nuestro negocio de ReStyle, las características y beneficios del producto, incluyendo algunas escenas deinteracción con el producto y una opinión por cada segmento objetivo, en nuestro caso segmento ojetivo de contratistas y remodeladores.
+
+¿Eres una empresa remodeladora que desea acceder a una amplia gama de clientes o eres un cliente que desea remodelar su propiedad? Te presentamos a ReStyle. ReStyle es nuestra plataforma que te ayuda a encontrar profesionales en la remodelación y reparación de cuestiones del hogar.
+
+<img src="/assets/img/chapter-V/sprint-3/videoabouttheproduct.png" alt="Foto de video about-the-product">
+
+Link de Microsoft Stream: https://1drv.ms/v/c/cab22ef84dc9095b/Ef6hskhLpFJDiyqCgws149cBkYiR3Z7gNJzAtu0w4I_g5Q?e=cqAQ21
+
+Link de Youtube: https://youtu.be/YTH8Bv54DZs
+
 
 
 
