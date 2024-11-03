@@ -2662,6 +2662,118 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td>massage, skeleton, panel and divider from PrimeVue added.</td>
             <td>Commited on 18/10/2024</td>
         </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>3716964</td>
+            <td>feat(oder-management): added order management structure.</td>
+            <td>added order management structure.</td>
+            <td>Commited on 14/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>bf4e1d1</td>
+            <td>feat(order): added order entity</td>
+            <td>added order entity.</td>
+            <td>Commited on 17/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>dabe65c</td>
+            <td>feat(order): added order create and edit component</td>
+            <td>added order create and edit component</td>
+            <td>Commited on 17/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>b0ebd9a</td>
+            <td>feat(order): created order service</td>
+            <td>created order service</td>
+            <td>Commited on 17/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>382a5bb</td>
+            <td>feat(navbar-elixir-control.component.vue):  added the navbar elixir control component</td>
+            <td>added the navbar elixir control component</td>
+            <td>Commited on 19/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>a81e7d3</td>
+            <td>feat(order-details):  added the order details card component</td>
+            <td>added the order details card component</td>
+            <td>Commited on 19/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>c7f9dc1</td>
+            <td>refactor(order-management): edited the order management page</td>
+            <td>edited the order management page</td>
+            <td>Commited on 19/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>bd2a699</td>
+            <td>refactor(order-api.service): applied the new endpoints of the db.json</td>
+            <td>applied the new endpoints of the db.json</td>
+            <td>Commited on 20/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>ee5ec86</td>
+            <td>feat(order-management): added the status button and its now displaying with a certain color depending on the status</td>
+            <td>added the status button and its now displaying with a certain color depending on the status</td>
+            <td>Commited on 20/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>9800bda</td>
+            <td>refactor(index.js): changed the order details and my orders routes</td>
+            <td>changed the order details and my orders routes</td>
+            <td>Commited on 20/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>cd5e1ab</td>
+            <td>feat(order-create-and-edit): added more inputs for the new attributes of the order</td>
+            <td>added more inputs for the new attributes of the order</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>661eb7d</td>
+            <td>feat(order.entity): added more attributes to the order entity</td>
+            <td>added more attributes to the order entity</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>be0e883</td>
+            <td>feat(order-details): added more details of the new attributes of the order</td>
+            <td>added more details of the new attributes of the order</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>0c95e8a</td>
+            <td>refactor(order-management): fixed an error of the details button not displaying correctly</td>
+            <td>fixed an error of the details button not displaying correctly</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
     </tbody>
     <tbody>
         <!--======================================REPOSITORY======================================-->
