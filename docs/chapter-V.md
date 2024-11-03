@@ -2173,8 +2173,8 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td> TS-01-T-02 </td>
             <td> Implementar endpoint GET para lotes </td>
             <td> Configurar el endpoint GET (/api/v1/vinificacion/lotes) para consultar información detallada de cada lote en el proceso de vinificación.	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
+            <td>5</td>
+            <td>Janover Saldaña</td>
             <td>Done</td>
         </tr>
         <!--====================================================================-->
@@ -2182,8 +2182,8 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td> TS-01-T-03 </td>
             <td> Implementar endpoint GET para etapas </td>
             <td> Crear endpoints GET (/api/v1/vinificacion/{lote}/etapa) para consultar el estado de cada etapa (fermentación, prensado, clarificación, etc.) de un lote.	</td>
-            <td> ESTIMACIÓN </td>
-            <td> PERSONA ASIGNADA </td>
+            <td> 5 </td>
+            <td> Janover Saldaña </td>
             <td> Done </td>
         </tr>
         <!--==================================USER STORY==================================-->
@@ -2193,8 +2193,8 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td> TS-03-T01 </td>
             <td> Implementar endpoint DELETE para lotes	</td>
             <td> Configurar el endpoint DELETE (/api/v1/vinificacion/lotes/{id}) para eliminar un lote completo, incluyendo sus datos de cada etapa del proceso.	</td>
-            <td> ESTIMACIÓN</td>
-            <td> PERSONA ASIGNADA</td>
+            <td> 5 </td>
+            <td> Janover Saldaña < /td>
             <td> Done</td>
         </tr>
         <!--====================================================================-->
@@ -2202,8 +2202,8 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td> TS-03-T02 </td>
             <td> Desarrollar capa de servicio para eliminación	</td>
             <td> Crear la lógica de servicio para eliminar un lote y sus datos relacionados en la base de datos, asegurando integridad referencial.	</td>
-            <td> ESTIMACIÓN </td>
-            <td> PERSONA ASIGNADA </td>
+            <td> 5</td>
+            <td> Janover Saldaña </td>
             <td> Done </td>
         </tr>
         <!--==================================USER STORY==================================-->
@@ -2213,8 +2213,8 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td> TS-04-T01</td>
             <td> Implementar endpoint POST para lotes	</td>
             <td> Crear el endpoint POST (/api/v1/vinificacion/lotes) para registrar nuevos lotes, incluyendo información básica como tipo de uva y fecha de inicio.	</td>
-            <td> ESTIMACIÓN </td>
-            <td> PERSONA ASIGNADA </td>
+            <td> 5 </td>
+            <td> Janover Saldaña </td>
             <td> Done </td>
         </tr>
         <!--==================================USER STORY==================================-->
@@ -2224,8 +2224,8 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
             <td> TS-05-T-01 </td>
             <td> Implementar endpoint POST para etapas	</td>
             <td> Crear el endpoint POST (/api/v1/vinificacion/{lote}/etapas) para registrar nuevas etapas de fermentación, prensado, clarificación, envejecimiento y embotellado.	</td>
-            <td> ESTIMACIÓN</td>
-            <td> PERSONA ASIGNADA</td>
+            <td> 6 </td>
+            <td> Janover Saldaña </td>
             <td> Done</td>
         </tr>
         <!--==================================USER STORY==================================-->
