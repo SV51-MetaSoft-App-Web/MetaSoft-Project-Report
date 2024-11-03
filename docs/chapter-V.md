@@ -2179,7 +2179,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> Implementar un endpoint que permita filtrar insumos del inventario según la categoría seleccionada. </td>
     <td> ESTIMACIÓN </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> 2h </td>
 </tr>
 <!--====================================================================-->
 <tr>
@@ -2188,7 +2188,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> Asegurarse de que las categorías disponibles para el filtrado sean correctas y estén actualizadas. </td>
     <td> ESTIMACIÓN </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> 1h </td>
 </tr>
 <!--====================================================================-->
 <tr>
@@ -2197,7 +2197,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> Implementar manejo de errores para situaciones como categorías no encontradas o problemas en la consulta. </td>
     <td> ESTIMACIÓN </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> 2h </td>
 </tr>
 <!--====================================================================-->
 <tr>
@@ -2206,7 +2206,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de filtrado por categoría. </td>
     <td> ESTIMACIÓN </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> 2h </td>
 </tr>
        <!--==================================USER STORY==================================-->
 <tr>
@@ -2217,7 +2217,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> Implementar un endpoint que permita buscar insumos en el inventario utilizando diferentes criterios. </td>
     <td> ESTIMACIÓN </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> 1h </td>
 </tr>
 <!--====================================================================-->
 <tr>
@@ -2226,7 +2226,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> Permitir a los usuarios filtrar los resultados de búsqueda por atributos específicos, como nombre, categoría y cantidad. </td>
     <td> ESTIMACIÓN </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> 2h </td>
 </tr>
 <!--====================================================================-->
 <tr>
@@ -2235,7 +2235,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> Implementar manejo de errores para situaciones como insumos no encontrados o problemas en la consulta. </td>
     <td> ESTIMACIÓN </td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> 2h </td>
 </tr>
 <!--====================================================================-->
 <tr>
@@ -2244,7 +2244,7 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de búsqueda de insumos. </td>
     <td> ESTIMACIÓN < td>
     <td> Luis Villegas </td>
-    <td> Done </td>
+    <td> 2h </td>
 </tr>
         <!--==================================USER STORY==================================-->
         <tr>
