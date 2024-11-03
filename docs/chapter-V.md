@@ -3204,6 +3204,95 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 
+En esta sección se describen los procesos de despliegue de la base de datos y el backend realizados durante el Sprint. Para la base de datos, se utilizó AWS LightSail, donde se creó una base MySQL en un plan gratuito. El backend se desplegó en MonsterASP.net, configurando un sitio web gratuito, activando el acceso de web deploy y publicando desde Visual Studio 2022. Ambos componentes quedaron listos para su uso.
+
+
+### Despliegue de la base de datos
+
+Para el depliegue de la base de datos se utilizo LightSail de AWS.
+
+Inicio sesion con mi usuario de aws, me dirijo a Databases y me dirigo a "Create Database"
+
+![](../assets/img/chapter-V/sprint-3/database1.PNG)
+
+Seleccionamos MySql version 8.0.39
+
+![](../assets/img/chapter-V/sprint-3/database2.PNG)
+
+Elegimos el plan gratuito por 3 meses
+
+![](../assets/img/chapter-V/sprint-3/database3.PNG)
+
+Escribimos el nombre de nuestra base de datos y seleccionamos el boton de "Create database"
+
+![](../assets/img/chapter-V/sprint-3/database4.PNG)
+
+![](../assets/img/chapter-V/sprint-3/database.PNG)
+
+Finalmente nuestra base de datos esta creada y lista para ser utilizada
+
+![](../assets/img/chapter-V/sprint-3/database5.PNG)
+
+
+### Despliegue del backend
+
+
+Para el despliegue del backend se utilizo MonsterASP.net
+
+Comenzamos con la creacion de cuenta en MonsterASP.net
+
+![](../assets/img/chapter-V/sprint-3/deploy.PNG)
+
+
+![](../assets/img/chapter-V/sprint-3/deploy2.PNG)
+
+Una vez creada y activada la cuenta nos dirigimos a la seccion de Websites y seleccionamos "Add Website"
+
+![](../assets/img/chapter-V/sprint-3/deploy3.PNG)
+
+Seleccionamos FREE website, especificamos el subdominio "ElixirControl" y seleccionamos "Create"
+
+![](../assets/img/chapter-V/sprint-3/deploy4.PNG)
+
+![](../assets/img/chapter-V/sprint-3/deploy5.PNG)
+
+Una vez creado nos dirigimos a la seccion de "Deploy"
+
+![](../assets/img/chapter-V/sprint-3/deploy6.PNG)
+
+![](../assets/img/chapter-V/sprint-3/deploy7.PNG)
+
+Activamos el web deploy access y descargamos el "publish profile"
+
+![](../assets/img/chapter-V/sprint-3/deploy8.PNG)
+
+Configuramos el program.cs para que Swagger este disponible para produccion
+
+![](../assets/img/chapter-V/sprint-3/swagger.PNG)
+
+Abrimos el proyecto en Visual Studio 2022, seleccionamos la opcion de "Publish" y seleccionamos el archivo descargado anteriormente
+
+![](../assets/img/chapter-V/sprint-3/deploy9.PNG)
+
+![](../assets/img/chapter-V/sprint-3/publish.PNG)
+
+![](../assets/img/chapter-V/sprint-3/deploy10.PNG)
+
+
+![](../assets/img/chapter-V/sprint-3/deploy11.PNG)
+
+Seleccionamos el boton de publicar y esperamos que complete el proceso
+
+![](../assets/img/chapter-V/sprint-3/deploy12.PNG)
+
+Finalmente nuestro backend esta desplegado y listo para ser utilizado
+
+![](../assets/img/chapter-V/sprint-3/deploy14.PNG)
+
+
+Link del backend desplegado: [http://elixircontrol.runasp.net/swagger/index.html](http://elixircontrol.runasp.net/swagger/index.html)
+
+
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
