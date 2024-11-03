@@ -2482,6 +2482,38 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--=========================================FILA======================================-->
         <tr>
             <td>feature/customer-management</td>
+            <td>9ee3db4</td>
+            <td>chore(develop): Added the base structure of bounded contexts.</td>
+            <td>Added the base structure of bounded contexts.</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>3ed3156</td>
+            <td>chore(customer-management): Added the order management bounded context structure.</td>
+            <td>Added the order management bounded context structure.</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>713529c</td>
+            <td>feat(customer-management): class client added.</td>
+            <td>class client added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>487c5dc</td>
+            <td>feat(customer-management): db context of clients added.</td>
+            <td>db context of clients added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
             <td>3c32ce3</td>
             <td>feat(customer-management): client repository added.</td>
             <td>client repository added.</td>
@@ -2490,10 +2522,42 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         <!--=========================================FILA======================================-->
         <tr>
             <td>feature/customer-management</td>
+            <td>d89597e</td>
+            <td>feat(customer-management): client resource added.</td>
+            <td>client resource added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b4f8bdb</td>
+            <td>feat(customer-management): client resource from entity assembles added.</td>
+            <td>client resource from entity assembles added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>df2045a</td>
+            <td>feat(customer-management): end points added.</td>
+            <td>end points added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>0cc12a8</td>
+            <td>feat(customer-management): create client command from resource assembler added.</td>
+            <td>create client command from resource assembler added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
             <td>2233cbc</td>
             <td>feat(customer-management): interface client query service added.</td>
             <td>interface client query service added.</td>
-            <td>Commited on (Date)</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
@@ -2501,6 +2565,22 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>7738dea</td>
             <td>feat(customer-management): dependency injection of clients added.</td>
             <td>dependency injection of clients added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b2a5d3d</td>
+            <td>feat(customer-management): create client resource added.</td>
+            <td>create client resource added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>34ace70</td>
+            <td>feat(customer-management): client query service added.</td>
+            <td>client query service added.</td>
             <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
@@ -2542,6 +2622,38 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>feat(inventory-management): added interface inventory controller</td>
             <td>added interface inventory controller</td>
             <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>b6a4487</td>
+            <td>feat(CreateOrderCommand): added the command for Create Order</td>
+            <td>added the command for Create Order</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>b8e13b2</td>
+            <td>feat(GetOrderByIdQuery): created the Get Order by Id Query</td>
+            <td>created the Get Order by Id Query</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>730d4b5</td>
+            <td>feat(Order): created the order entity on the domain</td>
+            <td>created the order entity on the domain</td>
+            <td>Commited on 30/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>ccc505d</td>
+            <td>feat(IOrderQueryService): added the Order Query Service interface</td>
+            <td>added the Order Query Service interface</td>
+            <td>Commited on 30/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
