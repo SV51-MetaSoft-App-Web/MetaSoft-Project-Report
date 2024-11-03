@@ -2908,6 +2908,22 @@ ya que si cada vez que agrega un cierto producto le gustaria que este añadido c
 Se recomienda realizar una breve mejora en la estructura del codigo en el apartado css para que tenga una mayor visualizacion para asi para lograr una apariencia más
 cohesiva y profesional. 
 
+**_PROBLEMA #3: Falta de retroalimentación en el proceso de guardado de datos_**
+
+**_Severidad: 2_**
+
+**_Problema:_**  
+En la sección de inventario, cuando el usuario guarda un nuevo registro, no recibe una notificación clara o retroalimentación visual de que la acción se ha completado exitosamente. Esto puede generar confusión sobre si el proceso de guardado fue efectivo, especialmente si el usuario está realizando múltiples cambios.
+
+**_Heurística/Principio violada(o): Usabilidad: Visibilidad del estado del sistema_**  
+Es fundamental que el sistema proporcione una retroalimentación inmediata y clara al usuario sobre el estado de la acción, asegurando que se entienda que el registro ha sido exitosamente guardado o si ocurrió un error.
+
+![inventario_correcion3.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Finventario_correcion3.png)
+
+**_Recomendación:_**  
+Implementar una notificación visual, como un mensaje de éxito o un icono de confirmación, que aparezca brevemente en la pantalla cada vez que se guarden los cambios en el inventario. Esto ayudará a mejorar la confianza del usuario en la funcionalidad y le permitirá continuar trabajando sin interrupciones o dudas sobre el resultado de sus acciones.
+
+
 
 ## 5.4. Video About-the-Product.
 
