@@ -3904,7 +3904,7 @@ En esta sección presentamos el video sobre nuestro producto, ElixirControl. Est
 
 <img src="/assets/img/chapter-V/sprint-3/videoabouttheproduct.png" alt="Foto de video about-the-product">
 
-Link de Microsoft Stream: https://1drv.ms/v/c/cab22ef84dc9095b/Ef6hskhLpFJDiyqCgws149cBkYiR3Z7gNJzAtu0w4I_g5Q?e=B0tbiv
+Link de Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EfKNxQVwL8dCmsXyvgw0ZywBpKddxlXlR_l-C_mZ1km9AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1je8Hx
 
 Link de Youtube: https://youtu.be/YTH8Bv54DZs
 
