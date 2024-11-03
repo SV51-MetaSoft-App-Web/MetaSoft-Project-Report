@@ -2608,11 +2608,18 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <!--======================================REPOSITORY======================================-->
         <tr>
             <td rowspan="10">ElixirControl-Landing-Page</td>
-            <td>BRANCH</td>
-            <td>COMMIT ID</td>
-            <td>COMMIT MESSAGE</td>
-            <td>COMMIT MESSAGE BODY</td>
-            <td>Commited on (DATE)</td>
+            <td>main</td>
+            <td>d3ec381</td>
+            <td>chore(call-to-actin): Added the web application route in the call to action</td>
+            <td>Added the web application route in the call to action</td>
+            <td>Commited on 28/09/2024</td>
+        </tr>
+        <tr>
+            <td>main</td>
+            <td>d54a8d8</td>
+            <td>feat: Updated the styles and html of the About The App section.</td>
+            <td>Updated the styles and html of the About The App section.</td>
+            <td>Commited on 02/11/2024</td>
         </tr>
     </tbody>
     <tbody>
