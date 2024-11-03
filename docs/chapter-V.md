@@ -3185,7 +3185,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     </tr>
   <!--========================================FILA===============================-->
     <tr>
-      <td>h/api/v1/clients</td>
+      <td>/api/v1/clients</td>
       <td>GET</td>
       <td>Gett all clients</td>
     </tr>
@@ -3245,25 +3245,25 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>/api/v1/batch/{batchId}/fermentation</td>
+      <td>/api/v1/WinemakingProcess/{batchId}/fermentation</td>
       <td>GET</td>
       <td>Get a fermentation by batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>/api/v1/batch/{batchId}/fermentation</td>
+      <td>/api/v1/WinemakingProcess/{batchId}/fermentation</td>
       <td>POST</td>
       <td>Get a fermentation to a batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>/api/v1/batch/{batchId}/clarification</td>
+      <td>/api/v1/WinemakingProcess/batch/{batchId}/clarification</td>
       <td>GET</td>
       <td>Get a clarification by batch</td>
     </tr>
     <!--========================================FILA===============================-->
     <tr>
-      <td>/api/v1/batch/{batchId}/clarification</td>
+      <td>/api/v1/WinemakingProcess/{batchId}/clarification</td>
       <td>POST</td>
       <td>Add a clarification to a batch</td>
     </tr>
