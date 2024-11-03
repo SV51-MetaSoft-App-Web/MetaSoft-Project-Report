@@ -2390,6 +2390,35 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
         </tr>
         <!--==================================USER STORY==================================-->
         <tr>
+            <td rowspan="3"> TS-21 </td>
+            <td rowspan="3"> Creación de pedidos de vinos </td>
+            <td> TS-21-T-01 </td>
+            <td> Implementar formulario de creación de pedidos </td>
+            <td> Desarrollar el formulario de pedidos que permita seleccionar el tipo de producto y la cantidad deseada. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td> TS-21-T-02 </td>
+            <td> Configurar endpoint para la creación de pedidos </td>
+            <td> Configurar el endpoint POST (/api/v1/pedidos) para procesar la creación de nuevos pedidos de vino. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td> TS-21-T-03 </td>
+            <td> Validar los datos del pedido </td>
+            <td> Implementar validaciones en el formulario de pedidos para asegurar que los datos sean correctos y completos antes de procesarlos. </td>
+            <td> 3h </td>
+            <td> OscarArmas </td>
+            <td> Done </td>
+        </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
             <td rowspan="6"> US-34	</td>
             <td rowspan="6">Obtener detalles de un pedido</td>
             <td>US-34: TASK-01</td>
@@ -2844,8 +2873,11 @@ Entrevista a Vinicultor
             <tr>
                 <td><img src="/assets/img/chapter-V/sprint-3/entrevista_vinicultor.png" alt="agregar foto"></td>
                 <td><strong>Resumen:</strong><br>
-                  El usuario pudo completar todos los User Goals, esta contento con el estilo y funcionalidad de tanto la aplicación como el landing page. 
-                  Sin embargo, destaca algunos cambios que se pueden realizar en cuanto al diseño de algunas pages de la aplicación para que esta pueda ser más intuitivo y se vea más profesional.
+                  Giovanni Torres, de 25 años, participo en la entrevista centrada en la evaluación de la interfaz de usuario de nuestra aplicacion. Durante el desarrollo de la entrevista, destaco que la interfaz 
+                  de la "Landing Page" esta bien hecho, le agrada mucho que se maneje bien la informacion y sobre todo se mantiene en order. En el apartado del "Front End" su navegacion fue fluida pero se vio 
+                  interrumpida en la opcion de inventario en el momento de visualizar los detalles ya que no capturaba el dato. Por otro lado, en la opcion de proceso de vinificacion observó que necesita tener un 
+                  mejor diseño para que pueda navegar más rapido en el momento de registrar embotellamientos y elproceso de la enfermentacion. Se concluye la entrevista, complentado todos los User Goals, 
+                  destacando la faclidad de la intefaz de usuario y agregando comentarios para la implementacion de mejora en la aplicacion para que se peuda ser más intuitivo y se vea más profesional.
                 </td>
             </tr>
             <tr>
@@ -2898,6 +2930,44 @@ Entrevista a Vinicultor
                 <td>https://1drv.ms/v/c/cab22ef84dc9095b/EZYjA8O9xGtAhrruq1zHJ1MBeLWhP1zuUOiB_DoX543Agg?e=to7r3s</td>
             </tr>
 </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Entrevistado 3</th>
+      <th>Sandra Vázquez</th>
+    </tr>
+    <tr>
+      <th>Entrevistador</th>
+      <th>Gustavo Huanca</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edad</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Pisco</td>
+    </tr>
+    <tr>
+      <td><img src="/assets/img/chapter-V/sprint-3/entrevista3.PNG" alt="agregar foto"></td>
+      <td>
+        <strong>Resumen:</strong><br>
+        Sandra Vázquez, vinicultora de 27 años, participó en una entrevista sobre la usabilidad y diseño de nuestra aplicación. Sandra expresó interés en la opción de cambiar el idioma, aunque sugirió incluir opciones de país en el menú. Al revisar el inventario, señaló que sería útil poder añadir productos en español, ya que no domina el inglés. También exploró la sección de elaboración de vinos y comentó positivamente sobre la presentación de los lotes y su información detallada. Aunque la opción "Mis Clientes" no está implementada, Sandra consideró que sería beneficioso para gestionar contactos de clientes. En "Mis Pedidos", observó que es conveniente poder realizar órdenes desde la aplicación, y en "Mis Productos", apreció la facilidad para añadir vinos. Concluyó que la aplicación es interesante y le gustaría comenzar a usarla pronto, sugiriendo algunos ajustes que mejorarían la experiencia del usuario.
+      </td>
+    </tr>
+    <tr>
+      <td>Timing de la entrevista</td>
+      <td>06:29 min</td>
+    </tr>
+    <tr>
+      <td>URL de la entrevista</td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215285_upc_edu_pe/Ea2HE51ZpMJFi9zmAP-uAxwBHJdT3HN7Nla0UPpN8ydg-A?e=WoAZ7d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215285_upc_edu_pe/Ea2HE51ZpMJFi9zmAP-uAxwBHJdT3HN7Nla0UPpN8ydg-A?e=WoAZ7d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+    </tr>
+  </tbody>
 </table>
 
 
@@ -3145,6 +3215,17 @@ Implementar una notificación visual, como un mensaje de éxito o un icono de co
 
 
 ## 5.4. Video About-the-Product.
+
+
+En esta sección presentamos el video sobre nuestro producto, ElixirControl. Este video ofrece una perspectiva promocional, resumida en el modelo de nuestro negocio, que abarca las funcionalidades y beneficios de la plataforma. También incluye escenas de interacción con el sistema y opiniones de los principales segmentos objetivo: vitivinicultores y distribuidores de vinos y piscos artesanales.
+
+¿Eres un productor vitivinícola que busca una solución integral para gestionar tu inventario, mejorar la trazabilidad de tus productos y optimizar tus procesos? ¿O eres un distribuidor que quiere asegurar una cadena de suministro eficiente y bien organizada? Te presentamos ElixirControl. ElixirControl es nuestra plataforma que facilita la gestión de inventarios, pedidos y el control de calidad, diseñada especialmente para la industria vitivinícola, para que puedas dedicarte a lo que más importa: la creación de productos de alta calidad.
+
+<img src="/assets/img/chapter-V/sprint-3/videoabouttheproduct.png" alt="Foto de video about-the-product">
+
+Link de Microsoft Stream: https://1drv.ms/v/c/cab22ef84dc9095b/Ef6hskhLpFJDiyqCgws149cBkYiR3Z7gNJzAtu0w4I_g5Q?e=B0tbiv
+
+Link de Youtube: https://youtu.be/YTH8Bv54DZs
 
 
 
