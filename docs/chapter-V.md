@@ -2606,25 +2606,80 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> TS-19-TASK-03 </td>
-    <td> Desplegar el Proyecto en el Servidor </td>
-    <td> Publicar el proyecto en el servidor utilizando el perfil de publicación de WebDeploy. </td>
-    <td> 1h </td>
-    <td> Gustavo </td>
-    <td> Done </td>
+    <td>TS-19-TASK-03</td>
+    <td>Desplegar el Proyecto en el Servidor</td>
+    <td>Publicar el proyecto en el servidor utilizando el perfil de publicación de WebDeploy.</td>
+    <td>1h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> TS-19-TASK-04 </td>
-    <td> Verificar el Funcionamiento de la API y Swagger </td>
-    <td> Comprobar que la API y la interfaz de Swagger están accesibles y funcionando correctamente en el entorno de producción. </td>
-    <td> 1h </td>
-    <td> Gustavo </td>
-    <td> Done </td>
+    <td>TS-19-TASK-04</td>
+    <td>Verificar el Funcionamiento de la API y Swagger</td>
+    <td>Comprobar que la API y la interfaz de Swagger están accesibles y funcionando correctamente en el entorno de producción.</td>
+    <td>1h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
 </tr>
 
- <!--====================================================================-->
-    </tbody>
+<!--================================== USER STORY TS-05 ==================================-->
+<tr>
+    <td rowspan="3">TS-05</td>
+    <td rowspan="3">Crear un cliente distribuidor</td>
+    <td>TS-05: TASK-01</td>
+    <td>Implementar lógica de cliente</td>
+    <td>Implementar la lógica para agregar un nuevo cliente distribuidor</td>
+    <td>3h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-05: TASK-02</td>
+    <td>Crear endpoint</td>
+    <td>Crear el endpoint "/api/v1/clients" en el controlador</td>
+    <td>2h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-05: TASK-03</td>
+    <td>Validar respuestas del endpoint</td>
+    <td>Validar que el endpoint maneje correctamente las respuestas</td>
+    <td>1h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
+
+<!--================================== USER STORY TS-08 ==================================-->
+<tr>
+    <td rowspan="3">TS-08</td>
+    <td rowspan="3">Ver los detalles de un cliente distribuidor</td>
+    <td>TS-08: TASK-01</td>
+    <td>Implementar lógica de detalles de cliente</td>
+    <td>Implementar la lógica para obtener los detalles de un cliente distribuidor</td>
+    <td>3h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-08: TASK-02</td>
+    <td>Crear endpoint de detalles</td>
+    <td>Crear el endpoint "/api/v1/clients/{id}" en el controlador</td>
+    <td>2h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-08: TASK-03</td>
+    <td>Validar respuestas de detalles</td>
+    <td>Validar que el endpoint maneje correctamente las respuestas</td>
+    <td>1h</td>
+    <td>Gustavo</td>
+    <td>Done</td>
+</tr>
+
+
 </table>
 
 
