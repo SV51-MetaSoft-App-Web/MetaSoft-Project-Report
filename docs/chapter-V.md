@@ -2383,116 +2383,172 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
     <tbody>
         <!--======================================REPOSITORY======================================-->
         <tr>
-            <td rowspan="14">END POINT</td>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
+            <td rowspan="14">ElixirControl-Platform</td>
+            <td>feature/customer-management</td>
+            <td>96a3929</td>
+            <td>feat(customer-management): client command service added.</td>
+            <td>client command service added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>3c32ce3</td>
+            <td>feat(customer-management): client repository added.</td>
+            <td>client repository added.</td>
+            <td>Commited on 31/10/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>2233cbc</td>
+            <td>feat(customer-management): interface client query service added.</td>
+            <td>interface client query service added.</td>
             <td>Commited on (Date)</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/customer-management</td>
+            <td>7738dea</td>
+            <td>feat(customer-management): dependency injection of clients added.</td>
+            <td>dependency injection of clients added.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/customer-management</td>
+            <td>1bd6da8</td>
+            <td>feat(customer-management): find all clients async method added.</td>
+            <td>find all clients async method added.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/inventory-management</td>
+            <td>06ca584</td>
+            <td>chore(inventory-management): Added the inventory management bounded context structure.</td>
+            <td>Added the inventory management bounded context structure.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/inventory-management</td>
+            <td>b515735</td>
+            <td>feat(inventory-management): Added resources and application layer for inventory.</td>
+            <td>Added resources and application layer for inventory.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/inventory-management</td>
+            <td>4c1b464</td>
+            <td>feat(inventory-management): Added transform and application layer for inventory.</td>
+            <td>Added transform and application layer for inventory.</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/inventory-management</td>
+            <td>b8979ff</td>
+            <td>feat(inventory-management): added interface inventory controller</td>
+            <td>added interface inventory controller</td>
+            <td>Commited on 31/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
+            <td>feature/order-management</td>
+            <td>e06ad04</td>
+            <td>feat(IOrderCommandService): added the OrderCommandService interface for handling the CreateOrderCommand</td>
+            <td>added the OrderCommandService interface for handling the CreateOrderCommand</td>
+            <td>Commited on 30/10/2024</td>
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
-        </tr>
-        <!--=========================================FILA======================================-->
-        <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>
-        </tr>
-        <!--=========================================FILA======================================-->
-        <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td> 
+            <td>feature/order-management</td>
+            <td>7fc94a6</td>
+            <td>feat: added order controller repository and entityassembler</td>
+            <td>added order controller repository and entityassembler</td>
+            <td>Commited on 30/10/2024</td> 
         </tr> 
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>  
+            <td>feature/order-management</td>
+            <td>ce81dc3</td>
+            <td>feat(Orders): added the Orders agreggate</td>
+            <td>added the Orders agreggate</td>
+            <td>Commited on 30/10/2024</td>  
         </tr> 
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>   
+            <td>feature/order-management</td>
+            <td>25c5b31</td>
+            <td>refactor(example): deleted the example md files</td>
+            <td>deleted the example md files</td>
+            <td>Commited on 30/10/2024</td>   
         </tr>
         <!--=========================================FILA======================================-->
         <tr>
-            <td>Branch	</td>
-            <td>Commit Id</td>
-            <td>Commit Message</td>
-            <td>Commit Message Body</td>
-            <td>Commited on (Date)</td>  
+            <td>feature/order-request</td>
+            <td>cd0147d</td>
+            <td>chore(order-request):Added the order request bounded context structure.</td>
+            <td>Added the order request bounded context structure.</td>
+            <td>Commited on 30/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>4406efb</td>
+            <td>feat(order-request): Create Order Command From Resource Assembler added.</td>
+            <td>Create Order Command From Resource Assembler added.</td>
+            <td>Commited on 28/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>9f72938</td>
+            <td>feat(order-request): Get All Orders Query added</td>
+            <td>Get All Orders Query added</td>
+            <td>Commited on 28/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-request</td>
+            <td>a5370e1</td>
+            <td>feat(order-request): Order Controller added.</td>
+            <td>Order Controller added.</td>
+            <td>Commited on 28/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>30e4f42</td>
+            <td>feat(winemaking-process): Added entity and command to add the clarification process to a batch.</td>
+            <td>Added entity and command to add the clarification process to a batch.</td>
+            <td>Commited on 01/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>e816564</td>
+            <td>chore(winemaking-process): Added the winemaking process bounded context structure.</td>
+            <td>Added the winemaking process bounded context structure.</td>
+            <td>Commited on 28/10/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>92089e4</td>
+            <td>feat(winemaking-process): Added the controller that creates the "Clarification" process for the batch.</td>
+            <td>Added the controller that creates the "Clarification" process for the batch.</td>
+            <td>Commited on 01/11/2024</td>  
+        </tr> 
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>b03da24</td>
+            <td>feat(winemaking-process): Added endpoints that return the winemaking processes (Fermentation, Clarification)</td>
+            <td>Added endpoints that return the winemaking processes (Fermentation, Clarification)</td>
+            <td>Commited on 01/11/2024</td>  
         </tr> 
     </tbody>
 </table>
