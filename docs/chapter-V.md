@@ -2188,31 +2188,31 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
 </tr>
         <!--==================================USER STORY==================================-->
         <tr>
-            <td rowspan="3"> CODE USER STORY	</td>
-            <td rowspan="3">TITLE USER STORY</td>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
+            <td rowspan="3">TS-09</td>
+            <td rowspan="3">Registrar un pedido</td>
+            <td>TS-09-T-01</td>
+            <td>Implementar endpoint de pedidos</td>
+            <td>Implementar la lógica para agregar una nueva orden</td>
+            <td>3h</td>
+            <td>Vicente</td>
             <td>Done</td> 
         </tr>
         <!--====================================================================-->
         <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
+            <td>TS-09-T-02</td>
+            <td>Crear endpoint</td>
+            <td>Crear el endpoint "/api/v1/order" en el controlador</td>
+            <td>4h/td>
+            <td>Vicente</td>
             <td>Done</td>
         </tr>
         <!--====================================================================-->
         <tr>
-            <td>CÓDIGO TAREAS</td>
-            <td>TITULO TAREAS	</td>
-            <td>DESCRIPCIÓN TAREA	</td>
-            <td>ESTIMACIÓN</td>
-            <td>PERSONA ASIGNADA</td>
+            <td>TS-09-T-03</td>
+            <td>validar endpoint</td>
+            <td>Validar que el endpoint maneje correctamente las respuestas</td>
+            <td>1h</td>
+            <td>Vicente</td>
             <td>Done</td>
         </tr>
  <!--==================================USER STORY==================================-->
@@ -2328,6 +2328,37 @@ Durante este Sprint, se llevó a cabo el proceso de despliegue de la aplicación
             <td>Gustavo</td>
             <td>Done</td>
         </tr>
+        <!--==================================USER STORY==================================-->
+        <tr>
+            <td rowspan="6"> US-34	</td>
+            <td rowspan="6">Obtener detalles de un pedido</td>
+            <td>US-34: TASK-01</td>
+            <td>Order details	</td>
+            <td>Desarrollo del componente visual order-details	</td>
+            <td>4h</td>
+            <td>Vicente</td>
+            <td>Done</td> 
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>US-34: TASK-02</td>
+            <td>Añadir campos en entity	</td>
+            <td>Añadir los campos necesarios en el entity model para que maneje todos los detalles necesarios del pedido	</td>
+            <td>2h</td>
+            <td>Vicente</td>
+            <td>Done</td>
+        </tr>
+        <!--====================================================================-->
+        <tr>
+            <td>US-34: TASK-03</td>
+            <td>Validar que el service funcione</td>
+            <td>Validar que el service retorne todos los datos del order-details</td>
+            <td>1h</td>
+            <td>Vicente</td>
+            <td>Done</td>
+        </tr>
+ <!--====================================================================-->
+        
 
         <!--====================================================================-->
     </tbody>
