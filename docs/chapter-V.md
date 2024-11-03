@@ -3577,7 +3577,7 @@ Entrevista a Vinicultor
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/ESCnPrRBol5Mh9m1g7LPXlsBOGddZUA2QIj9xLP9Vng8CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dNgRoo</td>
+                <td>[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/ESCnPrRBol5Mh9m1g7LPXlsBOGddZUA2QIj9xLP9Vng8CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dNgRoo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EVCtH24aZttMhqn0jWmJ1RQBMO__wC5WUSpc2nuiC0ZyLA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LtoFx8)</td>
             </tr>
 </tbody>
        
@@ -3618,7 +3618,7 @@ Entrevista a Vinicultor
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td>https://1drv.ms/v/c/cab22ef84dc9095b/EZYjA8O9xGtAhrruq1zHJ1MBeLWhP1zuUOiB_DoX543Agg?e=to7r3s</td>
+                <td>[https://1drv.ms/v/c/cab22ef84dc9095b/EZYjA8O9xGtAhrruq1zHJ1MBeLWhP1zuUOiB_DoX543Agg?e=to7r3s](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EVCtH24aZttMhqn0jWmJ1RQBMO__wC5WUSpc2nuiC0ZyLA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LtoFx8)</td>
             </tr>
 </tbody>
 </table>
@@ -3656,7 +3656,7 @@ Entrevista a Vinicultor
     </tr>
     <tr>
       <td>URL de la entrevista</td>
-      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215285_upc_edu_pe/Ea2HE51ZpMJFi9zmAP-uAxwBHJdT3HN7Nla0UPpN8ydg-A?e=WoAZ7d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215285_upc_edu_pe/Ea2HE51ZpMJFi9zmAP-uAxwBHJdT3HN7Nla0UPpN8ydg-A?e=WoAZ7d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+      <td><a href="[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215285_upc_edu_pe/Ea2HE51ZpMJFi9zmAP-uAxwBHJdT3HN7Nla0UPpN8ydg-A?e=WoAZ7d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215285_upc_edu_pe/Ea2HE51ZpMJFi9zmAP-uAxwBHJdT3HN7Nla0UPpN8ydg-A?e=WoAZ7d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EVCtH24aZttMhqn0jWmJ1RQBMO__wC5WUSpc2nuiC0ZyLA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LtoFx8)</a></td>
     </tr>
   </tbody>
 </table>
@@ -3775,9 +3775,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 <!--========================================= FILA 2 ======================================-->
 <tr>
   <td> 2 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Dificultades en la Navegación y Comprensión de la Propuesta de Valor en la Landing Page </td>
+  <td> 2 </td>
+  <td> Usability: Visibilidad del estado del sistema </td>
 </tr>
 <!--========================================= FILA 3 ======================================-->
 <tr>
