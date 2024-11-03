@@ -2900,6 +2900,44 @@ Entrevista a Vinicultor
 </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>Entrevistado 3</th>
+      <th>Sandra Vázquez</th>
+    </tr>
+    <tr>
+      <th>Entrevistador</th>
+      <th>Gustavo Huanca</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edad</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Pisco</td>
+    </tr>
+    <tr>
+      <td><img src="/assets/img/chapter-V/sprint-3/entrevista3.PNG" alt="agregar foto"></td>
+      <td>
+        <strong>Resumen:</strong><br>
+        Sandra Vázquez, vinicultora de 27 años, participó en una entrevista sobre la usabilidad y diseño de nuestra aplicación. Sandra expresó interés en la opción de cambiar el idioma, aunque sugirió incluir opciones de país en el menú. Al revisar el inventario, señaló que sería útil poder añadir productos en español, ya que no domina el inglés. También exploró la sección de elaboración de vinos y comentó positivamente sobre la presentación de los lotes y su información detallada. Aunque la opción "Mis Clientes" no está implementada, Sandra consideró que sería beneficioso para gestionar contactos de clientes. En "Mis Pedidos", observó que es conveniente poder realizar órdenes desde la aplicación, y en "Mis Productos", apreció la facilidad para añadir vinos. Concluyó que la aplicación es interesante y le gustaría comenzar a usarla pronto, sugiriendo algunos ajustes que mejorarían la experiencia del usuario.
+      </td>
+    </tr>
+    <tr>
+      <td>Timing de la entrevista</td>
+      <td>06:29 min</td>
+    </tr>
+    <tr>
+      <td>URL de la entrevista</td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215285_upc_edu_pe/Ea2HE51ZpMJFi9zmAP-uAxwBHJdT3HN7Nla0UPpN8ydg-A?e=WoAZ7d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215285_upc_edu_pe/Ea2HE51ZpMJFi9zmAP-uAxwBHJdT3HN7Nla0UPpN8ydg-A?e=WoAZ7d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
