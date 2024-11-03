@@ -3324,13 +3324,15 @@ Link de Youtube: https://youtu.be/YTH8Bv54DZs
     About the Product
   </td>
   <td>
-    Contenido 
+    Cantidad de videos: 1
+    Nomenclatura: upc-pre-202402-si730-sv51-metasoft-aboutthe-product-sprint-3
+    Formato: .mp4 
   </td>
   <td>
-    Contenido 
+    Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo.
   </td>
   <td>
-    Contenido 
+    Link:  https://1drv.ms/v/c/cab22ef84dc9095b/Ef6hskhLpFJDiyqCgws149cBkYiR3Z7gNJzAtu0w4I_g5Q?e=B0tbiv
   </td>
 </tr>
 <!--========================================= FILA 6 ======================================-->
