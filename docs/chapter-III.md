@@ -254,47 +254,41 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     <td>Opiniones de usuarios que inspiran confianza </td>
     <td>
         Como visitante con rol de vinicultor que está considerando usar Elixir Control, 
-quiero leer testimonios de otros usuarios, 
-para conocer sus experiencias y validar la efectividad de la aplicación. 
+        quiero leer testimonios de otros usuarios, 
+        para conocer sus experiencias y validar la efectividad de la aplicación. 
     </td>
     <td>
-<<<<<<< HEAD
         <strong>Escenario 01: Ingreso de Datos.</strong> <br>
         Dado que el encargado de bodega se encuentra en la sección de insumos, cuando ingresa los datos del nuevo insumo, entonces el sistema guarda la información y actualiza el inventario.<br>
         <strong>Escenario 02: Notificación al Enólogo.</strong> <br>
         Dado que se ha registrado un nuevo insumo, cuando el sistema envía la notificación al enólogo, entonces el enólogo recibe la información sobre la llegada del nuevo insumo.
     </td>
     <td>EPIC-001</td>
-=======
-       <strong> Scenario 1: Testimonios de usuarios están disponibles </strong>
-
-Given un vinicultor en la landing page
-
-When el visitante llega a la sección de testimonios
-
-Then puede leer las opiniones de otros usuarios de Elixir Control.
-
-<strong> Scenario 2: Testimonios permiten validar la efectividad de la aplicación </strong>
-
-Given un vinicultor en la landing page
-
-When el visitante revisa los testimonios
-
-Then puede validar la efectividad de la aplicación a partir de las experiencias compartidas.  </td>
-<td>EPIC-009</td>
->>>>>>> origin/docs/chapter-3
 </tr>
-
+<!-- User Story 7 -->
+<tr>
+    <td> 
+        <strong> Scenario 1: Testimonios de usuarios están disponibles </strong>
+        Given un vinicultor en la landing page
+        When el visitante llega a la sección de testimonios
+        Then puede leer las opiniones de otros usuarios de Elixir Control.
+        <strong> Scenario 2: Testimonios permiten validar la efectividad de la aplicación </strong>
+        Given un vinicultor en la landing page
+        When el visitante revisa los testimonios
+        Then puede validar la efectividad de la aplicación a partir de las experiencias compartidas.  
+    </td>
+    <td>EPIC-009</td>
+</tr>
 <!-- User Story 7 -->
 <tr>
     <td>US-007</td>
     <td>Navegación fluida en dispositivos móviles </td>
     <td>
        Como visitante que llega a la landing page, 
-quiero que la navegación de la landing page sea fácil y fluida en mi dispositivo móvil, 
-para poder acceder a la información sin interrupciones o problemas de visualización.  </td>
+        quiero que la navegación de la landing page sea fácil y fluida en mi dispositivo móvil, 
+        para poder acceder a la información sin interrupciones o problemas de visualización.  
+    </td>
     <td>
-<<<<<<< HEAD
         <strong>Escenario 01: Registro Manual.</strong> <br>
         Dado que el encargado de despacho se encuentra en la sección de despacho, cuando ingresa manualmente el código del producto, entonces el sistema actualiza el inventario con la información del producto despachado.<br>
         <strong>Escenario 02: Registro de Fecha y Hora.</strong> <br>
@@ -303,24 +297,19 @@ para poder acceder a la información sin interrupciones o problemas de visualiza
         Dado que se han registrado varios despachos, cuando el encargado de despacho genera el reporte, entonces el sistema muestra un listado de todos los productos despachados por día.
     </td>
     <td>EPIC-001</td>
-=======
-     <strong>  Scenario 1: Navegación sin problemas en móvil </strong>
-
+</tr>
+<!-- User Story 8 -->
+<tr>
+<strong>  Scenario 1: Navegación sin problemas en móvil </strong>
 Given un usuario accede a la landing page desde un dispositivo móvil
-
 When carga el sitio web en su totalidad
-
 Then la navegación es fluida y sin problemas de desplazamiento o funcionalidad.
-
 <strong> Scenario 2: Menús adaptados a pantallas pequeñas </strong>
-
 Given un usuario accede desde un dispositivo móvil
-
 When intenta utilizar los menús de navegación
-
 Then los menús se adaptan correctamente al tamaño de pantalla y permiten una navegación eficiente.  </td>
 <td>EPIC-007</td>
->>>>>>> origin/docs/chapter-3
+
 </tr>
 
 <!-- User Story 8 -->

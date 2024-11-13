@@ -815,12 +815,6 @@ Y por ultimo publicamos el proyecto en Visual Studio 2022, utilizando el archivo
 Terminado los pasos nos aparecera un mensaje de exito en la publicación de nuestro proyecto junto a un link del proyecto deplegado.
 
 
-
-
-
-
-
-
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
@@ -2042,6 +2036,7 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
 
 
 ##### 5.2.2.2. Sprint Backlog 2
+
 <table>
   <thead>
     <tr>
@@ -2644,457 +2639,457 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
 <!--Status -> (To-do / In-Process / To-Review / Done) -->
 
 <table>
-    <thead>
-        <tr>
-            <th colspan="7">Srpint 3</th>
-            <th> Sprint 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!--====================================================================-->
-        <tr>
-            <td colspan="1">User Story</td>
-            <td colspan="15">Work-Item / Task</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>Id</td>
-            <td>Title</td>
-            <td>Id</td>
-            <td>Title</td>
-            <td>Description</td>
-            <td>Estimation (hours)</td>
-            <td>Assigned To</td>
-            <td>Status</td>
-        </tr>
-        <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="3" >  TS-01  </td>
-            <td rowspan="3" > Obtener Datos de los procesos de vinificación</td>
-            <td> TS-01-T-01 </td>
-            <td> Crear modelo de datos de vinificación </td>
-            <td> Definir el modelo de datos del proceso de vinificación en la base de datos, incluyendo campos de lote, fase y fechas de cada etapa.	</td>
-            <td>ESTIMACIÓN</td>
-            <td>Janover Saldaña</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td> TS-01-T-02 </td>
-            <td> Implementar endpoint GET para lotes </td>
-            <td> Configurar el endpoint GET (/api/v1/vinificacion/lotes) para consultar información detallada de cada lote en el proceso de vinificación.	</td>
-            <td>5</td>
-            <td>Janover Saldaña</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td> TS-01-T-03 </td>
-            <td> Implementar endpoint GET para etapas </td>
-            <td> Crear endpoints GET (/api/v1/vinificacion/{lote}/etapa) para consultar el estado de cada etapa (fermentación, prensado, clarificación, etc.) de un lote.	</td>
-            <td> 5 </td>
-            <td> Janover Saldaña </td>
-            <td> Done </td>
-        </tr>
-        <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="2"> TS-03 </td>
-            <td rowspan="2"> Eliminar Datos de los Procesos de Vinificación	</td>
-            <td> TS-03-T01 </td>
-            <td> Implementar endpoint DELETE para lotes	</td>
-            <td> Configurar el endpoint DELETE (/api/v1/vinificacion/lotes/{id}) para eliminar un lote completo, incluyendo sus datos de cada etapa del proceso.	</td>
-            <td> 5 </td>
-            <td> Janover Saldaña < /td>
-            <td> Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td> TS-03-T02 </td>
-            <td> Desarrollar capa de servicio para eliminación	</td>
-            <td> Crear la lógica de servicio para eliminar un lote y sus datos relacionados en la base de datos, asegurando integridad referencial.	</td>
-            <td> 5</td>
-            <td> Janover Saldaña </td>
-            <td> Done </td>
-        </tr>
-        <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="1"> TS-04 </td>
-            <td rowspan="1"> Registro de Lotes en el Proceso de Vinificación </td>
-            <td> TS-04-T01</td>
-            <td> Implementar endpoint POST para lotes	</td>
-            <td> Crear el endpoint POST (/api/v1/vinificacion/lotes) para registrar nuevos lotes, incluyendo información básica como tipo de uva y fecha de inicio.	</td>
-            <td> 5 </td>
-            <td> Janover Saldaña </td>
-            <td> Done </td>
-        </tr>
-        <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="1"> TS-05 </td>
-            <td rowspan="1"> Registro de Etapas en el Proceso de Vinificación </td>
-            <td> TS-05-T-01 </td>
-            <td> Implementar endpoint POST para etapas	</td>
-            <td> Crear el endpoint POST (/api/v1/vinificacion/{lote}/etapas) para registrar nuevas etapas de fermentación, prensado, clarificación, envejecimiento y embotellado.	</td>
-            <td> 6 </td>
-            <td> Janover Saldaña </td>
-            <td> Done</td>
-        </tr>
-        <!--==================================USER STORY==================================-->
-   <tr>
-    <td rowspan="4"> TS-14 </td>
-    <td rowspan="4"> Ver detalles de un ítem del inventario</td>
-    <td> TS-14-T-01 </td>
-    <td> Ver detalle del ítem exitosamente </td>
-    <td> Implementar un endpoint y un JSON con la información del ítem cuando se proporciona un ID válido. </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
-    </tr>
-        <!--====================================================================-->
-   <tr>
-    <td> TS-14-T-02 </td>
-    <td> Diseño de la Estructura de la API </td>
-    <td> Definir la estructura y los endpoints de la API para acceder a los detalles del ítem del inventario (/api/inventory/items/{id}). </td>
-    <td> 1h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
-    </tr>
-        <!--====================================================================-->
- <tr>
-    <td> TS-14-T-03 </td>
-    <td> Manejo de Control de Errores </td>
-    <td> Implementar un manejo adecuado de errores para las respuestas de la API, como el mensaje de error 404. </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
-</tr>
-        <!--====================================================================-->
+<thead>
+  <tr>
+  <th colspan="7">Srpint 3</th>
+  <th> Sprint 3</th>
+  </tr>
+</thead>
+<tbody>
+<!--====================================================================-->
 <tr>
-    <td> TS-14-T-04 </td>
-    <td> Prueba Unitaria para la API </td>
-    <td> Desarrollar pruebas unitarias que verifiquen el comportamiento correcto del endpoint para cada uno de los escenarios definidos, incluyendo: 
-        - Prueba para un ID válido.
-        - Prueba para un ID inexistente.
-        - Prueba para solicitud sin autorización.
-    </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
-</tr>
-      <!--==================================USER STORY==================================-->
-<tr>
-    <td rowspan="4"> TS-16 </td>
-    <td rowspan="4"> Agregar nuevo ítem al inventario</td>
-    <td> TS-16-T-01 </td>
-    <td> Implementar endpoint para agregar ítem </td>
-    <td> Implementar un endpoint y un JSON para agregar un nuevo ítem al inventario. </td>
-    <td> 1h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td colspan="1">User Story</td>
+  <td colspan="15">Work-Item / Task</td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> TS-16-T-02 </td>
-    <td> Validar datos del ítem </td>
-    <td> Asegurarse de que los datos del nuevo ítem cumplan con las validaciones necesarias antes de ser agregados. </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td>Id</td>
+  <td>Title</td>
+  <td>Id</td>
+  <td>Title</td>
+  <td>Description</td>
+  <td>Estimation (hours)</td>
+  <td>Assigned To</td>
+  <td>Status</td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="3" >  TS-01  </td>
+  <td rowspan="3" > Obtener Datos de los procesos de vinificación</td>
+  <td> TS-01-T-01 </td>
+  <td> Crear modelo de datos de vinificación </td>
+  <td> Definir el modelo de datos del proceso de vinificación en la base de datos, incluyendo campos de lote, fase y fechas de cada etapa.	</td>
+  <td>ESTIMACIÓN</td>
+  <td>Janover Saldaña</td>
+  <td>Done</td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> TS-16-T-03 </td>
-    <td> Manejo de errores en la API </td>
-    <td> Implementar manejo de errores para situaciones como datos inválidos o problemas de conexión. </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td> TS-01-T-02 </td>
+  <td> Implementar endpoint GET para lotes </td>
+  <td> Configurar el endpoint GET (/api/v1/vinificacion/lotes) para consultar información detallada de cada lote en el proceso de vinificación.	</td>
+  <td>5</td>
+  <td>Janover Saldaña</td>
+  <td>Done</td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> TS-16-T-04 </td>
-    <td> Pruebas unitarias para agregar ítem </td>
-    <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint para agregar un nuevo ítem. </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done</td>
+  <td> TS-01-T-03 </td>
+  <td> Implementar endpoint GET para etapas </td>
+  <td> Crear endpoints GET (/api/v1/vinificacion/{lote}/etapa) para consultar el estado de cada etapa (fermentación, prensado, clarificación, etc.) de un lote.	</td>
+  <td> 5 </td>
+  <td> Janover Saldaña </td>
+  <td> Done </td>
 </tr>
-       <!--==================================USER STORY==================================-->
+<!--==================================USER STORY==================================-->
 <tr>
-    <td rowspan="4"> US-32 </td>
-    <td rowspan="4"> Filtrar insumos del inventario por categoría</td>
-    <td> US-32-T-01 </td>
-    <td> Implementar endpoint de filtrado </td>
-    <td> Implementar un endpoint que permita filtrar insumos del inventario según la categoría seleccionada. </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td rowspan="2"> TS-03 </td>
+  <td rowspan="2"> Eliminar Datos de los Procesos de Vinificación	</td>
+  <td> TS-03-T01 </td>
+  <td> Implementar endpoint DELETE para lotes	</td>
+  <td> Configurar el endpoint DELETE (/api/v1/vinificacion/lotes/{id}) para eliminar un lote completo, incluyendo sus datos de cada etapa del proceso.	</td>
+  <td> 5 </td>
+  <td> Janover Saldaña < /td>
+  <td> Done</td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> US-32-T-02 </td>
-    <td> Validar categorías disponibles </td>
-    <td> Asegurarse de que las categorías disponibles para el filtrado sean correctas y estén actualizadas. </td>
-    <td> 1h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td> TS-03-T02 </td>
+  <td> Desarrollar capa de servicio para eliminación	</td>
+  <td> Crear la lógica de servicio para eliminar un lote y sus datos relacionados en la base de datos, asegurando integridad referencial.	</td>
+  <td> 5</td>
+  <td> Janover Saldaña </td>
+  <td> Done </td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="1"> TS-04 </td>
+  <td rowspan="1"> Registro de Lotes en el Proceso de Vinificación </td>
+  <td> TS-04-T01</td>
+  <td> Implementar endpoint POST para lotes	</td>
+  <td> Crear el endpoint POST (/api/v1/vinificacion/lotes) para registrar nuevos lotes, incluyendo información básica como tipo de uva y fecha de inicio.	</td>
+  <td> 5 </td>
+  <td> Janover Saldaña </td>
+  <td> Done </td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="1"> TS-05 </td>
+  <td rowspan="1"> Registro de Etapas en el Proceso de Vinificación </td>
+  <td> TS-05-T-01 </td>
+  <td> Implementar endpoint POST para etapas	</td>
+  <td> Crear el endpoint POST (/api/v1/vinificacion/{lote}/etapas) para registrar nuevas etapas de fermentación, prensado, clarificación, envejecimiento y embotellado.	</td>
+  <td> 6 </td>
+  <td> Janover Saldaña </td>
+  <td> Done</td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="4"> TS-14 </td>
+  <td rowspan="4"> Ver detalles de un ítem del inventario</td>
+  <td> TS-14-T-01 </td>
+  <td> Ver detalle del ítem exitosamente </td>
+  <td> Implementar un endpoint y un JSON con la información del ítem cuando se proporciona un ID válido. </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> US-32-T-03 </td>
-    <td> Manejo de errores en el filtrado </td>
-    <td> Implementar manejo de errores para situaciones como categorías no encontradas o problemas en la consulta. </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td> TS-14-T-02 </td>
+  <td> Diseño de la Estructura de la API </td>
+  <td> Definir la estructura y los endpoints de la API para acceder a los detalles del ítem del inventario (/api/inventory/items/{id}). </td>
+  <td> 1h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> US-32-T-04 </td>
-    <td> Pruebas unitarias para el filtrado </td>
-    <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de filtrado por categoría. </td>
-    <td> 1h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
-</tr>
-       <!--==================================USER STORY==================================-->
-<tr>
-    <td rowspan="4"> US-33 </td>
-    <td rowspan="4"> Buscar insumos en el inventario</td>
-    <td> US-33-T-01 </td>
-    <td> Implementar endpoint de búsqueda </td>
-    <td> Implementar un endpoint que permita buscar insumos en el inventario utilizando diferentes criterios. </td>
-    <td> 1h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td> TS-14-T-03 </td>
+  <td> Manejo de Control de Errores </td>
+  <td> Implementar un manejo adecuado de errores para las respuestas de la API, como el mensaje de error 404. </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> US-33-T-02 </td>
-    <td> Filtrar resultados por atributos </td>
-    <td> Permitir a los usuarios filtrar los resultados de búsqueda por atributos específicos, como nombre, categoría y cantidad. </td>
-    <td> 1h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td> TS-14-T-04 </td>
+  <td> Prueba Unitaria para la API </td>
+  <td> Desarrollar pruebas unitarias que verifiquen el comportamiento correcto del endpoint para cada uno de los escenarios definidos, incluyendo: 
+  - Prueba para un ID válido.
+  - Prueba para un ID inexistente.
+  - Prueba para solicitud sin autorización.
+  </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="4"> TS-16 </td>
+  <td rowspan="4"> Agregar nuevo ítem al inventario</td>
+  <td> TS-16-T-01 </td>
+  <td> Implementar endpoint para agregar ítem </td>
+  <td> Implementar un endpoint y un JSON para agregar un nuevo ítem al inventario. </td>
+  <td> 1h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> US-33-T-03 </td>
-    <td> Manejo de errores en la búsqueda </td>
-    <td> Implementar manejo de errores para situaciones como insumos no encontrados o problemas en la consulta. </td>
-    <td> 2h </td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td> TS-16-T-02 </td>
+  <td> Validar datos del ítem </td>
+  <td> Asegurarse de que los datos del nuevo ítem cumplan con las validaciones necesarias antes de ser agregados. </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
 </tr>
 <!--====================================================================-->
 <tr>
-    <td> US-33-T-04 </td>
-    <td> Pruebas unitarias para la búsqueda </td>
-    <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de búsqueda de insumos. </td>
-    <td> 1h < td>
-    <td> Luis Villegas </td>
-    <td> Done </td>
+  <td> TS-16-T-03 </td>
+  <td> Manejo de errores en la API </td>
+  <td> Implementar manejo de errores para situaciones como datos inválidos o problemas de conexión. </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
 </tr>
-        <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="3">TS-09</td>
-            <td rowspan="3">Registrar un pedido</td>
-            <td>TS-09-T-01</td>
-            <td>Implementar endpoint de pedidos</td>
-            <td>Implementar la lógica para agregar una nueva orden</td>
-            <td>3h</td>
-            <td>Vicente</td>
-            <td>Done</td> 
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>TS-09-T-02</td>
-            <td>Crear endpoint</td>
-            <td>Crear el endpoint "/api/v1/order" en el controlador</td>
-            <td>4h</td>
-            <td>Vicente</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>TS-09-T-03</td>
-            <td>validar endpoint</td>
-            <td>Validar que el endpoint maneje correctamente las respuestas</td>
-            <td>1h</td>
-            <td>Vicente</td>
-            <td>Done</td>
-        </tr>
- <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="6"> US-16	</td>
-            <td rowspan="6">Crear un cliente distribuidor</td>
-            <td>US-16: TASK-01</td>
-            <td>Crear formulario de cliente distribuidor	</td>
-            <td>Desarrollar un formulario para registrar y gestionar los datos de clientes distribuidores, asegurando que la información necesaria esté completa y estructurada para facilitar la administración y consulta posterior.	</td>
-            <td>1h</td>
-            <td>Gustavo</td>
-            <td>Done</td> 
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>US-16: TASK-02 </td>
-            <td>Configurar validaciones de campos obligatorios	</td>
-            <td>Configura los campos esenciales como obligatorios para asegurar que se complete toda la información necesaria antes de enviar el formulario.	</td>
-            <td>2h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>US-16: TASK-03</td>
-            <td>Desarrollar método de creación en ClientsService	</td>
-            <td>Crear un método en ClientsService que permita enviar los datos de un cliente nuevo a la API, realizando una solicitud POST para registrar la información en el servidor.	</td>
-            <td>2h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>US-16: TASK-04</td>
-            <td>Conectar el formulario con el método de creación del servicio	</td>
-            <td>Implementar la conexión entre el formulario de cliente distribuidor y el método que permite registrar un nuevo cliente. Esto incluye obtener los datos del formulario al enviarlo y gestionar la respuesta para confirmar la creación exitosa y manejar posibles errores.</td>
-            <td>2h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>US-16: TASK-05</td>
-            <td>Mostrar notificación de éxito	</td>
-            <td>Implementar una notificación que informe al usuario sobre el registro exitoso del cliente, asegurando que sea clara y se cierre automáticamente después de unos segundos..</td>
-            <td>1h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
 <!--====================================================================-->
-        <tr>
-            <td>US-16: TASK-06</td>
-            <td>Redirigir a la lista de clientes distribuidores	</td>
-            <td> Redirigir al usuario a la lista de clientes distribuidores tras un registro exitoso, asegurando que la navegación sea intuitiva y rápida.</td>
-            <td>1h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
- <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="6"> US-17	</td>
-            <td rowspan="6">Editar un cliente distribuidor</td>
-            <td>US-17: TASK-01</td>
-            <td>Crear componente de edición	</td>
-            <td>Desarrollar ClientEditComponent.vue para editar los datos de un cliente, cargando la información actual y permitiendo su actualización a través de un formulario.	</td>
-            <td>3h</td>
-            <td>Gustavo</td>
-            <td>Done</td> 
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>US-17: TASK-02</td>
-            <td>Implementar método de actualización en ClientsService	</td>
-            <td>Desarrollar un método en ClientsService que permita actualizar los datos de un cliente existente mediante una solicitud PUT a la API.	</td>
-            <td>2h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>US-17: TASK-03</td>
-            <td>Configurar validaciones de datos	</td>
-            <td>Implementar las validaciones necesarias en el formulario de edición para asegurar que todos los campos requeridos sean completados correctamente antes de permitir la actualización de los datos del cliente.	</td>
-            <td>1h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
- <!--====================================================================-->
-        <tr>
-            <td>US-17: TASK-04</td>
-            <td>Conectar el formulario de edición con el servicio de actualización	</td>
-            <td> Integrar el formulario de edición con el método de actualización del servicio, asegurando que los datos ingresados se envíen correctamente para actualizar la información del cliente en la API.	</td>
-            <td>1h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
- <!--====================================================================-->
-        <tr>
-            <td>US-17: TASK-05</td>
-            <td> Mostrar notificación de éxito de edición	</td>
-            <td>Implementar una notificación que informe al usuario sobre la edición exitosa de los datos del cliente, asegurando que sea clara y visible, y que se cierre automáticamente después de unos segundos.	</td>
-            <td>2h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
+<tr>
+  <td> TS-16-T-04 </td>
+  <td> Pruebas unitarias para agregar ítem </td>
+  <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint para agregar un nuevo ítem. </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done</td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="4"> US-32 </td>
+  <td rowspan="4"> Filtrar insumos del inventario por categoría</td>
+  <td> US-32-T-01 </td>
+  <td> Implementar endpoint de filtrado </td>
+  <td> Implementar un endpoint que permita filtrar insumos del inventario según la categoría seleccionada. </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
 <!--====================================================================-->
-        <tr>
-            <td>US-17: TASK-06</td>
-            <td> Actualizar vista de detalles	</td>
-            <td>Actualizar la vista de detalles del cliente para mostrar la información más reciente después de la edición..	</td>
-            <td>1h</td>
-            <td>Gustavo</td>
-            <td>Done</td>
-        </tr>
-        <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="3"> TS-21 </td>
-            <td rowspan="3"> Creación de pedidos de vinos </td>
-            <td> TS-21-T-01 </td>
-            <td> Implementar formulario de creación de pedidos </td>
-            <td> Desarrollar el formulario de pedidos que permita seleccionar el tipo de producto y la cantidad deseada. </td>
-            <td> 3h </td>
-            <td> OscarArmas </td>
-            <td> Done </td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td> TS-21-T-02 </td>
-            <td> Configurar endpoint para la creación de pedidos </td>
-            <td> Configurar el endpoint POST (/api/v1/pedidos) para procesar la creación de nuevos pedidos de vino. </td>
-            <td> 3h </td>
-            <td> OscarArmas </td>
-            <td> Done </td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td> TS-21-T-03 </td>
-            <td> Validar los datos del pedido </td>
-            <td> Implementar validaciones en el formulario de pedidos para asegurar que los datos sean correctos y completos antes de procesarlos. </td>
-            <td> 3h </td>
-            <td> OscarArmas </td>
-            <td> Done </td>
-        </tr>
-        <!--==================================USER STORY==================================-->
-        <tr>
-            <td rowspan="3"> US-34	</td>
-            <td rowspan="3">Obtener detalles de un pedido</td>
-            <td>US-34: TASK-01</td>
-            <td>Order details	</td>
-            <td>Desarrollo del componente visual order-details	</td>
-            <td>4h</td>
-            <td>Vicente</td>
-            <td>Done</td> 
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>US-34: TASK-02</td>
-            <td>Añadir campos en entity	</td>
-            <td>Añadir los campos necesarios en el entity model para que maneje todos los detalles necesarios del pedido	</td>
-            <td>2h</td>
-            <td>Vicente</td>
-            <td>Done</td>
-        </tr>
-        <!--====================================================================-->
-        <tr>
-            <td>US-34: TASK-03</td>
-            <td>Validar que el service funcione</td>
-            <td>Validar que el service retorne todos los datos del order-details</td>
-            <td>1h</td>
-            <td>Vicente</td>
-            <td>Done</td>
-        </tr>
-        <!--==================================USER STORY==================================-->
+<tr>
+  <td> US-32-T-02 </td>
+  <td> Validar categorías disponibles </td>
+  <td> Asegurarse de que las categorías disponibles para el filtrado sean correctas y estén actualizadas. </td>
+  <td> 1h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td> US-32-T-03 </td>
+  <td> Manejo de errores en el filtrado </td>
+  <td> Implementar manejo de errores para situaciones como categorías no encontradas o problemas en la consulta. </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td> US-32-T-04 </td>
+  <td> Pruebas unitarias para el filtrado </td>
+  <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de filtrado por categoría. </td>
+  <td> 1h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="4"> US-33 </td>
+  <td rowspan="4"> Buscar insumos en el inventario</td>
+  <td> US-33-T-01 </td>
+  <td> Implementar endpoint de búsqueda </td>
+  <td> Implementar un endpoint que permita buscar insumos en el inventario utilizando diferentes criterios. </td>
+  <td> 1h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td> US-33-T-02 </td>
+  <td> Filtrar resultados por atributos </td>
+  <td> Permitir a los usuarios filtrar los resultados de búsqueda por atributos específicos, como nombre, categoría y cantidad. </td>
+  <td> 1h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td> US-33-T-03 </td>
+  <td> Manejo de errores en la búsqueda </td>
+  <td> Implementar manejo de errores para situaciones como insumos no encontrados o problemas en la consulta. </td>
+  <td> 2h </td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td> US-33-T-04 </td>
+  <td> Pruebas unitarias para la búsqueda </td>
+  <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de búsqueda de insumos. </td>
+  <td> 1h < td>
+  <td> Luis Villegas </td>
+  <td> Done </td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="3">TS-09</td>
+  <td rowspan="3">Registrar un pedido</td>
+  <td>TS-09-T-01</td>
+  <td>Implementar endpoint de pedidos</td>
+  <td>Implementar la lógica para agregar una nueva orden</td>
+  <td>3h</td>
+  <td>Vicente</td>
+  <td>Done</td> 
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>TS-09-T-02</td>
+  <td>Crear endpoint</td>
+  <td>Crear el endpoint "/api/v1/order" en el controlador</td>
+  <td>4h</td>
+  <td>Vicente</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>TS-09-T-03</td>
+  <td>validar endpoint</td>
+  <td>Validar que el endpoint maneje correctamente las respuestas</td>
+  <td>1h</td>
+  <td>Vicente</td>
+  <td>Done</td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="6"> US-16	</td>
+  <td rowspan="6">Crear un cliente distribuidor</td>
+  <td>US-16: TASK-01</td>
+  <td>Crear formulario de cliente distribuidor	</td>
+  <td>Desarrollar un formulario para registrar y gestionar los datos de clientes distribuidores, asegurando que la información necesaria esté completa y estructurada para facilitar la administración y consulta posterior.	</td>
+  <td>1h</td>
+  <td>Gustavo</td>
+  <td>Done</td> 
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-16: TASK-02 </td>
+  <td>Configurar validaciones de campos obligatorios	</td>
+  <td>Configura los campos esenciales como obligatorios para asegurar que se complete toda la información necesaria antes de enviar el formulario.	</td>
+  <td>2h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-16: TASK-03</td>
+  <td>Desarrollar método de creación en ClientsService	</td>
+  <td>Crear un método en ClientsService que permita enviar los datos de un cliente nuevo a la API, realizando una solicitud POST para registrar la información en el servidor.	</td>
+  <td>2h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-16: TASK-04</td>
+  <td>Conectar el formulario con el método de creación del servicio	</td>
+  <td>Implementar la conexión entre el formulario de cliente distribuidor y el método que permite registrar un nuevo cliente. Esto incluye obtener los datos del formulario al enviarlo y gestionar la respuesta para confirmar la creación exitosa y manejar posibles errores.</td>
+  <td>2h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-16: TASK-05</td>
+  <td>Mostrar notificación de éxito	</td>
+  <td>Implementar una notificación que informe al usuario sobre el registro exitoso del cliente, asegurando que sea clara y se cierre automáticamente después de unos segundos..</td>
+  <td>1h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-16: TASK-06</td>
+  <td>Redirigir a la lista de clientes distribuidores	</td>
+  <td> Redirigir al usuario a la lista de clientes distribuidores tras un registro exitoso, asegurando que la navegación sea intuitiva y rápida.</td>
+  <td>1h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="6"> US-17	</td>
+  <td rowspan="6">Editar un cliente distribuidor</td>
+  <td>US-17: TASK-01</td>
+  <td>Crear componente de edición	</td>
+  <td>Desarrollar ClientEditComponent.vue para editar los datos de un cliente, cargando la información actual y permitiendo su actualización a través de un formulario.	</td>
+  <td>3h</td>
+  <td>Gustavo</td>
+  <td>Done</td> 
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-17: TASK-02</td>
+  <td>Implementar método de actualización en ClientsService	</td>
+  <td>Desarrollar un método en ClientsService que permita actualizar los datos de un cliente existente mediante una solicitud PUT a la API.	</td>
+  <td>2h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-17: TASK-03</td>
+  <td>Configurar validaciones de datos	</td>
+  <td>Implementar las validaciones necesarias en el formulario de edición para asegurar que todos los campos requeridos sean completados correctamente antes de permitir la actualización de los datos del cliente.	</td>
+  <td>1h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-17: TASK-04</td>
+  <td>Conectar el formulario de edición con el servicio de actualización	</td>
+  <td> Integrar el formulario de edición con el método de actualización del servicio, asegurando que los datos ingresados se envíen correctamente para actualizar la información del cliente en la API.	</td>
+  <td>1h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-17: TASK-05</td>
+  <td> Mostrar notificación de éxito de edición	</td>
+  <td>Implementar una notificación que informe al usuario sobre la edición exitosa de los datos del cliente, asegurando que sea clara y visible, y que se cierre automáticamente después de unos segundos.	</td>
+  <td>2h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-17: TASK-06</td>
+  <td> Actualizar vista de detalles	</td>
+  <td>Actualizar la vista de detalles del cliente para mostrar la información más reciente después de la edición..	</td>
+  <td>1h</td>
+  <td>Gustavo</td>
+  <td>Done</td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="3"> TS-21 </td>
+  <td rowspan="3"> Creación de pedidos de vinos </td>
+  <td> TS-21-T-01 </td>
+  <td> Implementar formulario de creación de pedidos </td>
+  <td> Desarrollar el formulario de pedidos que permita seleccionar el tipo de producto y la cantidad deseada. </td>
+  <td> 3h </td>
+  <td> OscarArmas </td>
+  <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td> TS-21-T-02 </td>
+  <td> Configurar endpoint para la creación de pedidos </td>
+  <td> Configurar el endpoint POST (/api/v1/pedidos) para procesar la creación de nuevos pedidos de vino. </td>
+  <td> 3h </td>
+  <td> OscarArmas </td>
+  <td> Done </td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td> TS-21-T-03 </td>
+  <td> Validar los datos del pedido </td>
+  <td> Implementar validaciones en el formulario de pedidos para asegurar que los datos sean correctos y completos antes de procesarlos. </td>
+  <td> 3h </td>
+  <td> OscarArmas </td>
+  <td> Done </td>
+</tr>
+<!--==================================USER STORY==================================-->
+<tr>
+  <td rowspan="3"> US-34	</td>
+  <td rowspan="3">Obtener detalles de un pedido</td>
+  <td>US-34: TASK-01</td>
+  <td>Order details	</td>
+  <td>Desarrollo del componente visual order-details	</td>
+  <td>4h</td>
+  <td>Vicente</td>
+  <td>Done</td> 
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-34: TASK-02</td>
+  <td>Añadir campos en entity	</td>
+  <td>Añadir los campos necesarios en el entity model para que maneje todos los detalles necesarios del pedido	</td>
+  <td>2h</td>
+  <td>Vicente</td>
+  <td>Done</td>
+</tr>
+<!--====================================================================-->
+<tr>
+  <td>US-34: TASK-03</td>
+  <td>Validar que el service funcione</td>
+  <td>Validar que el service retorne todos los datos del order-details</td>
+  <td>1h</td>
+  <td>Vicente</td>
+  <td>Done</td>
+</tr>
+<!--==================================USER STORY==================================-->
 <tr>
     <td rowspan="4"> TS-19 </td>
     <td rowspan="4"> Despliegue del Servicio Web </td>
@@ -3132,7 +3127,6 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <td>Gustavo</td>
     <td>Done</td>
 </tr>
-
 <!--================================== USER STORY TS-05 ==================================-->
 <tr>
     <td rowspan="3">TS-05</td>
@@ -3160,7 +3154,6 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <td>Gustavo</td>
     <td>Done</td>
 </tr>
-
 <!--================================== USER STORY TS-08 ==================================-->
 <tr>
     <td rowspan="3">TS-08</td>
@@ -3199,6 +3192,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <td>Gustavo</td>
     <td>Done</td>
 </tr>
+<!--====================================================================-->
 <tr>
     <td>TS-18: TASK-02</td>
     <td>Desarrollar método de eliminación</td>
@@ -3207,6 +3201,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <td>Gustavo</td>
     <td>Done</td>
 </tr>
+<!--====================================================================-->
 <tr>
     <td>TS-18: TASK-03</td>
     <td>Implementar diálogo de confirmación</td>
@@ -3215,10 +3210,8 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
     <td>Gustavo</td>
     <td>Done</td>
 </tr>
-
-
+</tbody>
 </table>
-
 
 
 #### 5.2.3.3.Development Evidence for Sprint Review.
@@ -3791,36 +3784,36 @@ En esta entrega no se han realizado los test
 
 * Landing Page Execution
 
-Evidencias de ultima version de Landing Page
+Evidencias de última version de Landing Page
 
-![fronted.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Ffronted.png)
+![fronted.png](/assets/img/chapter-V/sprint-3/frontend.png)
 
 Evidencia del video de About the product
 
-![aboutapp.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Faboutapp.png)
+![aboutapp.png](/assets/img/chapter-V/sprint-3/aboutapp.png)
 
 * Web Application Execution
 
-Evidencias de ultima version de la aplicacion con una mejora en la interfaz de navegacion, mejora en los detalles del inventario
-y se completo la seccion de "My Clients"
+Evidencias de última version de la aplicación con una mejora en la interfaz de navegación, mejora en los detalles 
+del inventario y se completo la sección de "My Clients"
 
-![frontendv2.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Ffrontendv2.png)
+![frontendv2.png](/assets/img/chapter-V/sprint-3/frontendv2.png)
 
 Evidencia de mejora del inventario
 
-![frontendv3.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Ffrontendv3.png)
+![frontendv3.png](/assets/img/chapter-V/sprint-3/frontendv3.png)
 
-Evidencia de la seccion de "My Clients"
+Evidencia de la sección de "My Clients"
 
-![frontendv4.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Ffrontendv4.png)
+![frontendv4.png](/assets/img/chapter-V/sprint-3/frontendv4.png)
 
 * Web Services Execution
 
 Evidencias de Swagger conectado a nuestro backend:
 
-![api1.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fapi1.png)
+![api1.png](/assets/img/chapter-V/sprint-3/api1.png)
 
-![api2.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Fapi2.png)
+![api2.png](/assets/img/chapter-V/sprint-3/api2.png)
 
 Enlace del Web Services desplegado: http://elixircontrol.runasp.net/swagger/index.html
 
@@ -3910,9 +3903,9 @@ Finalmente nuestra base de datos esta creada y lista para ser utilizada
 ### Despliegue del Web Service
 
 
-Para el despliegue del  Web Service se utilizo MonsterASP.net
+Para el despliegue del Web Service se utilizó MonsterASP.net
 
-Comenzamos con la creacion de cuenta en MonsterASP.net
+Comenzamos con la creación de cuenta en MonsterASP.net
 
 ![](../assets/img/chapter-V/sprint-3/deploy.PNG)
 
@@ -3963,7 +3956,7 @@ Finalmente nuestro  Web Service esta desplegado y listo para ser utilizado
 ![](../assets/img/chapter-V/sprint-3/deploy14.PNG)
 
 
-Link del  Web Service desplegado: [http://elixircontrol.runasp.net/swagger/index.html](http://elixircontrol.runasp.net/swagger/index.html)
+Link del Web Service desplegado: [http://elixircontrol.runasp.net/swagger/index.html](http://elixircontrol.runasp.net/swagger/index.html)
 
 
 
@@ -4052,7 +4045,6 @@ de un Call To Action situado en la vista principal de la landing page.
 Entrevista a Vinicultor
 
 <table>
-
 <thead>
             <tr>
                 <th>Entrevistado 1</th>
@@ -4090,14 +4082,10 @@ Entrevista a Vinicultor
                 <td>[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/ESCnPrRBol5Mh9m1g7LPXlsBOGddZUA2QIj9xLP9Vng8CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dNgRoo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EVCtH24aZttMhqn0jWmJ1RQBMO__wC5WUSpc2nuiC0ZyLA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LtoFx8)</td>
             </tr>
 </tbody>
-       
-
-
 </table>
 
 
 <table>
-
 <thead>
             <tr>
                 <th>Entrevistado 2</th>
@@ -4441,33 +4429,45 @@ Link de Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201
 
 Link de Youtube: https://youtu.be/YTH8Bv54DZs
 
-
-
-
-
-
 ## 6. Conclusiones, Bibliografía y Anexos.
 
 ### Conclusiones 
 
 
-<<<<<<< HEAD
-En conclusión, el objetivo de este informe es presentar un análisis detallado que documente la solución de software propuesta, ElixirControl. Para alcanzar este objetivo, es fundamental incluir información clara y concisa sobre el proyecto, que abarque desde la descripción de la idea hasta los requisitos específicos y las funcionalidades deseadas. Este análisis debe ser exhaustivo, proporcionando una visión completa de cómo la solución abordará las necesidades del sector vitivinícola.
-Las user stories desempeñan un papel crucial en este proceso, ya que permiten describir los requisitos de manera simple y centrada en el usuario. En resumen, las user stories son herramientas valiosas en el desarrollo ágil de software, asegurando que el equipo se enfoque en crear un producto que satisfaga efectivamente las necesidades de los clientes y mejore su experiencia en la gestión de procesos productivos y logísticos.
-=======
-En conclusión, el objetivo de este informe es presentar un análisis detallado que documente la solución de software propuesta, ElixirControl. Para alcanzar este objetivo, es fundamental incluir información clara y concisa sobre el proyecto, que abarque desde la descripción de la idea hasta los requisitos específicos y las funcionalidades deseadas. Este análisis debe ser exhaustivo, proporcionando una visión completa de cómo la solución abordará las necesidades del sector vitivinícola. Las user stories desempeñan un papel crucial en este proceso, ya que permiten describir los requisitos de manera simple y centrada en el usuario. En resumen, las user stories son herramientas valiosas en el desarrollo ágil de software, asegurando que el equipo se enfoque en crear un producto que satisfaga efectivamente las necesidades de los clientes y mejore su experiencia en la gestión de procesos productivos y logísticos.
 
->>>>>>> origin/docs/chapter-5
+En conclusión, el objetivo de este informe es presentar un análisis detallado que documente 
+la solución de software propuesta, ElixirControl. Para alcanzar este objetivo, es fundamental
+incluir información clara y concisa sobre el proyecto, que abarque desde la descripción de 
+la idea hasta los requisitos específicos y las funcionalidades deseadas. Este análisis debe
+ser exhaustivo, proporcionando una visión completa de cómo la solución abordará las 
+necesidades del sector vitivinícola.
+
+Las user stories desempeñan un papel crucial en este proceso, ya que permiten describir
+los requisitos de manera simple y centrada en el usuario. En resumen, las user stories 
+son herramientas valiosas en el desarrollo ágil de software, asegurando que el equipo se
+enfoque en crear un producto que satisfaga efectivamente las necesidades de los clientes 
+y mejore su experiencia en la gestión de procesos productivos y logísticos.
+
+En conclusión, el objetivo de este informe es presentar un análisis detallado que documente 
+la solución de software propuesta, ElixirControl. Para alcanzar este objetivo, es fundamental
+incluir información clara y concisa sobre el proyecto, que abarque desde la descripción de 
+la idea hasta los requisitos específicos y las funcionalidades deseadas. Este análisis 
+debe ser exhaustivo, proporcionando una visión completa de cómo la solución abordará las 
+necesidades del sector vitivinícola. Las user stories desempeñan un papel crucial en este
+proceso, ya que permiten describir los requisitos de manera simple y centrada en el usuario.
+En resumen, las user stories son herramientas valiosas en el desarrollo ágil de software,
+asegurando que el equipo se enfoque en crear un producto que satisfaga efectivamente las 
+necesidades de los clientes y mejore su experiencia en la gestión de procesos productivos
+y logísticos.
+
+
 
 ### Bibliografía
 
 Celis Escudero, F. R. (2001). Elaboración de vino con mosto concentrado de uva borgoña negra (Vitis labrusca) [Tesis, Universidad Nacional de San Martín]. Repositorio UNSM. https://repositorio.unsm.edu.pe/bitstream/11458/58/1/21%272%2700075.pdf
 
-<<<<<<< HEAD
 Celis Escudero, F. R. (2001). Elaboración de vino con mosto concentrado de uva borgoña negra (Vitis labrusca) [Tesis, Universidad Nacional de San Martín]. Repositorio UNSM. https://repositorio.unsm.edu.pe/bitstream/11458/58/1/21%272%2700075.pdf
 
-=======
->>>>>>> origin/docs/chapter-5
 Gómez Rubio, D. J. (2014). Investigación científica y tecnológica de la vinificación de la uva Red Globe (Vitis Vinífera L.) [Tesis, Universidad Católica de Santa María]. Repositorio UCSM. https://repositorio.ucsm.edu.pe/items/8d95b4ac-8c09-4354-8df7-2507eed3c70a
 
 Husnayo Guillermo, E. G. (2012). Análisis económico de la elaboración del vino en Tacna [Tesis, Universidad Nacional Jorge Basadre Grohmann]. Repositorio UNJBG. https://repositorio.unjbg.edu.pe/server/api/core/bitstreams/668098dd-4976-4b2f-9acf-2c7bdb6cfc28/content
