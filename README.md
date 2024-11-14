@@ -192,6 +192,20 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 
 ![tb1-clone](./assets/img/develop/tb1-clone.png)
 
+### Entregable TRABAJO PARCIAL (TP)
+
+A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el
+repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad
+de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a
+cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado
+en cada uno de los commits.
+
+![tp-Network-graph.png](./assets/img/develop/tp-Network-graph.png)
+
+![tp-pulse.png](./assets/img/develop/tp-pulse.png)
+
+![tp-clone.png](./assets/img/develop/tp-clone.png)
+
 
 ### Entregable TB2
 
@@ -203,6 +217,20 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 
 ![tb2-clone.png](./assets/img/develop/tb2-clone.png)
 
+
+### Entregable TRABAJO FINAL (TF)
+
+A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el
+repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad
+de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a
+cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado
+en cada uno de los commits.
+
+![tf-Network-graph.png](./assets/img/develop/tf-Network-graph.png)
+
+![tf-pulse.png](./assets/img/develop/tf-pulse.png)
+
+![tf-clone.png](./assets/img/develop/tf-clone.png)
 
 ## Contenido 
 
@@ -297,6 +325,45 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 ##### [5.2.1.6. Services Documentation Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5216-services-documentation-evidence-for-sprint-review)
 ##### [5.2.1.7. Software Deployment Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5217-software-deployment-evidence-for-sprint-review)
 ##### [5.2.1.8. Team Collaboration Insights during Sprint.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5218-team-collaboration-insights-during-sprint)
+
+### [5.2.2. Sprint 2](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#521-sprint-n)
+#### [5.2.2.1. Sprint Planning 2.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5211-sprint-planning-1)
+##### [5.2.2.2. Sprint Backlog 2.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5212-sprint-backlog-1)
+##### [5.2.2.3. Development Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5213-development-evidence-for-sprint-review)
+##### [5.2.2.4. Testing Suite Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5214-testing-suite-evidence-for-sprint-review)
+##### [5.2.2.5. Execution Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5215-execution-evidence-for-sprint-review)
+##### [5.2.2.6. Services Documentation Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5216-services-documentation-evidence-for-sprint-review)
+##### [5.2.2.7. Software Deployment Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5217-software-deployment-evidence-for-sprint-review)
+##### [5.2.2.8. Team Collaboration Insights during Sprint.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5218-team-collaboration-insights-during-sprint)
+
+### [5.2.3. Sprint 3](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#521-sprint-n)
+#### [5.2.3.1. Sprint Planning 3.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5211-sprint-planning-1)
+##### [5.2.3.2. Sprint Backlog 3.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5212-sprint-backlog-1)
+##### [5.2.3.3. Development Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5213-development-evidence-for-sprint-review)
+##### [5.2.3.4. Testing Suite Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5214-testing-suite-evidence-for-sprint-review)
+##### [5.2.3.5. Execution Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5215-execution-evidence-for-sprint-review)
+##### [5.2.3.6. Services Documentation Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5216-services-documentation-evidence-for-sprint-review)
+##### [5.2.3.7. Software Deployment Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5217-software-deployment-evidence-for-sprint-review)
+##### [5.2.3.8. Team Collaboration Insights during Sprint.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5218-team-collaboration-insights-during-sprint)
+## [5.3. Validation Interviews.]()
+### [5.3.1. Diseño de Entrevistas.]()
+### [5.3.2. Registro de Entrevistas.]()
+### [5.3.3. Evaluaciones según heurísticas.]()
+## [5.4. Video About-the-Product.]()
+
+### [5.2.4. Sprint 4](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#521-sprint-n)
+#### [5.2.4.1. Sprint Planning 4.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5211-sprint-planning-1)
+##### [5.2.4.2. Sprint Backlog 4.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5212-sprint-backlog-1)
+##### [5.2.4.3. Development Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5213-development-evidence-for-sprint-review)
+##### [5.2.4.4. Testing Suite Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5214-testing-suite-evidence-for-sprint-review)
+##### [5.2.4.5. Execution Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5215-execution-evidence-for-sprint-review)
+##### [5.2.4.6. Services Documentation Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5216-services-documentation-evidence-for-sprint-review)
+##### [5.2.4.7. Software Deployment Evidence for Sprint Review.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5217-software-deployment-evidence-for-sprint-review)
+##### [5.2.4.8. Team Collaboration Insights during Sprint.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-V.md#5218-team-collaboration-insights-during-sprint)
+
+## [Conclusiones]()
+
+## [Referencias Bibliográficas]()
 
 
 ## Student Outcome
