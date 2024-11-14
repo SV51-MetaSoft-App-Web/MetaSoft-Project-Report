@@ -1938,7 +1938,7 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
     <thead>
         <tr>
             <th>Sprint #</th>
-            <th>Sprint 3</th>
+            <th>Sprint 2</th>
         </tr>
     </thead>
     <tbody>
@@ -3786,7 +3786,7 @@ En esta entrega no se han realizado los test
 
 Evidencias de última version de Landing Page
 
-![fronted.png](/assets/img/chapter-V/sprint-3/frontend.png)
+![fronted.png](\assets\img\chapter-V\sprint-3\fronted.png)
 
 Evidencia del video de About the product
 
@@ -3895,7 +3895,7 @@ Escribimos el nombre de nuestra base de datos y seleccionamos el boton de "Creat
 
 ![](../assets/img/chapter-V/sprint-3/database.PNG)
 
-Finalmente nuestra base de datos esta creada y lista para ser utilizada
+Finalmente, nuestra base de datos esta creada y lista para ser utilizada
 
 ![](../assets/img/chapter-V/sprint-3/database5.PNG)
 
@@ -4431,7 +4431,92 @@ Link de Youtube: https://youtu.be/YTH8Bv54DZs
 
 ## 5.2.4. Sprint 4.
 
-#### 5.2.4.1.Spring Planning 4.
+El proceso de este sprint se divide en dos partes: primero, establecemos el objetivo del sprint y 
+seleccionamos las historias a abordar; luego, desglosamos esas historias en tareas más pequeñas y
+asignamos responsabilidades. Al final, todos tenemos un plan claro y compartido, lo que nos permite
+avanzar juntos hacia nuestros objetivos en la próxima iteración. 
+
+Para la gestión de las tareas, el equipo está utilizando Jira. A continuación, se detalla la planificación
+
+#### 5.2.4.1. Spring Planning 4.
+
+
+<table>
+<thead>
+<tr>
+    <th>Sprint #</th>
+    <th>Sprint 4</th>
+</tr>
+</thead>
+<tbody>
+<!--====================================================================-->
+<tr>
+    <td colspan="2"> <p1 style="text-align: center;"> Sprint Planning Background </p1></td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Date</td>
+    <td>09-11-2024</td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Time</td>
+    <td> 10:00 p.m </td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Location</td>
+    <td>Modalidad Remota a través de la plataforma Discord</td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Prepared By</td>
+    <td>Janover Saldaña</td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>Oscar Armas - Luis Villegas - Gustavo Huanca - Vicente Quijandria</td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Sprint 3 Review Summary</td>
+    <td> 
+        Por definir
+    </td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Sprint 3 Retrospective Summary</td>
+    <td>
+        Por definir
+    </td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td colspan="2"> <p1 style="text-align: center;"> Sprint Goal & User Stories </p1></td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Sprint 4 Goal</td>
+    <td> 
+      Por Definir
+    </td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Sprint 4 Velocity</td>
+    <td> Por definir </td>
+</tr>
+<!--====================================================================-->
+<tr>
+    <td>Sum of Story Points</td>
+    <td> Por Definir </td>
+</tr>
+<!--====================================================================-->
+</tbody>
+</table>
+
 
 #### 5.2.4.2.Sprint Backlog 4.
 
@@ -4620,7 +4705,6 @@ Link de Youtube: https://youtu.be/YTH8Bv54DZs
 </tr>
 </tbody>
 </table>  
-
 
 
 #### 5.2.4.3.Development Evidence for Sprint Review.
