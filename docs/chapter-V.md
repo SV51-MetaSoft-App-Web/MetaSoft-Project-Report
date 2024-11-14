@@ -4429,6 +4429,212 @@ Link de Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201
 
 Link de Youtube: https://youtu.be/YTH8Bv54DZs
 
+## 5.2.4. Sprint 4.
+
+#### 5.2.4.1.Spring Planning 4.
+
+#### 5.2.4.2.Sprint Backlog 4.
+
+<table>
+<thead>
+<!------------------------------------------------------------------------------------>
+<tr>
+  <th> Sprint # </th>
+  <th colspan="7"> Sprint 4 </th>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+  <th colspan="2"> User Story</th>
+  <th colspan="6"> Work-Item / Task </th>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+  <th>User Story</th>
+  <th>Title</th>
+  <th>Id</th>
+  <th>Title</th>
+  <th>Description</th>
+  <th>Estimation (Hours)</th>
+  <th>Assigned To</th>
+  <th>Status</th>
+</tr>
+<!------------------------------------------------------------------------------------>
+</thead>
+<tbody>
+<!========================================= TS-02 ======================================>
+<tr>
+    <td rowspan="9">TS-02</td>
+    <td rowspan="9">Editar Datos de los Procesos de Vinificación</td>
+    <td>TS-02: TASK-01</td>
+    <td>Diseñar el Modelo de Datos para la edición de procesos de vinificación</td>
+    <td>Diseño de un modelo de datos que permita la edición en cada etapa de vinificación.</td>
+    <td>6</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-02: TASK-02</td>
+    <td>Crear Endpoints para Editar Datos de lotes</td>
+    <td>Desarrollo de endpoints para actualizar los datos de los lotes.</td>
+    <td>4</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-02: TASK-03</td>
+    <td>Crear Endpoints para Editar Datos de Fermentación</td>
+    <td>Desarrollo de endpoints para actualizar datos de fermentación.</td>
+    <td>4</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-02: TASK-04</td>
+    <td>Crear Endpoints para Editar Datos de Clarificación</td>
+    <td>Desarrollo de endpoints para actualizar datos de clarificación.</td>
+    <td>4</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-02: TASK-05</td>
+    <td>Crear Endpoints para Editar Datos de Prensado</td>
+    <td>Desarrollo de endpoints para actualizar datos de prensado.</td>
+    <td>4</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-02: TASK-06</td>
+    <td>Crear Endpoints para Editar Datos de añejamiento</td>
+    <td>Desarrollo de endpoints para actualizar datos de añejamiento.</td>
+    <td>4</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-02: TASK-07</td>
+    <td>Crear Endpoints para Editar Datos de vinos embotellados</td>
+    <td>Desarrollo de endpoints para actualizar datos de vinos embotellados.</td>
+    <td>4</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-02: TASK-08</td>
+    <td>Configurar Servicios de Actualización de Datos</td>
+    <td>Configuración de servicios para manejar la actualización de datos de vinificación.</td>
+    <td>5</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-02: TASK-09</td>
+    <td>Implementar Control de Errores en la edición de datos</td>
+    <td>Implementación de manejo de errores en los servicios de edición.</td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!========================================= TS-03 ======================================>
+<tr>
+    <td rowspan="8">TS-03</td>
+    <td rowspan="8">Eliminar Datos de los Procesos de Vinificación</td>
+    <td>TS-03: TASK-01</td>
+    <td>Crear Endpoints para Eliminar Datos de lotes</td>
+    <td>Desarrollo de endpoints para eliminar datos de los lotes.</td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-03: TASK-02</td>
+    <td>Crear Endpoints para Eliminar Datos de Fermentación</td>
+    <td>Desarrollo de endpoints para eliminar datos de fermentación.</td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-03: TASK-03</td>
+    <td>Crear Endpoints para Eliminar Datos de Clarificación</td>
+    <td>Desarrollo de endpoints para eliminar datos de clarificación.</td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-03: TASK-04</td>
+    <td>Crear Endpoints para Eliminar Datos de Prensado</td>
+    <td>Desarrollo de endpoints para eliminar datos de prensado.</td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-03: TASK-05</td>
+    <td>Crear Endpoints para Eliminar Datos de añejamiento</td>
+    <td>Desarrollo de endpoints para eliminar datos de añejamiento.</td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-03: TASK-06</td>
+    <td>Crear Endpoints para Eliminar Datos de vinos embotellados</td>
+    <td>Desarrollo de endpoints para eliminar datos de vinos embotellados.</td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-03: TASK-07</td>
+    <td>Configurar Servicios de Eliminación de Datos</td>
+    <td>Configuración de servicios para manejar la eliminación de datos de vinificación.</td>
+    <td>4</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+<!------------------------------------------------------------------------------------>
+<tr>
+    <td>TS-03: TASK-08</td>
+    <td>Implementar Control de Errores en la eliminación de datos</td>
+    <td>Implementación de manejo de errores en los servicios de eliminación.</td>
+    <td>3</td>
+    <td>Janover Saldaña</td>
+    <td>Done</td>
+</tr>
+</tbody>
+</table>  
+
+
+
+#### 5.2.4.3.Development Evidence for Sprint Review.
+
+#### 5.2.4.4.Testing Suite Evidence for Sprint Review.
+
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+
 ## 6. Conclusiones, Bibliografía y Anexos.
 
 ### Conclusiones 
