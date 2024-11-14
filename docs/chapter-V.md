@@ -4170,6 +4170,138 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
     <td>Janover Saldaña</td>
     <td>Done</td>
 </tr>
+    <tr>
+        <td rowspan="4">TS-15</td>
+        <td rowspan="4">Eliminar un ítem del inventario</td>
+        <td>TS-15: TASK-01</td>
+        <td>Crear un endpoint para eliminar el dato del inventario por "Id"</td>
+        <td>Desarrollo de un endpoint que permita eliminar un ítem del inventario utilizando su ID.</td>
+        <td>4</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!------------------------------------------------------------------------------------>
+    <tr>
+        <td>TS-15: TASK-02</td>
+        <td>Validar el dato eliminado del inventario por "Id"</td>
+        <td>Implementación de la lógica para validar que el ítem ha sido eliminado correctamente.</td>
+        <td>3</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!------------------------------------------------------------------------------------>
+    <tr>
+        <td>TS-15: TASK-03</td>
+        <td>Actualizar el inventario con el dato eliminado</td>
+        <td>Actualizar la base de datos o sistema de inventario tras la eliminación del ítem.</td>
+        <td>5</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!------------------------------------------------------------------------------------>
+    <tr>
+        <td>TS-15: TASK-04</td>
+        <td>Implementar mensaje sobre dato erróneo ingresado</td>
+        <td>Desarrollar un mensaje claro que informe al usuario sobre errores en la eliminación.</td>
+        <td>2</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+   <!------------------------------------------------------------------------------------>
+   <tr>
+        <td rowspan="4">TS-17</td>
+        <td rowspan="4">Buscar y filtrar ítems en el inventario</td>
+        <td>TS-17: TASK-01</td>
+        <td>Crear un endpoint para filtrar las búsquedas de ítems en el inventario</td>
+        <td>Desarrollo de un endpoint que permita realizar búsquedas filtradas de ítems en el inventario.</td>
+        <td>4</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!------------------------------------------------------------------------------------>
+    <tr>
+        <td>TS-17: TASK-02</td>
+        <td>Validar la búsqueda por nombre, tipo y unidad en el inventario</td>
+        <td>Implementación de la lógica para validar las búsquedas según nombre, tipo y unidad de los ítems.</td>
+        <td>3</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!------------------------------------------------------------------------------------>
+    <tr>
+        <td>TS-17: TASK-03</td>
+        <td>Implementar la captura de datos por filtro realizado en el inventario</td>
+        <td>Desarrollo de la funcionalidad para capturar los datos resultantes del filtro aplicado.</td>
+        <td>5</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!------------------------------------------------------------------------------------>
+    <tr>
+        <td>TS-17: TASK-04</td>
+        <td>Implementar mensaje sobre dato erróneo ingresado</td>
+        <td>Desarrollo de un mensaje claro que informe al usuario sobre errores en la búsqueda.</td>
+        <td>2</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+<!------------------------------------------------------------------------------------>
+       <tr>
+        <td rowspan="3">US-31</td>
+        <td rowspan="3">Informes de inventario</td>
+        <td>US-31: TASK-01</td>
+        <td>Agregar una funcionalidad de detalles del inventario</td>
+        <td>Desarrollo de una función que permita ver los detalles de los ítems en el inventario.</td>
+        <td>4</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!------------------------------------------------------------------------------------>
+    <tr>
+        <td>US-31: TASK-02</td>
+        <td>Implementar la captura de datos del inventario</td>
+        <td>Desarrollo de la funcionalidad para capturar y almacenar datos relevantes del inventario.</td>
+        <td>5</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!------------------------------------------------------------------------------------>
+    <tr>
+        <td>US-31: TASK-03</td>
+        <td>Agregar la funcionalidad de regresar al menú del inventario</td>
+        <td>Implementación de un botón o enlace que permita regresar al menú principal del inventario.</td>
+        <td>3</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="3">US-27</td>
+        <td rowspan="3">Registro de nuevos insumos en el inventario</td>
+        <td>US-27: TASK-01</td>
+        <td>Registrar el Nombre del producto</td>
+        <td>Desarrollo de un formulario para ingresar el nombre del nuevo producto en el inventario.</td>
+        <td>3</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!-------------------------------------------------------------------------------------->
+    <tr>
+        <td>US-27: TASK-02</td>
+        <td>Registrar Fecha de expiración del producto</td>
+        <td>Implementación de un campo para ingresar la fecha de expiración del producto.</td>
+        <td>3</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
+    <!-------------------------------------------------------------------------------------->
+    <tr>
+        <td>US-27: TASK-03</td>
+        <td>Registrar tipos del producto</td>
+        <td>Desarrollo de un sistema para clasificar y registrar los tipos de productos en el inventario.</td>
+        <td>4</td>
+        <td>Luis Villegas</td>
+        <td>Done</td>
+    </tr>
 </tbody>
 </table>  
 
