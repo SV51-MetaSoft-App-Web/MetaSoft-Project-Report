@@ -147,13 +147,181 @@
             <td>Gonzalo Saldaña, Jhordi  Carranza, Oscar Armas, Luis Villegas</td>
             <td>Finalización de items del Capítulo 5 del documento</td>
         </tr>
-        <!-- Fila 15-->
-        <tr>
-            <td>2.0</td>
-            <td>01/09/2024</td>
-            <td></td>
-            <td></td>
-        </tr>
+        <!-- Fila 15 -->
+<tr>
+    <td>2.0</td>
+    <td>02/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción de los Product backlog en el capítulo 3</td>
+</tr>
+<!-- Fila 16 -->
+<tr>
+    <td>2.1</td>
+    <td>02/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción de los Epic stories y User stories en el capítulo 3</td>
+</tr>
+<!-- Fila 17 -->
+<tr>
+    <td>2.2</td>
+    <td>07/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción de los Product backlog en el capítulo 3</td>
+</tr>
+<!-- Fila 18 -->
+<tr>
+    <td>2.3</td>
+    <td>08/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agregó la redacción de los Technical stories en el capítulo 3</td>
+</tr>
+<!-- Fila 19 -->
+<tr>
+    <td>2.4</td>
+    <td>09/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción de los Technical stories en el capítulo 3</td>
+</tr>
+<!-- Fila 20 -->
+<tr>
+    <td>2.5</td>
+    <td>09/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se añadió la redacción del studio outcome en el documento</td>
+</tr>
+<!-- Fila 21 -->
+<tr>
+    <td>2.6</td>
+    <td>09/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción de los User stories en el capítulo 3</td>
+</tr>
+<!-- Fila 22 -->
+<tr>
+    <td>2.7</td>
+    <td>26/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizaron los diagramas de clase, directorios de clase y el diagrama de base de datos en el capítulo 4</td>
+</tr>
+<!-- Fila 23 -->
+<tr>
+    <td>2.8</td>
+    <td>26/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción de las clases de directorio en el capítulo 4</td>
+</tr>
+<!-- Fila 24 -->
+<tr>
+    <td>2.9</td>
+    <td>26/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizaron los diagramas de clase y diagrama de base de datos en el capítulo 4</td>
+</tr>
+<!-- Fila 25 -->
+<tr>
+    <td>2.10</td>
+    <td>27/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agregó la redacción del Sprint Backlog 02 en el capítulo 5</td>
+</tr>
+<!-- Fila 26 -->
+<tr>
+    <td>2.11</td>
+    <td>27/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción del Sprint Backlog 02 en el capítulo 5</td>
+</tr>
+<!-- Fila 27 -->
+<tr>
+    <td>2.12</td>
+    <td>27/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agregaron las conclusiones del proyecto en el capítulo 5</td>
+</tr>
+<!-- Fila 28 -->
+<tr>
+    <td>2.13</td>
+    <td>27/09/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agregaron las bibliografías del proyecto en el capítulo 5</td>
+</tr>
+<!-- Fila 29 -->
+<tr>
+    <td>3.0</td>
+    <td>23/10/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción de los User stories en el capítulo 3</td>
+</tr>
+<!-- Fila 30 -->
+<tr>
+    <td>3.1</td>
+    <td>27/10/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción de los User stories 28 y 29 en el capítulo 3</td>
+</tr>
+<!-- Fila 31 -->
+<tr>
+    <td>3.2</td>
+    <td>01/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agregó la redacción en el Sprint Backlog 03 en el capítulo 5</td>
+</tr>
+<!-- Fila 32 -->
+<tr>
+    <td>3.3</td>
+    <td>01/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agregó la redacción en la sección "5.2.3.2", "5.3.2" y "5.3.3" en el capítulo 5</td>
+</tr>
+<!-- Fila 33 -->
+<tr>
+    <td>3.4</td>
+    <td>01/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agregaron imágenes de la entrevista con el vinicultor en el capítulo 5</td>
+</tr>
+<!-- Fila 34 -->
+<tr>
+    <td>3.5</td>
+    <td>01/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se realizaron correcciones de imágenes en el capítulo 5</td>
+</tr>Se realizo correciones de imagenes en el capitulo 5
+<!-- Fila 35 -->
+<tr>
+    <td>3.6</td>
+    <td>02/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción en la sección "5.2.3.2" en el capítulo 5</td>
+</tr>
+<!-- Fila 36 -->
+<tr>
+    <td>3.7</td>
+    <td>03/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción en la sección "5.2.3.4" y "5.2.3.5" en el capítulo 5</td>
+</tr>
+<!-- Fila 37 -->
+<tr>
+    <td>3.8</td>
+    <td>03/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizaron las conclusiones del proyecto en el capítulo 5</td>
+</tr>
+<!-- Fila 38 -->
+<tr>
+    <td>3.9</td>
+    <td>03/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizaron las bibliografías del proyecto en el capítulo 5</td>
+</tr>
+<!-- Fila 39 -->
+<tr>
+    <td>3.10</td>
+    <td>03/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la redacción en la sección "5.2.3.8" en el capítulo 5</td>
+</tr>
     </tbody>
 </table>
 
