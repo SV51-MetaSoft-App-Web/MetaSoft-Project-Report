@@ -286,7 +286,7 @@
     <td>01/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se realizaron correcciones de imágenes en el capítulo 5</td>
-</tr>Se realizo correciones de imagenes en el capitulo 5
+</tr>
 <!-- Fila 35 -->
 <tr>
     <td>3.6</td>
@@ -321,6 +321,34 @@
     <td>03/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se actualizó la redacción en la sección "5.2.3.8" en el capítulo 5</td>
+</tr>
+<!-- Fila 40 -->
+<tr>
+    <td>3.11</td>
+    <td>03/11/2024</td>
+    <td>Gustavo Huanca</td>
+    <td>Se agrego los pasos para el despliegue del servicio web</td>
+</tr>
+<!-- Fila 41 -->
+<tr>
+    <td>3.12</td>
+    <td>03/11/2024</td>
+    <td>Gustavo Huanca</td>
+    <td>Se agrego la evidencia de documentación de servicios para el sprint 3.</td>
+</tr>
+<!-- Fila 42 -->
+<tr>
+    <td>3.13</td>
+    <td>03/11/2024</td>
+    <td>Gustavo Huanca</td>
+    <td>Se implemento las evidencias del despliegue del servicio web del sprint 3</td>
+</tr>
+<!-- Fila 43 -->
+<tr>
+    <td>3.14</td>
+    <td>03/11/2024</td>
+    <td>Gustavo Huanca</td>
+    <td>Se implemento las evidencias del despliegue de la base de datos del sprint 3</td>
 </tr>
     </tbody>
 </table>
