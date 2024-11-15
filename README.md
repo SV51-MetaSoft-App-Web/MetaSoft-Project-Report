@@ -259,96 +259,124 @@
     <td>Luis Villegas</td>
     <td>Se actualizó la redacción de los User stories 28 y 29 en el capítulo 3</td>
 </tr>
-<!-- Fila 31 -->
+<!-- Fila -->
 <tr>
     <td>3.2</td>
+    <td>27/10/2024</td>
+    <td>Vicente Quijandria</td>
+    <td>Se añadieron los user stories 30, 31 y TS 1, 2 y 3.</td>
+</tr>
+<!-- Fila 31 -->
+<tr>
+    <td>3.3</td>
     <td>01/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se agregó la redacción en el Sprint Backlog 03 en el capítulo 5</td>
 </tr>
 <!-- Fila 32 -->
 <tr>
-    <td>3.3</td>
+    <td>3.4</td>
     <td>01/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se agregó la redacción en la sección "5.2.3.2", "5.3.2" y "5.3.3" en el capítulo 5</td>
 </tr>
 <!-- Fila 33 -->
 <tr>
-    <td>3.4</td>
+    <td>3.5</td>
     <td>01/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se agregaron imágenes de la entrevista con el vinicultor en el capítulo 5</td>
 </tr>
 <!-- Fila 34 -->
 <tr>
-    <td>3.5</td>
+    <td>3.6</td>
     <td>01/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se realizaron correcciones de imágenes en el capítulo 5</td>
 </tr>
 <!-- Fila 35 -->
 <tr>
-    <td>3.6</td>
+    <td>3.7</td>
     <td>02/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se actualizó la redacción en la sección "5.2.3.2" en el capítulo 5</td>
 </tr>
 <!-- Fila 36 -->
 <tr>
-    <td>3.7</td>
+    <td>3.8</td>
     <td>03/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se actualizó la redacción en la sección "5.2.3.4" y "5.2.3.5" en el capítulo 5</td>
 </tr>
 <!-- Fila 37 -->
 <tr>
-    <td>3.8</td>
+    <td>3.9</td>
     <td>03/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se actualizaron las conclusiones del proyecto en el capítulo 5</td>
 </tr>
 <!-- Fila 38 -->
 <tr>
-    <td>3.9</td>
+    <td>3.10</td>
     <td>03/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se actualizaron las bibliografías del proyecto en el capítulo 5</td>
 </tr>
 <!-- Fila 39 -->
 <tr>
-    <td>3.10</td>
+    <td>3.11</td>
+    <td>03/11/2024</td>
+    <td>Vicente Quijandria</td>
+    <td>Se añadieron las evidencias con sus detalles de todos los servicios del backend del Sprint 3</td>
+</tr>
+<!-- Fila 40 -->
+<tr>
+    <td>3.12</td>
     <td>03/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se actualizó la redacción en la sección "5.2.3.8" en el capítulo 5</td>
 </tr>
-<!-- Fila 40 -->
-<tr>
-    <td>3.11</td>
-    <td>03/11/2024</td>
-    <td>Gustavo Huanca</td>
-    <td>Se agrego los pasos para el despliegue del servicio web</td>
-</tr>
 <!-- Fila 41 -->
-<tr>
-    <td>3.12</td>
-    <td>03/11/2024</td>
-    <td>Gustavo Huanca</td>
-    <td>Se agrego la evidencia de documentación de servicios para el sprint 3.</td>
-</tr>
-<!-- Fila 42 -->
 <tr>
     <td>3.13</td>
     <td>03/11/2024</td>
     <td>Gustavo Huanca</td>
-    <td>Se implemento las evidencias del despliegue del servicio web del sprint 3</td>
+    <td>Se agrego los pasos para el despliegue del servicio web</td>
 </tr>
-<!-- Fila 43 -->
+<!-- Fila 42 -->
 <tr>
     <td>3.14</td>
     <td>03/11/2024</td>
     <td>Gustavo Huanca</td>
+    <td>Se agrego la evidencia de documentación de servicios para el sprint 3.</td>
+</tr>
+<!-- Fila 43 -->
+<tr>
+    <td>3.15</td>
+    <td>03/11/2024</td>
+    <td>Gustavo Huanca</td>
+    <td>Se implemento las evidencias del despliegue del servicio web del sprint 3</td>
+</tr>
+<!-- Fila 44 -->
+<tr>
+    <td>3.16</td>
+    <td>03/11/2024</td>
+    <td>Vicente Quijandria</td>
+    <td>Se implemento las evidencias de los commits del frontend del Sprint 3</td>
+</tr>
+<!-- Fila 45 -->
+<tr>
+    <td>3.17</td>
+    <td>03/11/2024</td>
+    <td>Gustavo Huanca</td>
     <td>Se implemento las evidencias del despliegue de la base de datos del sprint 3</td>
+</tr>
+<!-- Fila 46 -->
+<tr>
+    <td>3.18</td>
+    <td>03/11/2024</td>
+    <td>Vicente Quijandria</td>
+    <td>Se implemento las evidencias de los commits del backend del Sprint 3</td>
 </tr>
     </tbody>
 </table>
