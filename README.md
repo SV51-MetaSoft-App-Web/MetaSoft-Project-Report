@@ -151,28 +151,28 @@
 <tr>
     <td>2.0</td>
     <td>02/09/2024</td>
-    <td>Luis Villegas</td>
+    <td>Luis Villegas, Vicente Quijandria, Oscar Armas, Gustavo Huanca</td>
     <td>Se actualizó la redacción de los Product backlog en el capítulo 3</td>
 </tr>
 <!-- Fila 16 -->
 <tr>
     <td>2.1</td>
     <td>02/09/2024</td>
-    <td>Luis Villegas</td>
+    <td>Janover Saldaña</td>
     <td>Se actualizó la redacción de los Epic stories y User stories en el capítulo 3</td>
 </tr>
 <!-- Fila 17 -->
 <tr>
     <td>2.2</td>
     <td>07/09/2024</td>
-    <td>Luis Villegas</td>
+    <td>Oscar Armas</td>
     <td>Se actualizó la redacción de los Product backlog en el capítulo 3</td>
 </tr>
 <!-- Fila 18 -->
 <tr>
     <td>2.3</td>
     <td>08/09/2024</td>
-    <td>Luis Villegas</td>
+    <td>Oscar Armas</td>
     <td>Se agregó la redacción de los Technical stories en el capítulo 3</td>
 </tr>
 <!-- Fila 19 -->
@@ -186,7 +186,7 @@
 <tr>
     <td>2.5</td>
     <td>09/09/2024</td>
-    <td>Luis Villegas</td>
+    <td>Luis Villegas, Vicente Quijandria, Oscar Armas, Gustavo Huanca</td>
     <td>Se añadió la redacción del student outcome en el documento</td>
 </tr>
 <!-- Fila 21 -->
@@ -200,7 +200,7 @@
 <tr>
     <td>2.7</td>
     <td>26/09/2024</td>
-    <td>Luis Villegas</td>
+    <td>Janover Saldaña</td>
     <td>Se actualizaron los diagramas de clase, directorios de clase y el diagrama de base de datos en el capítulo 4</td>
 </tr>
 <!-- Fila 23 -->
@@ -235,7 +235,7 @@
 <tr>
     <td>2.12</td>
     <td>27/09/2024</td>
-    <td>Luis Villegas</td>
+    <td>Oscar Armas</td>
     <td>Se agregaron las conclusiones del proyecto en el capítulo 5</td>
 </tr>
 <!-- Fila 28 -->
@@ -284,7 +284,7 @@
 <tr>
     <td>3.5</td>
     <td>01/11/2024</td>
-    <td>Luis Villegas</td>
+    <td>Oscar Armas</td>
     <td>Se agregaron imágenes de la entrevista con el vinicultor en el capítulo 5</td>
 </tr>
 <!-- Fila 34 -->
@@ -312,7 +312,7 @@
 <tr>
     <td>3.9</td>
     <td>03/11/2024</td>
-    <td>Luis Villegas</td>
+    <td>Janover Saldaña</td>
     <td>Se actualizaron las conclusiones del proyecto en el capítulo 5</td>
 </tr>
 <!-- Fila 38 -->
@@ -378,6 +378,27 @@
     <td>Vicente Quijandria</td>
     <td>Se implemento las evidencias de los commits del backend del Sprint 3</td>
 </tr>
+<!-- Fila 47 -->
+<tr>
+    <td>4.1</td>
+    <td>12/11/2024</td>
+    <td>Janover Saldaña</td>
+    <td>Se corrigió la ruta de las imagenes que corresponden al Sprint 3 en el capitulo 5</td>
+</tr>
+<!-- Fila 48 -->
+<tr>
+    <td>4.2</td>
+    <td>13/11/2024</td>
+    <td>Janover Saldaña</td>
+    <td> Se construyó y readactó la estructura base del Sprint Planning y sprint Backlog para el sprint 4  </td>
+</tr>
+<!-- Fila 49 -->
+<tr>
+    <td>4.3</td>
+    <td>13/11/2024</td>
+    <td>Janover Saldaña</td>
+    <td>  </td>
+</tr>
     </tbody>
 </table>
 
@@ -392,6 +413,9 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 * Oscar Javier Armas Sánchez (Racso24k)
 * Luis Alfonso Villegas Jipa (LuisVJ97)
 * Juan Paul Llamccaya Arone (JuanPaulLla)
+* 
+* Gustavo Esau Huanca Navarro (petitavo)
+* Vicente Quijandria Araneda (vquijandria)
 
 Se dividieron las siguientes ramas para la colaboración en el proyecto:
 
