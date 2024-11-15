@@ -380,19 +380,54 @@
 </tr>
 <!-- Fila 47 -->
 <tr>
+    <td>3.19</td>
+    <td>26/10/2024</td>
+    <td>Oscar Armas</td>
+    <td>Se implementó el video "About the Product".</td>
+</tr>
+<!-- Fila 48 -->
+<tr>
+    <td>3.20</td>
+    <td>27/10/2024</td>
+    <td>Oscar Armas</td>
+    <td>Se actualizó el landing page con el video "About the Product".</td>
+</tr>
+<!-- Fila 49 -->
+<tr>
+    <td>3.21</td>
+    <td>28/10/2024</td>
+    <td>Oscar Armas</td>
+    <td>Se añadieron evaluaciones de usabilidad según heurísticas.</td>
+</tr>
+<!-- Fila 50 -->
+<tr>
+    <td>3.22</td>
+    <td>29/10/2024</td>
+    <td>Oscar Armas</td>
+    <td>Se implementaron entrevistas a los productores objetivos.</td>
+</tr>
+<!-- Fila 51 -->
+<tr>
+    <td>3.23</td>
+    <td>30/10/2024</td>
+    <td>Oscar Armas</td>
+    <td>Se documentaron las entrevistas realizadas.</td>
+</tr>
+<!-- Fila 52 -->
+<tr>
     <td>4.1</td>
     <td>12/11/2024</td>
     <td>Janover Saldaña</td>
     <td>Se corrigió la ruta de las imagenes que corresponden al Sprint 3 en el capitulo 5</td>
 </tr>
-<!-- Fila 48 -->
+<!-- Fila 53 -->
 <tr>
     <td>4.2</td>
     <td>13/11/2024</td>
     <td>Janover Saldaña</td>
     <td> Se construyó y readactó la estructura base del Sprint Planning y sprint Backlog para el sprint 4  </td>
 </tr>
-<!-- Fila 49 -->
+<!-- Fila 54 -->
 <tr>
     <td>4.3</td>
     <td>13/11/2024</td>
