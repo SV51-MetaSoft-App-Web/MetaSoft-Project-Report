@@ -661,149 +661,91 @@ en cada uno de los commits.
     </thead>
     <tbody>
         <tr>
-        <!--Criterio Específico 2-->
             <td>
-                <h4>
-                    Trabaja en equipo para proporcionar liderazgo en forma conjunta.
-                </h4>
+                <h4>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</h4>
             </td>
-            <!--Acciones Realizadas de la competencia 1-->
             <td>
-            <p style="text-align: center;" ><strong >Presentable del TB1</strong></p>
-            <br>
-            <strong>Janover Gonzalo Saldaña Vela: </strong> 
-            <br> Durante el desarrollo de esta primera entrega trabajar en equipo de manera conjunta fue un factor crucial para nuestra determinación en acabar con los entregables a tiempo y cumpliendo con los requisitos que nos pide el usuario final.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Luis Alfonso Villegas Jipa: </strong> 
-            <br> En la elaboración de la primera entrega del proyecto, he trabajado en equipo para proporcionar un liderazgo conjunto que fomente la colaboración y el compromiso de todos los miembros. Desde el inicio, promoví un ambiente donde cada integrante 
-            pudiera expresar sus ideas y contribuir activamente al desarrollo del proyecto. Juntos, establecimos metas claras y específicas para nuestra entrega, asegurando que cada miembro comprendiera su rol y las expectativas. En ello, Realicé un análisis de 
-            competencia que sirvió como base para nuestras discusiones, lo que nos permitió identificar oportunidades y definir user stories que reflejan las necesidades de nuestros usuarios.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Jhordi Luis Carranza Pérez: </strong> 
-            <br> El desarrollo de esta primera parte del trabajo marcó un lazo importante entre los integrantes del equipo, la expresión de ideas claras y comunicación acertiva nos ayudó a poder desarrollar el proyecto de la mejor manera posible. 
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Oscar Javier Armas Sánchez </strong> 
-            <br> En la creacion de esta primera parte de la primera entrega, me centré en la coordinación del equipo para asegurar que todos los integrantes trabajen de manera alineada. Tomé el rol de cumplir, promoviendo la puntualidad y asegurando que las tareas se cumplieran equitativamente entre los miembros. 
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Juan Paul Llamccaya Arone</strong> 
-            <br> Durante esta primera entrega, me enfoqué principalmente en la Requirements Specification. Me aseguré de que todo los documentos del capitulo esten bien documentados y alineados con las necesidades del usuario. Colaboré estrechamente con el equipo para clarificar cualquier duda en cuanto a los Requirements Specification, lo que facilitó una mejor comprensión del proyecto y permitió que el desarrollo se realizara conforme a las expectativas del usuario.
-            <!--Siguiente-->
-            <br> <br>
-            <p style="text-align: center;" ><strong >Presentable del TB2</strong><p>
-            <br> <br>
-            <strong>Janover Gonzalo Saldaña Vela</strong> 
-            En este presentbale se delegaron funciones con el fin de que podamos
-            recer profesionalmente como tener un entorno en el cual todos podamos colaborar.
-            <br> <br>
-            <strong> Luis Alfonso Villegas Jipa  </strong> 
-            En la elaboración de la TB2 establecí un entorno colaborativo dentro del equipo, donde la comunicación abierta y transparente fue esencial. Mantuve a todos los miembros informados sobre mi progreso en el proyecto y recibí retroalimentación en tiempo 
-            real en lo que me permitió ajustar mis estrategias y mis soluciones de manera proactiva. Esta interacción constante fortaleció la confianza entre nosotros y garantizó que todos estuviéramos alineados con los objetivos del proyecto. Gracias a este 
-            enfoque de liderazgo conjunto, logramos culminar en la mayoría de objetivos propuestos para dicha entrega.
-            <br> <br>
-            <strong> Vicente Quijandria Araneda  </strong> 
-            Para la elaboración del TB2 fui colaborativo con el equipo, tuve siempre una comunicacion clara y eficaz con mis compañeros. Siempre mantuve a los demas informado de mis avances y cuando tenia un problema pudimos reunirnos a tiempo para solucionarlo de manera rapida. Las constantes reuniones fueron afianzando la confianza entre el equipo, mejorando el ambiente y la comunicación entre nosotros. Por lo cual mejoro notablemente el rendimiento del equipo. 
-            <br> <br>
-            <strong> Gustavo Esau Huanca Navarro  </strong> 
-            He experimentado un liderazgo compartido con el equipo Metasot, donde cada
-            miembro contribuye desde sus habilidades y se apoya en los demás. Esto ha mejorado 
-            nuestra toma de decisiones y ha fortalecido la confianza mutua.
-            </td></td>
-            <strong> Oscar Javier Armas Sánchez  </strong> 
-                Conclusiones: En esta tercera entrega, el entorno colaborativo que se estableció fue clave para el éxito del proyecto. La asignación estratégica de tareas y la claridad en nuestras metas permitieron que cada miembro del equipo trabajara de manera efectiva y se sintiera valorado en su contribución. La colaboración constante y el intercambio de ideas enriquecieron nuestras soluciones, y el trabajo conjunto en la actualización de la landing page y el desarrollo del backend aseguraron que el producto final cumpliera con las expectativas del cliente. Gracias a la inclusión y la planificación cuidadosa, logramos cumplir con los objetivos establecidos y avanzar hacia la próxima fase del proyecto.
-             <!--Conclusiones de la competencia 2-->
+                <p style="text-align: center;"><strong>Presentable del TB1</strong></p>
+                <br>
+                <strong>Janover Gonzalo Saldaña Vela:</strong>
+                <br> Durante el desarrollo de esta primera entrega, trabajar en equipo de manera conjunta fue un factor crucial para nuestra determinación en acabar con los entregables a tiempo y cumpliendo con los requisitos que nos pide el usuario final.
+                <br><br>
+                <strong>Luis Alfonso Villegas Jipa:</strong>
+                <br> En la elaboración de la primera entrega, he realizado el análisis de competencia, los user stories sobre la funcionalidad de la aplicación, el product backlog y los diagramas de clase, comunicándome con mis compañeros para ir mejorando y agregando las secciones consecuentes que se requerían. Dando así, la culminación de esta primera entrega.
+                <br><br>
+                <strong>Jhordi Luis Carranza Pérez:</strong>
+                <br> El desarrollo de esta primera parte del trabajo marcó un lazo importante entre los integrantes del equipo, la expresión de ideas claras y comunicación asertiva nos ayudó a poder desarrollar el proyecto de la mejor manera posible.
+                <br><br>
+                <strong>Oscar Javier Armas Sánchez:</strong>
+                <br> En la creación de esta primera parte de la primera entrega, me centré en desarrollar el contenido del Capítulo 1, específicamente en las secciones de *Segmentos Objetivo* y *Solution Profile*. Analicé y definí los segmentos clave a los que se dirige el proyecto, además de detallar las características y beneficios principales de la solución propuesta, asegurando que estén alineados con las necesidades identificadas.
+                <br><br>
+                <strong>Juan Paul Llamccaya Arone:</strong>
+                <br> Durante esta primera entrega, me enfoqué principalmente en la Requirements Specification. Me aseguré de que todos los documentos del capítulo estén bien documentados y alineados con las necesidades del usuario. Colaboré estrechamente con el equipo para clarificar cualquier duda en cuanto a los Requirements Specification, lo que facilitó una mejor comprensión del proyecto y permitió que el desarrollo se realizara conforme a las expectativas del usuario.
+                <br><br>
+                <p style="text-align: center;"><strong>Presentable del TB2</strong></p>
+                <br><br>
+                <strong>Janover Gonzalo Saldaña Vela:</strong>
+                <br> En este presentable se delegaron funciones con el fin de que podamos crecer profesionalmente como tener un entorno en el cual todos podamos colaborar.
+                <br><br>
+                <strong>Luis Alfonso Villegas Jipa:</strong>
+                <br> El establecimiento de un entorno colaborativo también se extendió a nuestra relación con los clientes, donde la comunicación abierta y transparente fue esencial. Mantener a los clientes informados sobre el progreso del proyecto y recibir su retroalimentación en tiempo real permitió ajustar nuestras estrategias y soluciones de manera proactiva. Esta interacción no solo fortaleció la confianza, sino que también garantizó que el producto final se alineara perfectamente con sus expectativas y necesidades.
+                <br><br>
+                <strong>Gustavo Esau Huanca Navarro:</strong>
+                <br> He experimentado un liderazgo compartido con el equipo Metasot, donde cada miembro contribuye desde sus habilidades y se apoya en los demás. Esto ha mejorado nuestra toma de decisiones y ha fortalecido la confianza mutua.
+                <br><br>
+                <strong>Oscar Javier Armas Sánchez:</strong>  
+                <br> En este proceso, he experimentado una colaboración constante con el equipo, lo que ha sido clave para mi crecimiento profesional. La comunicación fluida y la distribución equitativa de tareas me han permitido desarrollar habilidades de organización y cooperación, lo que a su vez ha fortalecido mi capacidad para contribuir de manera efectiva al proyecto. Esta dinámica ha sido esencial para mantenernos alineados y avanzar hacia nuestros objetivos comunes.
+            </td>
             <td>
-                <p style="text-align: center;" >
-                    <strong >Conclusión General TB1</strong>
-                    <br>
-                    En este entregable se logró crear un entorno colaborativo e inclusivo, donde todos los miembros del equipo participaron activamente. Las metas fueron claramente definidas al principio del proyecto, la asignación de tareas se planificaron de manera estratégica según las habilidades de los integrantes del equipo y se hizo un seguimiento constante del progreso. Gracias a la comunicación efectiva y la flexibilidad, se alcanzaron los objetivos de manera eficiente y exitosa. 
-                </p>
-                 <!--Siguiente-->
-                <br> <br>
-                <p style="text-align: center;" >
-                    <strong >Conclusión General TB2</strong>
-                    <br>
-                    Descripción de conclusión TB2
-                </p>
-                <br> <br>
-                 <!--Siguiente-->
+                <p style="text-align: center;"><strong>Conclusión General TB1</strong></p>
+                <br> En este entregable se logró crear un entorno colaborativo e inclusivo, donde todos los miembros del equipo participaron activamente. Las metas fueron claramente definidas al principio del proyecto, la asignación de tareas se planificaron de manera estratégica según las habilidades de los integrantes del equipo y se hizo un seguimiento constante del progreso. Gracias a la comunicación efectiva y la flexibilidad, se alcanzaron los objetivos de manera eficiente y exitosa.
+                <br><br>
+                <p style="text-align: center;"><strong>Conclusión General TB2</strong></p>
+                <br> Descripción de conclusión TB2
             </td>
         </tr>
-        <!--FILA 2-->
         <tr>
-            <!--Criterio Específico 2-->
             <td>
-                <h4>
-                    Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
-                </h4>
+                <h4>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</h4>
             </td>
-            <!--Acciones Realizadas de la competencia 2-->
             <td>
-            <p style="text-align: center;" ><strong >Presentable del TB1</strong></p>
-            <br>
-            <strong>Janover Gonzalo Saldaña Vela </strong> 
-            <br> Durante el proceso de la primera entrega del TF, nuestro equipo se mantuvo en comunicación constante y establecimos tareas para cada integrante con el fin de que podamos cumplir con el objetivo en común de acabar de manera satisfactoria el primer
-                sprint (Landing Page).
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Luis Alfonso Villegas Jipa: </strong> 
-            <br> Durante el desarrollo de esta primera entrega del proyecto, llevé a cabo varias acciones clave que contribuyeron al éxito del proyecto. En primer lugar, mantuve una comunicación constante y efectiva con todos los miembros del equipo, lo que nos 
-            permitió estar alineados y actualizados sobre el progreso del trabajo. Esta comunicación abierta fue fundamental para resolver dudas y compartir ideas en tiempo real. Además, culmine en la asignación de tareas específicas brindado por mi equipo, 
-            asegurándome que todo estuviera bien alineado. Esto no solo facilitó la organización de nuestro trabajo, sino que también promovió un sentido de responsabilidad mutua.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Jhordi Luis Carranza Pérez: </strong> 
-            <br> Durante la elbaoración previa al diseño del entorno general de la plataforma, se analizó de manera concreta el estilo general que esta llevaría: colores primarios y secundarios, tamañios de fuente, ubicación de iconos y botones, fonts y demás consideraciones. En conjunto con el equipo de trabajo se logró desarrollarlo de manera efectiva gracias a la comunicación constante y la ayuda mutua.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Oscar Javier Armas Sánchez </strong> 
-            <br> En esta primera entrega, me concentré en realizar mis tareas asignadas con eficiencia y puntualidad. Colaboré con el equipo para asegurar que mi trabajo contribuyera a alcanzar los objetivos del proyecto, manteniendo siempre una comunicación fluida para resolver dudas y facilitar la integración del trabajo conjunto.
-            <!--Siguiente-->
-            <br> <br>
-            <strong>Juan Paul Llamccaya Arone</strong> 
-            <br> En esta primera entrega, trabajé en el User Journey Mapping para entender el recorrido del usuario y en el Empathy Mapping para captar sus necesidades. También realicé el As-is Scenario Mapping para analizar el estado actual del sistema y establecí el Ubiquitous Language para alinear al equipo. Finalmente, desarrollé el To-Be Scenario Mapping y el Impact Mapping para visualizar mejoras y conectar los objetivos del proyecto con los resultados esperados. Mantuvimos una comunicación constante para cumplir los objetivos en conjunto.
-            <!--Siguiente-->
-            <br> <br>
-            <p style="text-align: center;" ><strong >Presentable del TB2</strong><p>
-            <strong>Oscar Javier Armas Sánchez</strong> 
-            El entorno colaborativo creado fue fundamental para el éxito del proyecto. La asignación estratégica de tareas y la claridad en nuestras metas permitieron a cada miembro contribuir eficazmente. La colaboración constante enriqueció nuestras soluciones, y logramos cumplir con los objetivos establecidos, avanzando hacia la próxima fase del proyecto.
-            <br><br>
-            <strong>Gustavo Esau Huanca Navarro</strong> 
-            He creado un entorno colaborativo en Metasoft, con metas claras y planificación
-            conjunta. La comunicación abierta y el compromiso de cada miembro nos han permitido cumplir nuestros
-            objetivos de manera eficiente.
-            <br><br>
-            <strong>Luis Alfonso Villegas Jipa</strong> 
-            En la elaboración del TB2, participé activamente en varias acciones clave que contribuyeron a crear un entorno colaborativo e inclusivo. En primer lugar, asistí a las sesiones donde todos los miembros del equipo compartieron ideas y sugerencias. Mi 
-            participación en estas discusiones me permitió aportar perspectivas que enriquecieron nuestras propuestas y asimismo poder desarrollar con mayor efectividad. Además, estuve presente en las revisiones periódicas del progreso del proyecto, donde 
-            discutimos los avances y ofrecimos retroalimentación constructiva. Esta interacción fomentó un sentido de pertenencia y satisfacción entre los integrantes del equipo, asegurando que cada voz fuera escuchada y valorada.
-            <br><br>
-            <strong>Vicente Quijandria Araneda</strong> 
-            Para la entrega del TB2, participé en las reuniones en las cuales todos los miembros del equipo nos apoyamos, dimos ideas y mostramos nuestros avances. Fue de mucha ayuda crear un entorno colaborativo el cual nos permitio trabajar de manera agil, eficaz y sobre todo clara al momento de asignarnos las tareas y deadlines a cumplir para este entregable.
-            <br><br>
-            <strong>Janover Gonzalo Saldaña Vela</strong> 
-            En este presentbale se delegaron funciones con el fin de que podamos
-            recer profesionalmente como tener un entorno en el cual todos podamos colaborar 
+                <p style="text-align: center;"><strong>Presentable del TB1</strong></p>
+                <br>
+                <strong>Janover Gonzalo Saldaña Vela:</strong>
+                <br> Durante el proceso de la primera entrega del TF, nuestro equipo se mantuvo en comunicación constante y establecimos tareas para cada integrante con el fin de que podamos cumplir con el objetivo en común de acabar de manera satisfactoria el primer sprint (Landing Page).
+                <br><br>
+                <strong>Luis Alfonso Villegas Jipa:</strong>
+                <br> Durante la elaboración del Landing Page, he apoyado con el desarrollo de la App web y Mobile Wireframes. Ya que, mantuve una comunicación asertiva y planificando una solución ágil en nuestros objetivos colaborativos.
+                <br><br>
+                <strong>Jhordi Luis Carranza Pérez:</strong>
+                <br> Durante la elaboración previa al diseño del entorno general de la plataforma, se analizó de manera concreta el estilo general que esta llevaría: colores primarios y secundarios, tamaños de fuente, ubicación de iconos y botones, fonts y demás consideraciones. En conjunto con el equipo de trabajo se logró desarrollarlo de manera efectiva gracias a la comunicación constante y la ayuda mutua.
+                <br><br>
+                <strong>Oscar Javier Armas Sánchez:</strong>  
+                <br> Durante la primera entrega, me centré en cumplir con mis tareas asignadas y ayudar al equipo a comprender la idea del proyecto, enfocándonos en el *Segmento Objetivo* de los vinicultores. Mantuvimos una comunicación constante para asegurar que todos estuviéramos alineados y avanzáramos de manera efectiva hacia los objetivos del proyecto.
+                <br><br>
+                <strong>Juan Paul Llamccaya Arone:</strong>
+                <br> En esta primera entrega, trabajé en el User Journey Mapping para entender el recorrido del usuario y en el Empathy Mapping para captar sus necesidades. También realicé el As-is Scenario Mapping para analizar el estado actual del sistema y establecí el Ubiquitous Language para alinear al equipo. Finalmente, desarrollé el To-Be Scenario Mapping y el Impact Mapping para visualizar mejoras y conectar los objetivos del proyecto con los resultados esperados. Mantuvimos una comunicación constante para cumplir los objetivos en conjunto.
+                <br><br>
+                <p style="text-align: center;"><strong>Presentable del TB2</strong></p>
+                <br><br>
+                <strong>Oscar Javier Armas Sánchez:</strong>  
+                <br> He creado un entorno colaborativo en el equipo, donde las tareas se asignaron de manera estratégica y con metas claras. La comunicación constante y el compromiso de cada miembro nos permitieron avanzar de manera eficiente, cumpliendo con los objetivos del proyecto y preparando el camino para la siguiente fase.
+                <br><br>
+                <strong>Gustavo Esau Huanca Navarro:</strong>
+                <br> He creado un entorno colaborativo en Metasot, con metas claras y planificación conjunta. La comunicación abierta y el compromiso de cada miembro nos han permitido cumplir nuestros objetivos de manera eficiente.
+                <br><br>
+                <strong>Luis Alfonso Villegas Jipa:</strong>
+                <br> La inclusión de los clientes en el proceso creativo fue otro factor determinante para el éxito del proyecto. Al involucrarlos en sesiones de brainstorming y revisiones periódicas, logramos captar sus perspectivas y sugerencias, lo que enriqueció nuestras propuestas. Esta colaboración no solo mejoró la calidad del producto final, sino que también fomentó un sentido de pertenencia y satisfacción en los clientes, asegurando que se sintieran parte integral del proceso de desarrollo.
+                <br><br>
+                <strong>Janover Gonzalo Saldaña Vela:</strong>
+                <br> En este presentable se delegaron funciones con el fin de que podamos crecer profesionalmente como tener un entorno en el cual todos podamos colaborar.
             </td>
-            <!--Conclusiones de la competencia 2-->
             <td>
-                <p style="text-align: center;" >
-                    <strong >Conclusión General TB1</strong>
-                    <br>
-                    Se creó un entorno colaborativo e inclusivo, en el que cada miembro del equipo tuvo la oportunidad de aportar sus ideas y habilidades. Las metas se establecieron de forma clara y alineadas con las capacidades del equipo, las tareas se planificaron estratégicamente y se realizó un seguimiento constante del avance. Como resultado, los objetivos se cumplieron de manera efectiva, fomentando una dinámica de trabajo productiva y armónica.
-                </p>
-                 <!--Siguiente-->
-                <br> <br>
-                <p style="text-align: center;" >
-                    <strong >Conclusión General TB2</strong>
-                    <br>
-                    Descripción de conclusión TB2
-                </p>
-                <br> <br>
-                 <!--Siguiente-->
+                <p style="text-align: center;"><strong>Conclusión General TB1</strong></p>
+                <br> Se creó un entorno colaborativo e inclusivo, en el que cada miembro del equipo tuvo la oportunidad de aportar sus ideas y habilidades. Las metas se establecieron de forma clara y alineadas con las capacidades del equipo, las tareas se planificaron estratégicamente y se realizó un seguimiento constante del avance. Como resultado, los objetivos se cumplieron de manera efectiva, fomentando una dinámica de trabajo productiva y armónica.
+                <br><br>
+                <p style="text-align: center;"><strong>Conclusión General TB2</strong></p>
+                <br> Descripción de conclusión TB2
             </td>
         </tr>
     </tbody>
