@@ -645,6 +645,9 @@ en cada uno de los commits.
             real en lo que me permitió ajustar mis estrategias y mis soluciones de manera proactiva. Esta interacción constante fortaleció la confianza entre nosotros y garantizó que todos estuviéramos alineados con los objetivos del proyecto. Gracias a este 
             enfoque de liderazgo conjunto, logramos culminar en la mayoría de objetivos propuestos para dicha entrega.
             <br> <br>
+            <strong> Vicente Quijandria Araneda  </strong> 
+            Para la elaboración del TB2 fui colaborativo con el equipo, tuve siempre una comunicacion clara y eficaz con mis compañeros. Siempre mantuve a los demas informado de mis avances y cuando tenia un problema pudimos reunirnos a tiempo para solucionarlo de manera rapida. Las constantes reuniones fueron afianzando la confianza entre el equipo, mejorando el ambiente y la comunicación entre nosotros. Por lo cual mejoro notablemente el rendimiento del equipo. 
+            <br> <br>
             <strong> Gustavo Esau Huanca Navarro  </strong> 
             He experimentado un liderazgo compartido con el equipo Metasot, donde cada
             miembro contribuye desde sus habilidades y se apoya en los demás. Esto ha mejorado 
@@ -710,7 +713,7 @@ en cada uno de los commits.
             El entorno colaborativo creado fue fundamental para el éxito del proyecto. La asignación estratégica de tareas y la claridad en nuestras metas permitieron a cada miembro contribuir eficazmente. La colaboración constante enriqueció nuestras soluciones, y logramos cumplir con los objetivos establecidos, avanzando hacia la próxima fase del proyecto.
             <br><br>
             <strong>Gustavo Esau Huanca Navarro</strong> 
-            He creado un entorno colaborativo en Metasot, con metas claras y planificación
+            He creado un entorno colaborativo en Metasoft, con metas claras y planificación
             conjunta. La comunicación abierta y el compromiso de cada miembro nos han permitido cumplir nuestros
             objetivos de manera eficiente.
             <br><br>
