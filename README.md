@@ -187,7 +187,7 @@
     <td>2.5</td>
     <td>09/09/2024</td>
     <td>Luis Villegas</td>
-    <td>Se añadió la redacción del studio outcome en el documento</td>
+    <td>Se añadió la redacción del student outcome en el documento</td>
 </tr>
 <!-- Fila 21 -->
 <tr>
@@ -221,7 +221,7 @@
 <tr>
     <td>2.10</td>
     <td>27/09/2024</td>
-    <td>Luis Villegas</td>
+    <td>Vicente Quijandria</td>
     <td>Se agregó la redacción del Sprint Backlog 02 en el capítulo 5</td>
 </tr>
 <!-- Fila 26 -->
@@ -270,7 +270,7 @@
 <tr>
     <td>3.3</td>
     <td>01/11/2024</td>
-    <td>Luis Villegas</td>
+    <td>Vicente Quijandria</td>
     <td>Se agregó la redacción en el Sprint Backlog 03 en el capítulo 5</td>
 </tr>
 <!-- Fila 32 -->
@@ -298,7 +298,7 @@
 <tr>
     <td>3.7</td>
     <td>02/11/2024</td>
-    <td>Luis Villegas</td>
+    <td>Vicente Quijandria</td>
     <td>Se actualizó la redacción en la sección "5.2.3.2" en el capítulo 5</td>
 </tr>
 <!-- Fila 36 -->
