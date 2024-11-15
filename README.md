@@ -722,6 +722,9 @@ en cada uno de los commits.
             participación en estas discusiones me permitió aportar perspectivas que enriquecieron nuestras propuestas y asimismo poder desarrollar con mayor efectividad. Además, estuve presente en las revisiones periódicas del progreso del proyecto, donde 
             discutimos los avances y ofrecimos retroalimentación constructiva. Esta interacción fomentó un sentido de pertenencia y satisfacción entre los integrantes del equipo, asegurando que cada voz fuera escuchada y valorada.
             <br><br>
+            <strong>Vicente Quijandria Araneda</strong> 
+            Para la entrega del TB2, participé en las reuniones en las cuales todos los miembros del equipo nos apoyamos, dimos ideas y mostramos nuestros avances. Fue de mucha ayuda crear un entorno colaborativo el cual nos permitio trabajar de manera agil, eficaz y sobre todo clara al momento de asignarnos las tareas y deadlines a cumplir para este entregable.
+            <br><br>
             <strong>Janover Gonzalo Saldaña Vela</strong> 
             En este presentbale se delegaron funciones con el fin de que podamos
             recer profesionalmente como tener un entorno en el cual todos podamos colaborar 
