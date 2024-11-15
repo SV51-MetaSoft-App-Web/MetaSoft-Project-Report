@@ -249,7 +249,7 @@
 <tr>
     <td>3.0</td>
     <td>23/10/2024</td>
-    <td>Luis Villegas</td>
+    <td>Vicente Quijandria</td>
     <td>Se actualizó la redacción de los User stories en el capítulo 3</td>
 </tr>
 <!-- Fila 30 -->
