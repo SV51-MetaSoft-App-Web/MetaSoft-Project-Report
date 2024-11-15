@@ -617,8 +617,9 @@ en cada uno de los commits.
             <!--Siguiente-->
             <br> <br>
             <strong>Luis Alfonso Villegas Jipa: </strong> 
-            <br> En la elaboracion de la primera entrega he realizado el analisis de comptenecia, los users stories sobre la funcionalidad de la applicacion, el product backlog y los diagramas de clase, comunicandome con mis compañeros para ir mejorando y
-                agregando las secciones consecuentes que se requeria. Dando asi, la culminacion de esta primera entrega.
+            <br> En la elaboración de la primera entrega del proyecto, he trabajado en equipo para proporcionar un liderazgo conjunto que fomente la colaboración y el compromiso de todos los miembros. Desde el inicio, promoví un ambiente donde cada integrante 
+            pudiera expresar sus ideas y contribuir activamente al desarrollo del proyecto. Juntos, establecimos metas claras y específicas para nuestra entrega, asegurando que cada miembro comprendiera su rol y las expectativas. En ello, Realicé un análisis de 
+            competencia que sirvió como base para nuestras discusiones, lo que nos permitió identificar oportunidades y definir user stories que reflejan las necesidades de nuestros usuarios.
             <!--Siguiente-->
             <br> <br>
             <strong>Jhordi Luis Carranza Pérez: </strong> 
@@ -640,7 +641,9 @@ en cada uno de los commits.
             recer profesionalmente como tener un entorno en el cual todos podamos colaborar.
             <br> <br>
             <strong> Luis Alfonso Villegas Jipa  </strong> 
-            El establecimiento de un entorno colaborativo también se extendió a nuestra relación con los clientes, donde la comunicación abierta y transparente fue esencial. Mantener a los clientes informados sobre el progreso del proyecto y recibir su retroalimentación en tiempo real permitió ajustar nuestras estrategias y soluciones de manera proactiva. Esta interacción no solo fortaleció la confianza, sino que también garantizó que el producto final se alineara perfectamente con sus expectativas y necesidades.
+            En la elaboración de la TB2 establecí un entorno colaborativo dentro del equipo, donde la comunicación abierta y transparente fue esencial. Mantuve a todos los miembros informados sobre mi progreso en el proyecto y recibí retroalimentación en tiempo 
+            real en lo que me permitió ajustar mis estrategias y mis soluciones de manera proactiva. Esta interacción constante fortaleció la confianza entre nosotros y garantizó que todos estuviéramos alineados con los objetivos del proyecto. Gracias a este 
+            enfoque de liderazgo conjunto, logramos culminar en la mayoría de objetivos propuestos para dicha entrega.
             <br> <br>
             <strong> Gustavo Esau Huanca Navarro  </strong> 
             He experimentado un liderazgo compartido con el equipo Metasot, donde cada
@@ -685,7 +688,9 @@ en cada uno de los commits.
             <!--Siguiente-->
             <br> <br>
             <strong>Luis Alfonso Villegas Jipa: </strong> 
-            <br> Durante la elaboracion del Landing Page, he apoyando con el desarrollo de la App web y Mobile Wireframes. Ya que, mantuve una comunicacion acertiva y planificando una solucion ágil en nuestros objetivos colaborativos. 
+            <br> Durante el desarrollo de esta primera entrega del proyecto, llevé a cabo varias acciones clave que contribuyeron al éxito del proyecto. En primer lugar, mantuve una comunicación constante y efectiva con todos los miembros del equipo, lo que nos 
+            permitió estar alineados y actualizados sobre el progreso del trabajo. Esta comunicación abierta fue fundamental para resolver dudas y compartir ideas en tiempo real. Además, culmine en la asignación de tareas específicas brindado por mi equipo, 
+            asegurándome que todo estuviera bien alineado. Esto no solo facilitó la organización de nuestro trabajo, sino que también promovió un sentido de responsabilidad mutua.
             <!--Siguiente-->
             <br> <br>
             <strong>Jhordi Luis Carranza Pérez: </strong> 
@@ -710,7 +715,9 @@ en cada uno de los commits.
             objetivos de manera eficiente.
             <br><br>
             <strong>Luis Alfonso Villegas Jipa</strong> 
-            La inclusión de los clientes en el proceso creativo fue otro factor determinante para el éxito del proyecto. Al involucrarlos en sesiones de brainstorming y revisiones periódicas, logramos captar sus perspectivas y sugerencias, lo que enriqueció nuestras propuestas. Esta colaboración no solo mejoró la calidad del producto final, sino que también fomentó un sentido de pertenencia y satisfacción en los clientes, asegurando que se sintieran parte integral del proceso de desarrollo.
+            En la elaboración del TB2, participé activamente en varias acciones clave que contribuyeron a crear un entorno colaborativo e inclusivo. En primer lugar, asistí a las sesiones donde todos los miembros del equipo compartieron ideas y sugerencias. Mi 
+            participación en estas discusiones me permitió aportar perspectivas que enriquecieron nuestras propuestas y asimismo poder desarrollar con mayor efectividad. Además, estuve presente en las revisiones periódicas del progreso del proyecto, donde 
+            discutimos los avances y ofrecimos retroalimentación constructiva. Esta interacción fomentó un sentido de pertenencia y satisfacción entre los integrantes del equipo, asegurando que cada voz fuera escuchada y valorada.
             <br><br>
             <strong>Janover Gonzalo Saldaña Vela</strong> 
             En este presentbale se delegaron funciones con el fin de que podamos
