@@ -4302,6 +4302,25 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
         <td>Luis Villegas</td>
         <td>Done</td>
     </tr>
+    <tr>
+        <td rowspan="2">TS-12</td>
+        <td rowspan="2">Actualizar estado de un pedido </td>
+        <td>TS-12: TASK-01</td>
+        <td>Actualizar el estado de un pedido</td>
+        <td>Desarrollar el endpoint para hacer un update al status de un pedido</td>
+        <td>4</td>
+        <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS-12: TASK-02</td>
+        <td>Validar el cambio de estado de una orden</td>
+        <td>Validar que el endpoint de update status maneje correctamente las respuestas</td>
+        <td>4</td>
+        <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
+    <!-------------------------------------------------------------------------------------->
 </tbody>
 </table>  
 
