@@ -4509,6 +4509,49 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
         <td>Gustavo Huanca</td>
         <td>Done</td>
     </tr>
+<!-------------------------------------------------------------------------------------->
+<tr>
+    <td rowspan="5">TS-07</td>
+    <td rowspan="5">Eliminar un cliente distribuidor</td>
+    <td>TS-07: TASK-01</td>
+    <td>Crear el componente delete client.</td>
+    <td>Desarrollar el componente delete client con los atributos necesarios para eliminar un cliente distribuidor.</td>
+    <td>4</td>
+    <td>Gustavo Huanca</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-07: TASK-02</td>
+    <td>Añadir el componente delete client al servicio</td>
+    <td>Integrar el componente delete client en el servicio para la funcionalidad de eliminación.</td>
+    <td>3</td>
+    <td>Gustavo Huanca</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-07: TASK-03</td>
+    <td>Implementar el servicio de comando delete client</td>
+    <td>Desarrollar el servicio de comando delete client, incluyendo la lógica de eliminación.</td>
+    <td>3</td>
+    <td>Gustavo Huanca</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-07: TASK-04</td>
+    <td>Implementar validaciones</td>
+    <td>Agregar validaciones y reglas de negocio necesarias para la eliminación del cliente distribuidor.</td>
+    <td>3</td>
+    <td>Gustavo Huanca</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>TS-07: TASK-05</td>
+    <td>Agregar Lógica en el Controlador para Eliminar Información del Cliente</td>
+    <td>Implementar el DELETE con la ruta {id} para eliminar el cliente distribuidor.</td>
+    <td>4</td>
+    <td>Gustavo Huanca</td>
+    <td>Done</td>
+</tr>
 </tbody>
 </table>  
 
