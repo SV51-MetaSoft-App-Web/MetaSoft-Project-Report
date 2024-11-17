@@ -4316,11 +4316,37 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
         <td>TS-12: TASK-02</td>
         <td>Validar el cambio de estado de una orden</td>
         <td>Validar que el endpoint de update status maneje correctamente las respuestas</td>
-        <td>4</td>
+        <td>2</td>
         <td>Vicente Quijandria</td>
         <td>Done</td>
     </tr>
     <!-------------------------------------------------------------------------------------->
+    <tr>
+        <td rowspan="3">TS-18</td>
+        <td rowspan="3">Eliminar un pedido </td>
+        <td>TS-18: TASK-01</td>
+        <td>Eliminar el registro de un pedido</td>
+        <td>Desarrollar funcionalidad para eliminar un pedido</td>
+        <td>4</td>
+        <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS-18: TASK-02</td>
+        <td>Crear endpoint para eliminar un pedido por id</td>
+        <td>Crear el endpoint "/api/v1/orders/{id}" en el controlador</td>
+        <td>3</td>
+        <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS-18: TASK-03</td>
+        <td>Validar se elimina correctamente el pedido</td>
+        <td>Validar que el endpoint de delete order maneje correctamente las respuestas</td>
+        <td>2</td>
+        <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
 </tbody>
 </table>  
 
