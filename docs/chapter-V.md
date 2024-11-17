@@ -4347,6 +4347,33 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
         <td>Vicente Quijandria</td>
         <td>Done</td>
     </tr>
+    <!-------------------------------------------------------------------------------------->
+    <tr>
+        <td rowspan="3">US-35</td>
+        <td rowspan="3">Administrar el estado de un pedido</td>
+        <td>US-35: TASK-01</td>
+        <td>Administrar estado de un pedido</td>
+        <td>Desarrollar la logica para que el combobox consuma el endpoint de update</td>
+        <td>4</td>
+        <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-35: TASK-02</td>
+        <td>Desarrollar componente para cambiar estado de pedido</td>
+        <td>Desarrollar el componente input para que el usuario cambie el estado del pedido</td>
+        <td>3</td>
+        <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-35: TASK-03</td>
+        <td>Validar que se actualice correctamente el pedido</td>
+        <td>Validar que el input este actualizando correctamente el estado del pedido</td>
+        <td>2</td>
+        <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
 </tbody>
 </table>  
 
