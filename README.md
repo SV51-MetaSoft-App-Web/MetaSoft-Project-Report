@@ -677,7 +677,7 @@ en cada uno de los commits.
                 <br> El desarrollo de esta primera parte del trabajo marcó un lazo importante entre los integrantes del equipo, la expresión de ideas claras y comunicación asertiva nos ayudó a poder desarrollar el proyecto de la mejor manera posible.
                 <br><br>
                 <strong>Oscar Javier Armas Sánchez:</strong>
-                <br> En la creación de esta primera parte de la primera entrega, me centré en desarrollar el contenido del Capítulo 1, específicamente en las secciones de *Segmentos Objetivo* y *Solution Profile*. Analicé y definí los segmentos clave a los que se dirige el proyecto, además de detallar las características y beneficios principales de la solución propuesta, asegurando que estén alineados con las necesidades identificadas.
+                <br> En esta primera entrega, me enfoqué en desarrollar el Capítulo 1, abordando las secciones de Segmentos Objetivo y Solution Profile. Junto a mis compañeros, participamos activamente en la toma de decisiones para definir los segmentos clave y las características principales de la solución, asegurando su alineación con las necesidades identificadas. También me mantuve en constante comunicación con el equipo, lo que permitió mejorar y completar las secciones necesarias, logrando así finalizar esta etapa del proyecto.
                 <br><br>
                 <strong>Juan Paul Llamccaya Arone:</strong>
                 <br> Durante esta primera entrega, me enfoqué principalmente en la Requirements Specification. Me aseguré de que todos los documentos del capítulo estén bien documentados y alineados con las necesidades del usuario. Colaboré estrechamente con el equipo para clarificar cualquier duda en cuanto a los Requirements Specification, lo que facilitó una mejor comprensión del proyecto y permitió que el desarrollo se realizara conforme a las expectativas del usuario.
@@ -694,7 +694,7 @@ en cada uno de los commits.
                 <br> He experimentado un liderazgo compartido con el equipo Metasot, donde cada miembro contribuye desde sus habilidades y se apoya en los demás. Esto ha mejorado nuestra toma de decisiones y ha fortalecido la confianza mutua.
                 <br><br>
                 <strong>Oscar Javier Armas Sánchez:</strong>  
-                <br> En este proceso, he experimentado una colaboración constante con el equipo, lo que ha sido clave para mi crecimiento profesional. La comunicación fluida y la distribución equitativa de tareas me han permitido desarrollar habilidades de organización y cooperación, lo que a su vez ha fortalecido mi capacidad para contribuir de manera efectiva al proyecto. Esta dinámica ha sido esencial para mantenernos alineados y avanzar hacia nuestros objetivos comunes.
+                <br> Establecer un entorno colaborativo fue clave para el desarrollo del proyecto. La comunicación constante y la distribución clara de tareas aseguraron un enfoque alineado hacia los objetivos. Esto no solo fortaleció la dinámica del equipo, sino que también garantizó resultados efectivos y ajustados a las necesidades del cliente.
             </td>
             <td>
                 <p style="text-align: center;"><strong>Conclusión General TB1</strong></p>
@@ -721,7 +721,7 @@ en cada uno de los commits.
                 <br> Durante la elaboración previa al diseño del entorno general de la plataforma, se analizó de manera concreta el estilo general que esta llevaría: colores primarios y secundarios, tamaños de fuente, ubicación de iconos y botones, fonts y demás consideraciones. En conjunto con el equipo de trabajo se logró desarrollarlo de manera efectiva gracias a la comunicación constante y la ayuda mutua.
                 <br><br>
                 <strong>Oscar Javier Armas Sánchez:</strong>  
-                <br> Durante la primera entrega, me centré en cumplir con mis tareas asignadas y ayudar al equipo a comprender la idea del proyecto, enfocándonos en el *Segmento Objetivo* de los vinicultores. Mantuvimos una comunicación constante para asegurar que todos estuviéramos alineados y avanzáramos de manera efectiva hacia los objetivos del proyecto.
+                <br> Me enfoqué en cumplir con las tareas asignadas y colaborar con el equipo para definir el Segmento Objetivo de los vinicultores. Aporté al desarrollo del Landing Page y los wireframes para las versiones web y móvil. Mantuvimos una comunicación constante, lo que permitió avanzar de manera alineada y eficiente hacia los objetivos del proyecto.
                 <br><br>
                 <strong>Juan Paul Llamccaya Arone:</strong>
                 <br> En esta primera entrega, trabajé en el User Journey Mapping para entender el recorrido del usuario y en el Empathy Mapping para captar sus necesidades. También realicé el As-is Scenario Mapping para analizar el estado actual del sistema y establecí el Ubiquitous Language para alinear al equipo. Finalmente, desarrollé el To-Be Scenario Mapping y el Impact Mapping para visualizar mejoras y conectar los objetivos del proyecto con los resultados esperados. Mantuvimos una comunicación constante para cumplir los objetivos en conjunto.
@@ -729,7 +729,7 @@ en cada uno de los commits.
                 <p style="text-align: center;"><strong>Presentable del TB2</strong></p>
                 <br><br>
                 <strong>Oscar Javier Armas Sánchez:</strong>  
-                <br> He creado un entorno colaborativo en el equipo, donde las tareas se asignaron de manera estratégica y con metas claras. La comunicación constante y el compromiso de cada miembro nos permitieron avanzar de manera eficiente, cumpliendo con los objetivos del proyecto y preparando el camino para la siguiente fase.
+                <br> La colaboración en el equipo fue esencial, con tareas asignadas estratégicamente y objetivos claros. La inclusión de los clientes en el proceso, a través de retroalimentación constante, permitió avanzar eficientemente, enriquecer el desarrollo con sus sugerencias y cumplir con los hitos del proyecto, preparando el camino para la siguiente fase.
                 <br><br>
                 <strong>Gustavo Esau Huanca Navarro:</strong>
                 <br> He creado un entorno colaborativo en Metasot, con metas claras y planificación conjunta. La comunicación abierta y el compromiso de cada miembro nos han permitido cumplir nuestros objetivos de manera eficiente.
