@@ -58,9 +58,9 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 3-->
             <td> 
-            <img src="../assets/img/chapter-I/juan_paul.jpeg" height="120" alt="Juan Paul">
-            Juan Paul Llamccaya Arone -
-            U20193571
+            <img src="../assets/img/chapter-I/vicente-quijandria.png" height="120" alt="Vicente Quijandria">
+            Vicente Quijandria Araneda -
+            U201822697
             <br>
             </td>
             <!-- DESCRIPCIÓN del integrante 3-->
