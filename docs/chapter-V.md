@@ -766,12 +766,25 @@ Para desplegar la Landing Page desde GitHubPages hay que seguir los siguientes p
 #### Aplicación ElixirControl Deployment
 
 
+**Despliegue del Frontend**
 
+Para este despliegue utilizamos la plataformad e vercel:
 
+Para ello copiaremos el URL de nuestro repositorio de GitHub y lo pegaremos en la plataforma de vercel.
 
+<img src="/assets/img/chapter-V/sprint-4/vercel6.jpeg" height="400" alt="landing_page">
 
+Luego de pegar el URL de nuestro repositorio de GitHub, vercel nos pedira que configuremos el proyecto.
 
+<img src="/assets/img/chapter-V/sprint-4/vercel2.png" height="400" alt="landing_page">
 
+Una vez configurado el proyecto, vercel nos mostrará una rama de nuestra aplicación.
+
+<img src="/assets/img/chapter-V/sprint-4/vercel3.png" height="350" alt="landing_page">
+
+Para despues mostrarnos un mensaje de exito en el despliegue de nuestra aplicación.
+
+<img src="/assets/img/chapter-V/sprint-4/vercel1.png" height="400" alt="landing_page">
 
 
 #### Web services Deployment
