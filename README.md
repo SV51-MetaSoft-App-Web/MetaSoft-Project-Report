@@ -478,7 +478,7 @@
 </tr>
 <!-- Fila 61 -->
 <tr>
-    <td>4.9</td>
+    <td>4.11</td>
     <td>17/11/2024</td>
     <td>Gustavo Huanca</td>
     <td>Se actualizo la sección de integrantes del equipo para añadir a Gustavo</td>
