@@ -468,7 +468,7 @@
     <td>17/11/2024</td>
     <td>Vicente Quijandria</td>
     <td>Se añadieron las tasks de TS-12, TS-18, US-34 y US-35 en el Sprint backlog 4</td>
-</tr>
+</tr> 
     </tbody>
 </table>
 
