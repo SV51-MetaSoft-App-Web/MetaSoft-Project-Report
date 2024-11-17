@@ -75,13 +75,14 @@ Nos enfocamos en brindar soluciones personalizadas que se ajusten a las necesida
         <tr>
             <!-- DATOS del integrante 4-->
             <td> 
-            <img src="../assets/img/chapter-I/Jhordi Carranza.jpg" height="120" alt="Jhordi Carranza">
+            <img src="../assets/img/chapter-I/gustavo_huanca.png" height="120" alt="Gustavo Huanca">
+              Gustavo Esau Huanca Navarro -
+               U202215285
             <br> 
             </td>
             <!-- DESCRIPCIÓN del integrante 4-->
             <td>
-              Soy estudiante de la carrera de ingeniería de software en la UPC. Tengo pasión por la música, algo que me ha ayudado tanto monetariamente como profesionalmente. Trato siempre de poder aprender y mejorar cada día.
-            </td>
+            Soy Gustavo Huanca, estudiante de Ingeniería de Software. Me considero puntual, responsable y disfruto resolviendo problemas tecnológicos. Tengo conocimientos en desarrollo de software, varios lenguajes de programación, estructuras de datos y algoritmos. Además. Mi objetivo es contribuir eficazmente al éxito del equipo con mis habilidades            </td>
             <!-- CONOCIMIENTOS del integrante 4-->
             <td>
               Cuento con conocimientos en lenguajes de programación como C++, Python, C# y programación web utilizando HTML y CSS; así mismo también poseo conocimientos generales en diversas materias como matemáticas y ciencias naturales.
