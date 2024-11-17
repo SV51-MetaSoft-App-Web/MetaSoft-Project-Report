@@ -4474,6 +4474,41 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
         <td>Oscar Armas</td>
         <td>Done</td>
     </tr>
+<!-------------------------------------------------------------------------------------->
+    <tr>
+        <td rowspan="4">TS-06</td>
+        <td rowspan="4">Editar los detalles de un cliente distribuidor</td>
+        <td>TS-06: TASK 01</td>
+        <td> Crear update client command.</td>
+        <td>Desarrollar el update client command con los atributos correspondientes.</td>
+        <td>4</td>
+        <td>Gustavo Huanca</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS-06: TASK 02</td>
+        <td>Añadir el componente update client al servicio</td>
+        <td>Intregrar el update client command service en el servicio.</td>
+        <td>3</td>
+        <td>Gustavo Huanca</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS-06: TASK-03</td>
+        <td>Implementar el servicio update clients</td>
+        <td>Implementamos el servicio agregando validaciones y reglas de negocio .</td>
+        <td>3</td>
+        <td>Gustavo Huanca</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS-06: TASK-04</td>
+        <td>Agregar Lógica en el Controlador para Actualizar Información del Cliente</td>
+        <td>Implementamos el PUT con la ruta {id} .</td>
+        <td>4</td>
+        <td>Gustavo Huanca</td>
+        <td>Done</td>
+    </tr>
 </tbody>
 </table>  
 
