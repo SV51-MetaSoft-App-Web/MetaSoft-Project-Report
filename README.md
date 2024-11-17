@@ -455,6 +455,13 @@
     <td>Vicente Quijandria</td>
     <td>Se agrego la foto de Vicente en la ruta assets</td>
 </tr>  
+<!-- Fila 58 -->
+<tr>
+    <td>4.7</td>
+    <td>17/11/2024</td>
+    <td>Vicente Quijandria</td>
+    <td>Se actualizo la sección de integrantes del equipo para añadir a Vicente</td>
+</tr> 
     </tbody>
 </table>
 
