@@ -3253,7 +3253,7 @@ En esta entrega no se han realizado los test
 
 Evidencias de última version de Landing Page
 
-![fronted.png](\assets\img\chapter-V\sprint-3\fronted.png)
+![fronted.png](/assets/img/chapter-V/sprint-3/fronted.png)
 
 Evidencia del video de About the product
 
