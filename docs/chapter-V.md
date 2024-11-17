@@ -2136,7 +2136,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
   <td> TS-01-T-01 </td>
   <td> Crear modelo de datos de vinificación </td>
   <td> Definir el modelo de datos del proceso de vinificación en la base de datos, incluyendo campos de lote, fase y fechas de cada etapa.	</td>
-  <td>ESTIMACIÓN</td>
+  <td> 5 </td>
   <td>Janover Saldaña</td>
   <td>Done</td>
 </tr>
@@ -2166,7 +2166,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
   <td> Implementar endpoint DELETE para lotes	</td>
   <td> Configurar el endpoint DELETE (/api/v1/vinificacion/lotes/{id}) para eliminar un lote completo, incluyendo sus datos de cada etapa del proceso.	</td>
   <td> 5 </td>
-  <td> Janover Saldaña < /td>
+  <td> Janover Saldaña </td>
   <td> Done</td>
 </tr>
 <!--====================================================================-->
@@ -2352,7 +2352,7 @@ El proceso se divide en dos partes: primero, establecemos el objetivo del sprint
   <td> US-33-T-04 </td>
   <td> Pruebas unitarias para la búsqueda </td>
   <td> Desarrollar pruebas unitarias que verifiquen el correcto funcionamiento del endpoint de búsqueda de insumos. </td>
-  <td> 1h < td>
+  <td> 1h </td>
   <td> Luis Villegas </td>
   <td> Done </td>
 </tr>
@@ -4372,6 +4372,106 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
         <td>Validar que el input este actualizando correctamente el estado del pedido</td>
         <td>2</td>
         <td>Vicente Quijandria</td>
+        <td>Done</td>
+    </tr>
+    <!-------------------------------------------------------------------------------------->
+    <tr>
+        <td rowspan="3">US-22</td>
+        <td rowspan="3">Seguimiento del estado del pedido</td>
+        <td>US-22: TASK-01</td>
+        <td>Crear la sección de seguimiento de pedidos</td>
+        <td>Diseñar una sección en el frontend que muestre el estado actual de cada pedido (pendiente, en proceso, enviado, entregado).</td>
+        <td>4</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-22: TASK-02</td>
+        <td>Implementar notificaciones de cambio de estado</td>
+        <td>Configurar el backend para que envíe una notificación al distribuidor cada vez que el estado de un pedido cambie.</td>
+        <td>3</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-22: TASK-03</td>
+        <td>Actualizar el estado de los pedidos en el sistema</td>
+        <td>Crear la lógica para actualizar el estado de un pedido en el sistema y reflejarlo en la cuenta del distribuidor.</td>
+        <td>2</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <!-------------------------------------------------------------------------------------->
+    <tr>
+        <td rowspan="3">US-23</td>
+        <td rowspan="3">Confirmación de disponibilidad de stock</td>
+        <td>US-23: TASK-01</td>
+        <td>Validar stock en tiempo real</td>
+        <td>Desarrollar una función en el backend que valide la disponibilidad de stock al momento de que el distribuidor seleccione los productos.</td>
+        <td>4</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-23: TASK-02</td>
+        <td>Implementar notificación de falta de stock</td>
+        <td>Configurar una notificación en el frontend que indique al distribuidor cuando el stock no es suficiente para completar el pedido.</td>
+        <td>3</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-23: TASK-03</td>
+        <td>Ofrecer alternativas en caso de falta de stock</td>
+        <td>Permitir que el distribuidor ajuste las cantidades o seleccione productos alternativos en caso de que el stock esté limitado.</td>
+        <td>2</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <!-------------------------------------------------------------------------------------->
+    <tr>
+        <td rowspan="3">US-24</td>
+        <td rowspan="3">Programación de entregas</td>
+        <td>US-24: TASK-01</td>
+        <td>Configurar el selector de fecha de entrega en el formulario de pedido</td>
+        <td>Agregar un selector de fecha en el formulario de pedido que permita al distribuidor seleccionar una fecha de entrega adecuada.</td>
+        <td>4</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-24: TASK-02</td>
+        <td>Validar fechas disponibles de entrega</td>
+        <td>Crear una lógica en el backend que verifique que la fecha de entrega seleccionada esté dentro de las opciones de entrega permitidas.</td>
+        <td>3</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-24: TASK-03</td>
+        <td>Confirmar y almacenar la fecha de entrega seleccionada</td>
+        <td>Almacenar la fecha de entrega seleccionada en la base de datos y mostrarla en la confirmación del pedido.</td>
+        <td>2</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <!-------------------------------------------------------------------------------------->
+    <tr>
+        <td rowspan="2">US-21</td>
+        <td rowspan="2">Creación de pedidos de vinos</td>
+        <td>US-21: TASK-02</td>
+        <td>Configurar el endpoint para la creación de pedidos</td>
+        <td>Desarrollar el endpoint en el backend para recibir y procesar los datos de un nuevo pedido, y retornar una confirmación de éxito.</td>
+        <td>4</td>
+        <td>Oscar Armas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US-21: TASK-03</td>
+        <td>Validar los datos del pedido</td>
+        <td>Implementar validaciones para asegurar que los datos enviados (productos y cantidades) sean válidos y cumplan con los requisitos de negocio.</td>
+        <td>3</td>
+        <td>Oscar Armas</td>
         <td>Done</td>
     </tr>
 </tbody>
