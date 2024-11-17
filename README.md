@@ -447,7 +447,14 @@
     <td>15/11/2024</td>
     <td>Luis Villegas</td>
     <td> Se creo la carpeta de "sprint-4" en la ruta de assets para la implementacion de imagenes </td>
-</tr> 
+</tr>
+<!-- Fila 57 -->
+<tr>
+    <td>4.6</td>
+    <td>17/11/2024</td>
+    <td>Vicente Quijandria</td>
+    <td>Se agrego la foto de Vicente en la ruta assets</td>
+</tr>  
     </tbody>
 </table>
 
