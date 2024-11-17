@@ -468,14 +468,7 @@
     <td>17/11/2024</td>
     <td>Vicente Quijandria</td>
     <td>Se añadieron las tasks de TS-12, TS-18, US-34 y US-35 en el Sprint backlog 4</td>
-</tr> 
-<!-- Fila 60 -->
-<tr>
-    <td>4.9</td>
-    <td>17/11/2024</td>
-    <td>Gustavo Huanca</td>
-    <td>Se actualizo la sección de integrantes del equipo para añadir a Gustavo</td>
-</tr> 
+</tr>
     </tbody>
 </table>
 
