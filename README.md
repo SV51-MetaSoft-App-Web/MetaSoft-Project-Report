@@ -432,7 +432,7 @@
     <td>4.3</td>
     <td>13/11/2024</td>
     <td>Luis Villegas</td>
-    <td> Se agrego la redaccion de los sprint TS-15, TS-17, US-27 y US-31 en el spirnt Backlog 4  </td>
+    <td> Se agrego la redaccion de los sprint TS-15, TS-17, US-27 y US-31 en el sprint Backlog 4  </td>
 </tr>
  <!-- Fila 55 -->
 <tr>
@@ -440,7 +440,14 @@
     <td>15/11/2024</td>
     <td>Luis Villegas</td>
     <td> Se implementó los videos de ejecucion del landing page y del frontend en el "Execution Evidence for Sprint Review" </td>
-</tr>     
+</tr> 
+ <!-- Fila 56 -->
+<tr>
+    <td>4.5</td>
+    <td>15/11/2024</td>
+    <td>Luis Villegas</td>
+    <td> Se creo la carpeta de "sprint-4" en la ruta de assets para la implementacion de imagenes </td>
+</tr> 
     </tbody>
 </table>
 
