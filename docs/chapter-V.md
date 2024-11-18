@@ -3765,7 +3765,7 @@ Se sugiere realizar una revisión completa de la arquitectura de información de
 **Problema:**  
 La sección de "Servicios" carece de una jerarquía visual clara, lo que dificulta que los usuarios identifiquen rápidamente las características ofrecidas por la aplicación. Los textos descriptivos no están suficientemente destacados, y la falta de íconos o elementos visuales de apoyo hace que la información no sea fácilmente escaneable.
 
-![errorlandingpage3.png](../assets/img/chapter-V/sprint-4/errorlandingpage3.PNG)
+![errorlandingpage3.png](../assets/img/chapter-V/sprint-4/errorlandingpage3.png)
 
 **Recomendación:**  
 Se sugiere rediseñar la sección utilizando una jerarquía visual clara que destaque títulos, descripciones e íconos representativos de cada servicio. Además, se recomienda mejorar el contraste y la organización del contenido para facilitar la lectura y comprensión rápida.
@@ -3777,7 +3777,7 @@ Se sugiere rediseñar la sección utilizando una jerarquía visual clara que des
 **Problema:**  
 Los botones de llamado a la acción ("Comienza ahora", "Contáctanos") no tienen suficiente prominencia en el diseño de la página. Esto podría llevar a que los usuarios no los perciban como elementos interactivos importantes, afectando la conversión y el flujo de navegación.
 
-![errorlandingpage4.png](../assets/img/chapter-V/sprint-4/errorlandingpage4.PNG)
+![errorlandingpage4.png](../assets/img/chapter-V/sprint-4/errorlandingpage4.png)
 
 **Recomendación:**  
 Se recomienda rediseñar los botones de CTA para que sean más visibles, utilizando colores llamativos que contrasten con el fondo, tamaños más grandes y ubicaciones estratégicas en la página. Incluir microinteracciones, como cambios de color al pasar el cursor, también puede aumentar la claridad de su función y atraer la atención del usuario.
