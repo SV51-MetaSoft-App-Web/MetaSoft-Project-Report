@@ -3829,16 +3829,16 @@ Se recomienda rediseñar los botones de CTA para que sean más visibles, utiliza
 <!--========================================= FILA 3 ======================================-->
 <tr>
   <td> 3 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Mejora de diseño en la interfaz de menu </td>
+  <td> 1 </td>
+  <td> Inclusive Design: Estética y diseño minimalista </td>
 </tr>
 <!--========================================= FILA 4 ======================================-->
 <tr>
   <td> 4 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Falta la opcion de editar una orden </td>
+  <td> 4  </td>
+  <td> Usability: Visibilidad del estado del sistema </td>
 </tr>
 </tbody>
 </table>
@@ -3885,15 +3885,25 @@ cohesiva y profesional.
 **_Problema:_**  
 En la sección de inventario, cuando el usuario guarda un nuevo registro, no recibe una notificación clara o retroalimentación visual de que la acción se ha completado exitosamente. Esto puede generar confusión sobre si el proceso de guardado fue efectivo, especialmente si el usuario está realizando múltiples cambios.
 
-**_Heurística/Principio violada(o): Usabilidad: Visibilidad del estado del sistema_**  
-Es fundamental que el sistema proporcione una retroalimentación inmediata y clara al usuario sobre el estado de la acción, asegurando que se entienda que el registro ha sido exitosamente guardado o si ocurrió un error.
 
 ![inventario_correcion3.png](..%2Fassets%2Fimg%2Fchapter-V%2Fsprint-3%2Finventario_correcion3.png)
 
 **_Recomendación:_**  
 Implementar una notificación visual, como un mensaje de éxito o un icono de confirmación, que aparezca brevemente en la pantalla cada vez que se guarden los cambios en el inventario. Esto ayudará a mejorar la confianza del usuario en la funcionalidad y le permitirá continuar trabajando sin interrupciones o dudas sobre el resultado de sus acciones.
 
+**_PROBLEMA #4: Mejora de diseño en la interfaz de menu_**
 
+**_Severidad: 1_**
+
+**_Problema:_**
+
+En la seccion del menu, cuando el usuario quiere navegar en los features, ocupa mucho espacio en la pantalla de navegacion lo que provoca dificultad en la nvegacion del usuario. Haciendo que constantemente tenga que ir a la ruta de "Home" para seguir navegando nuevamente sin problema alguno.
+
+<img src="/assets/img/chapter-V/sprint-4/menu.PNG" height="350" alt="landing_page">
+
+**_Recomendación:_**
+
+Para mejorar la navegación en los features, se sugiere optimizar el menú agrupando los elementos en submenús o categorías desplegables, lo que reducirá el espacio ocupado en pantalla. Además, esto permitirá a los usuarios regresar fácilmente a secciones anteriores sin necesidad de volver al "Home". También se pueden ofrecer accesos directos a las secciones más utilizadas y realizar pruebas de usabilidad para identificar áreas de mejora.
 
 ## 5.4. Video About-the-Product.
 
@@ -3961,14 +3971,15 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
 <tr>
     <td>Sprint 3 Review Summary</td>
     <td> 
-        Por definir
+        Durante el Sprint #3, el equipo realizó progresos significativos en la implementación de la gestión de inventarios, la administración de productos terminados, el manejo del proceso de vinificación por lotes de cosecha de uvas, así como en la gestión de la cartera de clientes de los vinicultores. Además, se avanzó en el desarrollo del historial de solicitudes de compra realizadas por los distribuidores a los vinicultores.
     </td>
 </tr>
 <!--====================================================================-->
 <tr>
     <td>Sprint 3 Retrospective Summary</td>
     <td>
-        Por definir
+        Durante este sprint, el equipo enfrentó desafíos significativos, especialmente debido a un tiempo reducido para completar las tareas asignadas. Esta limitación impactó la comunicación y la gestión de actividades, lo que generó dificultades en el flujo de trabajo. A pesar de estos obstáculos, logramos cumplir con los objetivos establecidos gracias al compromiso y la colaboración de los demás miembros del equipo.
+        A través de la resiliencia y el apoyo mutuo, completamos las entregas programadas, demostrando que, incluso en circunstancias adversas, el trabajo en equipo es esencial para el éxito. Identificamos varias oportunidades para mejorar la claridad en los roles y fortalecer el seguimiento de tareas, lo que nos permitirá optimizar nuestra dinámica en futuros sprints. Nuestro desempeño durante este periodo refleja un camino claro hacia el cumplimiento de los objetivos del próximo sprint, asegurando una mayor eficiencia en el uso de recursos y tiempo.
     </td>
 </tr>
 <!--====================================================================-->
@@ -5323,6 +5334,8 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
 </table>
 
 #### 5.2.4.4.Testing Suite Evidence for Sprint Review.
+
+Para esta entrega no se realizaron test para este Sprint.
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 
