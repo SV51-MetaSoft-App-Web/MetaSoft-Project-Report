@@ -3633,8 +3633,9 @@ ________________________________________________________________________________
 
 1. Acceso a la visualizacion de datos en el inventario
 2. Mejora de diseño en la interfaz en la seccion "Vinicultor"
-3. Definir Tarea 3
-4. Definir Tarea 4  
+3. Optimización de la Interfaz de Usuario
+4. Implementación de Nuevas Funcionalidades
+ 
 
 
 **ESCALA DE SEVERIDAD:**
@@ -3716,16 +3717,16 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 <!--========================================= FILA 3 ======================================-->
 <tr>
   <td> 3 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Diseño inconsistente en la sección de "Servicios" </td>
+  <td> 2 </td>
+  <td> Inclusive Design: Estética y diseño minimalista </td>
 </tr>
 <!--========================================= FILA 4 ======================================-->
 <tr>
   <td> 4 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Call-to-Action (CTA) poco destacado </td>
+  <td> 3 </td>
+  <td> Usability: Visibilidad del estado del sistema </td>
 </tr>
 </tbody>
 </table>
@@ -3745,7 +3746,7 @@ En la sección de "Planes" de la landing page, al seleccionar un plan, el sistem
 **Recomendación:**  
 Se recomienda implementar una acción que guíe al usuario después de seleccionar un plan, como abrir una pestaña emergente con más detalles del plan o redirigir a una página de registro o pago. Esto facilitaría al usuario el proceso de completar su selección y mejoraría la experiencia de navegación al hacerlo más intuitivo y directo.
 
-**PROBLEMA #2:** Dificultades en la Navegación y Comprensión de la Propuesta de Valor en la Landing Page"
+**PROBLEMA #2:** Dificultades en la Navegación y Comprensión de la Propuesta de Valor en la Landing Page
 
 **Severidad: 2**
 
@@ -3756,6 +3757,31 @@ Los usuarios encuentran dificultades para navegar en la landing page debido a la
 
 **Recomendación:**  
 Se sugiere realizar una revisión completa de la arquitectura de información de la landing page, asegurando que los elementos más importantes (como beneficios, características clave y llamados a la acción) sean fácilmente accesibles y visualmente destacados. Implementar un diseño más limpio y organizado, utilizando jerarquías visuales efectivas, permitirá guiar a los usuarios a través de la página de manera más fluida. Además, incluir etiquetas y descripciones claras para cada sección ayudará a los usuarios a entender mejor el contenido presentado.
+
+**PROBLEMA #3:** Diseño inconsistente en la sección de "Servicios"
+
+**Severidad: 2**
+
+**Problema:**  
+La sección de "Servicios" carece de una jerarquía visual clara, lo que dificulta que los usuarios identifiquen rápidamente las características ofrecidas por la aplicación. Los textos descriptivos no están suficientemente destacados, y la falta de íconos o elementos visuales de apoyo hace que la información no sea fácilmente escaneable.
+
+![errorlandingpage3.png](../assets/img/chapter-V/sprint-4/errorlandingpage3.PNG)
+
+**Recomendación:**  
+Se sugiere rediseñar la sección utilizando una jerarquía visual clara que destaque títulos, descripciones e íconos representativos de cada servicio. Además, se recomienda mejorar el contraste y la organización del contenido para facilitar la lectura y comprensión rápida.
+
+**PROBLEMA #4:** Diseño inconsistente en la sección de "Servicios""
+
+**Severidad: 3**
+
+**Problema:**  
+Los botones de llamado a la acción ("Comienza ahora", "Contáctanos") no tienen suficiente prominencia en el diseño de la página. Esto podría llevar a que los usuarios no los perciban como elementos interactivos importantes, afectando la conversión y el flujo de navegación.
+
+![errorlandingpage4.png](../assets/img/chapter-V/sprint-4/errorlandingpage4.PNG)
+
+**Recomendación:**  
+Se recomienda rediseñar los botones de CTA para que sean más visibles, utilizando colores llamativos que contrasten con el fondo, tamaños más grandes y ubicaciones estratégicas en la página. Incluir microinteracciones, como cambios de color al pasar el cursor, también puede aumentar la claridad de su función y atraer la atención del usuario.
+
 
 
 **TABLA DE RESUMEN - WEB APPLICATION:**
