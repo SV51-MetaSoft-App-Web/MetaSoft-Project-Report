@@ -3633,8 +3633,9 @@ ________________________________________________________________________________
 
 1. Acceso a la visualizacion de datos en el inventario
 2. Mejora de diseño en la interfaz en la seccion "Vinicultor"
-3. Definir Tarea 3
-4. Definir Tarea 4  
+3. Optimización de la Interfaz de Usuario
+4. Implementación de Nuevas Funcionalidades
+ 
 
 
 **ESCALA DE SEVERIDAD:**
@@ -3716,16 +3717,16 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 <!--========================================= FILA 3 ======================================-->
 <tr>
   <td> 3 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Diseño inconsistente en la sección de "Servicios" </td>
+  <td> 2 </td>
+  <td> Inclusive Design: Estética y diseño minimalista </td>
 </tr>
 <!--========================================= FILA 4 ======================================-->
 <tr>
   <td> 4 </td>
-  <td> Contenido del Problema </td>
-  <td> Contenido de la Escala de severidad </td>
-  <td> Contenido de Heurística/Principio violada(o) </td>
+  <td> Call-to-Action (CTA) poco destacado </td>
+  <td> 3 </td>
+  <td> Usability: Visibilidad del estado del sistema </td>
 </tr>
 </tbody>
 </table>
@@ -3745,17 +3746,42 @@ En la sección de "Planes" de la landing page, al seleccionar un plan, el sistem
 **Recomendación:**  
 Se recomienda implementar una acción que guíe al usuario después de seleccionar un plan, como abrir una pestaña emergente con más detalles del plan o redirigir a una página de registro o pago. Esto facilitaría al usuario el proceso de completar su selección y mejoraría la experiencia de navegación al hacerlo más intuitivo y directo.
 
-**PROBLEMA #2:** Dificultades en la Navegación y Comprensión de la Propuesta de Valor en la Landing Page"
+**PROBLEMA #2:** Dificultades en la Navegación y Comprensión de la Propuesta de Valor en la Landing Page
 
 **Severidad: 2**
 
 **Problema:**  
 Los usuarios encuentran dificultades para navegar en la landing page debido a la falta de claridad en la estructura de información y a un diseño visual poco intuitivo. Esto puede llevar a confusión y a una experiencia de usuario negativa, dificultando que los visitantes comprendan rápidamente la propuesta de valor del producto.
 
-![errorlandingpage.png](../assets/img/chapter-V/sprint-3/errorlandingpage.PNG)
+![errorlandingpage.png](../assets/img/chapter-V/sprint-3/errorlandingpage.png)
 
 **Recomendación:**  
 Se sugiere realizar una revisión completa de la arquitectura de información de la landing page, asegurando que los elementos más importantes (como beneficios, características clave y llamados a la acción) sean fácilmente accesibles y visualmente destacados. Implementar un diseño más limpio y organizado, utilizando jerarquías visuales efectivas, permitirá guiar a los usuarios a través de la página de manera más fluida. Además, incluir etiquetas y descripciones claras para cada sección ayudará a los usuarios a entender mejor el contenido presentado.
+
+**PROBLEMA #3:** Diseño inconsistente en la sección de "Servicios"
+
+**Severidad: 2**
+
+**Problema:**  
+La sección de "Servicios" carece de una jerarquía visual clara, lo que dificulta que los usuarios identifiquen rápidamente las características ofrecidas por la aplicación. Los textos descriptivos no están suficientemente destacados, y la falta de íconos o elementos visuales de apoyo hace que la información no sea fácilmente escaneable.
+
+![errorlandingpage3.png](../assets/img/chapter-V/sprint-4/errorlandingpage3.png)
+
+**Recomendación:**  
+Se sugiere rediseñar la sección utilizando una jerarquía visual clara que destaque títulos, descripciones e íconos representativos de cada servicio. Además, se recomienda mejorar el contraste y la organización del contenido para facilitar la lectura y comprensión rápida.
+
+**PROBLEMA #4:** Diseño inconsistente en la sección de "Servicios""
+
+**Severidad: 3**
+
+**Problema:**  
+Los botones de llamado a la acción ("Comienza ahora", "Contáctanos") no tienen suficiente prominencia en el diseño de la página. Esto podría llevar a que los usuarios no los perciban como elementos interactivos importantes, afectando la conversión y el flujo de navegación.
+
+![errorlandingpage4.png](../assets/img/chapter-V/sprint-4/errorlandingpage4.png)
+
+**Recomendación:**  
+Se recomienda rediseñar los botones de CTA para que sean más visibles, utilizando colores llamativos que contrasten con el fondo, tamaños más grandes y ubicaciones estratégicas en la página. Incluir microinteracciones, como cambios de color al pasar el cursor, también puede aumentar la claridad de su función y atraer la atención del usuario.
+
 
 
 **TABLA DE RESUMEN - WEB APPLICATION:**
@@ -4526,6 +4552,754 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
 
 
 #### 5.2.4.3.Development Evidence for Sprint Review.
+<table>
+    <thead>
+        <tr>
+            <th rowspan="" >Repository</th>
+            <th>Branch</th>
+            <th>Commit Id</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commited on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+    <!--======================================REPOSITORY======================================-->
+        <tr>
+            <td rowspan="10">ElixirControl-Landing-Page</td>
+            <td>main</td>
+            <td>d54a8d8</td>
+            <td>feat: Updated the styles and html of the About The App section.</td>
+            <td>Updated the styles and html of the About The App section.</td>
+            <td>Commited on 04/11/2024</td>
+        </tr>
+    </tbody>
+    <tbody>
+    <!--======================================REPOSITORY======================================-->
+        <tr>
+            <td rowspan="21">ElixirControl-FrontEnd</td>
+            <td>feature/security</td>
+            <td>01ae914</td>
+            <td>feat(security): added base structure for user login.</td>
+            <td>Added base structure for user login.</td>
+            <td>Commited on 05/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>19c0269</td>
+            <td>feat(customer-management): attributes names fixed.</td>
+            <td>attributes names fixed.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>85853e8</td>
+            <td>feat(iam): add request and response model types.</td>
+            <td>added request and response model types.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>80026bf</td>
+            <td>feat(iam): add authentication service.</td>
+            <td>added authentication service.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>643133b</td>
+            <td>chore: add pinia for state management.</td>
+            <td>added pinia for state management.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>debb046</td>
+            <td>chore: add authentication interceptor.</td>
+            <td>added authentication interceptor.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>0b9b86c</td>
+            <td>chore: add sign-in component.</td>
+            <td>added sign-in component.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>11c6200</td>
+            <td>chore: add sign-up component.</td>
+            <td>added sign-up component.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>b2d1ec3</td>
+            <td>feat(iam): add authentication section to header content.</td>
+            <td>Added authentication section to header content.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>a155d28</td>
+            <td>feat(iam): add sign up and sign in routes</td>
+            <td>Added sign up and sign in routes</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>415571c</td>
+            <td>refactor(order-management): separated the contact entity data from the orders entity</td>
+            <td>Separated the contact entity data from the orders entity</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>3996815</td>
+            <td>feat(order-details): added order status input dropdown to update order status</td>
+            <td>Added order status input dropdown to update order status</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>13032f3</td>
+            <td>refactor(order-management): fixed problem of phone data not showing in the order management component</td>
+            <td>Fixed problem of phone data not showing in the order management component</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-requests</td>
+            <td>c7f9dc1</td>
+            <td>feat(order-requests): attributes names fixed.</td>
+            <td>Attributes names fixed.</td>
+            <td>Commited on 17/11/2024</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <!--======================================REPOSITORY======================================-->
+        <tr>
+            <td rowspan="44">ElixirControl-Platform</td>
+            <td>feature/inventory-management</td>
+            <td>1e383b0</td>
+            <td>feat(inventory-management): Update in the "InventoryCommandService"</td>
+            <td>Updated in the "InventoryCommandService"</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>f965d96</td>
+            <td>feat(inventory-management): Added in the "UpdateInventoryCommand" with  update inventory constructor entity</td>
+            <td>Added in the "UpdateInventoryCommand" with  update inventory constructor entity</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>44aee02</td>
+            <td>feat(inventory-management): Added in the "GetInventoriesByFilterQuery"</td>
+            <td>Added in the "GetInventoriesByFilterQuery"</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>277d7c9</td>
+            <td>feat(inventory-management): Added in the "UpdateInventoryResource"</td>
+            <td>Added in the "UpdateInventoryResource"</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>eeb64b9</td>
+            <td>feat (inventory management): Update in the "InventoryController" with inventory search by filter</td>
+            <td>Updated in the "InventoryController" with inventory search by filter</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>bcf1ffd</td>
+            <td>feat (inventory management): Added in the "DeleteInventoryCommand"</td>
+            <td>Added in the "DeleteInventoryCommand"</td>
+            <td>Commited on 07/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>631d31b</td>
+            <td>feat (inventory management): Added in the "IInventoryCommandService" with inventory delete</td>
+            <td>Added in the "IInventoryCommandService" with inventory delete</td>
+            <td>Commited on 07/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>fed6be5</td>
+            <td>feat (inventory management): Added in the "IInventoryRepository" with inventory delete</td>
+            <td>Added in the "IInventoryRepository" with inventory delete</td>
+            <td>Commited on 07/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>cd83dc3</td>
+            <td>feat (inventory management): Added in the "InventoryController" with inventory delete</td>
+            <td>Added in the "InventoryController" with inventory delete</td>
+            <td>Commited on 07/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>c893dab</td>
+            <td>feat(winemaking-process): Added implementation of commands to update the Fermentation, Clarification, Pressing and Aging processes.</td>
+            <td>Added implementation of commands to update the Fermentation, Clarification, Pressing and Aging processes.</td>
+            <td>Commited on 04/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>6392140</td>
+            <td>feat(winemaking-process): Added endpoints in the controller to UPDATE Fermentation, Clarification, Pressing and Aging processes.</td>
+            <td>Added endpoints in the controller to UPDATE Fermentation, Clarification, Pressing and Aging processes.</td>
+            <td>Commited on 04/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>8e49168</td>
+            <td>feat(profile): Added the Name, Email Address and Person Name value object to profiles</td>
+            <td>Added the Name, Email Address and Person Name value object to profiles</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>3dc4277</td>
+            <td>feat(profile): Added queries and creation command for profile.</td>
+            <td>Added queries and creation command for profile.</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>0df6739</td>
+            <td>feat(profile): Added interfaces for Commands, Queries, and Repository.</td>
+            <td>Added interfaces for Commands, Queries, and Repository.</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>c71aa60</td>
+            <td>feat(profile): Added implementation of services for commands, queries and repository.</td>
+            <td>Added implementation of services for commands, queries and repository.</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>4a11aa8</td>
+            <td>feat(profile): Added interface layer for profiles.</td>
+            <td>Added interface layer for profiles.</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="">Repository</th>
+            <th>Branch</th>
+            <th>Commit Id</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commited on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="46">ElixirControl-Backend</td>
+            <td>feature/inventory-management</td>
+            <td>689794</td>
+            <td>feat(inventory-management): added interface inventory controller</td>
+            <td>Added interface inventory controller</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>4c1b464</td>
+            <td>feat(inventory-management): Added transform and application layer for inventory.</td>
+            <td>Added transform and application layer for inventory.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>515735</td>
+            <td>feat(inventory-management): Added resources and application layer for inventory.</td>
+            <td>Added resources and application layer for inventory.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>06ca584</td>
+            <td>chore(inventory-management): Added the inventory management bounded context structure.</td>
+            <td>Added the inventory management bounded context structure.</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>91a9999</td>
+            <td>feat(winemaking-process): Added interface layer for batch endpoint.</td>
+            <td>Added interface layer for batch endpoint.</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>9eff846</td>
+            <td>feat(winemaking-process): Added infrastructure and application layer for batches.</td>
+            <td>Added infrastructure and application layer for batches.</td>
+            <td>Commited on 20/10/2024</td>
+        </tr>
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>66834f4</td>
+            <td>feat(winemaking-process): Added domain layer for batches.</td>
+            <td>Added domain layer for batches.</td>
+            <td>Commited on 20/10/2024</td>
+        </tr>
+         <tr>
+            <td>feature/inventory-management</td>
+            <td>689794</td>
+            <td>feat(inventory-management): added interface inventory controller</td>
+            <td>Added interface inventory controller</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+       <tr>
+            <td>feature/inventory-management</td>
+            <td>4c1b464</td>
+            <td>feat(inventory-management): Added transform and application layer for inventory.</td>
+            <td>Added transform and application layer for inventory.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>515735</td>
+            <td>feat(inventory-management): Added resources and application layer for inventory.</td>
+            <td>Added resources and application layer for inventory.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>06ca584</td>
+            <td>chore(inventory-management): Added the inventory management bounded context structure.</td>
+            <td>Added the inventory management bounded context structure.</td>
+            <td>Commited on 27/10/2024</td>
+        </tr>
+       <tr>
+            <td>feature/customer-management</td>
+            <td>9cc12al</td>
+            <td>feat(customer-management): create client command from resource assembler added.</td>
+            <td>Create client command from resource assembler added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+       <tr>
+            <td>feature/customer-management</td>
+            <td>df2045a</td>
+            <td>feat(customer-management): end points added.</td>
+            <td>End points added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b4f8bdb</td>
+            <td>feat(customer-management): client resource from entity assembles added.</td>
+            <td>Client resource from entity assembles added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>d89597</td>
+            <td>feat(customer-management): client resource added.</td>
+            <td>Client resource added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>3c32ce3</td>
+            <td>feat(customer-management): client repository added.</td>
+            <td>Client repository added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>34ace70</td>
+            <td>feat(customer-management): client query service added.</td>
+            <td>Client query service added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+       <tr>
+            <td>feature/customer-management</td>
+            <td>9683929</td>
+            <td>feat(customer-management): client command service added.</td>
+            <td>Client command service added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>b2a5d3d</td>
+            <td>feat(customer-management): create client resource added.</td>
+            <td>Create client resource added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>7738dea</td>
+            <td>feat(customer-management): dependency injection of clients added.</td>
+            <td>Dependency injection of clients added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>2233cbc</td>
+            <td>feat(customer-management): interface client query service added.</td>
+            <td>Interface client query service added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>1bd6de8</td>
+            <td>feat(customer-management): find all clients async method added.</td>
+            <td>Find all clients async method added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>487c5dc</td>
+            <td>feat(customer-management): db context of clients added.</td>
+            <td>DB context of clients added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/customer-management</td>
+            <td>713529</td>
+            <td>feat(customer-management): class client added.</td>
+            <td>Class client added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>dc7ed62</td>
+            <td>feat(CreateOrderCommand From ResourceAssembler): added the CreateOrderCommand From ResourceAssembler</td>
+            <td>Added the CreateOrderCommand From ResourceAssembler</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+       <tr>
+            <td>feature/order-management</td>
+            <td>287b688</td>
+            <td>feat(OrderRepository): added the Order Repository</td>
+            <td>Added the Order Repository</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>998ca67</td>
+            <td>docker file deleted</td>
+            <td>Docker file deleted.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>e56e85f</td>
+            <td>docker file added.</td>
+            <td>Docker file added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>833aabb</td>
+            <td>feat(OrderResource): added the OrderResource</td>
+            <td>Added the OrderResource.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>7907eb9</td>
+            <td>feat(OrderResource): Added the order resource from entity assembler.</td>
+            <td>Added the order resource from entity assembler.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>@2bbf1d</td>
+            <td>feat(OrdersController): added HTTP GET method for get all orders operation.</td>
+            <td>Added HTTP GET method for get all orders operation.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>c0df+29</td>
+            <td>chore: database connection added.</td>
+            <td>Database connection added.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>714671</td>
+            <td>feat(Program): added dependency injection for orders entity.</td>
+            <td>Added dependency injection for orders entity.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>c0dbb43</td>
+            <td>refactor(example): deleted md files.</td>
+            <td>Deleted markdown files.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+       <tr>
+            <td>feature/winemaking-process</td>
+            <td>14ccb3a</td>
+            <td>feat(winemaking-process): Added REST resources and transforms to add batch clarification stage.</td>
+            <td>Added REST resources and transforms to add batch clarification stage.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/winemaking-process</td>
+            <td>358ec4b</td>
+            <td>feat(OrdersController): finished the Orders Controller.</td>
+            <td>Finished the Orders Controller.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+       <tr>
+            <td>develop</td>
+            <td>2a3714d</td>
+            <td>fix(develop): Fixed the content of AppDbContext and Program.cs.</td>
+            <td>Fixed the content of AppDbContext and Program.cs.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>c097cfd</td>
+            <td>Merge remote-tracking branch 'refs/remotes/origin/feature/order-management' into develop</td>
+            <td>Merged feature/order-management into develop.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>Be95ab7</td>
+            <td>Merge remote-tracking branch 'origin/feature/inventory-management' into develop</td>
+            <td>Merged feature/inventory-management into develop.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>Bef2@b1</td>
+            <td>Merge remote-tracking branch 'origin/feature/customer-management' into develop</td>
+            <td>Merged feature/customer-management into develop.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>6e4ffdd</td>
+            <td>feat(customer-management): enumerable fixed.</td>
+            <td>Enumerable fixed.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>db14ce7</td>
+            <td>feat(winemaking-process): Added endpoints to POST and GET the batch pressing process.</td>
+            <td>Added endpoints to POST and GET the batch pressing process.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>70f11e5</td>
+            <td>feat(winemaking-process): Added endpoints to create and return the batch pressing process.</td>
+            <td>Added endpoints to create and return the batch pressing process.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>@dfbc47</td>
+            <td>chore: test finished.</td>
+            <td>Test finished.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>2d9ddec</td>
+            <td>chore: test finished.</td>
+            <td>Test finished.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td>develop</td>
+            <td>630518</td>
+            <td>feat(winemaking-process): Added comments to the winemaking process controller.</td>
+            <td>Added comments to the winemaking process controller.</td>
+            <td>Commited on 03/11/2024</td>
+        </tr>
+        <tr>
+            <td rowspan="20">ElixirControl-Frontend</td>
+            <td>feature/iam</td>
+            <td>a155d28</td>
+            <td>feat(iam): add sign up and sign in routes</td>
+            <td>Add sign up and sign in routes.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>b2d1ec3</td>
+            <td>feat(iam): add authentication section to header content.</td>
+            <td>Add authentication section to header content.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>d0d8b7c</td>
+            <td>chore: add authentication section component.</td>
+            <td>Add authentication section component.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>659234</td>
+            <td>chore: add authentication guard.</td>
+            <td>Add authentication guard.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>11c6200</td>
+            <td>chore: add sign-up component.</td>
+            <td>Add sign-up component.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+           <tr>
+            <td>feature/iam</td>
+            <td>0b9b86c</td>
+            <td>chore: add sign-in component.</td>
+            <td>Add sign-in component.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>debb046</td>
+            <td>chore: add authentication interceptor.</td>
+            <td>Add authentication interceptor.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>55896</td>
+            <td>chore: add authentication store.</td>
+            <td>Add authentication store.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>6431336</td>
+            <td>chore: add pinia for state management.</td>
+            <td>Add Pinia for state management.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>80026bf</td>
+            <td>feat(iam): add authentication service.</td>
+            <td>Add authentication service.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>858538</td>
+            <td>feat(iam): add request and response model types.</td>
+            <td>Add request and response model types.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/iam</td>
+            <td>0a13605</td>
+            <td>chore: update dependencies.</td>
+            <td>Update dependencies.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+       <tr>
+            <td>feature/order-management</td>
+            <td>b8df9ed</td>
+            <td>refactor(order-management): fixed problem of phone data not showing in the order management component</td>
+            <td>Fixed problem of phone data not showing in the order management component.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>1303243</td>
+            <td>refactor(order-management): fixed problem of phone data not showing in the order management component</td>
+            <td>Fixed problem of phone data not showing in the order management component.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-details</td>
+            <td>3996815</td>
+            <td>feat(order-details): added order status input dropdown to update order status</td>
+            <td>Added order status input dropdown to update order status.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-management</td>
+            <td>415571c</td>
+            <td>refactor(order-management): separated the contact entity data from the orders entity</td>
+            <td>Separated the contact entity data from the orders entity.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+          <tr>
+            <td>feature/order-management</td>
+            <td>@c95e8a</td>
+            <td>refactor(order-management): fixed an error of the details button not displaying correctly</td>
+            <td>Fixed an error of the details button not displaying correctly.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-details</td>
+            <td>be0e883</td>
+            <td>feat(order-details): added more details of the new attributes of the order</td>
+            <td>Added more details of the new attributes of the order.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order-create-and-edit</td>
+            <td>cdSelab</td>
+            <td>feat(order-create-and-edit): added more inputs for the new attributes of the order</td>
+            <td>Added more inputs for the new attributes of the order.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+        <tr>
+            <td>feature/order.entity</td>
+            <td>661eb7d</td>
+            <td>feat(order.entity): added more attributes to the order entity</td>
+            <td>Added more attributes to the order entity.</td>
+            <td>Commited on 15/11/2024</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.4.4.Testing Suite Evidence for Sprint Review.
 
