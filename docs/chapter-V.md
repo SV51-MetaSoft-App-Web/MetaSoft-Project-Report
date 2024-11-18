@@ -1988,6 +1988,8 @@ En esta etapa de nuestro proyecto, nos hemos enfocado en implementar la funciona
 
 ##### 5.2.2.4. Testing Suite Evidence for Sprint Review
 
+Para esta entrega no se ha realizado el testing
+
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 En este Sprint, nos hemos enfocado en el desarrollo y la implementación de la interfaz de gestión de pedidos, un componente esencial para mejorar la experiencia del usuario en nuestra aplicación. A través de un diseño intuitivo y funcional, buscamos facilitar la creación, edición y visualización de pedidos, permitiendo a los usuarios gestionar sus transacciones de manera eficiente y efectiva. Durante este período, hemos trabajado en varias vistas clave que contribuyen a esta funcionalidad. A continuación, se presentan las capturas de pantalla que ilustran las diferentes etapas del proceso de gestión de pedidos, destacando las características y mejoras implementadas. A continuación, te presentamos capturas de pantalla del desarrollo del front-end: 
 
@@ -2001,6 +2003,13 @@ En este Sprint, nos hemos enfocado en el desarrollo y la implementación de la i
 
 ![img.png](../assets/img/chapter-V/sprint-2/front5.png)
 
+Para ello se ha realizado el video de ejecucion del landingPage implementando la ruta del frontend:
+
+<img src="/assets/img/chapter-V/sprint-4/sprint_2.PNG" height="350" alt="sprint_2">
+
+Enlace del video de ejecucion:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EcAq56hSa_1Gvy5T2KtfgsIBPyf8fD7HXSZcj0zrfrnZyg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pkXn26
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Durante este Sprint, se ha llevado a cabo la documentación de los endpoints necesarios para la gestión de pedidos, utilizando OpenAPI como herramienta de referencia. Este proceso es fundamental para asegurar que todos los miembros del equipo, así como los desarrolladores futuros, tengan acceso a información clara y detallada sobre cómo interactuar con la API. La tabla a continuación detalla los endpoints documentados, proporcionando una visión clara de las acciones disponibles, los métodos HTTP asociados, y ejemplos de respuestas esperadas. Esta documentación no solo facilita el trabajo del equipo de desarrollo, sino que también mejora la comunicación entre los diferentes actores del proyecto.
@@ -3323,6 +3332,14 @@ Evidencias de Swagger conectado a nuestro backend:
 ![api2.png](/assets/img/chapter-V/sprint-3/api2.png)
 
 Enlace del Web Services desplegado: http://elixircontrol.runasp.net/swagger/index.html
+
+Para este sprint, se ha realizado un video de ejecucion demostrativo del despliegue del backend:
+
+<img src="/assets/img/chapter-V/sprint-4/sprint_3.PNG" height="350" alt="landing_page">
+
+Enlance del video de ejecucion:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EQ2Ot4dlVrZGpvTXEAJOYWIBbjVd6I0wBj7U5zAB6GEXzQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8tW9tF
 
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
