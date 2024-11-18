@@ -483,6 +483,20 @@
     <td>Gustavo Huanca</td>
     <td>Se actualizo la sección de integrantes del equipo para añadir a Gustavo</td>
 </tr> 
+<!-- Fila 62 -->
+<tr>
+    <td>4.12</td>
+    <td>17/11/2024</td>
+    <td>Luis Villegasa</td>
+    <td>Se implementó el video de ejecucion del backend en el "Execution Evidence for Sprint Review </td>
+</tr>
+<!-- Fila 63 -->
+<tr>
+    <td>4.13</td>
+    <td>17/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agrego la redaccion en la seccion "5.2.4.3"</td>
+</tr> 
     </tbody>
 </table>
 
