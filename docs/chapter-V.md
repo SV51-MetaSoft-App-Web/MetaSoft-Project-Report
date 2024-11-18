@@ -5335,7 +5335,816 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
 
 #### 5.2.4.4.Testing Suite Evidence for Sprint Review.
 
-Para esta entrega no se realizaron test para este Sprint.
+# Pruebas Unitarias para Gestión de Inventario
+
+## 1. Probar Registro de Nuevo Inventario de Vinos
+- **Objetivo**: Verificar que se registre correctamente un nuevo inventario de vino.
+- **Descripción**:
+  - Dado un vino con ID "V001" y stock inicial de 10 unidades.
+  - Cuando se agregan 5 unidades al inventario.
+  - Entonces, el inventario debe actualizarse a 15 unidades.
+- **Código de Prueba**:
+    ```csharp
+    using NUnit.Framework;
+
+    [TestFixture]
+    public class InventarioVinosTests
+    {
+        [Test]
+        public void TestRegistrarNuevoInventarioDeVino()
+        {
+            // Arrange
+            var vino = new Vino("V001", "Merlot", 10);
+            
+            // Act
+            vino.AgregarUnidades(5);
+            
+            // Assert
+            Assert.AreEqual(15, vino.Stock);
+        }
+    }
+    ```
+
+## 2. Probar Error al Restar Unidades No Disponibles
+- **Objetivo**: Asegurar que se maneje el error al intentar restar más unidades de las disponibles.
+- **Descripción**:
+  - Dado un vino con ID "V002" y stock de 5 unidades.
+  - Cuando se intenta restar 10 unidades del inventario.
+  - Entonces, se debe lanzar una excepción de "Stock insuficiente".
+- **Código de Prueba**:
+    ```csharp
+    using NUnit.Framework;
+
+    [TestFixture]
+    public class InventarioVinosTests
+    {
+        [Test]
+        public void TestErrorAlRestarUnidadesNoDisponibles()
+        {
+            // Arrange
+            var vino = new Vino("V002", "Cabernet Sauvignon", 5);
+            
+            // Act & Assert
+            var ex = Assert.Throws<InvalidOperationException>(() => vino.RestarUnidades(10));
+            Assert.AreEqual("Stock insuficiente", ex.Message);
+        }
+    }
+    ```
+# Pruebas de Integración para Gestión de Órdenes
+
+## 1. Crear Orden Exitosamente
+- **Objetivo**: Verificar que el sistema confirme correctamente una orden y actualice el saldo del usuario.
+- **Descripción**:
+  - Dado que el usuario tiene ID "U001" y un saldo de $100.
+  - Y existe un vino con ID "V001" que cuesta $50.
+  - Cuando el usuario crea una orden de compra por el vino "V001".
+  - Entonces, el sistema debe confirmar la orden.
+  - Y el saldo del usuario debe reducirse a $50.
+- **Resultado Esperado**: La orden debe ser confirmada y el saldo del usuario debe reflejar correctamente $50.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class OrdenesTests
+{
+    [Test]
+    public void TestCrearOrdenExitosamente()
+    {
+        // Arrange
+        var usuario = new Usuario("U001", 100);
+        var vino = new Vino("V001", "Merlot", 50);
+        var sistema = new SistemaDeOrdenes();
+
+        // Act
+        var orden = sistema.CrearOrden(usuario, vino, 1);
+
+        // Assert
+        Assert.IsNotNull(orden);
+        Assert.AreEqual(50, usuario.Saldo);
+        Assert.AreEqual("Confirmada", orden.Estado);
+    }
+}
+```
+
+## 2. Cancelar Orden en Estado Pendiente
+- **Objetivo**: Asegurar que el sistema cambie correctamente el estado de una orden a "Cancelado".
+- **Descripción**:
+  - Dado que existe una orden con ID "O001" en estado "Pendiente".
+  - Cuando el cliente cancela la orden.
+  - Entonces, el sistema debe cambiar el estado de la orden a "Cancelado".
+- **Resultado Esperado**: El estado de la orden "O001" debe actualizarse a "Cancelado".
+
+### Código de Prueba
+```csharp
+[Test]
+public void TestCancelarOrdenEnEstadoPendiente()
+{
+    // Arrange
+    var sistema = new SistemaDeOrdenes();
+    var orden = sistema.CrearOrden(new Usuario("U001", 100), new Vino("V001", "Merlot", 50), 1);
+    
+    // Act
+    sistema.CancelarOrden(orden.Id);
+
+    // Assert
+    Assert.AreEqual("Cancelado", orden.Estado);
+}
+```
+## 3. Actualizar Estado de Orden a "Enviado"
+- **Objetivo**: Confirmar que el sistema actualiza correctamente el estado de una orden a "Enviado".
+- **Descripción**:
+  - Dado que existe una orden con ID "O001" en estado "Confirmado".
+  - Cuando el vinicultor marca la orden como enviada.
+  - Entonces, el sistema debe actualizar el estado de la orden a "Enviado".
+- **Resultado Esperado**: El estado de la orden "O001" debe reflejar "Enviado".
+
+### Código de Prueba
+```csharp
+[Test]
+public void TestActualizarEstadoDeOrdenAEnviado()
+{
+    // Arrange
+    var sistema = new SistemaDeOrdenes();
+    var orden = sistema.CrearOrden(new Usuario("U001", 100), new Vino("V001", "Merlot", 50), 1);
+    
+    // Act
+    sistema.MarcarOrdenComoEnviada(orden.Id);
+
+    // Assert
+    Assert.AreEqual("Enviado", orden.Estado);
+}
+```
+
+## Estrategias para Realizar las Pruebas Unitarias
+- **Pruebas Aisladas**: Asegurarse de que cada prueba sea independiente y no dependa del estado global del sistema.
+- **Uso de Mocks**: Utilizar mocks para simular interacciones con bases de datos o servicios externos si es necesario.
+
+## Herramientas Recomendadas
+- **NUnit**: Para ejecutar pruebas en C#, proporcionando una estructura clara para las pruebas unitarias en Rider.
+- **Moq**: Para crear mocks y facilitar la simulación de dependencias en las pruebas.
+
+## 3. Probar Verificación de Stock de Vino
+- **Objetivo**: Confirmar que el sistema verifica correctamente el stock disponible del vino.
+- **Descripción**:
+  - Dado un vino con ID "V001" y stock de 20 unidades.
+  - Cuando se verifica el stock del vino.
+  - Entonces, debe retornar que hay 20 unidades disponibles.
+- **Código de Prueba**:
+    ```csharp
+    using NUnit.Framework;
+
+    [TestFixture]
+    public class InventarioVinosTests
+    {
+        [Test]
+        public void TestVerificarStockDeVino()
+        {
+            // Arrange
+            var vino = new Vino("V001", "Merlot", 20);
+            
+            // Act
+            var stockDisponible = vino.VerificarStock();
+            
+            // Assert
+            Assert.AreEqual(20, stockDisponible);
+        }
+    }
+    ```
+
+## Estrategias para Realizar las Pruebas Unitarias
+- **Pruebas Aisladas**: Asegurarse de que cada prueba sea independiente y no dependa del estado global del sistema.
+- **Uso de Mocks**: Utilizar mocks para simular interacciones con bases de datos o servicios externos si es necesario.
+
+## Herramientas Recomendadas
+- **NUnit**: Para ejecutar pruebas en C#, proporcionando una estructura clara para las pruebas unitarias en Rider.
+- **Moq**: Para crear mocks y facilitar la simulación de dependencias en las pruebas.
+
+# Pruebas de Integración para Solicitud de Órdenes
+
+## 1. Crear Solicitud de Orden Exitosamente
+- **Objetivo**: Verificar que el sistema registre correctamente una solicitud de orden con estado "Pendiente".
+- **Descripción**:
+  - Dado que existe un usuario con ID "U001".
+  - Y existe un producto con ID "P001" con stock suficiente.
+  - Cuando el usuario solicita 5 unidades del producto "P001".
+  - Entonces, el sistema debe registrar la solicitud con estado "Pendiente".
+- **Resultado Esperado**: La solicitud debe ser registrada y su estado debe ser "Pendiente".
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class SolicitudOrdenesTests
+{
+    [Test]
+    public void TestCrearSolicitudOrdenExitosamente()
+    {
+        // Arrange
+        var usuario = new Usuario("U001");
+        var producto = new Producto("P001", "Vino Tinto", 10); // Stock suficiente
+        var sistema = new SistemaDeSolicitudes();
+
+        // Act
+        var solicitud = sistema.CrearSolicitudOrden(usuario, producto, 5);
+
+        // Assert
+        Assert.IsNotNull(solicitud);
+        Assert.AreEqual("Pendiente", solicitud.Estado);
+    }
+}
+```
+
+## 2. Rechazar Solicitud de Orden por Falta de Stock
+- **Objetivo**: Asegurar que el sistema rechace correctamente una solicitud cuando no hay stock disponible.
+- **Descripción**:
+  - Dado que existe un producto con ID "P001" con 0 unidades en stock.
+  - Cuando un usuario solicita 5 unidades del producto "P001".
+  - Entonces, el sistema debe rechazar la solicitud y mostrar un mensaje de error.
+- **Resultado Esperado**: La solicitud debe ser rechazada y se debe mostrar un mensaje de error indicando la falta de stock.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class SolicitudOrdenesTests
+{
+    [Test]
+    public void TestRechazarSolicitudOrdenPorFaltaDeStock()
+    {
+        // Arrange
+        var usuario = new Usuario("U001");
+        var producto = new Producto("P001", "Vino Tinto", 0); // Sin stock
+        var sistema = new SistemaDeSolicitudes();
+
+        // Act & Assert
+        var ex = Assert.Throws<Exception>(() => sistema.CrearSolicitudOrden(usuario, producto, 5));
+        Assert.AreEqual("No hay suficiente stock disponible", ex.Message);
+    }
+}
+```
+## 3. Confirmar Solicitud de Orden Después de Aprobación
+- **Objetivo**: Confirmar que el sistema actualiza correctamente el estado de una solicitud a "Confirmado" después de la aprobación.
+- **Descripción**:
+  - Dado que existe una solicitud de orden con ID "OR001" en estado "Pendiente".
+  - Cuando el administrador aprueba la solicitud.
+  - Entonces, el sistema debe cambiar el estado de la solicitud a "Confirmado".
+- **Resultado Esperado**: El estado de la solicitud "OR001" debe actualizarse a "Confirmado".
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class SolicitudOrdenesTests
+{
+    [Test]
+    public void TestConfirmarSolicitudOrdenDespuesDeAprobacion()
+    {
+        // Arrange
+        var sistema = new SistemaDeSolicitudes();
+        var usuario = new Usuario("U001");
+        var producto = new Producto("P001", "Vino Tinto", 10);
+        var solicitud = sistema.CrearSolicitudOrden(usuario, producto, 5); // Estado inicial: Pendiente
+        
+        // Act
+        sistema.ConfirmarSolicitudOrden(solicitud.Id);
+
+        // Assert
+        Assert.AreEqual("Confirmado", solicitud.Estado);
+    }
+}
+```
+
+## Estrategias para Realizar las Pruebas Unitarias
+- **Pruebas Aisladas**: Asegurarse de que cada prueba sea independiente y no dependa del estado global del sistema.
+- **Uso de Mocks**: Utilizar mocks para simular interacciones con bases de datos o servicios externos si es necesario.
+
+## Herramientas Recomendadas
+- **NUnit**: Para ejecutar pruebas en C#, proporcionando una estructura clara para las pruebas unitarias en Rider.
+- **Moq**: Para crear mocks y facilitar la simulación de dependencias en las pruebas.
+
+# Pruebas de Integración para Gestión de Productos
+
+## 1. Consultar Detalles de un Producto
+- **Objetivo**: Verificar que el sistema muestre correctamente los detalles de un producto existente.
+- **Descripción**:
+  - Dado que existe un producto con ID "P001" llamado "Merlot" con precio $15.99.
+  - Cuando el usuario consulta el producto "P001".
+  - Entonces, el sistema debe mostrar el nombre "Merlot", precio "$15.99" y stock disponible.
+- **Resultado Esperado**: El sistema debe mostrar correctamente el nombre, precio y stock del producto "P001".
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class ProductosTests
+{
+    [Test]
+    public void TestConsultarDetallesDeProducto()
+    {
+        // Arrange
+        var sistema = new SistemaDeProductos();
+        var producto = new Producto("P001", "Merlot", 15.99, 100);
+        sistema.AgregarProducto(producto);
+
+        // Act
+        var detalles = sistema.ConsultarProducto("P001");
+
+        // Assert
+        Assert.IsNotNull(detalles);
+        Assert.AreEqual("Merlot", detalles.Nombre);
+        Assert.AreEqual(15.99, detalles.Precio);
+        Assert.AreEqual(100, detalles.Stock);
+    }
+}
+```
+## 2. Listar Todos los Productos Disponibles
+- **Objetivo**: Asegurar que el sistema muestre correctamente todos los productos disponibles.
+- **Descripción**:
+  - Dado que el sistema tiene productos disponibles.
+  - Cuando el usuario solicita una lista de productos.
+  - Entonces, el sistema debe mostrar todos los productos con sus detalles.
+- **Resultado Esperado**: La lista mostrada debe incluir todos los productos disponibles con sus respectivos detalles.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+using System.Collections.Generic;
+
+[TestFixture]
+public class ProductosTests
+{
+    [Test]
+    public void TestListarTodosLosProductosDisponibles()
+    {
+        // Arrange
+        var sistema = new SistemaDeProductos();
+        sistema.AgregarProducto(new Producto("P001", "Merlot", 15.99, 100));
+        sistema.AgregarProducto(new Producto("P002", "Cabernet Sauvignon", 18.50, 50));
+
+        // Act
+        var listaProductos = sistema.ListarProductos();
+
+        // Assert
+        Assert.AreEqual(2, listaProductos.Count);
+        Assert.AreEqual("Merlot", listaProductos.Nombre);
+        Assert.AreEqual(15.99, listaProductos.Precio);
+        Assert.AreEqual(100, listaProductos.Stock);
+        
+        Assert.AreEqual("Cabernet Sauvignon", listaProductos.Nombre);
+        Assert.AreEqual(18.50, listaProductos.Precio);
+        Assert.AreEqual(50, listaProductos.Stock);
+    }
+}
+```
+## 3. Buscar un Producto Inexistente
+- **Objetivo**: Confirmar que el sistema maneje correctamente la búsqueda de un producto que no existe.
+- **Descripción**:
+  - Dado que no existe un producto con ID "P999".
+  - Cuando el usuario busca el producto "P999".
+  - Entonces, el sistema debe mostrar un mensaje indicando que el producto no fue encontrado.
+- **Resultado Esperado**: El mensaje de error debe indicar claramente que el producto no fue encontrado.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class ProductosTests
+{
+    [Test]
+    public void TestBuscarProductoInexistente()
+    {
+        // Arrange
+        var sistema = new SistemaDeProductos();
+
+        // Act & Assert
+        var ex = Assert.Throws<Exception>(() => sistema.ConsultarProducto("P999"));
+        Assert.AreEqual("Producto no encontrado", ex.Message);
+    }
+}
+```
+## Estrategias para Realizar las Pruebas Unitarias
+- **Pruebas Aisladas**: Asegurarse de que cada prueba sea independiente y no dependa del estado global del sistema.
+- **Uso de Mocks**: Utilizar mocks para simular interacciones con bases de datos o servicios externos si es necesario.
+
+## Herramientas Recomendadas
+- **NUnit**: Para ejecutar pruebas en C#, proporcionando una estructura clara para las pruebas unitarias en Rider.
+- **Moq**: Para crear mocks y facilitar la simulación de dependencias en las pruebas.
+
+# Pruebas de Integración para Gestión de Productos por el Vinicultor
+
+## 1. Agregar un Nuevo Producto Exitosamente
+- **Objetivo**: Verificar que el sistema registre correctamente un nuevo vino.
+- **Descripción**:
+  - Dado que el vinicultor desea agregar un nuevo vino.
+  - Cuando el vinicultor ingresa los datos del vino "Shiraz" con precio $20.99 y stock de 30 unidades.
+  - Entonces, el sistema debe registrar el vino con esos detalles.
+- **Resultado Esperado**: El vino "Shiraz" debe ser registrado en el catálogo con el precio y stock especificados.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class ProductosTests
+{
+    [Test]
+    public void TestAgregarNuevoProductoExitosamente()
+    {
+        // Arrange
+        var sistema = new SistemaDeProductos();
+        var vino = new Producto("P001", "Shiraz", 20.99, 30);
+
+        // Act
+        sistema.AgregarProducto(vino);
+        var productoRegistrado = sistema.ConsultarProducto("P001");
+
+        // Assert
+        Assert.IsNotNull(productoRegistrado);
+        Assert.AreEqual("Shiraz", productoRegistrado.Nombre);
+        Assert.AreEqual(20.99, productoRegistrado.Precio);
+        Assert.AreEqual(30, productoRegistrado.Stock);
+    }
+}
+```
+## 2. Editar Detalles de un Vino Existente
+- **Objetivo**: Asegurar que el sistema actualice correctamente los detalles de un vino existente.
+- **Descripción**:
+  - Dado que existe un vino con ID "P001" llamado "Merlot".
+  - Cuando el vinicultor actualiza el precio del vino a $17.99.
+  - Entonces, el sistema debe guardar los nuevos detalles del vino.
+- **Resultado Esperado**: El precio del vino "Merlot" debe actualizarse a $17.99 en el sistema.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class ProductosTests
+{
+    [Test]
+    public void TestEditarDetallesDeVinoExistente()
+    {
+        // Arrange
+        var sistema = new SistemaDeProductos();
+        var vino = new Producto("P001", "Merlot", 15.99, 30);
+        sistema.AgregarProducto(vino);
+
+        // Act
+        vino.Precio = 17.99; // Actualizando el precio
+        sistema.EditarProducto(vino); // Guardando los nuevos detalles
+
+        // Assert
+        var productoActualizado = sistema.ConsultarProducto("P001");
+        Assert.AreEqual(17.99, productoActualizado.Precio); // Verificando que el precio se haya actualizado
+    }
+}
+```
+## 3. Eliminar un Vino del Catálogo
+- **Objetivo**: Confirmar que el sistema elimine correctamente un vino del catálogo.
+- **Descripción**:
+  - Dado que existe un vino con ID "P001".
+  - Cuando el vinicultor elimina el vino.
+  - Entonces, el sistema debe eliminar el vino del catálogo.
+- **Resultado Esperado**: El vino con ID "P001" no debe estar presente en el catálogo después de la eliminación.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class ProductosTests
+{
+    [Test]
+    public void TestEliminarVinoDelCatalogo()
+    {
+        // Arrange
+        var sistema = new SistemaDeProductos();
+        var vino = new Producto("P001", "Merlot", 15.99, 30);
+        sistema.AgregarProducto(vino);
+
+        // Act
+        sistema.EliminarProducto("P001");
+
+        // Assert
+        var ex = Assert.Throws<Exception>(() => sistema.ConsultarProducto("P001"));
+        Assert.AreEqual("Producto no encontrado", ex.Message);
+    }
+}
+```
+## Estrategias para Realizar las Pruebas Unitarias
+- **Pruebas Aisladas**: Asegurarse de que cada prueba sea independiente y no dependa del estado global del sistema.
+- **Uso de Mocks**: Utilizar mocks para simular interacciones con bases de datos o servicios externos si es necesario.
+
+## Herramientas Recomendadas
+- **NUnit**: Para ejecutar pruebas en C#, proporcionando una estructura clara para las pruebas unitarias en Rider.
+- **Moq**: Para crear mocks y facilitar la simulación de dependencias en las pruebas.
+
+# Pruebas de Integración para Gestión de Perfiles
+
+## 1. Actualizar Información de Perfil Exitosamente
+- **Objetivo**: Verificar que el sistema guarde correctamente la nueva información del perfil del usuario.
+- **Descripción**:
+  - Dado que un usuario tiene un perfil con email "user@example.com".
+  - Y el nombre actual es "Juan Pérez".
+  - Cuando el usuario actualiza su nombre a "Juan García".
+  - Entonces, el sistema debe guardar la nueva información del perfil.
+- **Resultado Esperado**: El perfil del usuario debe reflejar el nuevo nombre "Juan García".
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class PerfilesTests
+{
+    [Test]
+    public void TestActualizarInformacionDePerfilExitosamente()
+    {
+        // Arrange
+        var sistema = new SistemaDePerfiles();
+        var usuario = new Usuario("user@example.com", "Juan Pérez");
+        sistema.GuardarPerfil(usuario);
+
+        // Act
+        usuario.Nombre = "Juan García"; // Actualizando el nombre
+        sistema.ActualizarPerfil(usuario); // Guardando los nuevos detalles
+
+        // Assert
+        var perfilActualizado = sistema.ObtenerPerfil("user@example.com");
+        Assert.AreEqual("Juan García", perfilActualizado.Nombre); // Verificando que el nombre se haya actualizado
+    }
+}
+```
+
+## 2. Intentar Actualizar Información con Datos Inválidos
+- **Objetivo**: Asegurar que el sistema rechace la actualización cuando se ingresan datos inválidos.
+- **Descripción**:
+  - Dado que un usuario tiene un perfil con email "user@example.com".
+  - Cuando el usuario intenta actualizar su email a "invalid-email".
+  - Entonces, el sistema debe rechazar la operación y mostrar un mensaje de error.
+- **Resultado Esperado**: El sistema debe mostrar un mensaje de error indicando que el email es inválido y no debe realizar cambios en el perfil.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class PerfilesTests
+{
+    [Test]
+    public void TestIntentarActualizarInformacionConDatosInvalidos()
+    {
+        // Arrange
+        var sistema = new SistemaDePerfiles();
+        var usuario = new Usuario("user@example.com", "Juan Pérez");
+        sistema.GuardarPerfil(usuario);
+
+        // Act & Assert
+        var ex = Assert.Throws<Exception>(() => 
+        {
+            usuario.Email = "invalid-email"; // Intentando establecer un email inválido
+            sistema.ActualizarPerfil(usuario);
+        });
+
+        Assert.AreEqual("Email inválido", ex.Message); // Verificando que se lance la excepción correcta
+    }
+}
+```
+
+## 3. Verificar Información de Perfil
+- **Objetivo**: Confirmar que el sistema muestre correctamente la información del perfil del usuario.
+- **Descripción**:
+  - Dado que un usuario tiene un perfil con email "user@example.com".
+  - Y el nombre es "Juan García".
+  - Cuando el usuario solicita ver su perfil.
+  - Entonces, el sistema debe mostrar su nombre y email correctamente.
+- **Resultado Esperado**: El sistema debe mostrar "Juan García" como nombre y "user@example.com" como email.
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class PerfilesTests
+{
+    [Test]
+    public void TestVerificarInformacionDePerfil()
+    {
+        // Arrange
+        var sistema = new SistemaDePerfiles();
+        var usuario = new Usuario("user@example.com", "Juan García");
+        sistema.GuardarPerfil(usuario);
+
+        // Act
+        var perfil = sistema.ObtenerPerfil("user@example.com");
+
+        // Assert
+        Assert.AreEqual("Juan García", perfil.Nombre); // Verificando que el nombre sea correcto
+        Assert.AreEqual("user@example.com", perfil.Email); // Verificando que el email sea correcto
+    }
+}
+```
+## Estrategias para Realizar las Pruebas Unitarias
+- **Pruebas Aisladas**: Asegurarse de que cada prueba sea independiente y no dependa del estado global del sistema.
+- **Uso de Mocks**: Utilizar mocks para simular interacciones con bases de datos o servicios externos si es necesario.
+
+## Herramientas Recomendadas
+- **NUnit**: Para ejecutar pruebas en C#, proporcionando una estructura clara para las pruebas unitarias en Rider.
+- **Moq**: Para crear mocks y facilitar la simulación de dependencias en las pruebas.
+
+# Pruebas de Integración para Proceso de Vinificación
+
+## 1. Registrar un Nuevo Proceso de Vinificación
+- **Objetivo**: Verificar que el sistema registre correctamente un nuevo proceso de vinificación para un producto.
+- **Descripción**:
+  - Dado que no existe un proceso para el producto con ID "P001".
+  - Cuando el vinicultor registra un proceso de vinificación para "P001".
+  - Entonces, el sistema debe guardar los detalles del proceso de vinificación.
+- **Resultado Esperado**: El sistema debe almacenar correctamente los detalles del nuevo proceso de vinificación para el producto "P001".
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class ProcesoVinificacionTests
+{
+    [Test]
+    public void TestRegistrarNuevoProcesoDeVinificacion()
+    {
+        // Arrange
+        var sistema = new SistemaDeVinificacion();
+        var producto = new Producto("P001", "Merlot");
+        
+        // Act
+        sistema.RegistrarProcesoVinificacion(producto);
+
+        // Assert
+        var proceso = sistema.ObtenerProcesoVinificacion("P001");
+        Assert.IsNotNull(proceso); // Verificando que el proceso fue registrado
+        Assert.AreEqual("P001", proceso.ProductoId); // Verificando que el ID del producto sea correcto
+    }
+}
+```
+
+## 2. Actualizar Estado de Fermentación en Proceso de Vinificación
+- **Objetivo**: Asegurar que el sistema actualice correctamente el estado de fermentación en un proceso de vinificación existente.
+- **Descripción**:
+  - Dado que existe un proceso de vinificación para el producto con ID "P001".
+  - Y el estado actual es "En fermentación".
+  - Cuando el vinicultor actualiza el estado a "Fermentación completada".
+  - Entonces, el sistema debe guardar el nuevo estado.
+- **Resultado Esperado**: El estado del proceso de vinificación para "P001" debe actualizarse a "Fermentación completada".
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class ProcesoVinificacionTests
+{
+    [Test]
+    public void TestActualizarEstadoDeFermentacion()
+    {
+        // Arrange
+        var sistema = new SistemaDeVinificacion();
+        var producto = new Producto("P001", "Merlot");
+        sistema.RegistrarProcesoVinificacion(producto);
+        sistema.ActualizarEstadoFermentacion("P001", "En fermentación");
+
+        // Act
+        sistema.ActualizarEstadoFermentacion("P001", "Fermentación completada");
+
+        // Assert
+        var proceso = sistema.ObtenerProcesoVinificacion("P001");
+        Assert.AreEqual("Fermentación completada", proceso.Estado); // Verificando que el estado se haya actualizado correctamente
+    }
+}
+```
+
+## 3. Verificar Historial del Proceso de Vinificación
+- **Objetivo**: Confirmar que el sistema muestre correctamente el historial del proceso de vinificación.
+- **Descripción**:
+  - Dado que existe un proceso de vinificación para el producto con ID "P001".
+  - Cuando el usuario solicita el historial del proceso.
+  - Entonces, el sistema debe mostrar todas las etapas completadas hasta la fecha.
+- **Resultado Esperado**: El sistema debe mostrar correctamente todas las etapas del proceso de vinificación para "P001".
+
+### Código de Prueba
+```csharp
+using NUnit.Framework;
+
+[TestFixture]
+public class ProcesoVinificacionTests
+{
+    [Test]
+    public void TestVerificarHistorialDelProcesoDeVinificacion()
+    {
+        // Arrange
+        var sistema = new SistemaDeVinificacion();
+        var producto = new Producto("P001", "Merlot");
+        sistema.RegistrarProcesoVinificacion(producto);
+        sistema.ActualizarEstadoFermentacion("P001", "En fermentación");
+        sistema.ActualizarEstadoFermentacion("P001", "Fermentación completada");
+
+        // Act
+        var historial = sistema.ObtenerHistorialProcesoVinificacion("P001");
+
+        // Assert
+        Assert.IsNotNull(historial); // Verificando que se obtuvo historial
+        Assert.AreEqual(2, historial.Count); // Verificando que haya dos etapas en el historial
+        Assert.AreEqual("En fermentación", historial.Estado); // Verificando la primera etapa
+        Assert.AreEqual("Fermentación completada", historial[1].Estado); // Verificando la segunda etapa
+    }
+}
+```
+## Estrategias para Realizar las Pruebas Unitarias
+- **Pruebas Aisladas**: Asegurarse de que cada prueba sea independiente y no dependa del estado global del sistema.
+- **Uso de Mocks**: Utilizar mocks para simular interacciones con bases de datos o servicios externos si es necesario.
+
+## Herramientas Recomendadas
+- **NUnit**: Para ejecutar pruebas en C#, proporcionando una estructura clara para las pruebas unitarias en Rider.
+- **Moq**: Para crear mocks y facilitar la simulación de dependencias en las pruebas.
+
+### Commit History
+
+## Branch: feature/inventory-management
+
+| **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|---------------|---------------------|--------------------------|------------------------|
+| 1e383b0       | feat(inventory-management): Update in the "InventoryCommandService" | Updated in the "InventoryCommandService" | 06/11/2024 |
+| f965d96       | feat(inventory-management): Added in the "UpdateInventoryCommand" with update inventory constructor entity | Added in the "UpdateInventoryCommand" with update inventory constructor entity | 06/11/2024 |
+| 44aee02       | feat(inventory-management): Added in the "GetInventoriesByFilterQuery" | Added in the "GetInventoriesByFilterQuery" | 06/11/2024 |
+| 277d7c9       | feat(inventory-management): Added in the "UpdateInventoryResource" | Added in the "UpdateInventoryResource" | 06/11/2024 |
+| eeb64b9       | feat (inventory management): Update in the "InventoryController" with inventory search by filter | Updated in the "InventoryController" with inventory search by filter | 06/11/2024 |
+| bcf1ffd       | feat (inventory management): Added in the "DeleteInventoryCommand" | Added in the "DeleteInventoryCommand" | 07/11/2024 |
+| 631d31b       | feat (inventory management): Added in the "IInventoryCommandService" with inventory delete | Added in the "IInventoryCommandService" with inventory delete | 07/11/2024 |
+| fed6be5       | feat (inventory management): Added in the "IInventoryRepository" with inventory delete | Added in the "IInventoryRepository" with inventory delete | 07/11/2024 |
+| cd83dc3       | feat (inventory management): Added in the "InventoryController" with inventory delete | Added in the "InventoryController" with inventory delete | 07/11/2024 |
+
+## Branch: feature/winemaking-process
+
+| **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|---------------------|--------------------------|--------------------------|
+| 91a9999        | feat(winemaking-process): Added interface layer for batch endpoint. | Added interface layer for batch endpoint. | 27/10/2024 |
+| 9eff846        | feat(winemaking-process): Added infrastructure and application layer for batches. | Added infrastructure and application layer for batches. | 20/10/2024 |
+| 66834f4        | feat(winemaking-process): Added domain layer for batches. | Added domain layer for batches. | 20/10/2024 |
+| 14ccb3a        | feat(winemaking-process): Added REST resources and transforms to add batch clarification stage. | Added REST resources and transforms to add batch clarification stage. | 03/11/2024 |
+
+## Branch: feature/profiles
+
+| **Commit Id**   | **Commit Message**                                              | **Commit Message Body**                                    | **Committed on (Date)** |
+|------------------|-----------------------------------------------------------------|-----------------------------------------------------------|--------------------------|
+| n1o2p3q          | feat(profiles): Added profiles management interface.            | Created an interface for managing multiple user profiles.| 01/11/2024              |
+| r4s5t6u          | feat(profiles): Implemented bulk profile import feature.       | Developed functionality to import multiple user profiles at once.| 01/11/2024              |
+| v7w8x9y          | feat(profiles): Enhanced profile searching capabilities.        | Improved searching capabilities to find profiles based on various criteria.| 02/11/2024              |
+| z0a1b2c          | feat(profiles): Integrated profile analytics dashboard.         | Added a dashboard to display analytics related to user profiles.| 02/11/2024              |
+
+## Branch: feature/order-requests
+
+| **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|---------------------|--------------------------|--------------------------|
+| a1b2c3d        | feat(order-requests): Added CreateOrderRequest command. | Implemented CreateOrderRequest command for order processing. | 05/11/2024 |
+| e4f5g6h        | feat(order-requests): Added OrderRequest validation logic. | Added validation for order requests to ensure data integrity. | 05/11/2024 |
+| i7j8k9l        | feat(order-requests): Implemented OrderRequest repository. | Created repository for managing order requests in the database. | 06/11/2024 |
+| m0n1o2p        | feat(order-requests): Added OrderRequest query service. | Implemented query service to retrieve order requests based on filters. | 06/11/2024 |
+
+## Branch: feature/products
+
+| **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|---------------------|--------------------------|--------------------------|
+| q3r4s5t        | feat(products): Added Product entity and repository. | Created Product entity and its repository for data management. | 04/11/2024 |
+| u6v7w8x        | feat(products): Implemented Product service layer. | Added service layer for business logic related to products. | 04/11/2024 |
+| y9z0a1b        | feat(products): Created Product API endpoints. | Developed RESTful API endpoints for product management. | 05/11/2024 |
+| c2d3e4f        | feat(products): Added product search functionality. | Implemented search functionality for products based on various criteria. | 05/11/2024 |
+
+## Branch: feature/products-management
+
+| **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|---------------------|--------------------------|--------------------------|
+| h5i6j7k        | feat(products-management): Added management interface for products. | Created an interface for managing product operations. | 03/11/2024 |
+| l8m9n0o        | feat(products-management): Implemented bulk product upload feature. | Developed functionality to upload multiple products at once. | 03/11/2024 |
+| p1q2r3s        | feat(products-management): Enhanced product filtering options. | Improved filtering options for product lists in the management console. | 04/11/2024 |
+| t4u5v6w        | feat(products-management): Integrated product analytics dashboard. | Added a dashboard to display product performance metrics. | 04/11/2024 |
+
+
+## Branch: feature/customer-management
+
+| **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|---------------------|--------------------------|--------------------------|
+| 9cc12al        | feat(customer-management): create client command from resource assembler added. | Create client command from resource assembler added. | 03/11/2024 |
+| df2045a        | feat(customer-management): end points added. | End points added. | 03/11/2024 |
+| b4f8bdb        | feat(customer-management): client resource from entity assembles added. | Client resource from entity assembles added. | 03/11/2024 |
+| d89597         | feat(customer-management): client resource added. | Client resource added. | 03/11/2024 |
+
+
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 
