@@ -4531,24 +4531,41 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 
+* **Landing Page Execution**
+
+En este proceso de evidencia de ejecución se muestra el despliegue de la landing page de la aplicación Elixir Control.
+
 Despliegue: https://sv51-metasoft-app-web.github.io/ElixirControl-Landing-Page/
 
-<img src="/assets/img/chapter-V/sprint-4/landing_page_execute.png" height="300" alt="landing_page">
+<img src="/assets/img/chapter-V/sprint-4/landing_page_execute.png" height="350" alt="landing_page">
 
-Enlace del video de ejecucion del landing page:
+Enlace del video de ejecución del landing page:
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EeVpA2edMoFPtDLeeQWER4QBMWVglEEtOtyqnuiyXLv0qQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YH1a8o
 
 * **FrontEnd Execution**
 
+En este proceso de evidencia de ejecución se muestra el despliegue del front end de la aplicación Elixir Control.
+
 Despliegue: https://elixir-control-fronted-8b18f9i9z.vercel.app/home
 
-<img src="/assets/img/chapter-V/sprint-4/front_end_execute.png" height="300" alt="landing_page">
+<img src="/assets/img/chapter-V/sprint-4/front_end_execute.png" height="350" alt="landing_page">
 
-Enlace del video de ejecucion del front end:
+Enlace del video de ejecución del front end:
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EeW2_gUKztJGk4YMprqUEGEBhpeenCFpeOHM24NNGXJhwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dMlo2m
 
+* **BackEnd Execution**
+
+En este proceso de evidencia de ejecución se muestra el despliegue del back end de la aplicación Elixir Control.
+
+Despliegue: http://elixircontrol.runasp.net/swagger/index.html
+
+<img src="/assets/img/chapter-V/sprint-4/backend_execute.png" height="350" alt="landing_page">
+
+Enlace del video de ejecución del front end:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EeOFGTKth-FDnT1iLUQGLnIBp9v8W0xrWWWwNpVAssf1DQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zu13KZ
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
