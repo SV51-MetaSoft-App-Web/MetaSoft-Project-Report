@@ -504,6 +504,48 @@
     <td>Gustavo Huanca</td>
     <td>Se agrego el evidence documentation del sprint 4"</td>
 </tr> 
+<!-- Fila 65 -->       
+<tr>
+    <td>4.15</td>
+    <td>11/11/2024</td>
+    <td>Oscar Armas</td>
+    <td>Actualización y corrección del reporte en el capítulo 5 del Sprint 4.</td>
+</tr>
+<!-- Fila 66 -->
+<tr>
+    <td>4.16</td>
+    <td>12/11/2024</td>
+    <td>Oscar Armas</td>
+    <td>Corrección de enrutamiento de imágenes.</td>
+</tr>
+<!-- Fila 67 -->
+<tr>
+    <td>4.17</td>
+    <td>14/11/2024</td>
+    <td>Oscar Armas</td>
+    <td>Edición de los videos en la sección "About the Team".</td>
+</tr>
+<!-- Fila 68 -->
+<tr>
+    <td>4.18</td>
+    <td>16/11/2024</td>
+    <td>Oscar Armas</td>
+    <td>Agregación de 2 evaluaciones según heurísticas.</td>
+</tr>
+<!-- Fila 69 -->
+<tr>
+    <td>4.19</td>
+    <td>17/11/2024</td>
+    <td>Oscar Armas</td>
+    <td>Actualización y corrección de los User Stories.</td>
+</tr>
+<!-- Fila 70 -->
+<tr>
+    <td>4.20</td>
+    <td>17/11/2024</td>
+    <td>Oscar Armas</td>
+    <td>Agregación de mi parte en el Sprint Backlog 4.</td>
+</tr>
     </tbody>
 </table>
 
