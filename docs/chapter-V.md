@@ -6327,6 +6327,18 @@ En este Sprint se realizaron los procesos de Deployment necesarios para asegurar
 
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
 
+En esta entrega del trabajo final, nuestra meta principal fue culminar la integracion del frontend y backend. Se representan los commits realizados por cada miembro del equipo MetaSoft:
+
+A continuación se muestra la cantidad de clonaciones realizadas por cada integrante del equipo durante el desarrollo de los services
+
+<img src="/assets/img/chapter-V/sprint-4/grafica_1.PNG" height="400" alt="landing_page">
+
+<img src="/assets/img/chapter-V/sprint-4/grafica_2.PNG" height="400" alt="landing_page">
+
+En esta captura se muestra el flujo de los commits realizados por cada integrante:
+
+<img src="/assets/img/chapter-V/sprint-4/commits.PNG" height="400" alt="landing_page">
+
 ## 6. Conclusiones, Bibliografía y Anexos.
 
 ### Conclusiones 

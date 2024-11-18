@@ -559,13 +559,22 @@
     <td>17/11/2024</td>
     <td>Luis Villegas</td>
     <td>Se agrego archivos ".feature" para el testing para el Sprint 4 </td>
-</tr><!-- Fila 73 -->
+<!-- Fila 73 -->
+</tr>
 <tr>
     <td>4.23</td>
     <td>17/11/2024</td>
     <td>Luis Villegas</td>
-    <td>Se actualizó la reddacion en la seccion "5.2.4.4" </td>
+    <td>Se actualizó la redacion en la seccion "5.2.4.4" </td>
 </tr>
+<tr>
+    <td>4.24</td>
+    <td>17/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se agrego la redacion en la seccion 5.2.4.8 </td>
+
+</tr>
+
     </tbody>
 </table>
 
