@@ -4526,6 +4526,275 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
 
 
 #### 5.2.4.3.Development Evidence for Sprint Review.
+<table>
+    <thead>
+        <tr>
+            <th rowspan="" >Repository</th>
+            <th>Branch</th>
+            <th>Commit Id</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Commited on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+    <!--======================================REPOSITORY======================================-->
+        <tr>
+            <td rowspan="10">ElixirControl-Landing-Page</td>
+            <td>main</td>
+            <td>d54a8d8</td>
+            <td>feat: Updated the styles and html of the About The App section.</td>
+            <td>Updated the styles and html of the About The App section.</td>
+            <td>Commited on 04/11/2024</td>
+        </tr>
+    </tbody>
+    <tbody>
+    <!--======================================REPOSITORY======================================-->
+        <tr>
+            <td rowspan="21">ElixirControl-FrontEnd</td>
+            <td>feature/security</td>
+            <td>01ae914</td>
+            <td>feat(security): added base structure for user login.</td>
+            <td>Added base structure for user login.</td>
+            <td>Commited on 05/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-management</td>
+            <td>19c0269</td>
+            <td>feat(customer-management): attributes names fixed.</td>
+            <td>attributes names fixed.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>85853e8</td>
+            <td>feat(iam): add request and response model types.</td>
+            <td>added request and response model types.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>80026bf</td>
+            <td>feat(iam): add authentication service.</td>
+            <td>added authentication service.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>643133b</td>
+            <td>chore: add pinia for state management.</td>
+            <td>added pinia for state management.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>debb046</td>
+            <td>chore: add authentication interceptor.</td>
+            <td>added authentication interceptor.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>0b9b86c</td>
+            <td>chore: add sign-in component.</td>
+            <td>added sign-in component.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>11c6200</td>
+            <td>chore: add sign-up component.</td>
+            <td>added sign-up component.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>b2d1ec3</td>
+            <td>feat(iam): add authentication section to header content.</td>
+            <td>Added authentication section to header content.</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/IAM</td>
+            <td>a155d28</td>
+            <td>feat(iam): add sign up and sign in routes</td>
+            <td>Added sign up and sign in routes</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>415571c</td>
+            <td>refactor(order-management): separated the contact entity data from the orders entity</td>
+            <td>Separated the contact entity data from the orders entity</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>3996815</td>
+            <td>feat(order-details): added order status input dropdown to update order status</td>
+            <td>Added order status input dropdown to update order status</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-management</td>
+            <td>13032f3</td>
+            <td>refactor(order-management): fixed problem of phone data not showing in the order management component</td>
+            <td>Fixed problem of phone data not showing in the order management component</td>
+            <td>Commited on 16/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/order-requests</td>
+            <td>c7f9dc1</td>
+            <td>feat(order-requests): attributes names fixed.</td>
+            <td>Attributes names fixed.</td>
+            <td>Commited on 17/11/2024</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <!--======================================REPOSITORY======================================-->
+        <tr>
+            <td rowspan="44">ElixirControl-Platform</td>
+            <td>feature/inventory-management</td>
+            <td>1e383b0</td>
+            <td>feat(inventory-management): Update in the "InventoryCommandService"</td>
+            <td>Updated in the "InventoryCommandService"</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>f965d96</td>
+            <td>feat(inventory-management): Added in the "UpdateInventoryCommand" with  update inventory constructor entity</td>
+            <td>Added in the "UpdateInventoryCommand" with  update inventory constructor entity</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>44aee02</td>
+            <td>feat(inventory-management): Added in the "GetInventoriesByFilterQuery"</td>
+            <td>Added in the "GetInventoriesByFilterQuery"</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>277d7c9</td>
+            <td>feat(inventory-management): Added in the "UpdateInventoryResource"</td>
+            <td>Added in the "UpdateInventoryResource"</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>eeb64b9</td>
+            <td>feat (inventory management): Update in the "InventoryController" with inventory search by filter</td>
+            <td>Updated in the "InventoryController" with inventory search by filter</td>
+            <td>Commited on 06/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>bcf1ffd</td>
+            <td>feat (inventory management): Added in the "DeleteInventoryCommand"</td>
+            <td>Added in the "DeleteInventoryCommand"</td>
+            <td>Commited on 07/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>631d31b</td>
+            <td>feat (inventory management): Added in the "IInventoryCommandService" with inventory delete</td>
+            <td>Added in the "IInventoryCommandService" with inventory delete</td>
+            <td>Commited on 07/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>fed6be5</td>
+            <td>feat (inventory management): Added in the "IInventoryRepository" with inventory delete</td>
+            <td>Added in the "IInventoryRepository" with inventory delete</td>
+            <td>Commited on 07/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/inventory-management</td>
+            <td>cd83dc3</td>
+            <td>feat (inventory management): Added in the "InventoryController" with inventory delete</td>
+            <td>Added in the "InventoryController" with inventory delete</td>
+            <td>Commited on 07/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>c893dab</td>
+            <td>feat(winemaking-process): Added implementation of commands to update the Fermentation, Clarification, Pressing and Aging processes.</td>
+            <td>Added implementation of commands to update the Fermentation, Clarification, Pressing and Aging processes.</td>
+            <td>Commited on 04/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>6392140</td>
+            <td>feat(winemaking-process): Added endpoints in the controller to UPDATE Fermentation, Clarification, Pressing and Aging processes.</td>
+            <td>Added endpoints in the controller to UPDATE Fermentation, Clarification, Pressing and Aging processes.</td>
+            <td>Commited on 04/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>8e49168</td>
+            <td>feat(profile): Added the Name, Email Address and Person Name value object to profiles</td>
+            <td>Added the Name, Email Address and Person Name value object to profiles</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>3dc4277</td>
+            <td>feat(profile): Added queries and creation command for profile.</td>
+            <td>Added queries and creation command for profile.</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>0df6739</td>
+            <td>feat(profile): Added interfaces for Commands, Queries, and Repository.</td>
+            <td>Added interfaces for Commands, Queries, and Repository.</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>c71aa60</td>
+            <td>feat(profile): Added implementation of services for commands, queries and repository.</td>
+            <td>Added implementation of services for commands, queries and repository.</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+        <!--=========================================FILA======================================-->
+        <tr>
+            <td>feature/customer-profiles</td>
+            <td>4a11aa8</td>
+            <td>feat(profile): Added interface layer for profiles.</td>
+            <td>Added interface layer for profiles.</td>
+            <td>Commited on 14/11/2024</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.4.4.Testing Suite Evidence for Sprint Review.
 
