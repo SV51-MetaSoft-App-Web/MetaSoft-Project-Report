@@ -604,7 +604,7 @@ Se dividieron las siguientes ramas para la colaboración en el proyecto:
 * develop
 * release-v1.0
 
-### Entregable TB1
+### ENTREGABLE TB1
 
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
 
@@ -616,7 +616,7 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 
 ![tb1-clone](./assets/img/develop/tb1-clone.png)
 
-### Entregable TRABAJO PARCIAL (TP)
+### ENTREGABLE TRABAJO PARCIAL (TP)
 
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el
 repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad
@@ -631,7 +631,7 @@ en cada uno de los commits.
 ![tp-clone.png](./assets/img/develop/tp-clone.png)
 
 
-### Entregable TB2
+### ENTREGABLE TB2
 
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro Tercer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
 
@@ -642,7 +642,7 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 ![tb2-clone.png](./assets/img/develop/tb2-clone.png)
 
 
-### Entregable TRABAJO FINAL (TF)
+### ENTREGABLE TRABAJO FINAL (TF)
 
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el
 repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad
