@@ -546,6 +546,13 @@
     <td>Oscar Armas</td>
     <td>Agregación de mi parte en el Sprint Backlog 4.</td>
 </tr>
+<!-- Fila 71 -->
+<tr>
+    <td>4.21</td>
+    <td>17/11/2024</td>
+    <td>Luis Villegas</td>
+    <td>Se actualizó la reddacion en la seccion "5.2.2.5" y "5.2.3.5" </td>
+</tr>
     </tbody>
 </table>
 
