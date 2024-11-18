@@ -4678,6 +4678,24 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201717523_upc_edu_pe/EeOFGTKt
 
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
+En esta sección se describen los procesos de despliegue de la base de datos y el Web Service realizados durante el Sprint. Para la base de datos, se utilizó AWS LightSail, donde se creó una base MySQL en un plan gratuito. El  Web Service se desplegó en MonsterASP.net, configurando un sitio web gratuito, activando el acceso de web deploy y publicando desde Visual Studio 2022. Ambos componentes quedaron listos para su uso.
+
+
+### Despliegue de la base de datos
+
+Se siguieron los pasos detallados previamente para desplegar la base de datos en AWS LightSail, comenzando desde la configuración inicial en la sección "Databases" hasta la selección de MySQL 8.0.39 y el plan gratuito de tres meses. Con la base de datos creada y configurada, se encuentra ahora lista para integrarse con los distintos productos digitales del proyecto ( Web Applications y Web Services), permitiendo al equipo asegurar una publicación satisfactoria y conectividad centralizada en la nube.
+
+![](../assets/img/chapter-V/sprint-3/database5.PNG)
+
+
+### Despliegue del Web Service
+
+
+En este Sprint se realizaron los procesos de Deployment necesarios para asegurar la correcta configuración y despliegue del Web Service, se utilizó la plataforma MonsterASP.net, donde se creó una cuenta, configuró un sitio web gratuito con el subdominio "ElixirControl", y se habilitó el acceso de Web Deploy. Luego, se descargó el perfil de publicación y se configuró el archivo program.cs para habilitar Swagger en producción. A través de Visual Studio, el proyecto fue desplegado exitosamente utilizando el perfil de publicación descargado. Como resultado, el Web Service quedó listo para pruebas y uso en el entorno de producción, accesible en el enlace http://elixircontrol.runasp.net/swagger/index.html. Este proceso de Deployment incluyó pasos detallados de configuración y automatización en un entorno en la nube, contribuyendo al avance general de la integración de los productos digitales del proyecto (Web Applications y los Web Services).
+
+![](../assets/img/chapter-V/sprint-3/back.PNG)
+
+
 #### 5.2.4.8.Team Collaboration Insights during Sprint.
 
 ## 6. Conclusiones, Bibliografía y Anexos.
