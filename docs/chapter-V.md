@@ -3962,7 +3962,11 @@ Para la gestión de las tareas, el equipo está utilizando Jira. A continuación
 <tr>
     <td>Sprint 4 Goal</td>
     <td> 
-      Por Definir
+      El equipo de productos de MetaSoft ha decidido mejorar la administración del inventario, el proceso de pedidos, la gestión del proceso de vinificación para vitivinivultores y la interacción de los usuarios con la plataforma Elixir Control. Se implementarán nuevos puntos finales en el backend para permitir la integración de funciones de gestión de inventarios, pedidos clientes, products, proceso de vinificación, y se realizarán mejoras en la aplicación web y la landing page de Elixir Control. Esto incluirá la posibilidad de buscar, editar y eliminar ítems en el inventario, proceso de vinificación, gestionar pedidos y clientes distribuidores, y proporcionar notificaciones sobre el estado de los pedidos. Además, se incluirá un video sobre el equipo en la landing page para atraer futuros usuarios.
+      <br/><br/>
+      Nos centramos en mejorar la gestión de inventarios, productos, pedidos y el proceso de vinificación, proporcionar nuevas funcionalidades para los vitivinicultores y distribuidores, y enriquecer la experiencia de los visitantes y developers. Esto incluirá la implementación de nuevos puntos finales en el backend para facilitar la gestión de pedidos, inventarios, productos, proceso de vinificación y gestión de clientes, la optimización de la aplicación web para permitir la búsqueda, edición y eliminación de ítems, así como el seguimiento de pedidos y la gestión de clientes distribuidores, el proceso de vinificación y productos. Además, la landing page será mejorada con un video sobre el equipo para atraer a futuros usuarios.
+      <br/><br/>
+      Esto se confirmará cuando los vitivinicultores y distribuidores puedan gestionar sus inventarios y pedidos de forma más eficiente, los visitantes puedan explorar la plataforma y obtener información clara sobre los servicios, y los developers puedan integrar nuevas funcionalidades a través de la API implementada, todo mientras el video esté visible en la landing page para atraer nuevos usuarios."
     </td>
 </tr>
 <!--====================================================================-->
