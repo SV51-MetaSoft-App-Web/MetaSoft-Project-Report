@@ -497,6 +497,13 @@
     <td>Luis Villegas</td>
     <td>Se agrego la redaccion en la seccion "5.2.4.3"</td>
 </tr> 
+<!-- Fila 64 -->
+<tr>
+    <td>4.14</td>
+    <td>18/11/2024</td>
+    <td>Gustavo Huanca</td>
+    <td>Se agrego el evidence documentation del sprint 4"</td>
+</tr> 
     </tbody>
 </table>
 
