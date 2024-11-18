@@ -556,11 +556,8 @@
 Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
 
 * Janover Gonzalo Saldaña Vela (JanoverSaldana)
-* Jhordi Luis Carranza Pérez (JhordiCar)
 * Oscar Javier Armas Sánchez (Racso24k)
 * Luis Alfonso Villegas Jipa (LuisVJ97)
-* Juan Paul Llamccaya Arone (JuanPaulLla)
-* 
 * Gustavo Esau Huanca Navarro (petitavo)
 * Vicente Quijandria Araneda (vquijandria)
 
@@ -633,7 +630,7 @@ en cada uno de los commits.
 
 ## [1.1. Startup Profile](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#11-startup-profile)
 ### [1.1.1.Descripción de la Startup](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#111-descripci%C3%B3n-de-la-startup)
-### [1.1.2.Perfiles de integrantes del equipo](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#112-perfiles-de-integrantes-del-equipo)
+### [1.1.2. Perfiles de integrantes del equipo](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#112-perfiles-de-integrantes-del-equipo)
 ## [1.2. Solution Profile](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#12-solution-profile)
 ### [1.2.1 Antecedentes y problemática](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#121-antecedentes-y-problem%C3%A1tica)
 ### [1.2.2 Lean UX Process.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#122-lean-ux-process)
@@ -641,7 +638,7 @@ en cada uno de los commits.
 #### [1.2.2.2. Lean UX Assumptions.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#1222-lean-ux-assumptions)
 #### [1.2.2.3. Lean UX Hypothesis Statements.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#1223-lean-ux-hypothesis-statements)
 #### [1.2.2.4. Lean UX Canvas.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#1224-lean-ux-canvas)
-## [1.3. Segmentos objetivo.](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#13-segmentos-objetivo)
+## [1.3. Segmentos objetivo](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-I.md#13-segmentos-objetivo)
 
 
 # [Capítulo II: Requirements Elicitation & Analysis](https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report/blob/main/docs/chapter-II.md#cap%C3%ADtulo-ii-requirements-elicitation--analysis)
