@@ -6526,10 +6526,14 @@ Vintrace. (n.d.). Winery software | A better way to make wine. Retrieved Septemb
     About the Team
   </td>
   <td>
-    Contenido 
+    Cantidad de videos: 1
+    Nomenclatura: upc-pre-202402-si730-sv51-metasoft-aboutthe-product-sprint-3
+    Formato: .mp4  
   </td>
   <td>
-    Contenido 
+    En el contexto de la orientación promocional, el trabajo en equipo juega un papel crucial para garantizar que todos los elementos clave del modelo de negocio sean claramente comunicados. El equipo debe colaborar para resumir eficientemente las características y beneficios del producto, presentando ejemplos visuales de interacción con el producto para hacer más tangible su valor. Cada miembro del equipo, con su expertise, puede aportar a crear mensajes dirigidos a diferentes segmentos del público objetivo, asegurando que cada uno reciba una opinión relevante y adaptada a sus necesidades y expectativas.
+
+ 
   </td>
   <td>
     Link:https://youtu.be/adqP9n2X_NU
