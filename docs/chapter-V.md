@@ -3918,6 +3918,13 @@ Link de Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201
 
 Link de Youtube: https://youtu.be/YTH8Bv54DZs
 
+Video About-the-Team
+
+“En este video, presentamos nuestro equipo y compartimos cómo hemos trabajado juntos para lograr nuestros objetivos. Desde la colaboración en la planificación inicial hasta la resolución de problemas en el camino, destacamos la importancia de la comunicación, la división de tareas y el compromiso de cada miembro. A través de ejemplos prácticos, mostramos cómo nuestra diversidad de habilidades y perspectivas nos ha permitido superar desafíos y completar el proyecto con éxito. Este video no solo refleja nuestro esfuerzo conjunto, sino también nuestro crecimiento como equipo.”
+
+Link: https://youtu.be/adqP9n2X_NU
+
+
 ## 5.2.4. Sprint 4.
 
 El proceso de este sprint se divide en dos partes: primero, establecemos el objetivo del sprint y 
